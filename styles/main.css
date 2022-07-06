@@ -7,7 +7,7 @@
     --foreground-2: #214266;
     --foreground-3: #1E3A5C;
     --foreground-4: #15283C;
-    --foreground-5: #0B223E;
+    --foreground-5: #081c31;
 
     --font-color-1: white;
     --font-color-2: black;
@@ -48,6 +48,18 @@ body {
     font-size: 3vmin;
 
     color: var(--font-color-1);
+}
+
+.header .link {
+    position: absolute;
+    top: 2vmin;
+    right: 1vmin;
+
+    color: var(--font-color-1);
+}
+
+.header .link:hover {
+    color: lightgray;
 }
 
 .content {

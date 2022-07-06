@@ -95,5 +95,5 @@ function processURLQuery() {
 window.onload = () => {
     setupPages();
     showPage("Dashboard");
-    processURLQuery();
+    //processURLQuery();
 };
