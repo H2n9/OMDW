@@ -126,7 +126,7 @@
     margin-right: 2.5vmin;
     margin-bottom: 0.5vmin;
     padding: 1vmin;
-    padding-left: 2vmin;
+    padding-left: 1.5vmin;
 
     color: var(--font-color-1);
     background-color: var(--foreground-4);
@@ -143,4 +143,20 @@
 
 .rankings-index-container .entry:hover {
     background-color: var(--foreground-5);
+}
+
+.rankings-index-container .entry-header {
+    height: 2.75vmin;
+    margin-left: 2.5vmin;
+    margin-right: 2.5vmin;
+    margin-bottom: 0.5vmin;
+    margin-top: 1vmin;
+    padding: 1vmin;
+
+    color: var(--font-color-1);
+
+    font-size: 1.5vmin;
+    line-height: 1vmin;
+
+    text-align: center;
 }

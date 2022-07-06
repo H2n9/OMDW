@@ -11,6 +11,9 @@ class RankingsPage extends Page {
         var context = this;
 
         var rankingSections = {
+            Priors: {
+                header: true,
+            },
             "Most Priors on Record": {
                 func: function (parent) {
                     this.mostPriorsFunction(parent);
@@ -35,32 +38,6 @@ class RankingsPage extends Page {
                 headerCenter: "",
                 headerRight: "Count",
             },
-            "Vehicles with Highest Ownership": {
-                func: function (parent) {
-                    this.vehicleOwnershipFunction(parent);
-                },
-                headerLeft: "Vehicle",
-                headerCenter: "",
-                headerRight: "Count",
-            },
-            "Average Priors per Tag": {
-                func: function (parent) {
-                    this.priorsPerTagFunction(parent);
-                },
-                headerLeft: "Tag",
-                headerCenter: "",
-                headerRight: "Count",
-                info: "For tags associated with groups that have 3 or more members on record. Only considers individuals whose priors are known.",
-            },
-            "Average Priors of Business Employees": {
-                func: function (parent) {
-                    this.priorsPerBusinessFunction(parent);
-                },
-                headerLeft: "Business",
-                headerCenter: "",
-                headerRight: "Count",
-                info: "For businesses with more than 3 employees. Only considers individuals whose priors are known.",
-            },
             "Total Money Spent on Fines": {
                 func: function (parent) {
                     this.finesPerProfileFunction(parent);
@@ -79,6 +56,41 @@ class RankingsPage extends Page {
                 headerRight: "Months",
                 info: "Calculated from priors with known times. HUT charges or charges with values decided through court are not counted.",
             },
+            Vehicles: {
+                header: true,
+            },
+            "Vehicles with Highest Ownership": {
+                func: function (parent) {
+                    this.vehicleOwnershipFunction(parent);
+                },
+                headerLeft: "Vehicle",
+                headerCenter: "",
+                headerRight: "Count",
+            },
+            Tags: {
+                header: true,
+            },
+            "Average Priors per Tag": {
+                func: function (parent) {
+                    this.priorsPerTagFunction(parent);
+                },
+                headerLeft: "Tag",
+                headerCenter: "",
+                headerRight: "Count",
+                info: "For tags associated with groups that have 3 or more members on record. Only considers individuals whose priors are known.",
+            },
+            Employment: {
+                header: true,
+            },
+            "Average Priors of Business Employees": {
+                func: function (parent) {
+                    this.priorsPerBusinessFunction(parent);
+                },
+                headerLeft: "Business",
+                headerCenter: "",
+                headerRight: "Count",
+                info: "For businesses with more than 3 employees. Only considers individuals whose priors are known.",
+            },
         };
 
         var sectionsParent = document.getElementById(
@@ -90,6 +102,30 @@ class RankingsPage extends Page {
         this.sectionParents = {};
 
         for (const [key, rankingSection] of Object.entries(rankingSections)) {
+            if (rankingSection.header != null) {
+                var headerIndexEntry = document.createElement("div");
+                headerIndexEntry.innerHTML = key;
+                headerIndexEntry.className = "entry-header";
+                indexParent.appendChild(headerIndexEntry);
+
+                continue;
+            }
+
+            // add to index
+            var indexEntry = document.createElement("div");
+            indexEntry.className = "entry";
+            indexEntry.innerHTML = key;
+            indexEntry.addEventListener("click", function () {
+                context.sectionParents[key].scrollIntoView({
+                    behavior: "smooth",
+                    inline: "start",
+                });
+            });
+
+            indexParent.appendChild(indexEntry);
+
+            //
+
             var sectionParent = document.createElement("div");
             sectionParent.className = "section";
             sectionParent.style.width = "50vmin";
@@ -148,19 +184,6 @@ class RankingsPage extends Page {
                 sectionHeader.appendChild(infoIcon);
                 infoIcon.appendChild(tooltip);
             }
-
-            // add to index
-            var indexEntry = document.createElement("div");
-            indexEntry.className = "entry";
-            indexEntry.innerHTML = key;
-            indexEntry.addEventListener("click", function () {
-                context.sectionParents[key].scrollIntoView({
-                    behavior: "smooth",
-                    inline: "start",
-                });
-            });
-
-            indexParent.appendChild(indexEntry);
         }
     }
 
