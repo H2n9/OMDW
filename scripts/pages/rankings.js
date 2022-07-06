@@ -45,7 +45,7 @@ class RankingsPage extends Page {
                 headerLeft: "State ID",
                 headerCenter: "Name",
                 headerRight: "Amount",
-                info: "Calculated from priors with known fines. HUT charges or charges with values decided through court are not counted.",
+                info: "Calculated from priors with known fines. Assumes charge is primary or accessory. HUT charges or charges with values decided through court are not counted.",
             },
             "Total Time Spent in Jail": {
                 func: function (parent) {
@@ -54,7 +54,7 @@ class RankingsPage extends Page {
                 headerLeft: "State ID",
                 headerCenter: "Name",
                 headerRight: "Months",
-                info: "Calculated from priors with known times. HUT charges or charges with values decided through court are not counted.",
+                info: "Calculated from priors with known times. Assumes charge is primary or accessory. HUT charges or charges with values decided through court are not counted.",
             },
             Vehicles: {
                 header: true,
