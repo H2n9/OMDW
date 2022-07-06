@@ -1,0 +1,53 @@
+.section {
+    background-color: var(--foreground-3);
+
+    float: left;
+
+    height: 100%;
+
+    margin-right: 1vmin;
+
+    flex: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: auto;
+
+    position: relative;
+}
+
+.section .header {
+    background-color: inherit;
+
+    min-height: 5vmin;
+    height: auto;
+    line-height: 3.5vmin;
+    margin: 0.5vmin;
+
+    display: flex;
+}
+
+.section .header .title {
+    color: var(--font-color-1);
+
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 2.5vmin;
+
+    float: left;
+}
+
+.section::-webkit-scrollbar {
+    background: transparent;
+}
+
+.section::-webkit-scrollbar-track {
+    background: transparent;
+    border-left: 4px var(--foreground-3) solid;
+}
+
+.section::-webkit-scrollbar-thumb {
+    background: var(--foreground-4);
+    border-left: 4px var(--foreground-3) solid;
+}

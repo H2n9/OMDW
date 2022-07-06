@@ -1,0 +1,115 @@
+.searchbar {
+    float: right;
+    width: 100%;
+
+    margin-left: 10%;
+}
+
+.searchbar input {
+    width: 100%;
+    background-color: inherit;
+
+    color: white;
+    font-size: 1.5vmin;
+
+    padding: 0.5vmin 1vmin;
+    
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid white;
+
+    outline: none;
+}
+
+.search-content {
+    flex: auto;
+    margin: 1vmin;
+    overflow: auto;
+}
+
+.search-content .entry {
+    height: 7vmin;
+    background-color: var(--foreground-4);
+    margin-bottom: 0.5vmin;
+    padding: 1vmin;
+
+    transition: 0.2s;
+
+    position: relative;
+}
+
+.search-content .entry:hover {
+    background-color: var(--foreground-5);
+}
+
+.search-content .entry .title {
+    color: var(--font-color-1);
+
+    font-size: 2vmin;
+    line-height: 80%;
+}
+
+.search-content .entry .subtitle {
+    color: var(--font-color-1);
+
+    font-size: 1.5vmin;
+
+    vertical-align: bottom;
+
+    position: absolute;
+    bottom: 1vmin;
+    left: 2vmin;
+}
+
+.search-content::-webkit-scrollbar {
+    background: transparent;
+}
+
+.search-content::-webkit-scrollbar-track {
+    background: var(--foreground-3);
+    border-left: 4px var(--foreground-3) solid;
+}
+
+.search-content::-webkit-scrollbar-thumb {
+    background: var(--foreground-4);
+    border-left: 4px var(--foreground-3) solid;
+}
+
+.search-tags-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+
+    margin-left: 1vmin;
+    margin-right: 1vmin;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.search-tag {
+    display: inline-block;
+
+    margin-right: 0.25vmin;
+    margin-bottom: 0.25vmin;
+
+    padding: 0.5vmin;
+    padding-right: 1vmin;
+    padding-left: 1vmin;
+
+    border-radius: 2vmin;
+
+    color: var(--font-color-1);
+    background-color: var(--foreground-4);
+
+    text-align: center;
+
+    font-size: 1.25vmin;
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+.search-tag:hover {
+    background-color: var(--foreground-5);
+}

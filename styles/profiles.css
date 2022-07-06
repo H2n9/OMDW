@@ -1,0 +1,114 @@
+.identity-card {
+    height: 18vmin;
+    margin: 1vmin;
+
+    display: flex;
+}
+
+.identity-card img {
+    aspect-ratio: 1;
+    height: 100%;
+    outline: 4px solid black;
+    
+    float: left;
+}
+
+.identity-card .content {
+    float: right;
+    height: 100%;
+
+    margin-left: 1vmin;
+    flex: auto;
+}
+
+.identity-card .content .entry {
+    color: var(--font-color-1);
+
+    font-weight: bold;
+    font-size: 2vmin;
+
+    float: left;
+    width: 100%;
+
+    margin-bottom: 1vmin;
+    border-bottom: 1px solid white;
+
+    user-select: text;
+}
+
+.identity-card .content .title {
+    color: var(--font-color-1);
+
+    font-size: 1vmin;
+
+    float: left;
+    width: 100%;
+}
+
+.profile-description {
+    color: var(--font-color-1);
+
+    background-color: var(--foreground-4);
+    flex: auto;
+    margin: 1vmin;
+
+    font-size: 1.25vmin;
+    white-space:pre-wrap;
+
+    padding: 1vmin;
+
+    overflow: auto;
+
+    position: relative;
+}
+
+.profile-details-section {
+    background-color: var(--foreground-3);
+
+    margin-bottom: 1vmin;
+
+    position: relative;
+}
+
+.profile-details-section .header {
+    color: white;
+
+    font-weight: bold;
+    font-size: 2vmin;
+}
+
+.profile-details-section .content {
+    margin: 1.5vmin;
+    margin-top: 0.5vmin;
+
+    flex: auto;
+    flex-flow: wrap;
+
+    height: auto;
+}
+
+.profile-details-section .content .tag {
+    display: inline-block;
+
+    margin-right: 0.5vmin;
+    margin-bottom: 0.5vmin;
+
+    padding: 0.5vmin;
+    padding-right: 1.25vmin;
+    padding-left: 1.25vmin;
+
+    border-radius: 2vmin;
+
+    color: var(--font-color-2);
+    background-color: var(--font-color-1);
+
+    text-align: center;
+
+    font-size: 1.5vmin;
+
+    transition: 0.2s;
+}
+
+.profile-details-section .content .tag:hover {
+    background-color: lightgray;
+}

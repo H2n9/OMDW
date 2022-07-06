@@ -1,0 +1,146 @@
+.rankings-container {
+    display: flex;
+    flex-direction: row;
+    
+    height: 100%;
+
+    margin-left: 1vmin;
+    margin-top: -2vmin;
+
+    overflow: auto;
+
+    width: max-content;
+    min-width: 100vmin;
+}
+
+.rankings-content-headers {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+
+    padding-left: 3vmin;
+    padding-right: 5vmin;
+
+    justify-content: space-between;
+}
+
+.rankings-content-headers div {
+    color: var(--font-color-1);
+
+    margin-top: 0.75vmin;
+    font-size: 1.25vmin;
+    line-height: 0.75vmin;
+}
+
+.rankings-content {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+
+    overflow: auto;
+
+    width: 100%;
+}
+
+.rankings-content::-webkit-scrollbar {
+    background: transparent;
+}
+
+.rankings-content::-webkit-scrollbar-track {
+    background: transparent;
+    border-left: 4px var(--foreground-3) solid;
+}
+
+.rankings-content::-webkit-scrollbar-thumb {
+    background: var(--foreground-4);
+    border-left: 4px var(--foreground-3) solid;
+}
+
+.rankings-content .entry {
+    height: 3vmin;
+    margin-left: 2.5vmin;
+    margin-right: 2.5vmin;
+    margin-bottom: 0.5vmin;
+    padding: 1vmin;
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+
+    color: var(--font-color-1);
+    background-color: var(--foreground-4);
+
+    font-size: 1.5vmin;
+    line-height: 1.25vmin;
+
+    text-align: left;
+
+    border-radius: 1.5vmin;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    white-space: nowrap;
+
+    transition: 0.2s;
+}
+
+.rankings-content .entry:hover {
+    background-color: var(--foreground-5);
+}
+
+.rankings-content .entry .left {
+    text-align: left;
+    min-width: 5vmin;
+    font-weight: bold;
+}
+
+.rankings-content .entry .middle {
+    text-align: left;
+    flex: auto;
+
+    margin-left: 1vmin;
+}
+
+.rankings-content .entry .right {
+    text-align: right;
+    margin-left: 2vmin;
+    font-weight: bold;
+}
+
+
+.rankings-index-container {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    width: 100%;
+    
+    overflow: auto;
+}
+
+.rankings-index-container .entry {
+    height: 2.75vmin;
+    margin-left: 2.5vmin;
+    margin-right: 2.5vmin;
+    margin-bottom: 0.5vmin;
+    padding: 1vmin;
+    padding-left: 2vmin;
+
+    color: var(--font-color-1);
+    background-color: var(--foreground-4);
+
+    font-size: 1.5vmin;
+    line-height: 1vmin;
+
+    text-align: left;
+
+    border-radius: 1.5vmin;
+
+    transition: 0.2s;
+}
+
+.rankings-index-container .entry:hover {
+    background-color: var(--foreground-5);
+}

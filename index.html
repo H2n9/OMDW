@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Online MDW</title>
+
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/sections.css">
+        <link rel="stylesheet" href="styles/search.css">
+
+        <link rel="stylesheet" href="styles/profiles.css"></link>
+        <link rel="stylesheet" href="styles/dashboard.css"></link>
+        <link rel="stylesheet" href="styles/properties.css"></link>
+        <link rel="stylesheet" href="styles/employment.css"></link>
+        <link rel="stylesheet" href="styles/rankings.css"></link>
+
+        <script type="text/javascript" src="database.js"></script>
+
+        <script type="text/javascript" src="scripts/main.js"></script>
+        <script type="text/javascript" src="scripts/page.js"></script>
+        <script type="text/javascript" src="scripts/search.js"></script>
+        <script type="text/javascript" src="scripts/map.js"></script>
+
+        <script type="text/javascript" src="scripts/pages/dashboard.js"></script>
+        <script type="text/javascript" src="scripts/pages/profiles.js"></script>
+        <script type="text/javascript" src="scripts/pages/properties.js"></script>
+        <script type="text/javascript" src="scripts/pages/employment.js"></script>
+        <script type="text/javascript" src="scripts/pages/rankings.js"></script>
+        <script type="text/javascript" src="scripts/pages/incidents.js"></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="title">Online MDW</div>
+        </div>
+
+        <div class="content">
+            <div id="sidebar" class="sidebar">
+            </div>
+
+            <div id="pageContainer" class="page-container">
+                
+                <div id="DashboardPage" class="page-content hidden">
+
+                    <div class="section" style="width: 50%;">
+                        <div class="header">
+                            <div class="title">Dashboard</div>
+                        </div>
+
+                        <div class="dashboard-content">
+                            <p>
+                                Welcome to the unofficial Online-MDW for NoPixel.
+                            </p>
+                            <p>
+                                Check out the rankings page for some interesting stats if you are lost.
+                            </p>
+                            <p>
+                                Data on this website was collected automatically from RP streamer VODs. Because of this, some data may be inaccurate or outdated.
+                                <br><br>
+                                The intention behind this dataset is to represent a snapshot of what the PD/DOJ understand of the city and not to be an objective source of data. Therefore we will not be accepting manual corrections to the dataset except in cases where explicitly stated.
+                                <br><br>
+                                See the github page for further details.
+                            </p>
+                            <p>
+                                Check out this blog post explaining how the dataset was collected.
+                                <br>
+                                <a href="">Coming Soon</a>
+                                <br>
+                                <br>
+                                Check out the github page.
+                                <br>
+                                <a href="https://github.com/H2n9/OMDW">https://github.com/H2n9/OMDW</a>
+                            </p>
+
+                            <p>
+                                Please be considerate when making use of this website.
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <div id="metricsSection" class="section" style="width: 35%;">
+                        <div class="header">
+                            <div class="title">Metrics</div>
+                        </div>
+                    </div>
+
+                    <div id="recentUpdatesSection" class="section" style="width: 30%;">
+                        <div class="header">
+                            <div class="title">Recently Updated</div>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+
+                <div id="ProfilesPage" class="page-content hidden">
+
+                    <div class="section" style="width: 30%;">
+                        <div class="header">
+                            <div class="title">Profiles</div>
+                            <div class="searchbar">
+                                <input type="text" placeholder="...">
+                            </div>
+                            <div class="help">
+                                ?
+                                <span class="tooltip" style="width: 32vmin;">
+                                    <b>You can also search using filters:<br></b>
+                                    for example: ' tag="GSF" '<br>
+                                    <b>All Filters:<br></b>
+                                    license, tag, vehicle, housing, employment, prior, description
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="search-tags-container">
+                            
+                        </div>
+
+                        <div class="search-content">
+                        </div>
+                    </div>
+
+                    <div class="section" style="width: 30%;">
+                        <div class="header">
+                            <div class="title">View Profile</div>
+                            <div class="help">
+                                ?
+                                <span class="tooltip"><b>Due to how data is collected, profiles may contain missing or inaccurate information.</b></span>
+                            </div>
+                        </div>
+
+                        <div class="identity-card">
+                            <img id="profileImage" src="https://i.imgur.com/ttNVaPp.png">
+                            <div class="content">
+                                <div class="title">State ID</div>
+                                <div id="profileStateId" class="entry">&nbsp</div>
+                                <div class="title">Name</div>
+                                <div id="profileName" class="entry">&nbsp</div>
+                                <div class="title">Last Updated</div>
+                                <div id="profileUpdateTime" class="entry">2022/04/18</div>
+                            </div>
+                        </div>
+                        
+                        <div class="warning" style="bottom:auto; top:24vmin;">
+                            !
+                            <span class="tooltip" style="width: 32vmin;">
+                                <b>Description data is not manually checked for accuracy and therefore will likely contain many errors.</b>
+                            </span>
+                        </div>
+
+                        <div id="profileDescription" class="profile-description">
+                        </div>
+                    </div>
+
+                    <div id="profileDetailsSection" class="section" style="width: 30%; background-color: transparent;">
+                    
+                    </div>
+                
+                </div>
+
+                <div id="PropertiesPage" class="page-content hidden">
+
+                    <div class="section" style="width: 30%;">
+                        <div class="header">
+                            <div class="title">Properties</div>
+                            <div class="searchbar">
+                                <input type="text" placeholder="...">
+                            </div>
+                            <div class="help">
+                                ?
+                                <span class="tooltip" style="width: 32vmin;">
+                                    <b>You can also search using filters of keyholders:<br></b>
+                                    for example: ' keyholder="1002" '<br>
+                                    <b>All Filters:<br></b>
+                                    keyholder, tag, employment
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="search-tags-container">
+                            
+                        </div>
+
+                        <div class="search-content">
+                        </div>
+                    </div>
+
+                    <div class="section" style="width: 40%;">
+                        <div class="header">
+                            <div class="title">Map</div>
+                            <div class="help">
+                                ?
+                                <span class="tooltip">
+                                    <b>Map locations are not accurate and only represent a rough area.<br></b>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="properties-map">
+                            <canvas style="width:100%; height:100%; background-color: #11AAD6;">
+                            </canvas>
+                        </div>
+                    </div>
+
+                    <div class="section" style="width: 25%;">
+                        <div class="header">
+                            <div id="propertyTitle" class="title">Select a Property</div>
+                        </div>
+
+                        <div id="propertyKeyholders" class="property-keyholders">
+                            
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div id="EmploymentPage" class="page-content hidden">
+
+                    <div class="section" style="width: 50%;">
+                        <div class="header">
+                            <div class="title">Employment</div>
+                            <div class="searchbar">
+                                <input type="text" placeholder="...">
+                            </div>
+                            <div class="help">
+                                ?
+                                <span class="tooltip" style="width: 32vmin;">
+                                    <b>You can also search using filters of employees:<br></b>
+                                    for example: ' employee="1002" '<br>
+                                    <b>All Filters:<br></b>
+                                    employee
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="search-tags-container">
+                            
+                        </div>
+
+                        <div class="search-content">
+                        </div>
+                    </div>
+
+                    <div class="section" style="width: 100%;">
+                        <div class="header">
+                            <div id="employerTitle" class="title">Select an Employer</div>
+                        </div>
+
+                        <div id="employeeParent" class="employment-container">
+                      
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div id="RankingsPage" class="page-content hidden">
+                    
+                    <div class="section" style="min-width:40vmin;">
+                        <div class="header">
+                            <div class="title">Index</div>
+                        </div>
+
+                        <div id="rankingsIndexContainer" class="rankings-index-container">
+                        </div>
+                    </div>
+
+                    <div class="section" id="rankingsScrollParent" style="width: 80%;">
+                        <div class="header">
+                            <div class="title">Rankings</div>
+                        </div>
+                        
+                        <div id="rankingsSectionContainer" class="rankings-container">
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div id="IncidentsPage" class="page-content hidden">
+
+                    <div class="section" style="width: 100%;">
+                        <div class="header">
+                            <div class="title">Incidents</div>
+                            <div class="searchbar">
+                                <input type="text" placeholder="...">
+                            </div>
+                            <div class="help">
+                                ?
+                                <span class="tooltip" style="width: 32vmin;">
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="search-content">
+                        </div>
+                    </div>
+
+                    <div class="section" style="width: 100%;">
+                        <div class="header">
+                            <div class="title">Select Incident</div>
+                        </div>
+                    </div>
+
+                    <div class="section" style="width: 100%;">
+                    </div>
+                
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

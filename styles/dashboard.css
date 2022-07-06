@@ -1,0 +1,89 @@
+.dashboard-content {
+    margin-left: 3vmin;
+    margin-right: 3vmin;
+
+    overflow: auto;
+
+    color: var(--font-color-1);
+}
+
+.dashboard-content p {
+    font-size: 1.5vmin;
+    color: var(--font-color-1);
+
+    padding: 1vmin;
+    background-color: var(--foreground-4);
+    border-radius: 1vmin;
+}
+
+.dashboard-content a {
+    font-size: 1.5vmin;
+    color: var(--font-color-1);
+}
+
+.dashboard-content a:visited {
+    color: var(--font-color-1);
+}
+
+.dashboard-content a:hover {
+    color: lightgray;
+}
+
+.metrics-entry {
+    min-height: 3vmin;
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+    margin-bottom: 0.5vmin;
+    padding: 1vmin;
+    padding-left: 1.5vmin;
+    padding-right: 1.5vmin;
+
+    color: var(--font-color-1);
+    background-color: var(--foreground-4);
+
+    font-size: 1.5vmin;
+    line-height: 1.5vmin;
+
+    font-weight: bold;
+
+    text-align: left;
+
+    border-radius: 1.5vmin;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.metrics-entry span:nth-child(1) {
+    font-size: 1.25vmin;
+    line-height: 1.5vmin;
+
+    font-weight: normal;
+}
+
+.recent-entry {
+    min-height: 3vmin;
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+    margin-bottom: 0.5vmin;
+    padding: 1vmin;
+    padding-left: 1.5vmin;
+    padding-right: 1.5vmin;
+
+    color: var(--font-color-1);
+    background-color: var(--foreground-4);
+
+    font-size: 1.5vmin;
+    line-height: 1.5vmin;
+
+    font-weight: bold;
+
+    border-radius: 1.5vmin;
+
+    transition: 0.2s;
+}
+
+.recent-entry:hover {
+    background-color: var(--foreground-5);
+}

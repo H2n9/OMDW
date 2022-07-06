@@ -1,0 +1,67 @@
+.employment-container {
+    height: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 1vmin;
+
+    overflow: auto;
+}
+
+.employment-container .role-container {
+    height: max-content;
+
+    background-color: var(--foreground-4);
+    margin: 1vmin;
+}
+
+.employment-container .role-container .header {
+    color: var(--font-color-1);
+
+    font-size: 2vmin;
+}
+
+.employment-container .role-container .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 60vmin;
+
+    padding-bottom: 1vmin;
+}
+
+.employment-container .role-container .list .entry {
+    color: var(--font-color-1);
+
+    font-size: 1.5vmin;
+
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+    margin-bottom: 1vmin;
+
+    width: 15vmin;
+    overflow: hidden;
+
+    transition: 0.2s;
+}
+
+.employment-container .role-container .list .entry:hover {
+    opacity: 75%;
+}
+
+.employment-container::-webkit-scrollbar {
+    background: transparent;
+}
+
+.employment-container::-webkit-scrollbar-track {
+    background: transparent;
+    border-left: 4px var(--foreground-3) solid;
+}
+
+.employment-container::-webkit-scrollbar-thumb {
+    background: var(--foreground-4);
+    border-left: 4px var(--foreground-3) solid;
+}
