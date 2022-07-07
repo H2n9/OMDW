@@ -353,9 +353,15 @@ class ProfilesPage extends Page {
     }
 
     showProfile(stateID) {
+        if (!(stateID in PROFILES)) {
+            return;
+        }
+
         this.currentProfile = PROFILES[stateID];
 
         this.updateIdentity();
         this.updateDetails();
+
+        setURLParam("id", stateID);
     }
 }

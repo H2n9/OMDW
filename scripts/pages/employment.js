@@ -136,10 +136,16 @@ class EmploymentPage extends Page {
     }
 
     showEmployment(employerName) {
+        if (!(employerName in EMPLOYMENT)) {
+            return;
+        }
+
         this.currentEmployer = EMPLOYMENT[employerName];
 
         document.getElementById("employerTitle").innerHTML = employerName;
 
         this.buildEmployeeSection();
+
+        setURLParam("id", employerName);
     }
 }

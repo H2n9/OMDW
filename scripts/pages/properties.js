@@ -168,6 +168,10 @@ class PropertiesPage extends Page {
     }
 
     showProperty(propertyName) {
+        if (!(propertyName in PROPERTIES)) {
+            return;
+        }
+
         this.currentProperty = PROPERTIES[propertyName];
 
         if (propertyName in LOCATIONS) this.map.focus(LOCATIONS[propertyName]);
@@ -242,5 +246,7 @@ class PropertiesPage extends Page {
                 keyholderParent.appendChild(keyholderEntry);
             }
         }
+
+        setURLParam("id", propertyName);
     }
 }
