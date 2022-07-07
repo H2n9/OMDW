@@ -151,27 +151,13 @@ function processURLQuery() {
             break;
 
         case "Rankings":
-            showPage("rankings");
+            showPage("Rankings");
             break;
 
         default:
             showPage("Dashboard");
             break;
     }
-
-    /*
-    switch (first[0]) {
-        case "profile":
-            showPage("Profiles");
-
-            var targetID = first[1];
-
-            if (isNaN(targetID)) break;
-            if (!targetID in PROFILES) break;
-
-            PAGES["Profiles"].showProfile(targetID);
-            break;
-    }*/
 }
 
 window.onload = () => {
