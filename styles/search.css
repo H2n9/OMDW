@@ -39,6 +39,12 @@
     pointer-events: all;
 }
 
+.search-content {
+    flex: auto;
+    margin: 1vmin;
+    overflow: auto;
+}
+
 .search-content .entry {
     height: 7vmin;
     background-color: var(--foreground-4);
