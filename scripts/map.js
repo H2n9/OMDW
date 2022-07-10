@@ -27,6 +27,7 @@ class MapProvider {
         this.dragStart = { x: 0, y: 0 };
         this.isHolding = false;
         this.isMoving = false;
+        this.propertiesInside = [];
 
         var context = this;
 
@@ -34,6 +35,21 @@ class MapProvider {
             context.dragStart = context.getXY(e);
             context.isHolding = true;
             context.isMoving = false;
+            
+            context.propertiesInside = [];
+			context.entries.forEach((entry) => {
+				var entryX = context.canvas.width / 2 + (-context.offset.x + entry.coords.x) * context.zoom;
+				var entryY = context.canvas.height / 2 + (-context.offset.y + entry.coords.y) * context.zoom;
+				var isInside = (
+					context.dragStart.x >= entryX - (3 * context.zoom) && 
+					context.dragStart.x <= entryX + (3 * context.zoom) &&
+					context.dragStart.y >= entryY - (3 * context.zoom) &&
+					context.dragStart.y <= entryY + (3 * context.zoom)
+				);
+				if(isInside) {
+					context.propertiesInside.push(entry);
+				}
+			});
         };
 
         window.addEventListener("mousemove", function (e) {
