@@ -36,18 +36,15 @@ body {
     background-color: var(--foreground-5);
 
     margin: 0;
-    height: 6vmin;
+    height: 14vmin;
 
     line-height: 4vmin;
 
     padding: 1vmin;
 }
 
-.header .title {
-    font-weight: bold;
-    font-size: 3vmin;
-
-    color: var(--font-color-1);
+.header .logo {
+    height: 12vmin;
 }
 
 .header .link {
@@ -63,7 +60,7 @@ body {
 }
 
 .content {
-    height: 94vmin;
+    height: 86vmin;
 }
 
 .sidebar {
