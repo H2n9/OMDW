@@ -136,6 +136,14 @@ class PropertiesPage extends Page {
         );
 
         this.updateMap(Object.values(PROPERTIES));
+        
+        var _this = this;
+		pageElement.querySelector(".properties-map").addEventListener("mousedown", function (e) {
+            // TODO: add functionality to show information of multiple properties at once
+			if(_this.map.propertiesInside.length > 0) {
+				_this.showProperty(_this.map.propertiesInside[0]["name"]);
+			}
+        });
     }
 
     updateMap(entries) {
@@ -149,6 +157,7 @@ class PropertiesPage extends Page {
             if (location == null) return;
 
             mapEntries.push({
+                name: entry.Name,
                 coords: location,
                 drawFunction: (ctx, x, y, scale) => {
                     ctx.beginPath();
