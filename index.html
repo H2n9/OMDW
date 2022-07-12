@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="styles/properties.css"></link>
         <link rel="stylesheet" href="styles/employment.css"></link>
         <link rel="stylesheet" href="styles/rankings.css"></link>
+        <link rel="stylesheet" href="styles/incidents.css"></link>
 
         <script type="text/javascript" src="database.js"></script>
 
@@ -291,6 +292,10 @@
                             <div class="help">
                                 ?
                                 <span class="tooltip" style="width: 32vmin;">
+                                    <b>You can also search using filters:<br></b>
+                                    for example: ' involved="1002" '<br>
+                                    <b>All Filters:<br></b>
+                                    involves
                                 </span>
                             </div>
                         </div>
@@ -301,11 +306,18 @@
 
                     <div class="section" style="width: 100%;">
                         <div class="header">
-                            <div class="title">Select Incident</div>
+                            <div id="incidentSelectedHeader" class="title">Select Incident</div>
+                        </div>
+
+                        <div id="incidentTitle" class="incident-title"></div>
+
+                        <div id="incidentDescription" class="incident-description">
+
                         </div>
                     </div>
 
-                    <div class="section" style="width: 100%;">
+                    <div id="incidentCriminalsParent" class="section" style="width: 100%; background-color: transparent;">
+        
                     </div>
                 
                 </div>

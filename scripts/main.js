@@ -144,7 +144,7 @@ function processURLQuery() {
             if (targetID != null) PAGES["Properties"].showProperty(targetID);
             break;
 
-        case "Pmployment":
+        case "Employment":
             showPage("Employment");
 
             if (targetID != null) PAGES["Employment"].showEmployment(targetID);
@@ -152,6 +152,10 @@ function processURLQuery() {
 
         case "Rankings":
             showPage("Rankings");
+            break;
+
+        case "Incidents":
+            showPage("Incidents");
             break;
 
         default:
