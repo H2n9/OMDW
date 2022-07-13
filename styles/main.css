@@ -93,6 +93,10 @@ body {
     transition: 0.2s;
 }
 
+.sidebar button.selected {
+    background-color: var(--foreground-2);
+}
+
 .sidebar button:hover {
     background-color: var(--foreground-3);
 }
