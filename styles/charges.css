@@ -1,0 +1,85 @@
+.charges-groups {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    overflow: auto;
+}
+
+.charges-groups::-webkit-scrollbar {
+    background: transparent;
+}
+
+.charges-groups::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.charges-groups::-webkit-scrollbar-thumb {
+    background: var(--foreground-4);
+}
+
+.charges-group-parent {
+    background-color: var(--foreground-3);
+    margin-bottom: 4vmin;
+}
+
+.charges-group-header {
+    font-size: 2vmin;
+    color: var(--font-color-1);
+
+    padding: 1vmin;
+}
+
+.charges-container {
+    width: 100%;
+    height: auto;
+
+    padding: 2vmin;
+    padding-top: 1vmin;
+
+    display: grid;
+    row-gap: 2vmin;
+    column-gap: 2vmin;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/3, max(35vmin, 100%/6)), 1fr));
+}
+
+.charge {
+    background-color: var(--foreground-4);
+    
+    height: fit-content;
+    max-height: 70vmin;
+
+    padding: 1vmin;
+
+    outline: 0.25vmin black solid;
+}
+
+.charge-header {
+    color: var(--font-color-1);
+
+    text-align: center;
+
+    font-size: 1.5vmin;
+}
+
+.charge-subheader {
+    color: var(--font-color-1);
+
+    text-align: center;
+
+    font-size: 1.5vmin;
+}
+
+.charge-value {
+    color: var(--font-color-1);
+
+    text-align: center;
+
+    font-size: 1.5vmin;
+}
+
+.charge-seperator {
+    outline: 0.125vmin black solid;
+    margin-top: 1vmin;
+    margin-bottom: 2vmin;
+}

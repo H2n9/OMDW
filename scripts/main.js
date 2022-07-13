@@ -74,6 +74,7 @@ function setupPages() {
         "Incidents",
         new IncidentsPage(document.getElementById("IncidentsPage"))
     );
+    addPage("Charges", new ChargesPage(document.getElementById("ChargesPage")));
 }
 
 function showPage(targetKey) {
@@ -156,6 +157,10 @@ function processURLQuery() {
 
         case "Incidents":
             showPage("Incidents");
+            break;
+
+        case "Charges":
+            showPage("Charges");
             break;
 
         default:

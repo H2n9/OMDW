@@ -64847,11 +64847,11 @@ RANKINGS = {
 "profileFines": [
 {
 "stateId": "26223",
-"value":1499375
+"value":1588075
 },
 {
 "stateId": "10285",
-"value":1050200
+"value":1138900
 },
 {
 "stateId": "2381",
@@ -64859,11 +64859,15 @@ RANKINGS = {
 },
 {
 "stateId": "21535",
-"value":794750
+"value":797625
+},
+{
+"stateId": "6592",
+"value":752950
 },
 {
 "stateId": "1098",
-"value":734650
+"value":736450
 },
 {
 "stateId": "6382",
@@ -64872,10 +64876,6 @@ RANKINGS = {
 {
 "stateId": "1112",
 "value":692625
-},
-{
-"stateId": "6592",
-"value":664250
 },
 {
 "stateId": "26474",
@@ -64891,7 +64891,7 @@ RANKINGS = {
 },
 {
 "stateId": "26140",
-"value":576950
+"value":578750
 },
 {
 "stateId": "18569",
@@ -64907,7 +64907,7 @@ RANKINGS = {
 },
 {
 "stateId": "15596",
-"value":471725
+"value":473525
 },
 {
 "stateId": "8593",
@@ -64915,7 +64915,7 @@ RANKINGS = {
 },
 {
 "stateId": "15284",
-"value":434200
+"value":435100
 },
 {
 "stateId": "17425",
@@ -64949,11 +64949,11 @@ RANKINGS = {
 "profileTime": [
 {
 "stateId": "26223",
-"value":12294
+"value":12700
 },
 {
 "stateId": "10285",
-"value":8967
+"value":9373
 },
 {
 "stateId": "2381",
@@ -64964,8 +64964,12 @@ RANKINGS = {
 "value":6466
 },
 {
+"stateId": "6592",
+"value":6255
+},
+{
 "stateId": "21535",
-"value":6165
+"value":6175
 },
 {
 "stateId": "1112",
@@ -64977,10 +64981,6 @@ RANKINGS = {
 },
 {
 "stateId": "6382",
-"value":5849
-},
-{
-"stateId": "6592",
 "value":5849
 },
 {
@@ -65254,89 +65254,293 @@ RANKINGS = {
 ]
 }
 INCIDENTS = {
-11558: {
-    "IncidentID": 11558,
-    "Title": "Akuma Aishiteru Rooster\u2019s Rest Assault & Battery - 5/30/2021",
-    "Creator": "Bob Smith",
-    "LastUpdated": "2022/07/09"
+15857: {
+    "IncidentID": 15857,
+    "Title": "Werner - Tampering",
+    "Creator": "TJ Mack",
+    "LastUpdated": "2022/07/12"
 },
-11799: {
-    "IncidentID": 11799,
-    "Title": "Hunting without a License - 06/01/2021",
-    "Creator": "Franky Dulio",
-    "LastUpdated": "2022/07/09"
+16940: {
+    "IncidentID": 16940,
+    "Title": "24/7 Robbery North Rockford Drive - 07/27/2021",
+    "Creator": "Terrance Walker",
+    "LastUpdated": "2022/07/12"
+},
+18096: {
+    "IncidentID": 18096,
+    "Title": "Chas Diaz - Jaywalking",
+    "Creator": "Matt Rhodes",
+    "LastUpdated": "2022/07/12"
+},
+18999: {
+    "IncidentID": 18999,
+    "Title": "Werner Stieglitz | Reckless Evading",
+    "Creator": "George Lawson",
+    "LastUpdated": "2022/07/12"
+},
+19286: {
+    "IncidentID": 19286,
+    "Title": "Werner - Reckless Evading - 08/23/21",
+    "Creator": "Jim Underwood",
+    "LastUpdated": "2022/07/12"
+},
+20861: {
+    "IncidentID": 20861,
+    "Title": "Werner Stieglitz - Driving on the Wrong Side of the Roa: Op. w/o Proper ID",
+    "Creator": "Matt Rhodes",
+    "LastUpdated": "2022/07/12"
 },
 21983: {
     "IncidentID": 21983,
     "Title": "Shooting on EMS | MRPD | 21st Sept 2021",
     "Creator": "Louise Campbell",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
-31061: {
-    "IncidentID": 31061,
-    "Title": "Andi + Denzel Shooting/Stabbing | 12/17/2021",
-    "Creator": "Flop Dugong",
-    "LastUpdated": "2022/07/09"
+25447: {
+    "IncidentID": 25447,
+    "Title": "Silvio DiVincenzo | Failure to Obey a Traffic Control De\\ 10/28/2021",
+    "Creator": "Lewis Collins",
+    "LastUpdated": "2022/07/12"
 },
-31264: {
-    "IncidentID": 31264,
-    "Title": "Kiki Pendragon speeding 12/18/21",
-    "Creator": "Hunter Cross",
-    "LastUpdated": "2022/07/09"
+26326: {
+    "IncidentID": 26326,
+    "Title": "Fleeing from a Traffic Stop in a VIN Scratch - 11/04/20",
+    "Creator": "Jonathan Hale",
+    "LastUpdated": "2022/07/12"
 },
-335: {
-    "IncidentID": 335,
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
+26357: {
+    "IncidentID": 26357,
+    "Title": "Sandeep Patel - Reckless Evading - 11/4/2021",
+    "Creator": "Silas Grimmer",
+    "LastUpdated": "2022/07/12"
 },
-33518: {
-    "IncidentID": 33518,
-    "Title": "Unauthorized Parking | Kiki Chanel - 1/11/22",
-    "Creator": "Mackenzie Hayes",
-    "LastUpdated": "2022/07/09"
+26543: {
+    "IncidentID": 26543,
+    "Title": "Silvio DiVincenzo - Negligent Driving - 6/11/2021",
+    "Creator": "Luka Kozlov",
+    "LastUpdated": "2022/07/12"
 },
-3421: {
-    "IncidentID": 3421,
-    "Title": "Marko Russetto - Attempted 2nd Degree Murder - 01/19/2022",
-    "Creator": "Louise Campbell",
-    "LastUpdated": "2022/07/09"
+26743: {
+    "IncidentID": 26743,
+    "Title": "SPEEDING | Highwayman R. Columbo",
+    "Creator": "Rocko Columbo",
+    "LastUpdated": "2022/07/12"
 },
-34241: {
-    "IncidentID": 34241,
-    "Title": "\u00bb Marko Russetto - Attempted 2nd Degree Murder -  01/19/2022",
-    "Creator": "Louise Campbell",
-    "LastUpdated": "2022/07/09"
+27272: {
+    "IncidentID": 27272,
+    "Title": "unauthorized parking - 309 K Pred - 11/12/2021",
+    "Creator": "Kyle Pred",
+    "LastUpdated": "2022/07/12"
+},
+29425: {
+    "IncidentID": 29425,
+    "Title": "Illegal FIshermans - 01/12/2021",
+    "Creator": "Edward Thatch",
+    "LastUpdated": "2022/07/12"
+},
+29794: {
+    "IncidentID": 29794,
+    "Title": "Elliot Clyne - lllegal Turn",
+    "Creator": "John Spartan",
+    "LastUpdated": "2022/07/12"
+},
+32471: {
+    "IncidentID": 32471,
+    "Title": "Frankie Fitch - Third Degree Speeding - 1/1/2022",
+    "Creator": "Ensley Alton",
+    "LastUpdated": "2022/07/12"
+},
+33646: {
+    "IncidentID": 33646,
+    "Title": "Frankie Fitch | Second Degree Speeding | 1/12/2022",
+    "Creator": "Scarlett Royal",
+    "LastUpdated": "2022/07/12"
+},
+33934: {
+    "IncidentID": 33934,
+    "Title": "Elliot Clyne - Att Murder LEO",
+    "Creator": "Crocodile Steve",
+    "LastUpdated": "2022/07/12"
+},
+34307: {
+    "IncidentID": 34307,
+    "Title": "10-90 Bay City",
+    "Creator": "Preston Hale",
+    "LastUpdated": "2022/07/12"
+},
+34539: {
+    "IncidentID": 34539,
+    "Title": "Malakai Black - Burglary - 1/22/2022",
+    "Creator": "Dan Faily",
+    "LastUpdated": "2022/07/12"
+},
+35379: {
+    "IncidentID": 35379,
+    "Title": "Raz Mitchell - Prostitution - 31/01/2022 #35379",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/11"
+},
+35453: {
+    "IncidentID": 35453,
+    "Title": "Daniel Robinson hillcrest Ave 31 A 1/31/22",
+    "Creator": "Nick Obrien",
+    "LastUpdated": "2022/07/12"
+},
+35554: {
+    "IncidentID": 35554,
+    "Title": "Elliot Clyne - Negligent Driving - 02/01/2022",
+    "Creator": "Crystal Clear",
+    "LastUpdated": "2022/07/12"
+},
+36106: {
+    "IncidentID": 36106,
+    "Title": "Roman Shacks - Weapons Trafficking- 2/7/2022",
+    "Creator": "Ensley Alton",
+    "LastUpdated": "2022/07/12"
 },
 36487: {
     "IncidentID": 36487,
     "Title": "BTF Bust at Legion Square - 2/10/2022",
     "Creator": "Silas Grimmer",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
-36728: {
-    "IncidentID": 36728,
-    "Title": "Jeffy Coldiron - Negligent Driving - 02/13/2022",
-    "Creator": "Leif Norgaard",
-    "LastUpdated": "2022/07/09"
+36899: {
+    "IncidentID": 36899,
+    "Title": "Raz Mitchell - Grand Theft Auto - 02/14/2022",
+    "Creator": "Jeffrey Price",
+    "LastUpdated": "2022/07/11"
 },
-37766: {
-    "IncidentID": 37766,
-    "Title": "Stabbing at the Graveyard | 02/23/2022",
-    "Creator": "John Riggs",
-    "LastUpdated": "2022/07/09"
+37184: {
+    "IncidentID": 37184,
+    "Title": "Stafford Boost - 2/17/2022",
+    "Creator": "Candice DefFitt",
+    "LastUpdated": "2022/07/11"
 },
-37942: {
-    "IncidentID": 37942,
-    "Title": "Kiki Pendragon second degree speeding | 02/25/202:",
-    "Creator": "Connor Stubble",
-    "LastUpdated": "2022/07/09"
+37731: {
+    "IncidentID": 37731,
+    "Title": "Vehicle Impound - Raz Mitchell Kanjo",
+    "Creator": "Matt Rhodes",
+    "LastUpdated": "2022/07/11"
+},
+38158: {
+    "IncidentID": 38158,
+    "Title": "Street race | Ace Amana 2/27/2022",
+    "Creator": "Dwayne Carter",
+    "LastUpdated": "2022/07/11"
+},
+38823: {
+    "IncidentID": 38823,
+    "Title": "Sentinel 10-99 - 07/03/2022",
+    "Creator": "Jim Parker",
+    "LastUpdated": "2022/07/11"
+},
+39991: {
+    "IncidentID": 39991,
+    "Title": "Frankie Fitch - Possession of Drug Paraphernalia - 19/03/2022 #39991",
+    "Creator": "Lea Nova",
+    "Criminals": {
+        "1779": {
+            "StateID": 1779,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Drug Paraphernalia",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Negligent Driving",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Unlawful Taking of Protected Fish or Wildlife",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Dirty Money in the Second Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Second Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "54",
+            "Parole": "108",
+            "Fine": 5100.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n2022-03-19 22:41:57 UTC\n\nReporting Officer\n@353 Deputy Lea Nova\n\nAssisting Officer/s:\nCaptain Horny Wrangler\n\nSuspect/s:\nFrankie Fitch\n\nLocation:\n\nSustancia Rd\n\nDebrief:\n\nOfficers witnessed Frankie Fitch pick marijuana plants near the coast by\nthe power plant. He was detained and searched where a bunch of seeds\nwatering can and illegal firearm was found. Inside his vehicle was a illegal\n\npelt.",
+    "LastUpdated": "2022/07/12"
+},
+40792: {
+    "IncidentID": 40792,
+    "Title": "Jaywalkers",
+    "Creator": "Ezra Funkhouser",
+    "LastUpdated": "2022/07/12"
+},
+40839: {
+    "IncidentID": 40839,
+    "Title": "Jamal Abdul Jabbar | Criminal Possession of a Firear [Class 2] | 03/29/2022",
+    "Creator": "Saul Leesemann",
+    "LastUpdated": "2022/07/12"
+},
+41300: {
+    "IncidentID": 41300,
+    "Title": "Joza Bagan - Jaywalking - 4/2/2022",
+    "Creator": "Ezra Funkhouser",
+    "LastUpdated": "2022/07/12"
+},
+41346: {
+    "IncidentID": 41346,
+    "Title": "Bogan - Speeding 4/2/22",
+    "Creator": "Patrick Downing",
+    "LastUpdated": "2022/07/12"
+},
+41675: {
+    "IncidentID": 41675,
+    "Title": "Joza Bogan | Felony Obstruction | 04/05/2022",
+    "Creator": "Jigs Jaghatai",
+    "LastUpdated": "2022/07/12"
+},
+42029: {
+    "IncidentID": 42029,
+    "Title": "Joza Bogan - Negligent Driving - 4/9/2022",
+    "Creator": "Martin Baron",
+    "LastUpdated": "2022/07/12"
+},
+42260: {
+    "IncidentID": 42260,
+    "Title": "Jamal Huntah - OIS 4/10/22",
+    "Creator": "Joel Garcia",
+    "LastUpdated": "2022/07/12"
+},
+42287: {
+    "IncidentID": 42287,
+    "Title": "Marabunta OIS - 4/11/2022",
+    "Creator": "Patricia Mayonnaise",
+    "LastUpdated": "2022/07/12"
 },
 42539: {
     "IncidentID": 42539,
+    "Title": "Jamal Huntah, Faz Thuggerson, Prince Tate | 10-37 in Into Weapon & Drug Trafficking || 04/13/22",
+    "Creator": "Amber Gold",
     "Criminals": {
         "31372": {
             "StateID": 31372,
-            "IsWarrant": false,
+            "IsWarrant": true,
             "Charges": [
                 {
                     "Name": "Attempted Murder of a Government Employee",
@@ -65367,458 +65571,298 @@ INCIDENTS = {
                     "Name": "Drug Trafficking",
                     "Type": "Default",
                     "Count": 1
-                }
-            ],
-            "Time": "108",
-            "Parole": "216",
-            "Fine": 18450.0,
-            "PleadedGuilty": false,
-            "Processed": false
-        }
-    },
-    "LastUpdated": "2022/07/09"
-},
-42664: {
-    "IncidentID": 42664,
-    "Title": "Self Driving Car + Kiki Chanel | 04/14/2022",
-    "Creator": "Misa Price",
-    "LastUpdated": "2022/07/09"
-},
-44726: {
-    "IncidentID": 44726,
-    "Title": "MRPD Ram Off 08/05/2022",
-    "Creator": "Pual GreenWay",
-    "LastUpdated": "2022/07/09"
-},
-44739: {
-    "IncidentID": 44739,
-    "Title": "Street Team | Attempted Murder of a Government Em |1 07/05/2022",
-    "Creator": "John Doe",
-    "LastUpdated": "2022/07/09"
-},
-44766: {
-    "IncidentID": 44766,
-    "Title": "4 head | Burglary | 05/07/2022",
-    "Creator": "Roy Armstrong",
-    "LastUpdated": "2022/07/09"
-},
-44776: {
-    "IncidentID": 44776,
-    "Title": "Aubrey Webster - Robbery (ATM) - 5/7/2022",
-    "Creator": "Vincent Cannoli",
-    "LastUpdated": "2022/07/09"
-},
-44784: {
-    "IncidentID": 44784,
-    "Title": "OIS 23 | S Boost | 05/07/2022",
-    "Creator": "Roy Armstrong",
-    "LastUpdated": "2022/07/09"
-},
-44861: {
-    "IncidentID": 44861,
-    "Title": "Aubrey Webster - Resisting Arrest - 05/09/2022",
-    "Creator": "Crystal Clear",
-    "LastUpdated": "2022/07/09"
-},
-44864: {
-    "IncidentID": 44864,
-    "Title": "Aubrey Webster - Burglary - 05/09/2022",
-    "Creator": "Crystal Clear",
-    "LastUpdated": "2022/07/09"
-},
-44883: {
-    "IncidentID": 44883,
-    "Title": "Aubrey Webster | Occupation OIS | 5/9/2022 | #44883",
-    "Creator": "Brandy Kaas",
-    "LastUpdated": "2022/07/09"
-},
-44978: {
-    "IncidentID": 44978,
-    "Title": "Aubrey Webster - Burglary - 05/10/2022",
-    "Creator": "Crystal Clear",
-    "LastUpdated": "2022/07/09"
-},
-45120: {
-    "IncidentID": 45120,
-    "Title": "Kidnapping - 4Head - 05/10/2022",
-    "Creator": "Marshall Mills",
-    "LastUpdated": "2022/07/09"
-},
-45124: {
-    "IncidentID": 45124,
-    "Title": "Miguel Almerion, Jay Jarvis, Flippy | 37A1 5.11.12",
-    "Creator": "Tommy Horver",
-    "LastUpdated": "2022/07/09"
-},
-45133: {
-    "IncidentID": 45133,
-    "Title": "4Head Hooning 11/05/2022",
-    "Creator": "Pual GreenWay",
-    "LastUpdated": "2022/07/09"
-},
-45218: {
-    "IncidentID": 45218,
-    "Title": "Aurora Sparks - Resisting Arrest - 05/11/2022 #4521\u00a2",
-    "Creator": "Louis Bloom",
-    "LastUpdated": "2022/07/09"
-},
-45345: {
-    "IncidentID": 45345,
-    "Title": "Aubrey Webster - Burglary - 05/13/2022",
-    "Creator": "Crystal Clear",
-    "LastUpdated": "2022/07/09"
-},
-45347: {
-    "IncidentID": 45347,
-    "Title": "Shots Fired By Boulevard Del Perro Church - 13/05/2(C",
-    "Creator": "Deacon Frye",
-    "LastUpdated": "2022/07/09"
-},
-45428: {
-    "IncidentID": 45428,
-    "Title": "Aubrey Webster | ATM Robbery | 5-14-22",
-    "Creator": "Alice Watson",
-    "LastUpdated": "2022/07/09"
-},
-45433: {
-    "IncidentID": 45433,
-    "Title": "4HEAD - Burglary | 5/14/2022",
-    "Creator": "Flop Dugong",
-    "LastUpdated": "2022/07/09"
-},
-45530: {
-    "IncidentID": 45530,
-    "Title": "Aubrey Webster | ATM Robbery Vespucci | 15/05/202",
-    "Creator": "Kieran Harvey",
-    "LastUpdated": "2022/07/09"
-},
-45619: {
-    "IncidentID": 45619,
-    "Title": "Aubrey Webster | Kidnapping a Gov Employee | 05/16/2022",
-    "Creator": "Lei Sanya",
-    "LastUpdated": "2022/07/09"
-},
-45853: {
-    "IncidentID": 45853,
-    "Title": "4Head Bussin 99A Adder - 18/05/2022",
-    "Creator": "Pual GreenWay",
-    "LastUpdated": "2022/07/09"
-},
-46492: {
-    "IncidentID": 46492,
-    "Title": "Mike Herrman - Breaking & Entering Robbery - 524/22",
-    "Creator": "Mackenzie Hayes",
-    "LastUpdated": "2022/07/09"
-},
-46554: {
-    "IncidentID": 46554,
-    "Title": "Mike Herrman - Joyriding - 25/05/2022",
-    "Creator": "Deacon Frye",
-    "LastUpdated": "2022/07/09"
-},
-46641: {
-    "IncidentID": 46641,
-    "Title": "Aurora Hyun - Second Degree Speeding - 05/26/2022",
-    "Creator": "Spartan Biggs",
-    "LastUpdated": "2022/07/09"
-},
-46645: {
-    "IncidentID": 46645,
-    "Title": "Bobby Porter | Obstruction of Justice | 05/26/2022",
-    "Creator": "Ellis Pinzon",
-    "LastUpdated": "2022/07/09"
-},
-46912: {
-    "IncidentID": 46912,
-    "Title": "Aubrey Webster - Robbery #46912",
-    "Creator": "Lea Nova",
-    "LastUpdated": "2022/07/09"
-},
-46968: {
-    "IncidentID": 46968,
-    "Title": "Stolen Police CVPI | 30/05/2022",
-    "Creator": "Kieran Harvey",
-    "LastUpdated": "2022/07/09"
-},
-46981: {
-    "IncidentID": 46981,
-    "Title": "ATM Robbery Legion Square | 30/05/2022",
-    "Creator": "Kieran Harvey",
-    "LastUpdated": "2022/07/09"
-},
-47067: {
-    "IncidentID": 47067,
-    "Title": "4HEAD Robs a House in 4K - 05/31/2022",
-    "Creator": "Jim Underwood",
-    "LastUpdated": "2022/07/09"
-},
-47085: {
-    "IncidentID": 47085,
-    "Title": "Stone Malone / Aubrey Webster - GTA - 05/31/2022",
-    "Creator": "Maddison Bancroft",
-    "LastUpdated": "2022/07/09"
-},
-47102: {
-    "IncidentID": 47102,
-    "Title": "Kiki Pendragon - Third Degree Speeding - 31/05/2022",
-    "Creator": "John Doe",
-    "LastUpdated": "2022/07/09"
-},
-47146: {
-    "IncidentID": 47146,
-    "Title": "Junior Meats Traffic Stop | 5/31/2022",
-    "Creator": "Ryan Kolinsky",
-    "LastUpdated": "2022/07/09"
-},
-47147: {
-    "IncidentID": 47147,
-    "Title": "Brad Bett - Stolen Explorer - 5/31/2022",
-    "Creator": "Vincent Cannoli",
-    "LastUpdated": "2022/07/09"
-},
-47148: {
-    "IncidentID": 47148,
-    "Title": "Quimbley Hayabusa - Reckless driving - 5/31/22",
-    "Creator": "Wilson Burke",
-    "LastUpdated": "2022/07/09"
-},
-47149: {
-    "IncidentID": 47149,
-    "Title": "Bruno Lemons | speeding",
-    "Creator": "Shawn Richards",
-    "LastUpdated": "2022/07/09"
-},
-47150: {
-    "IncidentID": 47150,
-    "Title": "Harmony Bank Robbery - 5/31/2022",
-    "Creator": "Alex Suarez",
-    "LastUpdated": "2022/07/09"
-},
-47151: {
-    "IncidentID": 47151,
-    "Title": "Joza Bogan, Marcell Miller | Grand Theft Auto | 01/06/2022",
-    "Creator": "Connor Stubble",
-    "LastUpdated": "2022/07/09"
-},
-47152: {
-    "IncidentID": 47152,
-    "Title": "Jakka Romano Kidnaps Cleo Shaw | 5/31/2022",
-    "Creator": "Wesley Arnold",
-    "LastUpdated": "2022/07/09"
-},
-47153: {
-    "IncidentID": 47153,
-    "Title": "Louise Levine | 10-90 Jewelry | 6/1/22",
-    "Creator": "Jessica Easton",
-    "LastUpdated": "2022/07/09"
-},
-47155: {
-    "IncidentID": 47155,
-    "Title": "S+ Boost/0IS - 6/1/22",
-    "Creator": "Tommy Tinker",
-    "LastUpdated": "2022/07/09"
-},
-47156: {
-    "IncidentID": 47156,
-    "Title": "Baby O'Conner - Speeding - 06/01/2022",
-    "Creator": "Jack Davenport",
-    "LastUpdated": "2022/07/09"
-},
-47194: {
-    "IncidentID": 47194,
-    "Title": "Aurora Berkley - Running red lights in Dodo Truck",
-    "Creator": "Domenic Toretti",
-    "LastUpdated": "2022/07/09"
-},
-47418: {
-    "IncidentID": 47418,
-    "Title": "Chase O'Dell, Brandon Bowers, Aubrey Webster | Jun ( 2022",
-    "Creator": "Jack Ripley",
-    "LastUpdated": "2022/07/09"
-},
-47496: {
-    "IncidentID": 47496,
-    "Title": "37A - 06/05/2022",
-    "Creator": "Tommy Horver",
-    "LastUpdated": "2022/07/09"
-},
-47575: {
-    "IncidentID": 47575,
-    "Title": "Aubrey Webster, Chase O'Dell, Kishawn Baker | Jewelr Store 10-90 | 6/6/22",
-    "Creator": "Jimmy Frost",
-    "LastUpdated": "2022/07/09"
-},
-47679: {
-    "IncidentID": 47679,
-    "Title": "Mike Herrman - Burgulary - 6/7/2022",
-    "Creator": "Vincent Cannoli",
-    "LastUpdated": "2022/07/09"
-},
-47728: {
-    "IncidentID": 47728,
-    "Title": "Aurora Sparks - DOA - 06/08/2022",
-    "Creator": "Leonardo Garcia",
-    "Criminals": {
-        "14426": {
-            "StateID": 14426,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Kidnapping",
-                    "Type": "Accomplice",
-                    "Count": 1
                 },
                 {
-                    "Name": "Manslaughter",
-                    "Type": "Accomplice",
-                    "Count": 1
-                },
-                {
-                    "Name": "Attempted 2nd Degree Murder",
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
                     "Type": "Default",
                     "Count": 1
                 },
                 {
-                    "Name": "Brandishing of a Firearm",
+                    "Name": "Joyriding",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Weapons Trafficking",
                     "Type": "Default",
                     "Count": 1
                 }
-            ],
-            "Time": "196",
-            "Parole": "392",
-            "Fine": 21950.0,
-            "PleadedGuilty": false,
-            "Processed": false
-        },
-        "34068": {
-            "StateID": 34068,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Brandishing of a Firearm",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Kidnapping",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Manslaughter",
-                    "Type": "Default",
-                    "Count": 1
-                }
-            ],
-            "Time": "171",
-            "Parole": "342",
-            "Fine": 19125.0,
-            "Processed": false,
-            "PleadedGuilty": false
+            ]
         }
     },
     "IsComplex": true,
-    "LastUpdated": "2022/07/09"
+    "Description": "Unified Police Report\n2022-04-13 20:22:45 UTC\n\nReporting Officer/s:\ne @353 Corporal Lea Nova (Primary)\n\u00a2 @490 Officer Percy Weaver (Support)\n\nAssisting Officer/s:\n\ne @311 Deputy Eli Hawkins\n\ne @594 Cadet Adam Watson\ne @399 Deputy Amber Gold\n\ne @238 Trooper Olivia Copper\n\nSuspect/s:\n\n\u00a2 Jamal Huntah\n\u00a2 Faz Thuggerson\n\n\u00ae Prince Tate\n\nLocation:\n\u00a2 Pursuit Began: Vinewood near Vault\n\no Pursuit Ended: El Rancho Boulevard\n\nExecutive Summary:\nOfficers pursued a vehicle leaving suspicious activity call. It flipped, driver\nshot, two indviduals attempted to break driver out of custody by shooting\n\nofficers. Raid warrant signed for driver, who had Weapons Trafficking",
+    "LastUpdated": "2022/07/12"
 },
-47746: {
-    "IncidentID": 47746,
-    "Title": "10-90 Yacht - 2022-06-08",
-    "Creator": "Marshall Mills",
-    "LastUpdated": "2022/07/09"
+42800: {
+    "IncidentID": 42800,
+    "Title": "10-99A Yellow Specter | 4/16/22",
+    "Creator": "Wesley Amold",
+    "LastUpdated": "2022/07/12"
 },
-47830: {
-    "IncidentID": 47830,
-    "Title": "Aubrey Webster | ATM Robbery | 6-9-22",
-    "Creator": "Maddison Bancroft",
-    "LastUpdated": "2022/07/09"
+42869: {
+    "IncidentID": 42869,
+    "Title": "Negligent Driving - 2022-04-17",
+    "Creator": "Franky Dulio",
+    "LastUpdated": "2022/07/12"
 },
-47911: {
-    "IncidentID": 47911,
-    "Title": "4Head Robs an ATM | 6/10/2022",
+43185: {
+    "IncidentID": 43185,
+    "Title": "Failure to Obey Traffic Control Devices - Raz Mitchell - 04/20/2022",
+    "Creator": "Emma Dupont",
+    "LastUpdated": "2022/07/11"
+},
+43367: {
+    "IncidentID": 43367,
+    "Title": "Thai Chav | Vin Scatch + Speeding | 4/22/22",
+    "Creator": "Brian Knight",
+    "LastUpdated": "2022/07/11"
+},
+43426: {
+    "IncidentID": 43426,
+    "Title": "Failure to Obey- Arya Shah | 4/22/2022",
     "Creator": "Shelby Lane",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
-48013: {
-    "IncidentID": 48013,
-    "Title": "Officer Robbery / Officer Involved Shooting | Little Se\u00ab 11/06/2022",
-    "Creator": "Lily Pond",
-    "LastUpdated": "2022/07/09"
+43501: {
+    "IncidentID": 43501,
+    "Title": "Thai Chav - Joyriding",
+    "Creator": "Percy Weaver",
+    "LastUpdated": "2022/07/11"
 },
-48065: {
-    "IncidentID": 48065,
-    "Title": "Aubrey Webster - Criminal Use/Reckless Evading - 06/12/2022 #48065",
-    "Creator": "Louis Bloom",
-    "LastUpdated": "2022/07/09"
-},
-48264: {
-    "IncidentID": 48264,
-    "Title": "Burglary - 06/14/2022",
-    "Creator": "Leif Norgaard",
-    "LastUpdated": "2022/07/09"
-},
-48582: {
-    "IncidentID": 48582,
-    "Title": "Grand Theft Auto | S+ Boost HOTRING | 18/06/2022",
-    "Creator": "Lily Pond",
-    "LastUpdated": "2022/07/09"
-},
-48584: {
-    "IncidentID": 48584,
-    "Title": "Chase O'Dell - Reckless Evading - 18/06/2022",
-    "Creator": "Jim Underwood",
-    "LastUpdated": "2022/07/09"
-},
-48695: {
-    "IncidentID": 48695,
-    "Title": "Little Soeul OIS",
-    "Creator": "Louise Campbell",
-    "LastUpdated": "2022/07/09"
-},
-48754: {
-    "IncidentID": 48754,
-    "Title": "Slamvan 10-99A - Grand Theft Auto - 06/20/2022 #48754",
-    "Creator": "Louis Bloom",
-    "LastUpdated": "2022/07/09"
-},
-48755: {
-    "IncidentID": 48755,
-    "Title": "DELETE",
-    "Creator": "Lydia vale",
-    "LastUpdated": "2022/07/09"
-},
-48756: {
-    "IncidentID": 48756,
-    "Title": "Kaniji Katashi | Second Degree Speeding | 20/6/22",
-    "Creator": "Jimmy Frost",
-    "LastUpdated": "2022/07/09"
-},
-48757: {
-    "IncidentID": 48757,
-    "Title": "Harmony Fleeca | Richard O'Conner, Pluto Rivers, Aub Adams | 6-20-22",
-    "Creator": "Alice watson",
-    "LastUpdated": "2022/07/09"
-},
-48758: {
-    "IncidentID": 48758,
-    "Title": "Synn Payne - Second Degree Speeding - 06/20/2022",
+43529: {
+    "IncidentID": 43529,
+    "Title": "Frankie Fitch - Joyriding - 4/23/22",
     "Creator": "Jeffrey Price",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
-48759: {
-    "IncidentID": 48759,
-    "Title": "S+ Boost - 06/20/2022",
-    "Creator": "Jack Davenport",
-    "LastUpdated": "2022/07/09"
+43546: {
+    "IncidentID": 43546,
+    "Title": "B&E - Arya Shah / Aubrey Webster / Chase O'Dell - 4/24/22",
+    "Creator": "Chris Kross",
+    "LastUpdated": "2022/07/12"
 },
-48760: {
-    "IncidentID": 48760,
+43588: {
+    "IncidentID": 43588,
+    "Title": "DJ Cooper | SPEEDING | 24/04/22",
+    "Creator": "Chad Gable",
+    "LastUpdated": "2022/07/12"
+},
+43640: {
+    "IncidentID": 43640,
+    "Title": "Speeding - DJ Cooper - Dodo Docks",
+    "Creator": "Marshall Mills",
+    "LastUpdated": "2022/07/12"
+},
+43643: {
+    "IncidentID": 43643,
+    "Title": "Shooting at Maldinis",
+    "Creator": "Gary Sexton",
+    "LastUpdated": "2022/07/12"
+},
+43662: {
+    "IncidentID": 43662,
+    "Title": "CG/Marabunta Gang Related Shooting | 4/25/2022",
+    "Creator": "Flop Dugong",
+    "LastUpdated": "2022/07/12"
+},
+43677: {
+    "IncidentID": 43677,
+    "Title": "thai chav | Class 2 | 4/25/2022",
+    "Creator": "Rudy Chalk",
+    "LastUpdated": "2022/07/11"
+},
+43747: {
+    "IncidentID": 43747,
+    "Title": "EMS 10-14a 26/04/2022",
+    "Creator": "Alex Casterman",
+    "LastUpdated": "2022/07/12"
+},
+43795: {
+    "IncidentID": 43795,
+    "Title": "Keith Runs A Red Light - 4/26/2022",
+    "Creator": "Fingle Goutman Dan",
+    "LastUpdated": "2022/07/12"
+},
+43825: {
+    "IncidentID": 43825,
+    "Title": "Brock Torrens - Drug Trafficking - 04/27/2022 #43825",
+    "Creator": "Louis Bloom",
+    "LastUpdated": "2022/07/12"
+},
+43827: {
+    "IncidentID": 43827,
+    "Title": "Andy Kingmen - Joyriding 4/27/2022",
+    "Creator": "Daisy Dukakis",
+    "LastUpdated": "2022/07/11"
+},
+43859: {
+    "IncidentID": 43859,
+    "Title": "Michi Frost - Drug Trafficking - 4/27/2022",
+    "Creator": "Dan Faily",
+    "LastUpdated": "2022/07/12"
+},
+43860: {
+    "IncidentID": 43860,
+    "Title": "OIS OLYMPIC | 4/27/2022",
+    "Creator": "Maddison Bancroft",
+    "LastUpdated": "2022/07/12"
+},
+43872: {
+    "IncidentID": 43872,
+    "Title": "Palomino OIS - 4/27/2022",
+    "Creator": "Ezra Funkhouser",
+    "LastUpdated": "2022/07/12"
+},
+44065: {
+    "IncidentID": 44065,
+    "Title": "Arya Shah | Accomplice to GTA | 29 APR 2022",
+    "Creator": "Jeffrey Bundy",
+    "LastUpdated": "2022/07/12"
+},
+44116: {
+    "IncidentID": 44116,
+    "Title": "Arya Shah Cuffing Officers | Vin Scratch | 04/30/2022",
+    "Creator": "Aspen Gray",
+    "LastUpdated": "2022/07/12"
+},
+44182: {
+    "IncidentID": 44182,
+    "Title": "Future Hendrix - Drug Trafficking - 02/05/2022 #44182",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/12"
+},
+44183: {
+    "IncidentID": 44183,
+    "Title": "Andy Kingman | Negligent Driving | 5/2/22",
+    "Creator": "Gary Sexton",
+    "LastUpdated": "2022/07/11"
+},
+44199: {
+    "IncidentID": 44199,
+    "Title": "Little Seoul Marabuntas Shooting | 05.02.2022",
+    "Creator": "Nancy Ree",
+    "LastUpdated": "2022/07/12"
+},
+44278: {
+    "IncidentID": 44278,
+    "Title": "Andy Kingmen - Second Degree Speeding",
+    "Creator": "Kylie Stokes",
+    "LastUpdated": "2022/07/11"
+},
+44279: {
+    "IncidentID": 44279,
+    "Title": "Andy Kingman - Failure to Stop - 05/03/2022",
+    "Creator": "Eli Hawkins",
     "Criminals": {
-        "33846": {
-            "StateID": 33846,
+        "34287": {
+            "StateID": 34287,
             "IsWarrant": false,
             "Charges": [
                 {
-                    "Name": "Felony Possession with intent to Distribute",
+                    "Name": "Failure to Stop",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 375.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n2022-05-03 13:42:50 UTC\nReporting Officer\n\n@311 Deputy Eli Hawkins\n\nAssisting Officer/s:\n@548 Deputy Jackie Talladaga\n\nSuspect/s:\nAndy Kingmen\n\nLocation:\n\nVespucci Blvd\n\nDebrief:\nDeputy Hawkins and Deputy Talladega witnessed a black Bison run\nthrought the red light at the interseciton of Vespucci Blvd & Strawberry\nAve. Deputies signalled the vehicle to stop which it did. One citation for\n\nfailure to stop was issued.",
+    "LastUpdated": "2022/07/11"
+},
+44381: {
+    "IncidentID": 44381,
+    "Title": "Shotti gets caught in 4K - Stockpiling - Drug Trafficking #44381",
+    "Creator": "Preston Hale",
+    "LastUpdated": "2022/07/12"
+},
+44502: {
+    "IncidentID": 44502,
+    "Title": "Joza Bogan - Poaching - 05/05/2022",
+    "Creator": "Jeffrey Price",
+    "LastUpdated": "2022/07/12"
+},
+44532: {
+    "IncidentID": 44532,
+    "Title": "Stolen Vehicle Felony Stop | 05/05/2022",
+    "Creator": "Jake Cooper",
+    "LastUpdated": "2022/07/11"
+},
+44566: {
+    "IncidentID": 44566,
+    "Title": "Elliot Clyne",
+    "Creator": "Randy Wrangler",
+    "LastUpdated": "2022/07/12"
+},
+44584: {
+    "IncidentID": 44584,
+    "Title": "Kylend LaCroix - Drug Trafficking - 06/05/2022 #44584",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/12"
+},
+44590: {
+    "IncidentID": 44590,
+    "Title": "Andy Kingmen | Reckless Evading | 05.06.2022",
+    "Creator": "Jigs Jaghatai",
+    "LastUpdated": "2022/07/11"
+},
+44651: {
+    "IncidentID": 44651,
+    "Title": "Thai Chav - Third Degree Speeding - 05/06/2022",
+    "Creator": "Alexandra Carlson",
+    "LastUpdated": "2022/07/11"
+},
+44730: {
+    "IncidentID": 44730,
+    "Title": "Thai Chev | Reckless Evading | 5/7/22",
+    "Creator": "Brian Knight",
+    "LastUpdated": "2022/07/11"
+},
+44746: {
+    "IncidentID": 44746,
+    "Title": "Frankie Fitch | Reckless Evading",
+    "Creator": "Jack Ripley",
+    "LastUpdated": "2022/07/12"
+},
+44807: {
+    "IncidentID": 44807,
+    "Title": "Jamal Tyson - Contempt of Court",
+    "Creator": "Elizabeth Reed",
+    "LastUpdated": "2022/07/12"
+},
+44836: {
+    "IncidentID": 44836,
+    "Title": "Elliot Clyne | parking Violation | 5/8/2022",
+    "Creator": "Dwayne Carter",
+    "LastUpdated": "2022/07/12"
+},
+44847: {
+    "IncidentID": 44847,
+    "Title": "Xalvedor Lorenhart / Andy Kingmen - Sale of Drugs - 5/8/2022",
+    "Creator": "Vincent Cannoli",
+    "Criminals": {
+        "15804": {
+            "StateID": 15804,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Sale of Drugs",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Misdemeanor Possession of Marijuana",
                     "Type": "Default",
                     "Count": 1
                 },
@@ -65828,62 +65872,82 @@ INCIDENTS = {
                     "Count": 1
                 }
             ],
-            "Time": "162",
-            "Parole": "324",
-            "Fine": 25500.0,
-            "PleadedGuilty": false,
-            "Processed": false
-        },
-        "32479": {
-            "StateID": 32479,
+            "Time": "47",
+            "Parole": "94",
+            "Fine": 4725.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n2022-05-09 01:38:49 UTC\n\nReporting Officer\n@315 Sr. Deputy Vincent Cannoli\n\nAssisting Officer/s:\n532 Jeremias Jimenes\n561 Jerry Sweets\n\n533 Ari Preston\n\n438 Ruger Daniels\n358 Minerva Maat\n\nSuspect/s:\nXalvedor Lorenhart (#15804)\n\nAndy Kingmen (#34287)\n\nLocation:\n\nCougar Avenue Gas Station, Vinewood\n\nDebrief:\n\nStatement | V. Cannoli:\nV. Cannoli was conducting patrol with Sr. Deputy Minerva Maat when\ndispatch received a call regarding suspicious activity in Vinewood on\nClinton Avenue near the gas station on the corner of Meteor St and\n\nClinton Avenue.",
+    "LastUpdated": "2022/07/11"
+},
+44925: {
+    "IncidentID": 44925,
+    "Title": "Andy Kingmen | Burglary | 5/9/2022",
+    "Creator": "Jeffrey Bones",
+    "Criminals": {
+        "34287": {
+            "StateID": 34287,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 2
+                },
+                {
+                    "Name": "Burglary",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "24",
+            "Parole": "48",
+            "Fine": 2800.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n\n2022-05-09 22:08:20 UTC\n\nReporting Officer\n\n@504 Cadet Jeffrey Bones\n\nAssisting Officer/s:\n\nLocation: North Rockford drive\n\nDebrief:\nJeffrey Bones and Deputy Wesley Arnold responded to a House\nrobbery and burglary alarm at North Rockford. After arriving on scene\nAlex Suarez called out over the radio that there was a red sports car in\nthe driveway of the scene. Jeffrey and Wesley then went to the house\nwhere the alarm was going off. Upon entering the house and\nsearching inside they found a man upstairs and told the man to stop\nand put his hands up. The man then took off attempting to escape the\nhouse. Officers tased and cuffed the individual who was later identified\nas Andy Kingmen. After Cuffing the individual Jeffrey Bones read him\nhis rights and then searched him finding 1 Browning High Power.\nOfficers searched Andy's car that was parked outside and found 1\nhunting rifle in the glovebox that he did not have a weapons license\nfor. He seized that the lockpick and 1 lockpick off of Andy. Andy\nrequested medical for the Taser prongs . Ems came and gave him\ntreatment on scene soon after Deputy Bones brought the suspect to\nBob Smith for processing.\n\nSuspect pled Guilty to all charges.",
+    "LastUpdated": "2022/07/11"
+},
+44968: {
+    "IncidentID": 44968,
+    "Title": "Craig Munson - Drug Trafficking - #44968",
+    "Creator": "Lea Nova",
+    "Criminals": {
+        "15284": {
+            "StateID": 15284,
             "IsWarrant": false,
             "Charges": [
                 {
                     "Name": "Felony Possession with intent to Distribute",
                     "Type": "Default",
                     "Count": 1
-                }
-            ],
-            "Time": "150",
-            "Parole": "300",
-            "Fine": 24500.0,
-            "PleadedGuilty": false,
-            "Processed": false
-        }
-    },
-    "LastUpdated": "2022/07/09"
-},
-48761: {
-    "IncidentID": 48761,
-    "Title": "RUST v BALLA",
-    "Creator": "Winston Walker",
-    "LastUpdated": "2022/07/09"
-},
-48762: {
-    "IncidentID": 48762,
-    "Title": "Links Missin - PD Situatior: / Felony Obstruction",
-    "Creator": "Matt Rhodes",
-    "LastUpdated": "2022/07/09"
-},
-48763: {
-    "IncidentID": 48763,
-    "Title": "Harmony Fleeca Robbery | 06/20/22",
-    "Creator": "Vivienne Grey",
-    "LastUpdated": "2022/07/09"
-},
-48904: {
-    "IncidentID": 48904,
-    "Title": "kiki channel speeding driving without a license",
-    "Creator": "John Hydra",
-    "LastUpdated": "2022/07/09"
-},
-49016: {
-    "IncidentID": 49016,
-    "Criminals": {
-        "6668": {
-            "StateID": 6668,
-            "IsWarrant": false,
-            "Charges": [
+                },
+                {
+                    "Name": "Drug Trafficking",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Drug Paraphernalia",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
                 {
                     "Name": "Reckless Evading",
                     "Type": "Default",
@@ -65893,140 +65957,449 @@ INCIDENTS = {
                     "Name": "Assault & Battery",
                     "Type": "Default",
                     "Count": 1
-                }
-            ],
-            "Time": "29",
-            "Parole": "58",
-            "Fine": 2750.0,
-            "PleadedGuilty": true,
-            "Processed": true
-        }
-    },
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
-},
-49186: {
-    "IncidentID": 49186,
-    "Title": "Mike Herrman / Dom Johnsen - Self Pumped",
-    "Creator": "Matt Rhodes",
-    "LastUpdated": "2022/07/09"
-},
-49194: {
-    "IncidentID": 49194,
-    "Title": "Dom Johnsen - 3rd Degree Speeding | 6/24/2022",
-    "Creator": "William Clubb",
-    "LastUpdated": "2022/07/09"
-},
-49195: {
-    "IncidentID": 49195,
-    "Title": "Delete",
-    "Creator": "Connor Stubble",
-    "LastUpdated": "2022/07/09"
-},
-49198: {
-    "IncidentID": 49198,
-    "Title": "Denzel Wallace - Speeding - 6/24/2022",
-    "Creator": "Raycardo Flick",
-    "LastUpdated": "2022/07/09"
-},
-49200: {
-    "IncidentID": 49200,
-    "Title": "Moxxi Rivervale | Burglary | 24/6/2022",
-    "Creator": "Mohammad Habob",
-    "LastUpdated": "2022/07/09"
-},
-49201: {
-    "IncidentID": 49201,
-    "Title": "MAN RUNS FROM MARTELL, GETS FUCKED ON | 6/24/22",
-    "Creator": "Tracy Martell",
-    "LastUpdated": "2022/07/09"
-},
-49203: {
-    "IncidentID": 49203,
-    "Title": "Mike Herrman - Felony Possession with intent to Disti -24/06/2022",
-    "Creator": "John Doe",
-    "Criminals": {
-        "36728": {
-            "StateID": 36728,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Operating a Motor Vehicle Without Proper Identification",
-                    "Type": "Default",
-                    "Count": 1
                 },
                 {
-                    "Name": "Third Degree Speeding",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Felony Possession with intent to Distribute",
+                    "Name": "Possession of Dirty Money in the First Degree",
                     "Type": "Default",
                     "Count": 1
                 }
             ],
-            "Time": "278",
-            "Parole": "300",
-            "Fine": 25250.0,
+            "Time": "882",
+            "Parole": "420",
+            "Fine": 30150.0,
             "PleadedGuilty": false,
             "Processed": false
         }
     },
     "IsComplex": true,
-    "LastUpdated": "2022/07/09"
+    "Description": "BCSO Report\n2022-05-10 05:43:30 UTC\n\nReporting Officer\n@353 Deputy Lea Nova\n\nSuspect/s:\n\nCraig Munson\n\nLocation:\n\nObservatory\n\nDebrief:\n\nOfficers attempted to pull over a vehicle at the observatory after\nwitnessing it driving negligently. Upon a traffic stop Officers identified\nCraig Munson as being the driver due to him wearing no mask and his\nidentifiable features matching his mug shot and having many previous\ninteractions with him and also responding to his name. Officers asked\nMr.Munson to step out of the vehicle due signs of tampering being\npresent and him not being the owner. He stepped out and officers\nattempted to place him in cuffs when he began to resist arrest. He then\ntackled Cpl.Nova and got in the vehicle and fled. Cpl Nova staged in the\narea awaiting for him to return and within the space of five minutes he\ndid so wearing the same clothes no mask and in the same vehicle and\ngrabbed a box'd package of weed out of the trunk infront of me and\n\nthen was warned and tazed. He again resisted arrest and tackled",
+    "LastUpdated": "2022/07/12"
 },
-49204: {
-    "IncidentID": 49204,
-    "Title": "Zack Chills Attempted murder | 6/24/2022",
-    "Creator": "Ruger Daniels",
-    "LastUpdated": "2022/07/09"
+45062: {
+    "IncidentID": 45062,
+    "Title": "Keith Herman - Negligent Driving - 05/11/22",
+    "Creator": "Aaron Byson",
+    "LastUpdated": "2022/07/12"
 },
-49206: {
-    "IncidentID": 49206,
-    "Title": "Zack Chills | Fel. Obstruction of Justice | 24 Jun 22",
-    "Creator": "Odessa Glafx",
+45073: {
+    "IncidentID": 45073,
+    "Title": "ATM - Jaylen Carter",
+    "Creator": "Preston Hale",
     "Criminals": {
-        "37586": {
-            "StateID": 37586,
+        "34249": {
+            "StateID": 34249,
             "IsWarrant": false,
             "Charges": [
+                {
+                    "Name": "Vandalism",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "5",
+            "Parole": "10",
+            "Fine": 750.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        },
+        "2251": {
+            "StateID": 2251,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Vandalism",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "5",
+            "Parole": "10",
+            "Fine": 750.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "Police Report\n\n2022-05-11 02:26:06 UTC\nReporting Officer\n\n@N/a Officer Preston Hale\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/12"
+},
+45160: {
+    "IncidentID": 45160,
+    "Title": "Thai Chav - Speeding",
+    "Creator": "Wynona Fontaine",
+    "LastUpdated": "2022/07/11"
+},
+45257: {
+    "IncidentID": 45257,
+    "Title": "BBMC Attack Hayes Auto | Attempted 1st murder x8 | 12/05/2022",
+    "Creator": "Connor Stubble",
+    "LastUpdated": "2022/07/12"
+},
+45264: {
+    "IncidentID": 45264,
+    "Title": "Thai Chav - Second Degree Speeding - 5/12/2022",
+    "Creator": "Dan Faily",
+    "LastUpdated": "2022/07/11"
+},
+45273: {
+    "IncidentID": 45273,
+    "Title": "Thai Chav | Speeding | 12/05/22",
+    "Creator": "Chad Gable",
+    "LastUpdated": "2022/07/11"
+},
+45276: {
+    "IncidentID": 45276,
+    "Title": "Thai Chav | reckless evading | 12/05/22",
+    "Creator": "Chad Gable",
+    "LastUpdated": "2022/07/11"
+},
+45307: {
+    "IncidentID": 45307,
+    "Title": "DJ Cooper - Speeding - 5/12/2022",
+    "Creator": "Vincent Cannoli",
+    "LastUpdated": "2022/07/12"
+},
+45351: {
+    "IncidentID": 45351,
+    "Title": "Thai Chav | Negligent Driving | 05/13/2022",
+    "Creator": "Ziggy Buggs",
+    "LastUpdated": "2022/07/11"
+},
+45355: {
+    "IncidentID": 45355,
+    "Title": "Aflie Cruz & Thai Chav | Speeding & Vehicle Registrati Fraud | 5/13/2022 | #45355",
+    "Creator": "Brandy Kaas",
+    "Criminals": {
+        "13650": {
+            "StateID": 13650,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Third Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 375.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        },
+        "30857": {
+            "StateID": 30857,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Vehicle Registration Fraud",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "21",
+            "Parole": "42",
+            "Fine": 1975.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n2022-05-13 11:44:04 UTC\n\nReporting Officer\n@656 Cadet Brandy Kaas\n\nThai Chav\n\nLocation:\n\nEastbound Vinewood Blvd across from the vault\n\nDebrief:\nDeputy Kaas witnessed a black in color BMW vehicle traveling at high\n\nrates of speed northbound Las Lagunas Blvd. And then they were arrested",
+    "LastUpdated": "2022/07/11"
+},
+45359: {
+    "IncidentID": 45359,
+    "Title": "Vince Watson | Failure to Obey Traffic Control Devices 05/13/22",
+    "Creator": "Louise Campbell",
+    "LastUpdated": "2022/07/11"
+},
+45422: {
+    "IncidentID": 45422,
+    "Title": "Keith Herman - Traffic Stop",
+    "Creator": "Lily Anderson",
+    "LastUpdated": "2022/07/12"
+},
+45525: {
+    "IncidentID": 45525,
+    "Title": "Reckless Driving | Elliot Clyne",
+    "Creator": "Mason Kennedy",
+    "LastUpdated": "2022/07/12"
+},
+45601: {
+    "IncidentID": 45601,
+    "Title": "Breaking and Entering Maraton ave | 05/15/2022",
+    "Creator": "Aspen Gray",
+    "Criminals": {
+        "1779": {
+            "StateID": 1779,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Burglary",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "35",
+            "Parole": "70",
+            "Fine": 3300.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        },
+        "31225": {
+            "StateID": 31225,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Burglary",
+                    "Type": "Accomplice",
+                    "Count": 1
+                }
+            ],
+            "Time": "17",
+            "Parole": "34",
+            "Fine": 1600.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n2022-05-16 01:45:28 UTC\nReporting Officer\n\n@418 Officer Aspen Gray\n\nAssisting Officer/s:\n(400) Dwayne Carter\n(418) Aspen Gray\n(504) Jeffrey Bones\n(998) Colt Shepherd\n\nSuspect/s:\nFrankie Fitch (#1779)\n\nLorelei Astra (#31225)\nDanielle Roberts (#1783)\n\nLocation: Marathon Ave, Del perro.\nDebrief:\n\n@699 Jeffrey Bones Statement:\n\nJeffrey Bones responded to a burglary call at marathon ave. Officer Aspen\narrived first and called out that people were getting into a black jeep. The\nJeep got into a pursuit. The person driving was wearing a mask and a\nbiker cut and was latter identified as Frankie Fitch. The car crashed out in\n\ngrapeseed and the suspects bailed on foot. Officers tased and cuffed",
+    "LastUpdated": "2022/07/12"
+},
+45688: {
+    "IncidentID": 45688,
+    "Title": "Harmony Bank Robbery - 5/16/2022",
+    "Creator": "Alex Suarez",
+    "Criminals": {
+        "2251": {
+            "StateID": 2251,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Robbery of a Financial Institution",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "60",
+            "Parole": "120",
+            "Fine": 10500.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        },
+        "26005": {
+            "StateID": 26005,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Robbery of a Financial Institution",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "67",
+            "Parole": "134",
+            "Fine": 11100.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "LastUpdated": "2022/07/12"
+},
+45762: {
+    "IncidentID": 45762,
+    "Title": "Silvio DiVincenzo - Negligent Driving - 5/17/2022",
+    "Creator": "Dan Faily",
+    "LastUpdated": "2022/07/12"
+},
+45876: {
+    "IncidentID": 45876,
+    "Title": "Roel Vasho - Drug Trafficking - 5/18/2022",
+    "Creator": "Vincent Cannoli",
+    "LastUpdated": "2022/07/12"
+},
+45892: {
+    "IncidentID": 45892,
+    "Title": "Roel Vasho - Raid Findings/Drug Trafficking - 5/18/202",
+    "Creator": "Vincent Cannoli",
+    "LastUpdated": "2022/07/12"
+},
+45946: {
+    "IncidentID": 45946,
+    "Title": "BJXL Failed 10-99",
+    "Creator": "Tommy Horver",
+    "LastUpdated": "2022/07/11"
+},
+46249: {
+    "IncidentID": 46249,
+    "Title": "DJ Cooper Speeds | 5/22/2022",
+    "Creator": "Wesley Arnold",
+    "LastUpdated": "2022/07/12"
+},
+46270: {
+    "IncidentID": 46270,
+    "Title": "Seaside OIS | 5/22/2022",
+    "Creator": "Ruager Daniels",
+    "LastUpdated": "2022/07/12"
+},
+46375: {
+    "IncidentID": 46375,
+    "Title": "Vault Robbery - 05/23/2022",
+    "Creator": "Leonardo Garcia",
+    "LastUpdated": "2022/07/12"
+},
+46563: {
+    "IncidentID": 46563,
+    "Title": "lvan Samarsky - Grand Theft Auto - 05/25/2022",
+    "Creator": "Jim Underwood",
+    "LastUpdated": "2022/07/12"
+},
+46711: {
+    "IncidentID": 46711,
+    "Title": "Tom Maverick - Drug Trafficking - #46711",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/12"
+},
+46781: {
+    "IncidentID": 46781,
+    "Title": "GTA - Bifta - 5-27-22",
+    "Creator": "Persnickety Windalu",
+    "LastUpdated": "2022/07/12"
+},
+46858: {
+    "IncidentID": 46858,
+    "Title": "Unified PD>Street Racers (Thai Chav) - 5/28/22",
+    "Creator": "Marcel King",
+    "LastUpdated": "2022/07/11"
+},
+46946: {
+    "IncidentID": 46946,
+    "Title": "Elliot Clyne | Failure to Stop | 29/05/22",
+    "Creator": "Max Muller",
+    "LastUpdated": "2022/07/12"
+},
+46982: {
+    "IncidentID": 46982,
+    "Title": "Douglas James, Raz Mitchell, JUNIOR LONG, Khalid Ali(WARRANT) / Grapeseed street race / 05/30/2022  Apprehension",
+    "Creator": "Connor Stubble",
+    "Criminals": {
+        "2554": {
+            "StateID": 2554,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Street Racing",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Band of Notes and Small Band of Notes",
+                    "Type": "Default",
+                    "Count": 1
+                },
                 {
                     "Name": "Reckless Evading",
                     "Type": "Default",
                     "Count": 1
                 },
                 {
-                    "Name": "Misdemeanor Obstruction of Justice",
+                    "Name": "Possession of Contraband in the Third Degree",
                     "Type": "Default",
                     "Count": 1
                 }
             ],
-            "Time": "30",
-            "Parole": "60",
-            "Fine": 2700.0,
-            "PleadedGuilty": false,
+            "Time": "53",
+            "Parole": "106",
+            "Fine": 4875.0,
+            "PleadedGuilty": true,
             "Processed": true
         }
     },
     "IsComplex": true,
-    "LastUpdated": "2022/07/09"
+    "Description": "PBSO Report\n\n2022-05-30 04:41:05 UTC\n\nReporting Officer\n\n@345 Deputy Connor Stubble (Air 1/ Report / Warrant placed)\n\nAssisting Officer/s:\n\n(318) Daisy Dukakis (Air 1)\n\n(424) Jack Davenport (Pursuit)\n\n(460) Lydia Vale (Pursuit)\n\n(320) Matt Rhodes (Pursuit + Raz Mitchell)\n\n(389) Matthew Espinoz (Air 1)\n\n(594) Adam Watson (Pursuit)\n\n(566) Brandy Kaas (Pursuit + Processed Junior Long)\n\n(314) Pual GreenWay (Pursuit)\n\n(205) Jackie Snow (Pursuit)\n\n(470) Robert Anderson (Pursuit + Processed Douglas James)\n\nSuspect/s:\n\nDouglas James (Murcielago)\nRaz Mitchell (Schwartzer 6STR)",
+    "LastUpdated": "2022/07/11"
 },
-49207: {
-    "IncidentID": 49207,
-    "Title": "pending",
-    "Creator": "Mohammad Habob",
-    "LastUpdated": "2022/07/09"
+47039: {
+    "IncidentID": 47039,
+    "Title": "Failure to Stop - Keith Herman | 5/30/2022",
+    "Creator": "Piper Paisley",
+    "LastUpdated": "2022/07/12"
 },
-49208: {
-    "IncidentID": 49208,
+47084: {
+    "IncidentID": 47084,
+    "Title": "Gang related sea side and ?77? gallery shooting",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/12"
+},
+47151: {
+    "IncidentID": 47151,
+    "Title": "Joza Bogan, Marcell Miller | Grand Theft Auto | 01/06/2022",
+    "Creator": "Connor Stubble",
+    "LastUpdated": "2022/07/12"
+},
+47155: {
+    "IncidentID": 47155,
+    "Title": "S+ Boost/0IS - 6/1/22",
+    "Creator": "Tommy Tinker",
     "Criminals": {
-        "1416": {
-            "StateID": 1416,
+        "2251": {
+            "StateID": 2251,
             "IsWarrant": false,
             "Charges": [
                 {
-                    "Name": "Resisting Arrest",
+                    "Name": "Grand Theft",
+                    "Type": "Accessory",
+                    "Count": 1
+                },
+                {
+                    "Name": "Felony Obstruction of Justice",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Kidnapping",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
                     "Type": "Default",
                     "Count": 1
                 },
@@ -66041,114 +66414,1655 @@ INCIDENTS = {
                     "Count": 1
                 }
             ],
-            "Time": "51",
-            "Parole": "38",
-            "Fine": 1675.0,
+            "Time": "84",
+            "Parole": "168",
+            "Fine": 10075.0,
             "PleadedGuilty": true,
             "Processed": true
         }
     },
-    "Title": "Reckless Evading | 6/24/2022",
+    "IsComplex": true,
+    "Description": "LSPD Reporf]\n2022-06-01 05:37:32 UTC\n\nReporting Office\n\nOfficer Tommy Tinker\n\nAssisting Officer/s;|\n202-K9 - Jack Ripley\n275 - Wesley Arnold\n345 - Connor Stubble\n419 - Aaron Byson\n421 - Joseph Oxlong\n\n616 - Jessica Easton\n\nArya Shah\n\nVictim/s:\nN/A\n\nWitnesses:\nN/A\n\nVespucci",
+    "LastUpdated": "2022/07/12"
+},
+47200: {
+    "IncidentID": 47200,
+    "Title": "DJ Cooper | Speeding | 6/1/22",
+    "Creator": "Wynona Fontaine",
+    "LastUpdated": "2022/07/12"
+},
+47280: {
+    "IncidentID": 47280,
+    "Title": "Chris Park | Drug Trafficking | 06/02/2022",
+    "Creator": "Roy Armstrong",
+    "LastUpdated": "2022/07/12"
+},
+47353: {
+    "IncidentID": 47353,
+    "Title": "DJ Cooper - Third Degree Speeding - 03/06/2022",
+    "Creator": "John Doe",
+    "LastUpdated": "2022/07/12"
+},
+47440: {
+    "IncidentID": 47440,
+    "Title": "Great Ocean Robbery - 6/4/2022",
     "Creator": "Alex Suarez",
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
-49209: {
-    "IncidentID": 49209,
-    "Title": "DELETE",
+47498: {
+    "IncidentID": 47498,
+    "Title": "City Vault Robbery - 06/05/22",
+    "Creator": "Matthew Espinoz",
+    "LastUpdated": "2022/07/12"
+},
+47551: {
+    "IncidentID": 47551,
+    "Title": "Dominique Reilly-Smith | Drug Trafficking | Jun 06 2022",
     "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/12"
+},
+47845: {
+    "IncidentID": 47845,
+    "Title": "Jamal Jabbar - AMGE - 06/09/2022",
+    "Creator": "Leonardo Garcia",
+    "LastUpdated": "2022/07/12"
+},
+47848: {
+    "IncidentID": 47848,
+    "Title": "10-90 Vault | 6/9/2022",
+    "Creator": "william Clubb",
+    "LastUpdated": "2022/07/12"
+},
+47863: {
+    "IncidentID": 47863,
+    "Title": "DJ Cooper - Negligent Driving - 6/9/2022",
+    "Creator": "Vincent Cannoli",
+    "LastUpdated": "2022/07/12"
+},
+47921: {
+    "IncidentID": 47921,
+    "Title": "10-99 S+ 6/10/2022",
+    "Creator": "william Clubb",
+    "LastUpdated": "2022/07/12"
+},
+47930: {
+    "IncidentID": 47930,
+    "Title": "VAULT",
+    "Creator": "Flop Dugong",
+    "LastUpdated": "2022/07/12"
+},
+47956: {
+    "IncidentID": 47956,
+    "Title": "Windsor Boost | 6/10/22",
+    "Creator": "Wesley Arnold",
+    "LastUpdated": "2022/07/11"
+},
+48013: {
+    "IncidentID": 48013,
+    "Title": "Officer Robbery / Officer Involved Shooting | Little Se\u00ab 11/06/2022",
+    "Creator": "Lily Pond",
+    "LastUpdated": "2022/07/11"
+},
+48023: {
+    "IncidentID": 48023,
+    "Title": "Kava Broxh - Drug Trafficking - #48023",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/12"
+},
+48066: {
+    "IncidentID": 48066,
+    "Title": "SG4 A Boost",
+    "Creator": "Pual GreenWay",
+    "LastUpdated": "2022/07/11"
+},
+48077: {
+    "IncidentID": 48077,
+    "Title": "LIAM OSULLIVAN - Speeding",
+    "Creator": "Samuel Holtz",
+    "LastUpdated": "2022/07/11"
+},
+48083: {
+    "IncidentID": 48083,
+    "Title": "Thai Chav running over k9 - Impound lot shootout / 12/06/2022",
+    "Creator": "Lea Nova",
+    "Criminals": {
+        "30857": {
+            "StateID": 30857,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Felony Obstruction of Justice",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Assault with a Deadly Weapon",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Operating a Motor Vehicle on a Suspended or Revoked License",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "84",
+            "Parole": "168",
+            "Fine": 8275.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
     "IsComplex": true,
-    "LastUpdated": "2022/07/09"
+    "Description": "BCSO Report\n2022-06-12 16:41:23 UTC\n\nReporting Officer\n@353 Deputy Lea Nova\n\nAssisting Officer/s:\n(588) Alexandra Carlson\n(345) Connor Stubble\n(415) Dante Wolf\n(323) James Doakes\n(302) Jessie Kane\n(397) Kevin Keyte\n(697) Leonardo Garcia\n(326) Louise Campbell\n(460) Lydia Vale\n\n(358) Minerva Maat\n(582) Paddy Luke\n(308) T) Mack\n\n(390) William Gunner\n(405) Winston Walker\n(396) DEN SHIESTY\n\nSuspect/s:\nThai Chav",
+    "LastUpdated": "2022/07/11"
 },
-49248: {
-    "IncidentID": 49248,
-    "Title": "Beau Lynn - Evading - 06/25/2022 #49248",
-    "Creator": "Louis Bloom",
-    "LastUpdated": "2022/07/09"
+48094: {
+    "IncidentID": 48094,
+    "Title": "Elli@ Clyne - Third Degree Speeding - 12/06/2022",
+    "Creator": "John Doe",
+    "LastUpdated": "2022/07/12"
 },
-49254: {
-    "IncidentID": 49254,
-    "Title": "Stone Malone - Jewellery Store Robbery - 06/25/2022",
-    "Creator": "Eli Hawkins",
-    "LastUpdated": "2022/07/09"
+48151: {
+    "IncidentID": 48151,
+    "Title": "LIAM OSULLIVAN - SPEEDING",
+    "Creator": "Jaden Bane",
+    "LastUpdated": "2022/07/11"
+},
+48187: {
+    "IncidentID": 48187,
+    "Title": "Sentinal Boost | 06/13/2022",
+    "Creator": "Jake Cooper",
+    "LastUpdated": "2022/07/11"
+},
+48196: {
+    "IncidentID": 48196,
+    "Title": "Carlos Loco Robbery and Kidnaping",
+    "Creator": "Daniel Kain",
+    "Criminals": {
+        "2665": {
+            "StateID": 2665,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Robbery",
+                    "Type": "Accessory",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Vehicle Registration Fraud",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Kidnapping",
+                    "Type": "Accessory",
+                    "Count": 2
+                },
+                {
+                    "Name": "Unlawful Imprisonment",
+                    "Type": "Accessory",
+                    "Count": 1
+                }
+            ],
+            "Time": "120",
+            "Parole": "240",
+            "Fine": 14800.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n2022-06-14 02:24:09 UTC\nReporting Officer\n\n@686 Cadet Daniel Kain\n\nAssisting Officer/s:\n\n@416 Aziz Sultan\n\n@912 Fingle Goutman Dan\n@358 Minerva Maat\n\n@509 Eryn Carter\n\n@412 Rustin Cooper\n@319 Shawn Richards\n\nSuspect/s:\n\nCarlos Loco\n\nDiabeto Loco\n\nVictim/s:\nEnzo Flynn\nArya Shah\nMercury Frost\n\nLocation:\n\nLegion Square\n\nDebrief:",
+    "LastUpdated": "2022/07/12"
+},
+48242: {
+    "IncidentID": 48242,
+    "Title": "Arthur Atkinson - Drug Trafficking #48242",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/12"
+},
+48301: {
+    "IncidentID": 48301,
+    "Title": "GSF Drug Trafficking & OIS - 6/15/2022",
+    "Creator": "Alex Suarez",
+    "LastUpdated": "2022/07/12"
+},
+48343: {
+    "IncidentID": 48343,
+    "Title": "Liam O'Sullivan - Negligent Driving - 6/15/2022",
+    "Creator": "Dan Faily",
+    "LastUpdated": "2022/07/11"
+},
+48434: {
+    "IncidentID": 48434,
+    "Title": "GSF Drug Trafficking Situation - 6/16/2022",
+    "Creator": "Alex Suarez",
+    "LastUpdated": "2022/07/12"
+},
+48471: {
+    "IncidentID": 48471,
+    "Title": "Cora Star - 37A turned OIS - 06/17/2022",
+    "Creator": "Maddison Bancroft",
+    "LastUpdated": "2022/07/12"
+},
+48518: {
+    "IncidentID": 48518,
+    "Title": "Drug Trafficking Maz Razi - 6/17/2022",
+    "Creator": "Alex Suarez",
+    "Criminals": {
+        "25339": {
+            "StateID": 25339,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Drug Trafficking",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Joyriding",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Drug Paraphernalia",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Weapon Attachments",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "52",
+            "Parole": "104",
+            "Fine": 6725.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n2022-06-17 19:07:16 UTC\n\nReporting Officer\n@465 Officer Alex Suarez\n\nAssisting Officer/s:\n(315) Vincent Cannoli\n(358) Minerva Maat\n(655) Leif Norgaard\n\nLocation:\nCapital Blvd\n\nDebrief:\n\n@465 Officer Alex Suarez\u2019s Statement\nOfficer Suarez was responding to a suspicious activity call on Capital Blvd\nand La Mesa. Upon arriving on the scene, Officer Suarez witnessed Maz\nRazi do a handoff with a local. Maz Razi quickly ran to his black colored\nbike and fled the scene. Officer Suarez and units pursued the suspect for\nroughly 5 minutes before eventualy his bike was disabled near Forum\n\nDrive and he was tased and apprehended.",
+    "LastUpdated": "2022/07/12"
+},
+48520: {
+    "IncidentID": 48520,
+    "Title": "Danielle Roberts | Burglary",
+    "Creator": "Emest Kaminski",
+    "Criminals": {
+        "1783": {
+            "StateID": 1783,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Burglary",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "12",
+            "Parole": "24",
+            "Fine": 1125.0,
+            "Processed": true,
+            "PleadedGuilty": false
+        },
+        "1779": {
+            "StateID": 1779,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Burglary",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "12",
+            "Parole": "24",
+            "Fine": 1125.0,
+            "Processed": true,
+            "PleadedGuilty": false
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n\n2022-06-17 19:23:27 UTC\nReporting Officer\n\n@945 Deputy Ernest Kaminski\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:\n\n@945 Kaminski Statement:\n\nKaminksi responded to a dispatch call of a breaking and entering. Upon\narrival Kaminski noticed a Dellitante parked outside one of the houses in\nthe area. Kaminski decided to check for signs of break in on the vehicle.\nKaminski osberved signs of break in on the vehicle. Deputy Lane arrived\nshortly afterwards. Deputy Lane and Kaminski witnessed Ms.Roberts and\nMr. Fitch walk out of the house. They claimed that they were being\nshown the house by a realtor. No such realtor was on the scene or inside\n\nof the house. Both Ms. Roberts and Mr. Fith were arrested for burglary.",
+    "LastUpdated": "2022/07/12"
+},
+48584: {
+    "IncidentID": 48584,
+    "Title": "Chase O'Dell - Reckless Evading - 18/06/2022",
+    "Creator": "Jim Underwood",
+    "LastUpdated": "2022/07/11"
+},
+48682: {
+    "IncidentID": 48682,
+    "Title": "Bay City Bank",
+    "Creator": "Mono Block",
+    "LastUpdated": "2022/07/12"
+},
+48688: {
+    "IncidentID": 48688,
+    "Title": "Gang related shooting -> OIS - 06/19/2022",
+    "Creator": "Leonardo Garcia",
+    "LastUpdated": "2022/07/12"
+},
+48693: {
+    "IncidentID": 48693,
+    "Title": "Thai Chav | Suspended License | 19/06/2022",
+    "Creator": "Alexandra Carlson",
+    "LastUpdated": "2022/07/11"
+},
+48697: {
+    "IncidentID": 48697,
+    "Title": "A+ Boost - 6/19/2022",
+    "Creator": "Zach Casady",
+    "LastUpdated": "2022/07/11"
+},
+48740: {
+    "IncidentID": 48740,
+    "Title": "Ivan Samarsky - Joyriding #48740",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/12"
+},
+48751: {
+    "IncidentID": 48751,
+    "Title": "Failure to Stop - Andy Kingmen - 2022-06-20",
+    "Creator": "Marshall Mills",
+    "LastUpdated": "2022/07/11"
+},
+48777: {
+    "IncidentID": 48777,
+    "Title": "99B - Tommy Tinker - 6/20/22",
+    "Creator": "Tommy Tinker",
+    "Criminals": {
+        "35640": {
+            "StateID": 35640,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Grand Theft Auto",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "46",
+            "Parole": "92",
+            "Fine": 4475.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Reporf]\n2022-06-20 15:50:09 UTC\n\nReporting Office\n\nOfficer Tommy Tinker\n\nAssisting Officer/s;|\n237 - Jim Underwood\n495 - Brian Knight\n500-L - Michael Lowrey\n603 - Tommy Tinker\n\nLexi Narco - Guilty\nLiam O'Sullivan - Guilty\nCharlotte Spade - Guilty\n\nVictim/s:\nN/A\n\nWitnesses:\nN/A\n\n(e,\n\nSouth Rockford Dr",
+    "LastUpdated": "2022/07/11"
+},
+48949: {
+    "IncidentID": 48949,
+    "Title": "Ford GT S+ Boost | 6/21/22",
+    "Creator": "r Wesley Arold",
+    "Criminals": {
+        "7007": {
+            "StateID": 7007,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Accomplice",
+                    "Count": 7
+                },
+                {
+                    "Name": "Grand Theft Auto",
+                    "Type": "Accomplice",
+                    "Count": 1
+                },
+                {
+                    "Name": "Misdemeanor Possession of Controlled Dangerous Substance OXY / METH",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "94",
+            "Parole": "188",
+            "Fine": 44925.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n\n2022-06-22 02:52:06 UTC\nReporting Officer\n\n@400 Corporal Dwayne Carter\n\nLocation:\nStart: Steele Way\nVehicle Dump: Vespucci Beach\n\nEnd: San Andreas x Power\n\nDebrief:\n\n275 W. Arnold Statement:\n\nW. Arnold responded to an S+ Boost after it had already started as a\nbackup unit on Motor. Eventually several S class interference vehicles\nJoined the chase and W. Arnold assisted as the vehicle was called out\nheading towards LSIA. W. Arnold attempted to catch up but the primary\nunits were unable to locate the vehicle. W. Arnold then headed to\nmultiple gas stations including Little Seoul, Great Ocean Highway, Sandy\nShores, until he broke off as the pursuit was called off. He dealt with a\nBBMC member who was driving a stolen local vehicle and then went to\nSandy SO to repair his bike and refuel. While this was occurring, J.\nJimenes reported over radio that he had seen the target boost vehicle\n(Blue Ford GT) heading past Paleto Bay SO towards the Paleto Bay Gas\nStation. W. Arnold then headed up north to the Paleto Gas Station, and\n\nfound a man in a matte black mercedes with a class two on his back",
+    "LastUpdated": "2022/07/12"
+},
+48980: {
+    "IncidentID": 48980,
+    "Title": "Deebo Johnson | Drug Trafficking | 22/06/2022",
+    "Creator": "Connor Stubble",
+    "LastUpdated": "2022/07/12"
+},
+48999: {
+    "IncidentID": 48999,
+    "Title": "Ivan Samarsky- speeding",
+    "Creator": "Mike Ross",
+    "LastUpdated": "2022/07/12"
+},
+49023: {
+    "IncidentID": 49023,
+    "Title": "Moped Evades from 31A - 6/22/22",
+    "Creator": "Mackenzie Hayes",
+    "LastUpdated": "2022/07/11"
+},
+49063: {
+    "IncidentID": 49063,
+    "IsComplex": true,
+    "Description": "AP U,\n\nWet Bud (100 grams) - (6x)\n\nDue to seeds and packed / wet bud and dried but being found it is\nbeyond doubt Jack Stones Cultivated and manufactured the same strain\n\nof weed for distribution.\n\nJack Stones also had a browning coming back to a 10-99 call in report\n#49063",
+    "Criminals": {
+        "36959": {
+            "StateID": 36959,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Joyriding",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Assault & Battery",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Dirty Money in the Second Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Drug Trafficking",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Drug Paraphernalia",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "100",
+            "Parole": "200",
+            "Fine": 10700.0,
+            "PleadedGuilty": false,
+            "Processed": false
+        }
+    },
+    "LastUpdated": "2022/07/12"
+},
+49094: {
+    "IncidentID": 49094,
+    "Title": "SAMARSKI illegal possesion class 1",
+    "Creator": "John Hydra",
+    "LastUpdated": "2022/07/12"
+},
+49116: {
+    "IncidentID": 49116,
+    "Title": "Liam O'Sullivan / Charlotte Spade - Burgulary - 06/23/2022",
+    "Creator": "Vincent Cannoli",
+    "LastUpdated": "2022/07/11"
+},
+49125: {
+    "IncidentID": 49125,
+    "Title": "Warrener boost turns into evading | 06/23/2022",
+    "Creator": "Jeremias Jimenes",
+    "Criminals": {
+        "34287": {
+            "StateID": 34287,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "37",
+            "Parole": "74",
+            "Fine": 3375.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n\n2022-06-23 22:15:17 UTC\nReporting Officer\n\n@532 Cadet Jeremias Jimenes\nAssisting Officer/s:\n\nSuspect/s:\n\nXalvedor Lorenhart\n\nLocation:\n\nStarted:\nEnded: [NeJgaRileld slelfs I Bl FERI Exile]y)\n\nDebrief:\n\nLS P R A R\n\nSweets responded to a call of a Warrener being broken into at Playa\nVista. Sweets arrived on scene and witnessed the car being driven\naway as well as a Red 9F leaving as well. Sweets chased the Warrener\nbefore the Red 9F pitted Sweets into a wall. The Warrener got away so\nofficers gave chase on the 9F. The vehicle was chased before stalling\n\nat Legion Square bank.",
+    "LastUpdated": "2022/07/11"
+},
+49136: {
+    "IncidentID": 49136,
+    "Title": "Joza Bogan - Negligent Driving",
+    "Creator": "Paddy Luke",
+    "LastUpdated": "2022/07/12"
+},
+49172: {
+    "IncidentID": 49172,
+    "Title": "Joza Bogan | Failure to Stop | 6.24.22",
+    "Creator": "Tommy Horver",
+    "LastUpdated": "2022/07/12"
+},
+49173: {
+    "IncidentID": 49173,
+    "Title": "Dominique & Ivan | Penumbra 99 | 6/24/2022 | #4917",
+    "Creator": "Brjndy Kaas",
+    "LastUpdated": "2022/07/12"
+},
+49179: {
+    "IncidentID": 49179,
+    "Title": "Cerberus Center OIS - 06/24/22",
+    "Creator": "Matthew Espinoz",
+    "Criminals": {
+        "37332": {
+            "StateID": 37332,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Default",
+                    "Count": 8
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Conspiracy",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Felony Obstruction of Justice",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Endangerment",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Use of a Firearm",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "122",
+            "Parole": "244",
+            "Fine": 53150.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        },
+        "33383": {
+            "StateID": 33383,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Default",
+                    "Count": 8
+                },
+                {
+                    "Name": "Criminal Use of a Firearm",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Conspiracy",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Felony Obstruction of Justice",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Endangerment",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "122",
+            "Parole": "244",
+            "Fine": 53150.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n\n2022-06-24 11:16:34 UTC\nReporting Officer\n\n@389 Lieutenant Matthew Espinoz\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/12"
+},
+49184: {
+    "IncidentID": 49184,
+    "Title": "Parole Violation Joza Bogan",
+    "Creator": "Lisa Adkins",
+    "LastUpdated": "2022/07/12"
+},
+49186: {
+    "IncidentID": 49186,
+    "Criminals": {
+        "36722": {
+            "StateID": 36722,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Felony Possession with intent to Distribute",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 2
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Joyriding",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Band of Notes and Small Band of Notes",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "183",
+            "Parole": "366",
+            "Fine": 27975.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n2022-06-24 13:20:54 UTC\n\nReporting Officer\n@320 Undersheriff Matt Rhodes\n\nAssisting Officer/s:\n(345) Connor Stubble\n(504) Chimi Changa\n(318) Daisy Dukakis\n(457) Darrel McCormik\n(311) Eli Hawkins\n\n(638) Kylie Stokes\n(389) Matthew Espinoz\n(312) Nikki Drewel\n(566) Brandy Kaas\n(205) Jackie Snow\n\nSuspect/s:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/12"
+},
+49256: {
+    "IncidentID": 49256,
+    "Title": "Mayhem Weirdness - 6/25/2022",
+    "Creator": "Daisy Dukakis",
+    "LastUpdated": "2022/07/11"
+},
+49257: {
+    "IncidentID": 49257,
+    "Title": "Jack Wilson | Speeding | 6-25-2022",
+    "Creator": "Oliver Fury",
+    "LastUpdated": "2022/07/11"
+},
+49260: {
+    "IncidentID": 49260,
+    "Title": "Finlay Milton, Ophelia Dawson | AMGE / Unlawful imprisonment | 06/25/2022",
+    "Creator": "Michael Pike",
+    "LastUpdated": "2022/07/11"
+},
+49261: {
+    "IncidentID": 49261,
+    "Title": "Colorado Blue Spruce | ASSAULT | 25/06/22",
+    "Creator": "Chad Gable",
+    "LastUpdated": "2022/07/11"
+},
+49265: {
+    "IncidentID": 49265,
+    "Title": "negligent driving - 309 K Pred - 6/25/2022",
+    "Creator": "Kyle Pred",
+    "Criminals": {
+        "34287": {
+            "StateID": 34287,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Negligent Driving",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 375.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n2022-06-25 14:17:47 UTC\nReporting Officer\n\n@309 Sheriff Kyle Pred\nAssisting Officer/s:\n\nLocation:\nDebrief:",
+    "LastUpdated": "2022/07/11"
+},
+49266: {
+    "IncidentID": 49266,
+    "Title": "ANdy Andinen | Speedinly | \u00a39/U0/ 244",
+    "Creator": "Chad Gable",
+    "Criminals": {
+        "34287": {
+            "StateID": 34287,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Second Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 750.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "SDSO Report\n\n2022-06-25 14:26:09 UTC\nReporting Officer\n\n@915 Deputy Chad Gable\n\nLocation:\nPopular St\nDebrief:\n\nAndy Kingmen sped past Gable in a white 9F. HE was apologetic.",
+    "LastUpdated": "2022/07/11"
+},
+49267: {
+    "IncidentID": 49267,
+    "Title": "10-99 Baller",
+    "Creator": "Lisa Adkins",
+    "LastUpdated": "2022/07/11"
+},
+49268: {
+    "IncidentID": 49268,
+    "Title": "Raz Mitchell - Joyriding - 06/25/22",
+    "Creator": "Jim Underwood",
+    "LastUpdated": "2022/07/11"
+},
+49269: {
+    "IncidentID": 49269,
+    "Title": "Axwell Eriksen - Second Degree Speeding - 06/25/20%",
+    "Creator": "Aleksandr November",
+    "LastUpdated": "2022/07/11"
+},
+49270: {
+    "IncidentID": 49270,
+    "Title": "Mike Herrman | Reckless Evading | 25 Jun 22",
+    "Creator": "Chad Gable",
+    "LastUpdated": "2022/07/11"
+},
+49271: {
+    "IncidentID": 49271,
+    "Title": "Jake Stevens - Street Racing",
+    "Creator": "Matt Rhodes",
+    "Criminals": {
+        "16364": {
+            "StateID": 16364,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Street Racing",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "39",
+            "Parole": "78",
+            "Fine": 3675.0,
+            "PleadedGuilty": false,
+            "Processed": false
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n\n2022-06-25 14:54:07 UTC\nReporting Officer\n\n@320 Undersheriff Matt Rhodes\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/11"
+},
+49272: {
+    "IncidentID": 49272,
+    "Title": "Ana Lana | 10-31A| 6/25/2022",
+    "Creator": "Dominic Parker",
+    "LastUpdated": "2022/07/11"
+},
+49273: {
+    "IncidentID": 49273,
+    "Title": "10-31a Picture Perfect | 6/25/2022",
+    "Creator": "william Clubb",
+    "LastUpdated": "2022/07/11"
+},
+49274: {
+    "IncidentID": 49274,
+    "Title": "Luke Atar | hit and run | 25/06/22",
+    "Creator": "Chad Gable",
+    "Criminals": {
+        "33359": {
+            "StateID": 33359,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Felony Hit and Run",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Driving",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "44",
+            "Parole": "88",
+            "Fine": 4150.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "SDSO Report\n\n2022-06-25 15:47:40 UTC\nReporting Officer\n\n@915 Deputy Chad Gable\n\nLocation:\n\nMilton Road\n\nDebrief:\n\nDeputy Chad Gable was travelling north bound on Milton Road with his\nlights and sirens on in correct lanes of travel when Luke Atar came south\nbound in oncoming lanes of travel at speeds of 80+ mph and struck\nGable at high speeds. Gable was laying on the ground in great pain after\nbeing sent off his bike from the crash. Luke said \u201cget good bozo\u2122 and\ndrove off. Deputy Gable IDed Luke Atar with the assistance of Lea Nova.\nLea Nova conducted a traffic stop on Luke Atar around 15 minutes prior\nto this incident in the same vehicle and IDed him at the time. Gable was\n\npresent for the stop.\n\nAround an hour after the events above, Deputy Gable got in 3 seperate\n10-80s with the assistance of Odessa and Sheriff Pred and lost Luke\n\nmultiple times",
+    "LastUpdated": "2022/07/12"
+},
+49275: {
+    "IncidentID": 49275,
+    "Title": "Travis Pastrami - Reckless Evading - 06/25/2022",
+    "Creator": "Aleksandr November",
+    "LastUpdated": "2022/07/11"
+},
+49276: {
+    "IncidentID": 49276,
+    "Title": "Street Racing | 06/25/2022",
+    "Creator": "Michael Lowrey",
+    "LastUpdated": "2022/07/11"
+},
+49277: {
+    "IncidentID": 49277,
+    "Title": "Macon Taylor - Joyriding #49277",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/11"
+},
+49278: {
+    "IncidentID": 49278,
+    "Title": "Dante Thomas | 3rd Deg Speeding | 25 Jun 22",
+    "Creator": "Odessa Glafx",
+    "LastUpdated": "2022/07/11"
+},
+49279: {
+    "IncidentID": 49279,
+    "Title": "Lucy Sinclair & Liam O'Sullivan | GTA | 6/25/2022",
+    "Creator": "Dominic Parker",
+    "Criminals": {
+        "25309": {
+            "StateID": 25309,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Grand Theft Auto",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "26",
+            "Parole": "52",
+            "Fine": 2650.0,
+            "PleadedGuilty": false,
+            "Processed": false
+        }
+    },
+    "IsComplex": true,
+    "Description": "Police Report\n\n2022-06-25 16:46:19 UTC\nReporting Officer\n\n@Ny/a Officer Dominic Parker\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/11"
+},
+49280: {
+    "IncidentID": 49280,
+    "Title": "10-90 Jewelry Store Robbery | 6/25/2022",
+    "Creator": "",
+    "LastUpdated": "2022/07/11"
+},
+49282: {
+    "IncidentID": 49282,
+    "Title": "ois",
+    "Creator": "Maddison Bancroft",
+    "LastUpdated": "2022/07/11"
+},
+49283: {
+    "IncidentID": 49283,
+    "Title": "Motorcycle Race - Sai Kou",
+    "Creator": "Brittany Angel",
+    "Criminals": {
+        "30982": {
+            "StateID": 30982,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Felony Trespassing",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Street Racing",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "160",
+            "Parole": "126",
+            "Fine": 5875.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n\n2022-06-25 17:27:44 UTC\nReporting Officer\n\n@300 Captain Brittany Angel\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/11"
+},
+49284: {
+    "IncidentID": 49284,
+    "Title": "Judas Squealer | burglary | 25/06/22",
+    "Creator": "Chad Gable",
+    "LastUpdated": "2022/07/11"
+},
+49285: {
+    "IncidentID": 49285,
+    "Title": "Speeder",
+    "Creator": "Adrian Pearce",
+    "LastUpdated": "2022/07/11"
+},
+49310: {
+    "IncidentID": 49310,
+    "Title": "Aziz Abdallah - Failure to Yield to Emergency Vehicle- 6/25/2022",
+    "Creator": "Zach Casady",
+    "LastUpdated": "2022/07/12"
 },
 49311: {
     "IncidentID": 49311,
     "Title": "OIS Canals | 6/25/2022",
-    "Creator": "william Clubb",
-    "LastUpdated": "2022/07/09"
+    "Creator": "William Clubb",
+    "LastUpdated": "2022/07/12"
+},
+49312: {
+    "IncidentID": 49312,
+    "Title": "Oliver - Bundy - Contempt",
+    "Creator": "William Gunner",
+    "LastUpdated": "2022/07/12"
+},
+49316: {
+    "IncidentID": 49316,
+    "Title": "WAYNE DRUG TRAFFICKING | 06/25/2022",
+    "Creator": "Shane Jones",
+    "LastUpdated": "2022/07/12"
+},
+49319: {
+    "IncidentID": 49319,
+    "Title": "3rd Degree Speeding - Lee Nova - 06/25/2022",
+    "Creator": "Raycardo Flick",
+    "LastUpdated": "2022/07/12"
+},
+4932: {
+    "IncidentID": 4932,
+    "IsComplex": true,
+    "LastUpdated": "2022/07/12"
+},
+49320: {
+    "IncidentID": 49320,
+    "Title": "Chip Wheeler - embarrassing attempt at BBMC hell wi",
+    "Creator": "Crocodile Steve",
+    "LastUpdated": "2022/07/12"
+},
+49321: {
+    "IncidentID": 49321,
+    "Title": "Criminal Use - Lee Nova / Jessi Adler - 6/25/22",
+    "Creator": "Chris Kross",
+    "LastUpdated": "2022/07/12"
+},
+49322: {
+    "IncidentID": 49322,
+    "Title": "Zuck Cuc - Joyriding - 6/25/22",
+    "Creator": "Chris Kross",
+    "LastUpdated": "2022/07/12"
+},
+49323: {
+    "IncidentID": 49323,
+    "Title": "Lee Nova Reckless Evading",
+    "Creator": "Crocodile Steve",
+    "LastUpdated": "2022/07/12"
+},
+49326: {
+    "IncidentID": 49326,
+    "Title": "Vagos",
+    "Creator": "Sexton Hardcastle",
+    "LastUpdated": "2022/07/12"
+},
+49327: {
+    "IncidentID": 49327,
+    "Title": "Pinky Peppers - Reckless Evading - 06/26/22",
+    "Creator": "Rodney Fuel",
+    "LastUpdated": "2022/07/12"
+},
+49328: {
+    "IncidentID": 49328,
+    "IsComplex": true,
+    "Description": "BCSO Report\n2022-06-26 08:37:54 UTC\n\nReporting Officer\n@353 Deputy Lea Nova\n\nAssisting Officer/s:\n(320) Matt Rhodes\n\nSuspect/s:\n\nlvan Samarsky\n\nLocation:\n\nSan Andreas Avenue\n\nDebrief:\n\nOfficers responded to a 10-37 call near Vinewood Blvd, officers were\nstruck by a white audi license plate 00GLY025. Officers pursued the\nvehicle all the way down great ocean highway where they were UTL after\na short chase. Shortly afterwards after responding to another unrelated\ncall officers witnessed the same vehicle driving along El Rancho Blvd and\ninitiated another pursuit with the vehicle. The chase again was reckless\nuntil the driver lvan Samarsky opened fire on Lea Nova and Matt Rhodes.\nShots were exchanged until he was incapacitated. On his person was a\nlarge amount of cash, a large delivery list, a large amount of dirty money\n\nand a",
+    "Title": "fvan Samarsky - Felony Possession with intent to Distribute #49328",
+    "Creator": "Lea Nova",
+    "Criminals": {
+        "15596": {
+            "StateID": 15596,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Default",
+                    "Count": 3
+                },
+                {
+                    "Name": "Operating a Motor Vehicle on a Suspended or Revoked License",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Dirty Money in the First Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Felony Possession with intent to Distribute",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "801",
+            "Parole": "580",
+            "Fine": 51475.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "LastUpdated": "2022/07/12"
+},
+49329: {
+    "IncidentID": 49329,
+    "Title": "Etta Hawthorne - Third Degree Speeding",
+    "Creator": "Ezra Funkhouser",
+    "Criminals": {
+        "22790": {
+            "StateID": 22790,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Third Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 375.0,
+            "PleadedGuilty": false,
+            "Processed": false
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n\n2022-06-26 08:41:59 UTC\nReporting Officer\n\n@995 Deputy Ezra Funkhouser\nAssisting Officer/s:\n\nSpeeding Westbound on Route 68. Is a dirty burglar, but only because\n\nJasmine Sullivan said so.",
+    "LastUpdated": "2022/07/12"
 },
 49330: {
     "IncidentID": 49330,
     "Title": "Aubrey Webster | Negligent Driving | 06/26/2022",
     "Creator": "Dominic Parker",
-    "LastUpdated": "2022/07/09"
+    "Criminals": {
+        "26223": {
+            "StateID": 26223,
+            "IsWarrant": true,
+            "Charges": [
+                {
+                    "Name": "Negligent Driving",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Operating a Motor Vehicle on a Suspended or Revoked License",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ]
+        }
+    },
+    "IsComplex": true,
+    "Description": "Police Report\n\n2022-06-26 08:47:28 UTC\nReporting Officer\n\n@560 Officer Dominic Parker\n\nAssisting Officer/s:\n(311) Eli Hawkins\n\nSuspect/s:\nAubrey Webster\n\nLocation:\nAdam\u2019s Apple BLVD\n\nDebrief:\n\n@560 D. Parker Statement:\nD.Parker was riding with E.Hawkings when they witness a vehicle crash\ninto another vehicle. They proceeded to pull Aubrey Webster over but he\ndidn't have a license. When D.Parker told him he would need to step out\nof the vehicle since he doesn't have a valid drivers license Aubrey\n\nWebster took off from the traffic stop.",
+    "LastUpdated": "2022/07/12"
+},
+49331: {
+    "IncidentID": 49331,
+    "Title": "Judas Squealer | Robbery | 26/06/2022",
+    "Creator": "Alexandra Carlson",
+    "Criminals": {
+        "32713": {
+            "StateID": 32713,
+            "IsWarrant": true,
+            "Charges": [
+                {
+                    "Name": "Robbery",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ]
+        }
+    },
+    "IsComplex": true,
+    "LastUpdated": "2022/07/12"
+},
+49334: {
+    "IncidentID": 49334,
+    "Title": "Kat Atla - B BOOST - 2022-06-26",
+    "Creator": "Jackie Talladega",
+    "Criminals": {
+        "32689": {
+            "StateID": 32689,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Grand Theft Auto",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Band of Notes and Small Band of Notes",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "52",
+            "Parole": "74",
+            "Fine": 3750.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n\n2022-06-26 09:19:55 UTC\nReporting Officer\n\n@548 Cadet Jackie Talladega\n\nAssisting Officer/s:\n(389) Matthew Espinoz\n(407) Joel Garcia\n\nLocation: Sandcastle way \u2014 Great Ocean Highway\n\nDebrief:\n\n548 Deputy Talladega\n548 Talladega responded to a backup request for a stolen Astrobe at\nSandcastle Way. Vehicle evaded recklessly and was pursued through the\ncity before crashing out Northbound Great Ocean Highway. Suspect later\nidentified as Kat Atla fled the vehicle, ran into the ocean and continued\nto evade officers. Atla was apprehended in the water and placed under\narrest. Atla was in possesion of multiple lockpicks and a small amount of\n\ndirty money in bands and rolls. Atla pled not guilty to all charges.",
+    "LastUpdated": "2022/07/12"
+},
+49335: {
+    "IncidentID": 49335,
+    "Title": "Dave Rossy - Third Degree Speed",
+    "Creator": "Ezra Funkhouser",
+    "Criminals": {
+        "36792": {
+            "StateID": 36792,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Third Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 375.0,
+            "PleadedGuilty": false,
+            "Processed": false
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n\n2022-06-26 09:24:40 UTC\nReporting Officer\n\n@995 Deputy Ezra Funkhouser\nAssisting Officer/s:\n\nLocation:\nDebrief:",
+    "LastUpdated": "2022/07/12"
+},
+49336: {
+    "IncidentID": 49336,
+    "Title": "Sands Airfield Incident - 6/26/2022",
+    "Creator": "Ezra Funkhouser",
+    "Criminals": {
+        "7186": {
+            "StateID": 7186,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Accomplice",
+                    "Count": 8
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Misdemeanor Possession of Controlled Dangerous Substance OXY / METH",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Misdemeanor Possession of Controlled Dangerous Substance KETAMINE",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Attempted 1st Degree Murder",
+                    "Type": "Default",
+                    "Count": 3
+                }
+            ],
+            "Time": "331",
+            "Parole": "244",
+            "Fine": 65200.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "",
+    "LastUpdated": "2022/07/12"
+},
+49338: {
+    "IncidentID": 49338,
+    "Title": "Dakota Black-Frost | Poaching | 06/26/2022",
+    "Creator": "Ziggy Buggs",
+    "LastUpdated": "2022/07/12"
+},
+49340: {
+    "IncidentID": 49340,
+    "Title": "[DELETE] 10-99 Ginger St",
+    "Creator": "Gage Draider",
+    "LastUpdated": "2022/07/12"
+},
+49341: {
+    "IncidentID": 49341,
+    "Title": "Olympic Freeway Gangshooting to 0IS?",
+    "Creator": "Ashley Smith",
+    "LastUpdated": "2022/07/12"
+},
+49342: {
+    "IncidentID": 49342,
+    "Title": "Schafter OIS",
+    "Creator": "Tommy Horver",
+    "LastUpdated": "2022/07/12"
+},
+49355: {
+    "IncidentID": 49355,
+    "Title": "Tom Maverick | Grand Theft Auto | 26/06/22",
+    "Creator": "Kraven Moorehed",
+    "LastUpdated": "2022/07/12"
+},
+49356: {
+    "IncidentID": 49356,
+    "Title": "Chase Ward - Felony Possession of a Controlled Dange Substance OXY / METH - 06/26/2022",
+    "Creator": "Maddison Bancroft",
+    "LastUpdated": "2022/07/12"
+},
+49357: {
+    "IncidentID": 49357,
+    "Title": "Hops and Scruffy Shoot a Car | 2022-06-26",
+    "Creator": "winston Walker",
+    "LastUpdated": "2022/07/12"
+},
+49359: {
+    "IncidentID": 49359,
+    "Title": "Francis Rakhmet - Failure to Obey Traffic Control Devic 06/26/2022",
+    "Creator": "Maddison Bancroft",
+    "LastUpdated": "2022/07/12"
+},
+49360: {
+    "IncidentID": 49360,
+    "Title": "Popular Street Street Race",
+    "Creator": "Brittany Angel",
+    "LastUpdated": "2022/07/12"
+},
+49361: {
+    "IncidentID": 49361,
+    "Title": "Matt Hardy - Joyriding",
+    "Creator": "William Gunner",
+    "LastUpdated": "2022/07/12"
+},
+49362: {
+    "IncidentID": 49362,
+    "Title": "Willy Wong wants to go to jail - 06/26/2022",
+    "Creator": "Jim Underwood",
+    "LastUpdated": "2022/07/12"
+},
+49363: {
+    "IncidentID": 49363,
+    "Title": "Chase O'Dell | Grand Theft Auto | 26/06/22",
+    "Creator": "Kraven Moorehed",
+    "LastUpdated": "2022/07/12"
+},
+49364: {
+    "IncidentID": 49364,
+    "Title": "Bright Imagay | Joyriding | 26 Jun 22",
+    "Creator": "Odessa Glafx",
+    "LastUpdated": "2022/07/12"
+},
+49365: {
+    "IncidentID": 49365,
+    "Title": "Janette Styles - Disobeying a Peace Officer - 26/06/20:",
+    "Creator": "John Doe",
+    "LastUpdated": "2022/07/12"
+},
+49366: {
+    "IncidentID": 49366,
+    "Title": "BSK vs NBC | Gang Related Shooting | 06/26/22",
+    "Creator": "Louise Campbell",
+    "LastUpdated": "2022/07/12"
 },
 49370: {
     "IncidentID": 49370,
-    "Title": "Mostafa Maged - Third Degree Speeding - 06/26/202:",
+    "Title": "Mostafa Maged - Third Degree Speeding - 06/26/2022",
     "Creator": "Minerva Maat",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49372: {
     "IncidentID": 49372,
     "Title": "Chase O'Dell | Burglary | 06/26/22",
     "Creator": "Eryn Carter",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49375: {
     "IncidentID": 49375,
     "Title": "Orange Car Fake Doctor | 06/26/2022",
     "Creator": "Jake Cooper",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49377: {
     "IncidentID": 49377,
     "Title": "Viceroy",
     "Creator": "Jake Cooper",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49378: {
     "IncidentID": 49378,
     "Title": "Kara Droid - GTA - 6/26/22",
     "Creator": "William Gunner",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49379: {
     "IncidentID": 49379,
     "Title": "Windsor 99A | 06/26/2022",
     "Creator": "Jeremias Jimenes",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49380: {
     "IncidentID": 49380,
     "Title": "IGOR TRIES TO ENACT HIS CRIMINAL THREATS",
-    "Creator": "Winston Walker",
-    "LastUpdated": "2022/07/09"
+    "Creator": "winston Walker",
+    "LastUpdated": "2022/07/12"
 },
 49381: {
     "IncidentID": 49381,
     "Title": "Jack Stones - Drug Trafficking #49381",
     "Creator": "Lea Nova",
-    "LastUpdated": "2022/07/09"
+    "IsComplex": true,
+    "Description": "\u2014T T Tm Trtm Trt\u2014m\u2014 \u2014\u2014m \u2014 =i = T -\n\nbeyond doubt Jack Stones Cultivated and manufactured the same strain\n\n- s = e\n\nof weed for distribution.\n\nJack Stones also had a browning coming back to a 10-99 call in report\n\n#49063",
+    "Criminals": {
+        "36959": {
+            "StateID": 36959,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Joyriding",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Assault & Battery",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Dirty Money in the Second Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Drug Trafficking",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Drug Paraphernalia",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "8668",
+            "Parole": "200",
+            "Fine": 10700.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "LastUpdated": "2022/07/12"
 },
 49382: {
     "IncidentID": 49382,
     "Title": "DELETE",
     "Creator": "Jake Cooper",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49383: {
     "IncidentID": 49383,
     "Title": "Dante Thomas, speeding, trafic light - no license | 06/26/2022",
     "Creator": "Jeremias Jimenes",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49385: {
     "IncidentID": 49385,
     "Title": "Keith Herman - 2nd Degree Speeding - 06/26/2022 #49385",
     "Creator": "Louis Bloom",
-    "IsComplex": true,
     "Criminals": {
         "30569": {
             "StateID": 30569,
@@ -66167,84 +68081,135 @@ INCIDENTS = {
             "Processed": true
         }
     },
-    "LastUpdated": "2022/07/09"
+    "IsComplex": true,
+    "Description": "BCSO Report\n\n2022-06-27 00:27:20 UTC\nReporting Officer\n\n@360 Deputy Louis Bloom\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:\n\nAsshole speeding in a red in color sandking x| that comes back to him.\n\nHe was going 88 in a 35 heading westbound vespucci.",
+    "LastUpdated": "2022/07/12"
 },
 49386: {
     "IncidentID": 49386,
     "Title": "JAMES JACOBUS | Redlight | 06/26/2022",
     "Creator": "Shane Jones",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49387: {
     "IncidentID": 49387,
     "Title": "Pete Richards - Hunting Without a License - 06/26/22",
     "Creator": "Jeffrey Price",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49388: {
     "IncidentID": 49388,
-    "Title": "Theodore Augustus Remington Patterson - Traffic Stc",
+    "Title": "Theodore Augustus Remington Patterson - Traffic Stop",
     "Creator": "Charlotte Fairfield",
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49389: {
     "IncidentID": 49389,
     "Title": "Rylee Levine - 1st Degree Speeding + Negligent - 06/26/2022 #49389",
     "Creator": "Louis Bloom",
-    "IsComplex": true,
-    "Criminals": {
-        "36630": {
-            "StateID": 36630,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "First Degree Speeding",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Negligent Driving",
-                    "Type": "Default",
-                    "Count": 1
-                }
-            ],
-            "Time": "1",
-            "Parole": "2",
-            "Fine": 1500.0,
-            "PleadedGuilty": false,
-            "Processed": true
-        }
-    },
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49390: {
     "IncidentID": 49390,
     "Title": "Lilly Wills | First-Degree Speeding | 6/26/2022",
     "Creator": "Keith Jaeger",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49391: {
     "IncidentID": 49391,
     "Title": "Chip Wheeler - Brandishing",
     "Creator": "Charlotte Fairfield",
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
 49392: {
     "IncidentID": 49392,
     "Title": "Tyler Thompson - Brandishing + Class 1 Possession - 06/26/2022 #49392",
     "Creator": "Louis Bloom",
+    "LastUpdated": "2022/07/12"
+},
+49393: {
+    "IncidentID": 49393,
+    "Title": "Taylor Briggs | First-Degree Speeding | 06/26/2022",
+    "Creator": "Keith Jaeger",
+    "LastUpdated": "2022/07/12"
+},
+49394: {
+    "IncidentID": 49394,
+    "Title": "James McGlew - Impersonating - 06/26/22",
+    "Creator": "Jeffrey Price",
+    "LastUpdated": "2022/07/12"
+},
+49395: {
+    "IncidentID": 49395,
+    "Title": "S+ 10-99 A80 turns OIS",
+    "Creator": "Preston Hale",
+    "LastUpdated": "2022/07/12"
+},
+50201: {
+    "IncidentID": 50201,
+    "Title": "Delver Lee",
+    "Creator": "Jemma Zimmerman",
+    "LastUpdated": "2022/07/12"
+},
+50202: {
+    "IncidentID": 50202,
+    "Title": "Cream Chee Beats up 3 cops - 7/5/2022 - 306 Casady",
+    "Creator": "Zach Casady",
+    "LastUpdated": "2022/07/12"
+},
+50203: {
+    "IncidentID": 50203,
+    "Title": "Delete",
+    "Creator": "Jack Ripley",
+    "LastUpdated": "2022/07/12"
+},
+50205: {
+    "IncidentID": 50205,
+    "Title": "Gang Related Shooting - GSF vs GG - NO WIPES POG - 07/05/2022",
+    "Creator": "TJ Mack",
+    "LastUpdated": "2022/07/12"
+},
+50206: {
+    "IncidentID": 50206,
+    "Title": "Gang Shooting BBMC vs GG",
+    "Creator": "Jack Ripley",
+    "LastUpdated": "2022/07/12"
+},
+50207: {
+    "IncidentID": 50207,
+    "Title": "Collin Mckinley | Speeding | 7/5/2022",
+    "Creator": "Alex Suarez",
+    "LastUpdated": "2022/07/12"
+},
+50208: {
+    "IncidentID": 50208,
+    "Title": "Dundee Kidnaps Carter | 7/5/2022",
+    "Creator": "Alex Suarez",
+    "LastUpdated": "2022/07/12"
+},
+50210: {
+    "IncidentID": 50210,
+    "Title": "City Vault | 7/5/2022",
+    "Creator": "James McTavish",
+    "LastUpdated": "2022/07/12"
+},
+50211: {
+    "IncidentID": 50211,
+    "Title": "Blake Krin | Unauthorized Parking | 7/5/2022",
+    "Creator": "Brick James",
+    "LastUpdated": "2022/07/12"
+},
+50212: {
+    "IncidentID": 50212,
+    "Title": "Lilly Pandia | Drug Trafficking | 07/05/2022",
+    "Creator": "Roy Armstrong",
     "IsComplex": true,
+    "Description": "SDSO Report\n2022-07-06 02:30:38 UTC\nReporting Officer\n\n360 CPL Louis Bloom\n\nAssisting Officer/s:\n916 Corporal Roy Armstrong\n\nSuspect/s:\nLilly Pandia\n\nLocation:\n\nPalamino Avenue, Little Seoul\n\nCpl Bloom\u2019s Debrief:\nBloom was doing standard C.U.M. partrol through little seoul when\nLilly Pandia was seen at Little Seoul in the Street Team cubby handing off\nbaggies of marijuana. Bloom rolled up to the scene and Pandia high\ntailed it over a fence while being on the radio. Over this fence was the\nproperty of Lindsay Circus Apartment 3. She entered the property and\nquickly changed clothing in an attempt to flee from Bloom. When she\nexited the property, Bloom instructed her to stop to which she declined\nand got on her radio and exclaimed that she needed help and was being\n\nchased. She was quickly apprehended and mirandized on scene.\n\nUpon a seach of her person she was found with 183 grams of marijuana",
     "Criminals": {
-        "31669": {
-            "StateID": 31669,
+        "34249": {
+            "StateID": 34249,
             "IsWarrant": false,
             "Charges": [
-                {
-                    "Name": "Brandishing of a Firearm",
-                    "Type": "Default",
-                    "Count": 1
-                },
                 {
                     "Name": "Resisting Arrest",
                     "Type": "Default",
@@ -66252,6 +68217,26 @@ INCIDENTS = {
                 },
                 {
                     "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 2
+                },
+                {
+                    "Name": "Possession of Dirty Money in the First Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Drug Paraphernalia",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Felony Possession with intent to Distribute",
                     "Type": "Default",
                     "Count": 1
                 },
@@ -66259,395 +68244,37 @@ INCIDENTS = {
                     "Name": "Possession of Contraband in the Third Degree",
                     "Type": "Default",
                     "Count": 1
+                },
+                {
+                    "Name": "Drug Trafficking",
+                    "Type": "Default",
+                    "Count": 1
                 }
             ],
-            "Time": "26",
-            "Parole": "52",
-            "Fine": 2350.0,
+            "Time": "223",
+            "Parole": "446",
+            "Fine": 37100.0,
             "PleadedGuilty": false,
             "Processed": false
         }
     },
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
-49401: {
-    "IncidentID": 49401,
-    "Title": "James Thompson - Speeding - 06/27/2022 #49401",
-    "Creator": "Louis Bloom",
-    "LastUpdated": "2022/07/09"
+50215: {
+    "IncidentID": 50215,
+    "Title": "Mia Beyern | Strangling Zero | HVTU Apprehention Rep\u00a2",
+    "Creator": "Jack Ripley",
+    "LastUpdated": "2022/07/12"
 },
-49413: {
-    "IncidentID": 49413,
-    "Title": "Aubrey Webster - Resisting Arrest",
-    "Creator": "Alex Casterman",
-    "LastUpdated": "2022/07/09"
-},
-49435: {
-    "IncidentID": 49435,
-    "Title": "Reed Dankleaf | AMGE - Attacks ems | 27/06/2022",
-    "Creator": "Connor Stubble",
-    "LastUpdated": "2022/07/09"
-},
-49487: {
-    "IncidentID": 49487,
-    "Title": "Marking My Territory on GG Turf - 06/27/2022 #4948",
-    "Creator": "Louis Bloom",
-    "LastUpdated": "2022/07/09"
-},
-49489: {
-    "IncidentID": 49489,
-    "Title": "Jakka Romano - Assault With A Deadly - 06/27/2022 #49489",
-    "Creator": "Louis Bloom",
-    "LastUpdated": "2022/07/09"
-},
-49500: {
-    "IncidentID": 49500,
-    "Title": "Cleo Shaw Shot at Legion Square Bank - 06/28/2022",
-    "Creator": "Leif Norgaard",
-    "LastUpdated": "2022/07/09"
-},
-49512: {
-    "IncidentID": 49512,
-    "Title": "HoA ATM Boost - 06/28/2022",
-    "Creator": "Leif Norgaard",
+5022: {
+    "IncidentID": 5022,
     "Criminals": {
-        "1449": {
-            "StateID": 1449,
+        "10841": {
+            "StateID": 10841,
             "IsWarrant": false,
             "Charges": [
                 {
-                    "Name": "Vandalism",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Criminal Possession of a Firearm [Class 1]",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Resisting Arrest",
-                    "Type": "Default",
-                    "Count": 1
-                }
-            ],
-            "Time": "12",
-            "Parole": "24",
-            "Fine": 1350.0,
-            "PleadedGuilty": true,
-            "Processed": true
-        }
-    },
-    "LastUpdated": "2022/07/09"
-},
-49614: {
-    "IncidentID": 49614,
-    "Title": "Aubrey Webster - Reckless Evading - 06/29/2022",
-    "Creator": "TJ Mack",
-    "LastUpdated": "2022/07/09"
-},
-49804: {
-    "IncidentID": 49804,
-    "Title": "4Head avoids Drug Trafficking",
-    "Creator": "Matt Rhodes",
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
-},
-49889: {
-    "IncidentID": 49889,
-    "Title": "GSF vs GG Turned OIS | 7/2/22",
-    "Creator": "Skye Faye",
-    "LastUpdated": "2022/07/09"
-},
-49936: {
-    "IncidentID": 49936,
-    "Title": "Fleeca GOH Robbery - 07/02/2022",
-    "Creator": "Edward Thatch",
-    "LastUpdated": "2022/07/09"
-},
-50054: {
-    "IncidentID": 50054,
-    "Title": "Failed A Boost | 04/07",
-    "Creator": "Kieran Harvey",
-    "LastUpdated": "2022/07/09"
-},
-50060: {
-    "IncidentID": 50060,
-    "Title": "4HEAD & Crackhead Craig - 99 Grey EIegy\u2019- 07/04/20:",
-    "Creator": "Ramona Celeste",
-    "LastUpdated": "2022/07/09"
-},
-50066: {
-    "IncidentID": 50066,
-    "Title": "Aubrey Webster - Interfeiring a 99A Kuruma - 07/04/2",
-    "Creator": "Ramona Celeste",
-    "LastUpdated": "2022/07/09"
-},
-50079: {
-    "IncidentID": 50079,
-    "Title": "Tom Maverick - First Degree Speeding - 7/4/2022",
-    "Creator": "Dan Faily",
-    "LastUpdated": "2022/07/09"
-},
-50081: {
-    "IncidentID": 50081,
-    "Title": "VED JIGGYJOGLUE & Arthur Atkinson - Joyriding - 7/4/2022",
-    "Creator": "Dan Faily",
-    "LastUpdated": "2022/07/09"
-},
-50082: {
-    "IncidentID": 50082,
-    "Title": "Noah Williams | Reckless Evading",
-    "Creator": "Emest Kaminski",
-    "LastUpdated": "2022/07/09"
-},
-50084: {
-    "IncidentID": 50084,
-    "Title": "Ray Panda - Third Degree Speeding - 04/07/2022",
-    "Creator": "John Doe",
-    "LastUpdated": "2022/07/09"
-},
-50086: {
-    "IncidentID": 50086,
-    "Title": "Gumbus McGoo - Speeding - 07/04/2022",
-    "Creator": "Leif Norgaard",
-    "LastUpdated": "2022/07/09"
-},
-50087: {
-    "IncidentID": 50087,
-    "Title": "Frank Conway - Speeding - 07/04/2022",
-    "Creator": "Leif Norgaard",
-    "LastUpdated": "2022/07/09"
-},
-50088: {
-    "IncidentID": 50088,
-    "Title": "Ezekial Cruz | Negligent Driving | 7/4/22",
-    "Creator": "Rudy Chalk",
-    "LastUpdated": "2022/07/09"
-},
-50089: {
-    "IncidentID": 50089,
-    "Title": "Darren Creasy - Negligent driving - 7/4/2022",
-    "Creator": "Claire Everly",
-    "LastUpdated": "2022/07/09"
-},
-50091: {
-    "IncidentID": 50091,
-    "Title": "JUldo oyucdict | DUryldly | va/u/ /744",
-    "Creator": "Eryn Carter",
-    "LastUpdated": "2022/07/09"
-},
-50092: {
-    "IncidentID": 50092,
-    "Title": "Claudette Jean Louis - Third Degree Speeding - 04/07/2022",
-    "Creator": "John Doe",
-    "LastUpdated": "2022/07/09"
-},
-50093: {
-    "IncidentID": 50093,
-    "Title": "Carmella Corset | Negligent Driving | 7/4/22",
-    "Creator": "Rudy Chalk",
-    "LastUpdated": "2022/07/09"
-},
-50094: {
-    "IncidentID": 50094,
-    "Title": "Charlotte Greene | Failure to Stop",
-    "Creator": "Emest Kaminski",
-    "LastUpdated": "2022/07/09"
-},
-50095: {
-    "IncidentID": 50095,
-    "Title": "Waylin Grey - Speeding - 7/4/22",
-    "Creator": "Booga Ooga",
-    "LastUpdated": "2022/07/09"
-},
-50096: {
-    "IncidentID": 50096,
-    "Title": "Harry Martinez",
-    "Creator": "Dan Faily",
-    "LastUpdated": "2022/07/09"
-},
-50097: {
-    "IncidentID": 50097,
-    "Title": "Shelly STEINER - SPEEDING - 7/4/2022",
-    "Creator": "Silas Grimmer",
-    "LastUpdated": "2022/07/09"
-},
-50099: {
-    "IncidentID": 50099,
-    "Title": "Elle Queenie - Reckless Endangerment - 7/4/2022",
-    "Creator": "Dan Faily",
-    "LastUpdated": "2022/07/09"
-},
-50100: {
-    "IncidentID": 50100,
-    "Title": "Don Dolph | Criminal Use of a Firearm | 7/4/22",
-    "Creator": "Rudy Chalk",
-    "LastUpdated": "2022/07/09"
-},
-50102: {
-    "IncidentID": 50102,
-    "Title": "Diminic Luciano | Unauthorized Parking",
-    "Creator": "Emest Kaminski",
-    "LastUpdated": "2022/07/09"
-},
-50103: {
-    "IncidentID": 50103,
-    "Title": "DELETE",
-    "Creator": "Michael Hemsworth",
-    "LastUpdated": "2022/07/09"
-},
-50104: {
-    "IncidentID": 50104,
-    "Title": "Jessie James | Unauthorized Parking",
-    "Creator": "Emest Kaminski",
-    "Criminals": {
-        "23407": {
-            "StateID": 23407,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Unauthorized Parking",
-                    "Type": "Default",
-                    "Count": 1
-                }
-            ],
-            "Time": "1",
-            "Parole": "2",
-            "Fine": 600.0,
-            "PleadedGuilty": false,
-            "Processed": true
-        }
-    },
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
-},
-50105: {
-    "IncidentID": 50105,
-    "Title": "Mamaita Jehmimi -Third Degree Speeding - 04/07/20",
-    "Creator": "John Doe",
-    "LastUpdated": "2022/07/09"
-},
-50106: {
-    "IncidentID": 50106,
-    "Title": "V.UM 0N Fower olieel | //4/44",
-    "Creator": "Booga Ooga",
-    "LastUpdated": "2022/07/09"
-},
-50107: {
-    "IncidentID": 50107,
-    "Title": "Mamaita Jehmimi | Failure to Stop",
-    "Creator": "Emest Kaminski",
-    "LastUpdated": "2022/07/09"
-},
-50109: {
-    "IncidentID": 50109,
-    "Title": "Franklin Lee Speeding 7/4/22",
-    "Creator": "Peach Chee",
-    "LastUpdated": "2022/07/09"
-},
-50110: {
-    "IncidentID": 50110,
-    "Title": "EMS Ariel Paige Turner Stabbing",
-    "Creator": "Dan Faily",
-    "LastUpdated": "2022/07/09"
-},
-50111: {
-    "IncidentID": 50111,
-    "Title": "Knate Anker | Failure to Stop",
-    "Creator": "Emest Kaminski",
-    "LastUpdated": "2022/07/09"
-},
-50112: {
-    "IncidentID": 50112,
-    "Title": "Shannon Gucci - Threatening EMS | 7/4/22",
-    "Creator": "Booga Ooga",
-    "LastUpdated": "2022/07/09"
-},
-50113: {
-    "IncidentID": 50113,
-    "Title": "Raul Luis-Blanco - Speeding",
-    "Creator": "Alex Suarez",
-    "LastUpdated": "2022/07/09"
-},
-50114: {
-    "IncidentID": 50114,
-    "Title": "Traffic Ciation - Francis Rakhmet - 7/4/22",
-    "Creator": "Tommy Tinker",
-    "LastUpdated": "2022/07/09"
-},
-50117: {
-    "IncidentID": 50117,
-    "Title": "R \u2014",
-    "Creator": "Emest Kaminski",
-    "LastUpdated": "2022/07/09"
-},
-50118: {
-    "IncidentID": 50118,
-    "Title": "Class 2 - Ratchet - 7/4/22",
-    "Creator": "Tommy Tinker",
-    "LastUpdated": "2022/07/09"
-},
-50119: {
-    "IncidentID": 50119,
-    "Title": "James Hunt | Serial Assaults and Killings | 04 Jul 22",
-    "Creator": "Odessa Glafx",
-    "LastUpdated": "2022/07/09"
-},
-50121: {
-    "IncidentID": 50121,
-    "Title": "Arthur Atkinson - Speeding",
-    "Creator": "Alex Suarez",
-    "LastUpdated": "2022/07/09"
-},
-50123: {
-    "IncidentID": 50123,
-    "Title": "Joel Garza - Driving w/ License - 7/4/2022",
-    "Creator": "Claire Everly",
-    "LastUpdated": "2022/07/09"
-},
-50125: {
-    "IncidentID": 50125,
-    "Title": "DR DESHRESPECT | Joyriding | 05/07/2022",
-    "Creator": "Lily Pond",
-    "Criminals": {
-        "35818": {
-            "StateID": 35818,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Joyriding",
-                    "Type": "Default",
-                    "Count": 1
-                }
-            ],
-            "Time": "7",
-            "Parole": "14",
-            "Fine": 600.0,
-            "PleadedGuilty": true,
-            "Processed": true
-        }
-    },
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
-},
-50126: {
-    "IncidentID": 50126,
-    "Title": "HoA Fails to steal a car | 07/04/2022",
-    "Creator": "Jeremias Jimenes",
-    "LastUpdated": "2022/07/09"
-},
-50128: {
-    "IncidentID": 50128,
-    "Title": "Gang Shooting Adam's Apple/Elgin | 7/4/22",
-    "Creator": "Booga Ooga",
-    "Criminals": {
-        "31669": {
-            "StateID": 31669,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Criminal Use of a Firearm",
+                    "Name": "2nd Degree Murder",
                     "Type": "Default",
                     "Count": 1
                 },
@@ -66657,34 +68284,87 @@ INCIDENTS = {
                     "Count": 1
                 }
             ],
-            "Time": "35",
-            "Parole": "70",
-            "Fine": 5050.0,
+            "Time": "328",
+            "Parole": "656",
+            "Fine": 49250.0,
             "PleadedGuilty": true,
             "Processed": true
         }
     },
     "IsComplex": true,
-    "LastUpdated": "2022/07/09"
+    "Description": "PBSO Report\n\n2022-07-06 05:07:05 UTC\nReporting Officer\n\n@360 Deputy Louis Bloom\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/12"
 },
-50129: {
-    "IncidentID": 50129,
-    "Title": "Paul Rovia | Attempted 1st Degree Murder | 07/04/20",
-    "Creator": "Michael Hemsworth",
+50221: {
+    "IncidentID": 50221,
+    "Title": "BBMC Shootout - 07/06/22",
+    "Creator": "Aaron Byson",
+    "LastUpdated": "2022/07/12"
+},
+50223: {
+    "IncidentID": 50223,
+    "Title": "James McGlew - 2nd Degree Murder - 07/06/22 #5022",
+    "Creator": "Louis Bloom",
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-06 05:07:05 UTC\n\nReporting Officer\n\n@360 Deputy Louis Bloom\n\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:\n\nMcGlew brought a headless body to MRPD from Burger Shot. He then\nexclaimed that he shot the guy with a shotgun. Bloom searched him and\nhe had a shotgun. The casings and Blood match from scene of the\n\nmurder to McGlew's weapon.",
     "Criminals": {
-        "34968": {
-            "StateID": 34968,
+        "10841": {
+            "StateID": 10841,
             "IsWarrant": false,
             "Charges": [
                 {
-                    "Name": "Attempted 1st Degree Murder",
+                    "Name": "2nd Degree Murder",
                     "Type": "Default",
                     "Count": 1
                 },
                 {
-                    "Name": "Attempted Murder of a Government Employee",
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
                     "Type": "Default",
-                    "Count": 2
+                    "Count": 1
+                }
+            ],
+            "Time": "953",
+            "Parole": "656",
+            "Fine": 49250.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "LastUpdated": "2022/07/12"
+},
+50225: {
+    "IncidentID": 50225,
+    "Title": "Pluto Rivers | GSF vs GG Gang Related Shooting",
+    "Creator": "Jack Ripley",
+    "LastUpdated": "2022/07/12"
+},
+50227: {
+    "IncidentID": 50227,
+    "Title": "Ivan Samarsky Vehicle Impound #50227",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/12"
+},
+50228: {
+    "IncidentID": 50228,
+    "Title": "Hanh Do - Reckless Evading - 07/06/22",
+    "Creator": "Rodney Fuel",
+    "LastUpdated": "2022/07/12"
+},
+50229: {
+    "IncidentID": 50229,
+    "Title": "Legion Square Bank",
+    "Creator": "r Kylie Stokes",
+    "IsComplex": true,
+    "Description": "PBSO Report\n2022-07-06 08:08:47 UTC\nReporting Officer\n\n@638 Kylie Stokes\nAssisting Officer/s:\n\nLocation:\nDebrief:",
+    "Criminals": {
+        "12643": {
+            "StateID": 12643,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
                 },
                 {
                     "Name": "Kidnapping",
@@ -66692,412 +68372,2772 @@ INCIDENTS = {
                     "Count": 1
                 },
                 {
-                    "Name": "Criminal Threats",
+                    "Name": "Resisting Arrest",
                     "Type": "Default",
                     "Count": 1
                 },
                 {
                     "Name": "Criminal Possession of a Firearm [Class 1]",
                     "Type": "Default",
-                    "Count": 2
-                },
-                {
-                    "Name": "Reckless Evading",
-                    "Type": "Default",
                     "Count": 1
                 }
             ],
-            "Time": "145",
-            "Parole": "290",
-            "Fine": 23175.0,
-            "PleadedGuilty": false,
+            "Time": "89",
+            "Parole": "88",
+            "Fine": 4350.0,
+            "PleadedGuilty": true,
             "Processed": true
         }
     },
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/12"
 },
-50131: {
-    "IncidentID": 50131,
-    "Title": "Irwin Dundee | 10-90 Bay City Bank | 7/4/2022",
-    "Creator": "Kazumi Furukawa",
+50230: {
+    "IncidentID": 50230,
+    "Title": "Scott Gamble - Reckless Evading - 2022-07-06",
+    "Creator": "Jackie Talladega",
+    "IsComplex": true,
+    "Description": "LSPD Report\n\n2022-07-06 08:59:29 UTC\nReporting Officer\n\n@548 Cadet Jackie Talladega\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/12"
+},
+50231: {
+    "IncidentID": 50231,
     "Criminals": {
-        "1613": {
-            "StateID": 1613,
-            "IsWarrant": true,
+        "36541": {
+            "StateID": 36541,
+            "IsWarrant": false,
             "Charges": [
                 {
-                    "Name": "Robbery of a Financial Institution",
+                    "Name": "Resisting Arrest",
                     "Type": "Default",
                     "Count": 1
                 },
                 {
                     "Name": "Kidnapping",
-                    "Type": "Default",
-                    "Count": 1
-                }
-            ]
-        }
-    },
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
-},
-50132: {
-    "IncidentID": 50132,
-    "Title": "Stolen CVPI",
-    "Creator": "Michael Pike",
-    "LastUpdated": "2022/07/09"
-},
-50133: {
-    "IncidentID": 50133,
-    "Title": "GSF and GG Gang Related Shooting | 07/04/2022",
-    "Creator": "Daniel Kain",
-    "Criminals": {
-        "11930": {
-            "StateID": 11930,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Gang Related Shooting",
-                    "Type": "Default",
-                    "Count": 1
-                }
-            ],
-            "Time": "75",
-            "Parole": "150",
-            "Fine": 750.0,
-            "PleadedGuilty": true,
-            "Processed": true
-        },
-        "36917": {
-            "StateID": 36917,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Gang Related Shooting",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Criminal Possession of a Firearm [Class 2]",
-                    "Type": "Default",
-                    "Count": 1
-                }
-            ],
-            "Time": "103",
-            "Parole": "206",
-            "Fine": 5000.0,
-            "PleadedGuilty": true,
-            "Processed": true
-        }
-    },
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
-},
-50135: {
-    "IncidentID": 50135,
-    "Title": "Paul Rovia | Shoots EMS at Powerplant | 2022-07-05",
-    "Creator": "Willy Glory",
-    "Criminals": {
-        "34968": {
-            "StateID": 34968,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Attempted Murder of a Government Employee",
-                    "Type": "Default",
-                    "Count": 4
-                },
-                {
-                    "Name": "Kidnapping a Gov Employee",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Criminal Threats",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Criminal Possession of a Firearm [Class 1]",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Joyriding",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Misuse of a 911 System",
-                    "Type": "Default",
-                    "Count": 1
-                }
-            ],
-            "Time": "105",
-            "Parole": "210",
-            "Fine": 27950.0,
-            "PleadedGuilty": false,
-            "Processed": false
-        }
-    },
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
-},
-50136: {
-    "IncidentID": 50136,
-    "Title": "Billy Phresh | GTA | 7/4/22",
-    "Creator": "John Sheppard",
-    "Criminals": {
-        "3066": {
-            "StateID": 3066,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Grand Theft Auto",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Criminal Possession of a Firearm [Class 1]",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Reckless Evading",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Resisting Arrest",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Assault & Battery",
-                    "Type": "Default",
-                    "Count": 1
-                }
-            ],
-            "Time": "55",
-            "Parole": "110",
-            "Fine": 5400.0,
-            "PleadedGuilty": true,
-            "Processed": true
-        }
-    },
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
-},
-50137: {
-    "IncidentID": 50137,
-    "Title": "Steve Block | Shoots Flop on Pallomino | 07/04/2022",
-    "Creator": "Keith Jaeger",
-    "LastUpdated": "2022/07/09"
-},
-50142: {
-    "IncidentID": 50142,
-    "Title": "Jakka Romano - Kidnapping - 05/07/2022",
-    "Creator": "Flop Dugong",
-    "LastUpdated": "2022/07/09"
-},
-50143: {
-    "IncidentID": 50143,
-    "Title": "Judas Squealer - Burglary - 07/05/2022",
-    "Creator": "Crystal Clear",
-    "LastUpdated": "2022/07/09"
-},
-50145: {
-    "IncidentID": 50145,
-    "Title": "BANKS TURNED OIS CAUSE",
-    "Creator": "Maddison Bancroft",
-    "Criminals": {
-        "33175": {
-            "StateID": 33175,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Attempted Murder of a Government Employee",
-                    "Type": "Accomplice",
-                    "Count": 8
-                },
-                {
-                    "Name": "Criminal Possession of a Firearm [Class 2]",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Conspiracy",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Resisting Arrest",
                     "Type": "Default",
                     "Count": 1
                 },
                 {
                     "Name": "Robbery",
-                    "Type": "Accessory",
-                    "Count": 1
-                },
-                {
-                    "Name": "Kidnapping",
-                    "Type": "Accessory",
-                    "Count": 1
-                }
-            ],
-            "Time": "276",
-            "Parole": "234",
-            "Fine": 52850.0,
-            "PleadedGuilty": false,
-            "Processed": true
-        }
-    },
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
-},
-50147: {
-    "IncidentID": 50147,
-    "Title": "Paris Argo - 10-99A - 07/05/2022",
-    "Creator": "Jack Davenport",
-    "LastUpdated": "2022/07/09"
-},
-50148: {
-    "IncidentID": 50148,
-    "Title": "Frank Jr Smith - Reckless Evading -",
-    "Creator": "Matthew Espinoz",
-    "LastUpdated": "2022/07/09"
-},
-50149: {
-    "IncidentID": 50149,
-    "Title": "4Head Reckless Evades - 07/05/22",
-    "Creator": "Rodney Fuel",
-    "LastUpdated": "2022/07/09"
-},
-50150: {
-    "IncidentID": 50150,
-    "Title": "99 blue",
-    "Creator": "John Spartan",
-    "LastUpdated": "2022/07/09"
-},
-50151: {
-    "IncidentID": 50151,
-    "Title": "Jamal Jabbar - Reckless Evading",
-    "Creator": "Marshall Mills",
-    "LastUpdated": "2022/07/09"
-},
-50152: {
-    "IncidentID": 50152,
-    "Title": "Dennis Mason - Negligent Driving 07/05/22",
-    "Creator": "Mono Block",
-    "LastUpdated": "2022/07/09"
-},
-50153: {
-    "IncidentID": 50153,
-    "Title": "4head weed",
-    "Creator": "Nikki Drewel",
-    "Criminals": {
-        "26223": {
-            "StateID": 26223,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Criminal Possession of a Firearm [Class 2]",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Reckless Evading",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Joyriding",
                     "Type": "Default",
                     "Count": 1
                 }
             ],
-            "Time": "53",
-            "Parole": "106",
-            "Fine": 6550.0,
+            "Time": "131",
+            "Parole": "88",
+            "Fine": 4875.0,
             "PleadedGuilty": false,
             "Processed": false
         }
     },
     "IsComplex": true,
-    "LastUpdated": "2022/07/09"
+    "Description": "PBSO Report\n\n2022-07-06 09:22:43 UTC\nReporting Officer\n\n@625 Cadet Tommy Horver\nAssisting Officer/s:\n\n329 Tommy Horver spotted invidiuals out front of the legion square bank\nholding an individual at gunpoint whilst using rope and a bison to tear an\nATM out of the wall. The suspects provided their demands and once they\nwere meant the hostage was safely released and the suspects fied the\nscene. Units pursued the suspect till they were boxed on hawick ave. All\n\nfour suspects fled on foot and all were swiftly apprehended.",
+    "Title": "ATM Robbery",
+    "Creator": "Tommy Horver",
+    "LastUpdated": "2022/07/12"
 },
-50154: {
-    "IncidentID": 50154,
-    "Title": "Budtholomew Williams | Felony Obstruction | 05/07/2022",
-    "Creator": "Alexandra Carlson",
-    "Criminals": {
-        "17052": {
-            "StateID": 17052,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Felony Obstruction of Justice",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Resisting Arrest",
-                    "Type": "Default",
-                    "Count": 1
-                }
-            ],
-            "Time": "29",
-            "Parole": "58",
-            "Fine": 2725.0,
-            "PleadedGuilty": false,
-            "Processed": false
-        }
+
+}
+CHARGES = {
+"Assault & Battery": {
+    "Type": "Misdemeanor",
+    "Group": 0,
+    "Default": {
+        "Time": 11,
+        "Fine": 1050,
+        "Points": 0
     },
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
-},
-50155: {
-    "IncidentID": 50155,
-    "Title": "OIS Clinton Ave Alleyway",
-    "Creator": "Marshall Mills",
-    "Criminals": {
-        "13151": {
-            "StateID": 13151,
-            "IsWarrant": false,
-            "Charges": [
-                {
-                    "Name": "Criminal Possession of a Firearm [Class 1]",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Criminal Possession of a Firearm [Class 2]",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Resisting Arrest",
-                    "Type": "Default",
-                    "Count": 1
-                },
-                {
-                    "Name": "Attempted Murder of a Government Employee",
-                    "Type": "Default",
-                    "Count": 4
-                }
-            ],
-            "Time": "85",
-            "Parole": "170",
-            "Fine": 27325.0,
-            "PleadedGuilty": false,
-            "Processed": false
-        }
+    "Accomplice": {
+        "Time": 11,
+        "Fine": 1050,
+        "Points": 0
     },
-    "IsComplex": true,
-    "LastUpdated": "2022/07/09"
-},
+    "Accessory": {
+        "Time": 9,
+        "Fine": 660,
+        "Points": 0
+    },
+    "Name": "Assault & Battery"
+}, 
+"Criminal Threats": {
+    "Type": "Misdemeanor",
+    "Group": 0,
+    "Default": {
+        "Time": 14,
+        "Fine": 1325,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 14,
+        "Fine": 1325,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 12,
+        "Fine": 1050,
+        "Points": 0
+    },
+    "Name": "Criminal Threats"
+}, 
+"Brandishing of a Firearm": {
+    "Type": "Misdemeanor",
+    "Group": 0,
+    "Default": {
+        "Time": 7,
+        "Fine": 675,
+        "Points": 0
+    },
+    "Name": "Brandishing of a Firearm"
+}, 
+"Unlawful Imprisonment": {
+    "Type": "Felony",
+    "Group": 0,
+    "Default": {
+        "Time": 11,
+        "Fine": 1250,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 11,
+        "Fine": 1250,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 9,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Name": "Unlawful Imprisonment"
+}, 
+"Kidnapping": {
+    "Type": "Felony",
+    "Group": 0,
+    "Default": {
+        "Time": 14,
+        "Fine": 1575,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 14,
+        "Fine": 1575,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 12,
+        "Fine": 1275,
+        "Points": 0
+    },
+    "Name": "Kidnapping"
+}, 
+"Kidnapping a Gov Employee": {
+    "Type": "Felony",
+    "Group": 0,
+    "Default": {
+        "Time": 25,
+        "Fine": 2825,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 25,
+        "Fine": 2825,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 25,
+        "Fine": 2250,
+        "Points": 0
+    },
+    "Name": "Kidnapping a Gov Employee"
+}, 
+"Assault with a Deadly Weapon": {
+    "Type": "Felony",
+    "Group": 0,
+    "Default": {
+        "Time": 21,
+        "Fine": 2400,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 21,
+        "Fine": 2400,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 17,
+        "Fine": 1900,
+        "Points": 0
+    },
+    "Name": "Assault with a Deadly Weapon"
+}, 
+"Manslaughter": {
+    "Type": "Felony",
+    "Group": 0,
+    "Default": {
+        "Time": 150,
+        "Fine": 16875,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 150,
+        "Fine": 16875,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 120,
+        "Fine": 13500,
+        "Points": 0
+    },
+    "Name": "Manslaughter"
+}, 
+"Attempted 2nd Degree Murder": {
+    "Type": "Felony",
+    "Group": 0,
+    "Default": {
+        "Time": 25,
+        "Fine": 2825,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 25,
+        "Fine": 2825,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 20,
+        "Fine": 2250,
+        "Points": 0
+    },
+    "Name": "Attempted 2nd Degree Murder"
+}, 
+"2nd Degree Murder": {
+    "Type": "Felony",
+    "Group": 0,
+    "Default": {
+        "Time": 300,
+        "Fine": 45000,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 300,
+        "Fine": 45000,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 240,
+        "Fine": 36000,
+        "Points": 0
+    },
+    "Name": "2nd Degree Murder"
+}, 
+"Attempted 1st Degree Murder": {
+    "Type": "Felony",
+    "Group": 0,
+    "Default": {
+        "Time": 35,
+        "Fine": 5250,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 35,
+        "Fine": 5250,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 28,
+        "Fine": 4200,
+        "Points": 0
+    },
+    "Name": "Attempted 1st Degree Murder"
+}, 
+"Attempted Murder of a Government Employee": {
+    "Type": "Felony",
+    "Group": 0,
+    "Default": {
+        "Time": 45,
+        "Fine": 5500,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 45,
+        "Fine": 5500,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 36,
+        "Fine": 4250,
+        "Points": 0
+    },
+    "Name": "Attempted Murder of a Government Employee"
+}, 
+"Gang Related Shooting": {
+    "Type": "Felony",
+    "Group": 0,
+    "Default": {
+        "Time": 75,
+        "Fine": 750,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 75,
+        "Fine": 750,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 60,
+        "Fine": 500,
+        "Points": 0
+    },
+    "Name": "Gang Related Shooting"
+}, 
+"Reckless Endangerment": {
+    "Type": "Felony",
+    "Group": 0,
+    "Default": {
+        "Time": 11,
+        "Fine": 1250,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 11,
+        "Fine": 1250,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 9,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Name": "Reckless Endangerment"
+}, 
+"Act of Torture": {
+    "Type": "Felony",
+    "Group": 0,
+    "Default": {
+        "Time": 25,
+        "Fine": 3750,
+        "Points": 0
+    },
+    "Name": "Act of Torture"
+}, 
+"1st Degree Murder": {
+    "Type": "HUT",
+    "Group": 0,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "1st Degree Murder"
+}, 
+"Murder of a Government Employee": {
+    "Type": "HUT",
+    "Group": 0,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Murder of a Government Employee"
+}, 
+"Serial Assaults and Killings": {
+    "Type": "HUT",
+    "Group": 0,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Serial Assaults and Killings"
+}, 
+"Petty Theft": {
+    "Type": "Misdemeanor",
+    "Group": 1,
+    "Default": {
+        "Time": 0,
+        "Fine": 650,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 650,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 0,
+        "Fine": 475,
+        "Points": 0
+    },
+    "Name": "Petty Theft"
+}, 
+"Joyriding": {
+    "Type": "Misdemeanor",
+    "Group": 1,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 6,
+        "Fine": 475,
+        "Points": 0
+    },
+    "Name": "Joyriding"
+}, 
+"Tampering with a Vehicle": {
+    "Type": "Misdemeanor",
+    "Group": 1,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 6,
+        "Fine": 525,
+        "Points": 0
+    },
+    "Name": "Tampering with a Vehicle"
+}, 
+"Possession of Contraband in the Third Degree": {
+    "Type": "Misdemeanor",
+    "Group": 1,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Name": "Possession of Contraband in the Third Degree"
+}, 
+"Possession of Contraband in the Second Degree": {
+    "Type": "Misdemeanor",
+    "Group": 1,
+    "Default": {
+        "Time": 12,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Name": "Possession of Contraband in the Second Degree"
+}, 
+"Possession of a Stolen Identification": {
+    "Type": "Misdemeanor",
+    "Group": 1,
+    "Default": {
+        "Time": 12,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Name": "Possession of a Stolen Identification"
+}, 
+"Possession of Dirty Money in the Second Degree": {
+    "Type": "Misdemeanor",
+    "Group": 1,
+    "Default": {
+        "Time": 12,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Name": "Possession of Dirty Money in the Second Degree"
+}, 
+"Leaving Without Paying": {
+    "Type": "Misdemeanor",
+    "Group": 1,
+    "Default": {
+        "Time": 12,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 12,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 10,
+        "Fine": 825,
+        "Points": 0
+    },
+    "Name": "Leaving Without Paying"
+}, 
+"Sale of Stolen Goods or Stolen Property": {
+    "Type": "Misdemeanor",
+    "Group": 1,
+    "Default": {
+        "Time": 22,
+        "Fine": 1825,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 22,
+        "Fine": 1825,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 18,
+        "Fine": 1475,
+        "Points": 0
+    },
+    "Name": "Sale of Stolen Goods or Stolen Property"
+}, 
+"Grand Theft": {
+    "Type": "Felony",
+    "Group": 1,
+    "Default": {
+        "Time": 5,
+        "Fine": 1250,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 5,
+        "Fine": 1250,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 4,
+        "Fine": 800,
+        "Points": 0
+    },
+    "Name": "Grand Theft"
+}, 
+"Grand Theft Auto": {
+    "Type": "Felony",
+    "Group": 1,
+    "Default": {
+        "Time": 14,
+        "Fine": 1575,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 14,
+        "Fine": 1575,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 12,
+        "Fine": 1275,
+        "Points": 0
+    },
+    "Name": "Grand Theft Auto"
+}, 
+"Possession of Contraband in the First Degree": {
+    "Type": "Felony",
+    "Group": 1,
+    "Default": {
+        "Time": 14,
+        "Fine": 1325,
+        "Points": 0
+    },
+    "Name": "Possession of Contraband in the First Degree"
+}, 
+"Robbery": {
+    "Type": "Felony",
+    "Group": 1,
+    "Default": {
+        "Time": 25,
+        "Fine": 2825,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 25,
+        "Fine": 2825,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 20,
+        "Fine": 2250,
+        "Points": 0
+    },
+    "Name": "Robbery"
+}, 
+"First Degree Robbery": {
+    "Type": "Felony",
+    "Group": 1,
+    "Default": {
+        "Time": 30,
+        "Fine": 3375,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 30,
+        "Fine": 3375,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 24,
+        "Fine": 2500,
+        "Points": 0
+    },
+    "Name": "First Degree Robbery"
+}, 
+"Grand Larceny": {
+    "Type": "Felony",
+    "Group": 1,
+    "Default": {
+        "Time": 33,
+        "Fine": 4125,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 33,
+        "Fine": 4125,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 28,
+        "Fine": 3675,
+        "Points": 0
+    },
+    "Name": "Grand Larceny"
+}, 
+"Possession of Dirty Money in the First Degree": {
+    "Type": "Felony",
+    "Group": 1,
+    "Default": {
+        "Time": 21,
+        "Fine": 2000,
+        "Points": 0
+    },
+    "Name": "Possession of Dirty Money in the First Degree"
+}, 
+"Theft of an Aircraft": {
+    "Type": "Felony",
+    "Group": 1,
+    "Default": {
+        "Time": 19,
+        "Fine": 1800,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 19,
+        "Fine": 1800,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 5,
+        "Fine": 1250,
+        "Points": 0
+    },
+    "Name": "Theft of an Aircraft"
+}, 
+"Theft of a Commercial Aircraft": {
+    "Type": "Felony",
+    "Group": 1,
+    "Default": {
+        "Time": 23,
+        "Fine": 2175,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 23,
+        "Fine": 2175,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 15,
+        "Fine": 1775,
+        "Points": 0
+    },
+    "Name": "Theft of a Commercial Aircraft"
+}, 
+"Robbery of a Financial Institution": {
+    "Type": "Felony",
+    "Group": 1,
+    "Default": {
+        "Time": 60,
+        "Fine": 10500,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 60,
+        "Fine": 10500,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 45,
+        "Fine": 8750,
+        "Points": 0
+    },
+    "Name": "Robbery of a Financial Institution"
+}, 
+"Possession of Band of Notes and Small Band of Notes": {
+    "Type": "Misdemeanor",
+    "Group": 2,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Possession of Band of Notes and Small Band of Notes"
+}, 
+"Misdemeanor Tax Evasion - JUDICIAL DISCRETION": {
+    "Type": "Misdemeanor",
+    "Group": 2,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Tax Evasion - JUDICIAL DISCRETION"
+}, 
+"Extortion": {
+    "Type": "Felony",
+    "Group": 2,
+    "Default": {
+        "Time": 14,
+        "Fine": 1575,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 14,
+        "Fine": 1575,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 12,
+        "Fine": 1275,
+        "Points": 0
+    },
+    "Name": "Extortion"
+}, 
+"Fraud": {
+    "Type": "Felony",
+    "Group": 2,
+    "Default": {
+        "Time": 14,
+        "Fine": 1325,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 14,
+        "Fine": 1325,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 12,
+        "Fine": 1050,
+        "Points": 0
+    },
+    "Name": "Fraud"
+}, 
+"Impersonation": {
+    "Type": "Felony",
+    "Group": 2,
+    "Default": {
+        "Time": 14,
+        "Fine": 1325,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 14,
+        "Fine": 1325,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 12,
+        "Fine": 1050,
+        "Points": 0
+    },
+    "Name": "Impersonation"
+}, 
+"Impersonating a Peace Officer": {
+    "Type": "Felony",
+    "Group": 2,
+    "Default": {
+        "Time": 21,
+        "Fine": 1975,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 21,
+        "Fine": 1975,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 17,
+        "Fine": 1575,
+        "Points": 0
+    },
+    "Name": "Impersonating a Peace Officer"
+}, 
+"Impersonating a Judge": {
+    "Type": "Felony",
+    "Group": 2,
+    "Default": {
+        "Time": 21,
+        "Fine": 1975,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 21,
+        "Fine": 1975,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 17,
+        "Fine": 1575,
+        "Points": 0
+    },
+    "Name": "Impersonating a Judge"
+}, 
+"Vehicle Registration Fraud": {
+    "Type": "Felony",
+    "Group": 2,
+    "Default": {
+        "Time": 21,
+        "Fine": 1975,
+        "Points": 0
+    },
+    "Name": "Vehicle Registration Fraud"
+}, 
+"Identity Theft": {
+    "Type": "Felony",
+    "Group": 2,
+    "Default": {
+        "Time": 21,
+        "Fine": 1975,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 21,
+        "Fine": 1975,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 17,
+        "Fine": 1575,
+        "Points": 0
+    },
+    "Name": "Identity Theft"
+}, 
+"Impersonating EMS": {
+    "Type": "Felony",
+    "Group": 2,
+    "Default": {
+        "Time": 21,
+        "Fine": 1975,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 21,
+        "Fine": 1975,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 17,
+        "Fine": 1575,
+        "Points": 0
+    },
+    "Name": "Impersonating EMS"
+}, 
+"Money Laundering": {
+    "Type": "Felony",
+    "Group": 2,
+    "Default": {
+        "Time": 30,
+        "Fine": 2825,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 30,
+        "Fine": 2825,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 25,
+        "Fine": 2250,
+        "Points": 0
+    },
+    "Name": "Money Laundering"
+}, 
+"Felony Tax Evasion - Asset Freeze Pending Trial": {
+    "Type": "Felony",
+    "Group": 2,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Felony Tax Evasion - Asset Freeze Pending Trial"
+}, 
+"Possession of a Tampered Firearm": {
+    "Type": "Felony",
+    "Group": 2,
+    "Default": {
+        "Time": 30,
+        "Fine": 3375,
+        "Points": 0
+    },
+    "Name": "Possession of a Tampered Firearm"
+}, 
+"Witness Tampering": {
+    "Type": "HUT",
+    "Group": 2,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Witness Tampering"
+}, 
+"Trespassing": {
+    "Type": "Misdemeanor",
+    "Group": 3,
+    "Default": {
+        "Time": 5,
+        "Fine": 425,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 5,
+        "Fine": 425,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 4,
+        "Fine": 350,
+        "Points": 0
+    },
+    "Name": "Trespassing"
+}, 
+"Burglary": {
+    "Type": "Felony",
+    "Group": 3,
+    "Default": {
+        "Time": 12,
+        "Fine": 1125,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 12,
+        "Fine": 1125,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 10,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Name": "Burglary"
+}, 
+"Felony Trespassing": {
+    "Type": "Felony",
+    "Group": 3,
+    "Default": {
+        "Time": 12,
+        "Fine": 1125,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 12,
+        "Fine": 1125,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 10,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Name": "Felony Trespassing"
+}, 
+"Arson": {
+    "Type": "Felony",
+    "Group": 3,
+    "Default": {
+        "Time": 21,
+        "Fine": 2375,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 21,
+        "Fine": 2375,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 17,
+        "Fine": 1900,
+        "Points": 0
+    },
+    "Name": "Arson"
+}, 
+"Contempt of Court": {
+    "Type": "Misdemeanor",
+    "Group": 4,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Contempt of Court"
+}, 
+"Failure to Appear": {
+    "Type": "Misdemeanor",
+    "Group": 4,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Failure to Appear"
+}, 
+"Unauthorized Practice of Law": {
+    "Type": "Misdemeanor",
+    "Group": 4,
+    "Default": {
+        "Time": 5,
+        "Fine": 425,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 5,
+        "Fine": 425,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 4,
+        "Fine": 375,
+        "Points": 0
+    },
+    "Name": "Unauthorized Practice of Law"
+}, 
+"Conspiracy": {
+    "Type": "Misdemeanor",
+    "Group": 4,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 6,
+        "Fine": 420,
+        "Points": 0
+    },
+    "Name": "Conspiracy"
+}, 
+"Misuse of a 911 System": {
+    "Type": "Misdemeanor",
+    "Group": 4,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Name": "Misuse of a 911 System"
+}, 
+"Unauthorized Sales": {
+    "Type": "Misdemeanor",
+    "Group": 4,
+    "Default": {
+        "Time": 0,
+        "Fine": 1025,
+        "Points": 0
+    },
+    "Name": "Unauthorized Sales"
+}, 
+"Bribery": {
+    "Type": "Felony",
+    "Group": 4,
+    "Default": {
+        "Time": 12,
+        "Fine": 1125,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 12,
+        "Fine": 1125,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 10,
+        "Fine": 900,
+        "Points": 0
+    },
+    "Name": "Bribery"
+}, 
+"Escaping Custody": {
+    "Type": "Felony",
+    "Group": 4,
+    "Default": {
+        "Time": 14,
+        "Fine": 1325,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 14,
+        "Fine": 1325,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 12,
+        "Fine": 1075,
+        "Points": 0
+    },
+    "Name": "Escaping Custody"
+}, 
+"Prison Break": {
+    "Type": "Felony",
+    "Group": 4,
+    "Default": {
+        "Time": 40,
+        "Fine": 6000,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 40,
+        "Fine": 6000,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 32,
+        "Fine": 5250,
+        "Points": 0
+    },
+    "Name": "Prison Break"
+}, 
+"Perjury": {
+    "Type": "Felony",
+    "Group": 4,
+    "Default": {
+        "Time": 21,
+        "Fine": 3150,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 21,
+        "Fine": 3150,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 17,
+        "Fine": 2675,
+        "Points": 0
+    },
+    "Name": "Perjury"
+}, 
+"Violating a Court Order": {
+    "Type": "Felony",
+    "Group": 4,
+    "Default": {
+        "Time": 28,
+        "Fine": 2625,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 28,
+        "Fine": 2625,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 23,
+        "Fine": 2350,
+        "Points": 0
+    },
+    "Name": "Violating a Court Order"
+}, 
+"Embezzlement": {
+    "Type": "Felony",
+    "Group": 4,
+    "Default": {
+        "Time": 50,
+        "Fine": 7500,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 50,
+        "Fine": 7500,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 17,
+        "Fine": 5625,
+        "Points": 0
+    },
+    "Name": "Embezzlement"
+}, 
+"Attempted Prison Break": {
+    "Type": "Felony",
+    "Group": 4,
+    "Default": {
+        "Time": 28,
+        "Fine": 4200,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 28,
+        "Fine": 4200,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 23,
+        "Fine": 3675,
+        "Points": 0
+    },
+    "Name": "Attempted Prison Break"
+}, 
+"Parole Violation": {
+    "Type": "Felony",
+    "Group": 4,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Parole Violation"
+}, 
+"Introducing Contraband Into a Government Facility": {
+    "Type": "Felony",
+    "Group": 4,
+    "Default": {
+        "Time": 20,
+        "Fine": 1875,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 20,
+        "Fine": 1875,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 16,
+        "Fine": 1550,
+        "Points": 0
+    },
+    "Name": "Introducing Contraband Into a Government Facility"
+}, 
+"Disobeying a Peace Officer": {
+    "Type": "Misdemeanor",
+    "Group": 5,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 6,
+        "Fine": 420,
+        "Points": 0
+    },
+    "Name": "Disobeying a Peace Officer"
+}, 
+"Disorderly Conduct": {
+    "Type": "Misdemeanor",
+    "Group": 5,
+    "Default": {
+        "Time": 5,
+        "Fine": 425,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 5,
+        "Fine": 425,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 4,
+        "Fine": 350,
+        "Points": 0
+    },
+    "Name": "Disorderly Conduct"
+}, 
+"Disturbing the Peace": {
+    "Type": "Misdemeanor",
+    "Group": 5,
+    "Default": {
+        "Time": 5,
+        "Fine": 475,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 5,
+        "Fine": 475,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 4,
+        "Fine": 400,
+        "Points": 0
+    },
+    "Name": "Disturbing the Peace"
+}, 
+"False Reporting": {
+    "Type": "Misdemeanor",
+    "Group": 5,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 6,
+        "Fine": 420,
+        "Points": 0
+    },
+    "Name": "False Reporting"
+}, 
+"Harassment": {
+    "Type": "Misdemeanor",
+    "Group": 5,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 6,
+        "Fine": 420,
+        "Points": 0
+    },
+    "Name": "Harassment"
+}, 
+"Misdemeanor Obstruction of Justice": {
+    "Type": "Misdemeanor",
+    "Group": 5,
+    "Default": {
+        "Time": 12,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 12,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 10,
+        "Fine": 850,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Obstruction of Justice"
+}, 
+"Vandalism": {
+    "Type": "Misdemeanor",
+    "Group": 5,
+    "Default": {
+        "Time": 0,
+        "Fine": 275,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 275,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 0,
+        "Fine": 200,
+        "Points": 0
+    },
+    "Name": "Vandalism"
+}, 
+"Evidence Tampering": {
+    "Type": "Misdemeanor",
+    "Group": 5,
+    "Default": {
+        "Time": 7,
+        "Fine": 2250,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 7,
+        "Fine": 2250,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 6,
+        "Fine": 1875,
+        "Points": 0
+    },
+    "Name": "Evidence Tampering"
+}, 
+"Vandalism of Government Property": {
+    "Type": "Misdemeanor",
+    "Group": 5,
+    "Default": {
+        "Time": 5,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 5,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 4,
+        "Fine": 675,
+        "Points": 0
+    },
+    "Name": "Vandalism of Government Property"
+}, 
+"Stalking": {
+    "Type": "Misdemeanor",
+    "Group": 5,
+    "Default": {
+        "Time": 7,
+        "Fine": 275,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 7,
+        "Fine": 275,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 6,
+        "Fine": 225,
+        "Points": 0
+    },
+    "Name": "Stalking"
+}, 
+"Riot": {
+    "Type": "Felony",
+    "Group": 5,
+    "Default": {
+        "Time": 18,
+        "Fine": 2025,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 18,
+        "Fine": 2025,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 15,
+        "Fine": 1675,
+        "Points": 0
+    },
+    "Name": "Riot"
+}, 
+"Disruption of a Public Utility": {
+    "Type": "Felony",
+    "Group": 5,
+    "Default": {
+        "Time": 28,
+        "Fine": 3150,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 28,
+        "Fine": 3150,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 23,
+        "Fine": 2675,
+        "Points": 0
+    },
+    "Name": "Disruption of a Public Utility"
+}, 
+"Felony Obstruction of Justice": {
+    "Type": "Felony",
+    "Group": 5,
+    "Default": {
+        "Time": 24,
+        "Fine": 2250,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 24,
+        "Fine": 2250,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 20,
+        "Fine": 1875,
+        "Points": 0
+    },
+    "Name": "Felony Obstruction of Justice"
+}, 
+"Destruction of Government Property": {
+    "Type": "Felony",
+    "Group": 5,
+    "Default": {
+        "Time": 10,
+        "Fine": 1500,
+        "Points": 0
+    },
+    "Name": "Destruction of Government Property"
+}, 
+"Misdemeanor Possession of Crack": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Possession of Crack"
+}, 
+"Misdemeanor Possession of Cocaine": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Possession of Cocaine"
+}, 
+"Misdemeanor Possession of Marijuana": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 5,
+        "Fine": 425,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Possession of Marijuana"
+}, 
+"Misdemeanor Possession of Controlled Dangerous Substance OXY / METH": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Possession of Controlled Dangerous Substance OXY / METH"
+}, 
+"Possession of Drug Paraphernalia": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 5,
+        "Fine": 425,
+        "Points": 0
+    },
+    "Name": "Possession of Drug Paraphernalia"
+}, 
+"Littering": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 0,
+        "Fine": 275,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 275,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 0,
+        "Fine": 200,
+        "Points": 0
+    },
+    "Name": "Littering"
+}, 
+"Public Intoxication": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 0,
+        "Fine": 175,
+        "Points": 0
+    },
+    "Name": "Public Intoxication"
+}, 
+"Public Indecency": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Name": "Public Indecency"
+}, 
+"Practicing Medicine Without a License": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 12,
+        "Fine": 1250,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 12,
+        "Fine": 1250,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 10,
+        "Fine": 1025,
+        "Points": 0
+    },
+    "Name": "Practicing Medicine Without a License"
+}, 
+"Misdemeanor Possession of LSD tabs": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Possession of LSD tabs"
+}, 
+"Misdemeanor Possession of Moonshine": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 9,
+        "Fine": 750,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Possession of Moonshine"
+}, 
+"Misdemeanor Possession of Controlled Dangerous Substance KETAMINE": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Possession of Controlled Dangerous Substance KETAMINE"
+}, 
+"Misdeameanor Possession of Metamorphine": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 5,
+        "Fine": 1225,
+        "Points": 0
+    },
+    "Name": "Misdeameanor Possession of Metamorphine"
+}, 
+"Misdemeanor Possession of Thermite Charge": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 14,
+        "Fine": 1650,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Possession of Thermite Charge"
+}, 
+"Possession of Unknown Prescription Medication - Misdemeanor": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 10,
+        "Fine": 1075,
+        "Points": 0
+    },
+    "Name": "Possession of Unknown Prescription Medication - Misdemeanor"
+}, 
+"Sale of Marijuana Seeds": {
+    "Type": "Misdemeanor",
+    "Group": 6,
+    "Default": {
+        "Time": 12,
+        "Fine": 1350,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 12,
+        "Fine": 1350,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 9,
+        "Fine": 1000,
+        "Points": 0
+    },
+    "Name": "Sale of Marijuana Seeds"
+}, 
+"Sale of Drugs": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 25,
+        "Fine": 2825,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 25,
+        "Fine": 2825,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 20,
+        "Fine": 2500,
+        "Points": 0
+    },
+    "Name": "Sale of Drugs"
+}, 
+"Felony Possession of Marijuana": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 25,
+        "Fine": 2350,
+        "Points": 0
+    },
+    "Name": "Felony Possession of Marijuana"
+}, 
+"Felony Possession of Cocaine": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 25,
+        "Fine": 2350,
+        "Points": 0
+    },
+    "Name": "Felony Possession of Cocaine"
+}, 
+"Felony Possession of Crack Cocaine": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 25,
+        "Fine": 2350,
+        "Points": 0
+    },
+    "Name": "Felony Possession of Crack Cocaine"
+}, 
+"Felony Possession of Controlled Dangerous Substance OXY / METH": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 25,
+        "Fine": 2350,
+        "Points": 0
+    },
+    "Name": "Felony Possession of Controlled Dangerous Substance OXY / METH"
+}, 
+"Felony Possession with intent to Distribute": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 150,
+        "Fine": 24500,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 150,
+        "Fine": 24500,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 120,
+        "Fine": 19600,
+        "Points": 0
+    },
+    "Name": "Felony Possession with intent to Distribute"
+}, 
+"Desecration of a Human Corpse": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 18,
+        "Fine": 1700,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 18,
+        "Fine": 1700,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 15,
+        "Fine": 1275,
+        "Points": 0
+    },
+    "Name": "Desecration of a Human Corpse"
+}, 
+"Felony Possession of LSD Tabs": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 25,
+        "Fine": 2350,
+        "Points": 0
+    },
+    "Name": "Felony Possession of LSD Tabs"
+}, 
+"Illegal Exhumation": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Illegal Exhumation"
+}, 
+"Drug Trafficking": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Drug Trafficking"
+}, 
+"Human Trafficking": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Human Trafficking"
+}, 
+"Prostitution": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 70,
+        "Fine": 6250,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 70,
+        "Fine": 6250,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 56,
+        "Fine": 5175,
+        "Points": 0
+    },
+    "Name": "Prostitution"
+}, 
+"Felony Possession of Human Remains": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 30,
+        "Fine": 2825,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 5,
+        "Fine": 500,
+        "Points": 0
+    },
+    "Name": "Felony Possession of Human Remains"
+}, 
+"Felony Possession of Moonshine": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 25,
+        "Fine": 2350,
+        "Points": 0
+    },
+    "Name": "Felony Possession of Moonshine"
+}, 
+"Felony Possession of Controlled Dangerous Substance KETAMINE": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 25,
+        "Fine": 2350,
+        "Points": 0
+    },
+    "Name": "Felony Possession of Controlled Dangerous Substance KETAMINE"
+}, 
+"Cultivation of marijuana": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 25,
+        "Fine": 2350,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 25,
+        "Fine": 2350,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 20,
+        "Fine": 1950,
+        "Points": 0
+    },
+    "Name": "Cultivation of marijuana"
+}, 
+"Felony Possession of Metamorphine": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 25,
+        "Fine": 2350,
+        "Points": 0
+    },
+    "Name": "Felony Possession of Metamorphine"
+}, 
+"Felony Possession of Thermite": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 22,
+        "Fine": 2825,
+        "Points": 0
+    },
+    "Name": "Felony Possession of Thermite"
+}, 
+"Possession of Unknown Prescription Medicine - Felony": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 25,
+        "Fine": 2350,
+        "Points": 0
+    },
+    "Name": "Possession of Unknown Prescription Medicine - Felony"
+}, 
+"Felony Possession of Heroin": {
+    "Type": "Felony",
+    "Group": 6,
+    "Default": {
+        "Time": 25,
+        "Fine": 2750,
+        "Points": 0
+    },
+    "Name": "Felony Possession of Heroin"
+}, 
+"Criminal Possession of a Firearm [Class 1]": {
+    "Type": "Misdemeanor",
+    "Group": 7,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Name": "Criminal Possession of a Firearm [Class 1]"
+}, 
+"Criminal Use of a Firearm": {
+    "Type": "Misdemeanor",
+    "Group": 7,
+    "Default": {
+        "Time": 7,
+        "Fine": 800,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 7,
+        "Fine": 800,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 6,
+        "Fine": 675,
+        "Points": 0
+    },
+    "Name": "Criminal Use of a Firearm"
+}, 
+"Brandishing non Firearm": {
+    "Type": "Misdemeanor",
+    "Group": 7,
+    "Default": {
+        "Time": 5,
+        "Fine": 475,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 5,
+        "Fine": 475,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 4,
+        "Fine": 350,
+        "Points": 0
+    },
+    "Name": "Brandishing non Firearm"
+}, 
+"Resisting Arrest": {
+    "Type": "Misdemeanor",
+    "Group": 7,
+    "Default": {
+        "Time": 5,
+        "Fine": 475,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 5,
+        "Fine": 475,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 4,
+        "Fine": 350,
+        "Points": 0
+    },
+    "Name": "Resisting Arrest"
+}, 
+"Jaywalking": {
+    "Type": "Misdemeanor",
+    "Group": 7,
+    "Default": {
+        "Time": 0,
+        "Fine": 175,
+        "Points": 0
+    },
+    "Name": "Jaywalking"
+}, 
+"Criminal Possession of a Government Issued Baton": {
+    "Type": "Misdemeanor",
+    "Group": 7,
+    "Default": {
+        "Time": 7,
+        "Fine": 650,
+        "Points": 0
+    },
+    "Name": "Criminal Possession of a Government Issued Baton"
+}, 
+"Criminal Possession of a Firearm [Class 2]": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 28,
+        "Fine": 4250,
+        "Points": 0
+    },
+    "Name": "Criminal Possession of a Firearm [Class 2]"
+}, 
+"Criminal Possession of a Government-Issue Firearm": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 210,
+        "Fine": 45000,
+        "Points": 0
+    },
+    "Name": "Criminal Possession of a Government-Issue Firearm"
+}, 
+"Criminal Possession of a Firearm [Class 3]": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 35,
+        "Fine": 5250,
+        "Points": 0
+    },
+    "Name": "Criminal Possession of a Firearm [Class 3]"
+}, 
+"Possession of Explosives": {
+    "Type": "Misdemeanor",
+    "Group": 7,
+    "Default": {
+        "Time": 45,
+        "Fine": 10000,
+        "Points": 0
+    },
+    "Name": "Possession of Explosives"
+}, 
+"Criminal Sale of a Firearm [Class 1]": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 12,
+        "Fine": 1350,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 12,
+        "Fine": 1350,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 10,
+        "Fine": 1025,
+        "Points": 0
+    },
+    "Name": "Criminal Sale of a Firearm [Class 1]"
+}, 
+"Criminal Sale of an illegal weapon": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 35,
+        "Fine": 3950,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 35,
+        "Fine": 3950,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 28,
+        "Fine": 3150,
+        "Points": 0
+    },
+    "Name": "Criminal Sale of an illegal weapon"
+}, 
+"Weapons Trafficking": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Weapons Trafficking"
+}, 
+"Flying into Restricted Airspace": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 28,
+        "Fine": 2625,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 28,
+        "Fine": 2625,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 23,
+        "Fine": 2150,
+        "Points": 0
+    },
+    "Name": "Flying into Restricted Airspace"
+}, 
+"Piloting Without a Proper License": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 28,
+        "Fine": 2625,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 28,
+        "Fine": 2625,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 23,
+        "Fine": 2150,
+        "Points": 0
+    },
+    "Name": "Piloting Without a Proper License"
+}, 
+"Criminal Possession of Government-issued Taser": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 21,
+        "Fine": 1975,
+        "Points": 0
+    },
+    "Name": "Criminal Possession of Government-issued Taser"
+}, 
+"Possession of Weapon Attachments": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 10,
+        "Fine": 1125,
+        "Points": 0
+    },
+    "Name": "Possession of Weapon Attachments"
+}, 
+"Possession of a Molotov": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 35,
+        "Fine": 3300,
+        "Points": 0
+    },
+    "Name": "Possession of a Molotov"
+}, 
+"Criminal Use of Explosives": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 45,
+        "Fine": 25000,
+        "Points": 2
+    },
+    "Accomplice": {
+        "Time": 45,
+        "Fine": 25000,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 28,
+        "Fine": 22750,
+        "Points": 0
+    },
+    "Name": "Criminal Use of Explosives"
+}, 
+"Criminal Possession of a Government Issued Equipment": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 15,
+        "Fine": 1425,
+        "Points": 0
+    },
+    "Name": "Criminal Possession of a Government Issued Equipment"
+}, 
+"Criminal Possession of a Civilian Class 2 Firearm": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 210,
+        "Fine": 45000,
+        "Points": 0
+    },
+    "Name": "Criminal Possession of a Civilian Class 2 Firearm"
+}, 
+"Stockpiling": {
+    "Type": "Felony",
+    "Group": 7,
+    "Default": {
+        "Time": 250,
+        "Fine": 100000,
+        "Points": 0
+    },
+    "Name": "Stockpiling"
+}, 
+"Terrorism": {
+    "Type": "HUT",
+    "Group": 7,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 2
+    },
+    "Accomplice": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Terrorism"
+}, 
+"Harboring a Fugitive": {
+    "Type": "HUT",
+    "Group": 7,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Harboring a Fugitive"
+}, 
+"Treason": {
+    "Type": "HUT",
+    "Group": 7,
+    "Default": {
+        "Time": 0,
+        "Fine": 0,
+        "Points": 0
+    },
+    "Name": "Treason"
+}, 
+"Driving While Intoxicated": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 5,
+        "Fine": 475,
+        "Points": 20
+    },
+    "Name": "Driving While Intoxicated"
+}, 
+"Hit and Run": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 7,
+        "Fine": 675,
+        "Points": 2
+    },
+    "Accomplice": {
+        "Time": 7,
+        "Fine": 675,
+        "Points": 2
+    },
+    "Accessory": {
+        "Time": 6,
+        "Fine": 525,
+        "Points": 2
+    },
+    "Name": "Hit and Run"
+}, 
+"Evading": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 19,
+        "Fine": 1800,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 19,
+        "Fine": 1800,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 5,
+        "Fine": 1250,
+        "Points": 0
+    },
+    "Name": "Evading"
+}, 
+"Failure to Yield to Emergency Vehicle": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 225,
+        "Points": 1
+    },
+    "Name": "Failure to Yield to Emergency Vehicle"
+}, 
+"Failure to Obey Traffic Control Devices": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 225,
+        "Points": 1
+    },
+    "Name": "Failure to Obey Traffic Control Devices"
+}, 
+"Negligent Driving": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 375,
+        "Points": 2
+    },
+    "Name": "Negligent Driving"
+}, 
+"Third Degree Speeding": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 375,
+        "Points": 1
+    },
+    "Name": "Third Degree Speeding"
+}, 
+"Second Degree Speeding": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 750,
+        "Points": 2
+    },
+    "Name": "Second Degree Speeding"
+}, 
+"First Degree Speeding": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 1125,
+        "Points": 3
+    },
+    "Name": "First Degree Speeding"
+}, 
+"Illegal Passing": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 375,
+        "Points": 1
+    },
+    "Name": "Illegal Passing"
+}, 
+"Driving on the Wrong Side of The Road": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 375,
+        "Points": 1
+    },
+    "Name": "Driving on the Wrong Side of The Road"
+}, 
+"Illegal Turn": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 375,
+        "Points": 1
+    },
+    "Name": "Illegal Turn"
+}, 
+"Failure to Stop": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 375,
+        "Points": 1
+    },
+    "Name": "Failure to Stop"
+}, 
+"Unauthorized Parking": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Name": "Unauthorized Parking"
+}, 
+"Operating a Motor Vehicle Without Proper Identification": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 375,
+        "Points": 2
+    },
+    "Name": "Operating a Motor Vehicle Without Proper Identification"
+}, 
+"Unauthorized Operation of an Off-Road Vehicle": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 10,
+        "Fine": 1125,
+        "Points": 2
+    },
+    "Name": "Unauthorized Operation of an Off-Road Vehicle"
+}, 
+"Improper Window Tint": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 275,
+        "Points": 1
+    },
+    "Name": "Improper Window Tint"
+}, 
+"Failure to Signal": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 0,
+        "Fine": 150,
+        "Points": 0
+    },
+    "Name": "Failure to Signal"
+}, 
+"Misuse of a High-Performance Rental Vehicle": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 25,
+        "Fine": 10000,
+        "Points": 0
+    },
+    "Name": "Misuse of a High-Performance Rental Vehicle"
+}, 
+"Felony Hit and Run": {
+    "Type": "Felony",
+    "Group": 8,
+    "Default": {
+        "Time": 14,
+        "Fine": 1325,
+        "Points": 3
+    },
+    "Accomplice": {
+        "Time": 14,
+        "Fine": 1325,
+        "Points": 3
+    },
+    "Accessory": {
+        "Time": 12,
+        "Fine": 1050,
+        "Points": 3
+    },
+    "Name": "Felony Hit and Run"
+}, 
+"Reckless Evading": {
+    "Type": "Felony",
+    "Group": 8,
+    "Default": {
+        "Time": 18,
+        "Fine": 1700,
+        "Points": 3
+    },
+    "Accomplice": {
+        "Time": 18,
+        "Fine": 1700,
+        "Points": 3
+    },
+    "Accessory": {
+        "Time": 15,
+        "Fine": 1250,
+        "Points": 3
+    },
+    "Name": "Reckless Evading"
+}, 
+"Reckless Driving": {
+    "Type": "Felony",
+    "Group": 8,
+    "Default": {
+        "Time": 12,
+        "Fine": 1125,
+        "Points": 3
+    },
+    "Name": "Reckless Driving"
+}, 
+"Operating a Motor Vehicle on a Suspended or Revoked License": {
+    "Type": "Misdemeanor",
+    "Group": 8,
+    "Default": {
+        "Time": 14,
+        "Fine": 1325,
+        "Points": 3
+    },
+    "Name": "Operating a Motor Vehicle on a Suspended or Revoked License"
+}, 
+"Street Racing": {
+    "Type": "Felony",
+    "Group": 8,
+    "Default": {
+        "Time": 21,
+        "Fine": 1975,
+        "Points": 4
+    },
+    "Accomplice": {
+        "Time": 21,
+        "Fine": 1975,
+        "Points": 4
+    },
+    "Accessory": {
+        "Time": 17,
+        "Fine": 1500,
+        "Points": 4
+    },
+    "Name": "Street Racing"
+}, 
+"Felony Misuse of a High-Performance Rental Vehicle": {
+    "Type": "Felony",
+    "Group": 8,
+    "Default": {
+        "Time": 100,
+        "Fine": 100000,
+        "Points": 0
+    },
+    "Name": "Felony Misuse of a High-Performance Rental Vehicle"
+}, 
+"Possession of Stolen Goods": {
+    "Name": "Possession of Stolen Goods"
+}, 
+"Hunting in an Unregulated Area": {
+    "Type": "Misdemeanor",
+    "Default": {
+        "Time": 0,
+        "Fine": 550,
+        "Points": 0
+    },
+    "Name": "Hunting in an Unregulated Area"
+}, 
+"Unlawful Taking of Protected Fish or Wildlife": {
+    "Type": "Felony",
+    "Default": {
+        "Time": 18,
+        "Fine": 1700,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 18,
+        "Fine": 1700,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 14,
+        "Fine": 1350,
+        "Points": 0
+    },
+    "Name": "Unlawful Taking of Protected Fish or Wildlife"
+}, 
+"Hunting/Fishing without a license": {
+    "Name": "Hunting/Fishing without a license"
+}, 
+"Hunting Without a License": {
+    "Type": "Misdemeanor",
+    "Default": {
+        "Time": 10,
+        "Fine": 800,
+        "Points": 0
+    },
+    "Name": "Hunting Without a License"
+}, 
+"Misdemeanor Possession of Illegal Fishing Hooks": {
+    "Type": "Felony",
+    "Default": {
+        "Time": 7,
+        "Fine": 650,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Possession of Illegal Fishing Hooks"
+}, 
+"Criminal Use of Illegal Fishing Hooks": {
+    "Type": "Felony",
+    "Default": {
+        "Time": 18,
+        "Fine": 1700,
+        "Points": 0
+    },
+    "Name": "Criminal Use of Illegal Fishing Hooks"
+}, 
+"Felony Animal Cruelty": {
+    "Name": "Felony Animal Cruelty"
+}, 
+"Misdemeanor Animal Cruelty": {
+    "Name": "Misdemeanor Animal Cruelty"
+}, 
+"Criminal Possession of a Beanbag Shotgun": {
+    "Name": "Criminal Possession of a Beanbag Shotgun"
+}, 
 
 }
 METRICS = {
@@ -67105,10 +71145,10 @@ framesCollected: 100635,
 profilesOnRecord: 781,
 propertiesOnRecord: 472,
 businessesOnRecord: 424,
-incidentsOnRecord: 186,
+incidentsOnRecord: 262,
 averageKeysPerProperty: 3.218220338983051,
 averageEmployeesPerBusiness: 5.488207547169812,
-priorTypes: 161,
+priorTypes: 180,
 totalPriors: 3055,
 averagePriorsPerProfile: 8.855072463768115,
 
