@@ -16,7 +16,6 @@ class PropertiesPage extends Page {
 
         this.search.searchFunction = (term, filters) => {
             if ((term == null || term.length <= 1) && filters.length <= 0) {
-                this.updateMap(Object.values(PROPERTIES));
                 return Object.values(PROPERTIES);
             }
 
@@ -30,17 +29,24 @@ class PropertiesPage extends Page {
                     valid.push(value);
             }
 
-            this.updateMap(valid);
-
             return valid;
         };
 
         var context = this;
         this.search.drawFunction = (property) => {
+            var subtitle = "[Unknown Location]";
+
+            if (property.Name in MAP.Locations) {
+                var locale = MAP.Locations[property.Name];
+
+                if (locale.Coords != null) subtitle = "";
+                if (locale.Area != null) subtitle = locale.Area;
+                if (locale.Street != null) subtitle = locale.Street;
+            }
+
             return {
                 title: property.Name,
-                subtitle:
-                    property.Name in LOCATIONS ? "" : "[Unknown Location]",
+                subtitle: subtitle,
                 onclick: function () {
                     context.showProperty(property.Name);
                 },
@@ -134,37 +140,6 @@ class PropertiesPage extends Page {
         this.map = new MapProvider(
             pageElement.querySelector(".properties-map")
         );
-
-        this.updateMap(Object.values(PROPERTIES));
-    }
-
-    updateMap(entries) {
-        if (this.map == null) return;
-
-        var mapEntries = [];
-
-        entries.forEach((entry) => {
-            var location = LOCATIONS[entry.Name];
-
-            if (location == null) return;
-
-            mapEntries.push({
-                coords: location,
-                drawFunction: (ctx, x, y, scale) => {
-                    ctx.beginPath();
-                    ctx.arc(x, y, 3 * scale, 0, 2 * Math.PI, false);
-
-                    ctx.fillStyle = "#FF0000";
-                    ctx.fill();
-
-                    ctx.lineWidth = 0.75 * scale;
-                    ctx.strokeStyle = "#000000";
-                    ctx.stroke();
-                },
-            });
-        });
-
-        this.map.updateEntries(mapEntries);
     }
 
     showProperty(propertyName) {
@@ -174,7 +149,8 @@ class PropertiesPage extends Page {
 
         this.currentProperty = PROPERTIES[propertyName];
 
-        if (propertyName in LOCATIONS) this.map.focus(LOCATIONS[propertyName]);
+        if (propertyName in MAP.Locations)
+            this.map.focusLocation(MAP.Locations[propertyName]);
         else this.map.resetView();
 
         document.getElementById("propertyTitle").innerHTML = propertyName;

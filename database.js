@@ -892,6 +892,54 @@ PROFILES = {
     ],
     "LastUpdated": "2022/06/30"
 },
+1043: {
+    "StateID": 1043,
+    "Name": "Ramee El-Rahman",
+    "ImageURL": "https://i.imgur.com/NE7kcya.png",
+    "Description": "P#: 4151501600\nLost soft-cuff privileges 3/16/2021\n\nDNA Taken on 4/5/2021 By 450 S.Baas (Ramee Gave 450 S.Baas Consent)\n#21911\n\nBob Smith interviewed Ramee by phone who claimed to be a GSF affiliate\n\n-09/22/2021\nhttps://i.gyazo.com/b4b5c23185b18861527e692b0fa5ec34.jpg\n\n \n\nCharged for Felony Possession with intent to Distribute 12th September\n\nAlias: xXFatCockXx - Report#11281\nAlias: xXFatCockXx - Report #28888\n\nExpungement Completed 3/28/2022 - Judge Crane",
+    "Licenses": [
+        "Hunting License",
+        "Fishing License",
+        "Business License",
+        "Drivers License",
+        "Pilot License",
+        "Fishing License"
+    ],
+    "Vehicles": [
+        "Fagaloa",
+        "Suntrap",
+        "Boxville",
+        "BT62-R",
+        "Continental SS",
+        "unknown",
+        "Slamtruck",
+        "NULL",
+        "NULL"
+    ],
+    "Housing": [
+        {
+            "Name": "Pill Box Swiss St",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "Little Seoul Apartment 4",
+            "Type": "Owner"
+        },
+        {
+            "Name": "Vinewood Hills 4",
+            "Type": "Owner"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [],
+    "Tags": [
+        "Chang Gang",
+        "DNA On File",
+        "GSF",
+        "Vagos"
+    ],
+    "LastUpdated": "2022/07/15"
+},
 10446: {
     "StateID": 10446,
     "Name": "Torben Hansen",
@@ -1345,6 +1393,56 @@ PROFILES = {
         }
     ],
     "LastUpdated": "2022/07/09"
+},
+10752: {
+    "StateID": 10752,
+    "Name": "Scotty Dixon",
+    "ImageURL": "https://i.imgur.com/WX8HGNY.png",
+    "Description": "P#:6281101468\n\nDNA-10752 Scotty Dixon DNA #8819 5/5/2021 -Rhodes\n\nScotty Dixon was sent for 5 years to Bolingbrooke as part of a\n\n \n\nDrugtrafficking plea deal 11/18/2021 3:00 AM ES\n\nAfter his sentence ends, Scotty Dixon has additional 8 years of Parole,\n\nas a part of the above mentioned deal.",
+    "Licenses": [
+        "Drivers License"
+    ],
+    "Tags": [
+        "DNA On File",
+        "Balbani Crime Family"
+    ],
+    "Vehicles": [
+        "BMX",
+        "Burrito",
+        "Lancer Evolution IX MR FQ-400"
+    ],
+    "Housing": [
+        {
+            "Name": "Prosperity",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "Forum Drive 12/Apt1",
+            "Type": "Keyholder"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "Burger Shot",
+            "Role": "Burger Flipper"
+        }
+    ],
+    "Priors": [
+        {
+            "Name": "Assault & Battery",
+            "Count": 4
+        },
+        {
+            "Name": "Kidnapping",
+            "Count": 7
+        },
+        {
+            "Name": "Assault with a Deadly Weapon",
+            "Count": 1
+        }
+    ],
+    "LastUpdated": "2022/07/15"
 },
 1079: {
     "StateID": 1079,
@@ -1833,7 +1931,7 @@ PROFILES = {
     "StateID": 1112,
     "Name": "Sai Carter",
     "ImageURL": "https://i.imgur.com/nhHN4dF.png",
-    "Description": "P#: 4152684877\n\nDrivers License Revoked - 21 Points over the last 17 days - 12/7/2021\n@385\n\nDNA on file, Taken by | Deputy Claire Everly | 6/30/2021 | Report #\n\n \n\nTLDR of below: Trespassed from Impound Lot, MRPD and\n\ngrounds, City Hall, & Pillbox\n\nCurrently trespassed from the impound lot by Red Harrington SID:1674 -\nFebruary 11,2021 D. Dukakis.\n\nCurrently Trespassed from Mission Row PD and Parking lot grounds. -\nMay 15 2021. Please arrest on sight if found on grounds. Trooper T.\nAndrews. Subject advised on 15 May 21 at 2042 PST\n\nCurrently Trespassed from City Hall Mayor Andi\u2019s Office - May 15 2021.\nPlease arrest on sight if found on grounds. Trooper T. Andrews. Subject\nadvised on 15 May 21 at 2042 PST",
+    "Description": "P#:4152684877\n\nDrivers License Revoked - 21 Points over the last 17 days - 12/7/2021\n@385\n\nDNA on file, Taken by | Deputy Claire Everly | 6/30/2021 | Report #\n\n \n\nDR of below: Trespassed from Impound Lot, MRPD and\n\ngrounds, City Hall, & Pillbox\n\nCurrently trespassed from the impound lot by Red Harrington SID:1674 -\nFebruary 11,2021 D. Dukakis.\n\nCurrently Trespassed from Mission Row PD and Parking lot grounds. -\nMay 15 2021. Please arrest on sight if found on grounds. Trooper T.\nAndrews. Subject advised on 15 May 21 at 2042 PST\n\nCurrently Trespassed from City Hall Mayor Andi's Office - May 15 2021.\n\nPlease arrest on sight if found on grounds. Trooper T. Andrews. Subject\nadvised on 15 May 21 at 2042 PST",
     "Licenses": [
         "Fishing License",
         "Drivers License",
@@ -2041,7 +2139,7 @@ PROFILES = {
             "Count": 22
         }
     ],
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/15"
 },
 11140: {
     "StateID": 11140,
@@ -3076,7 +3174,8 @@ PROFILES = {
         "WRX",
         "GT-R R35",
         "Land Cruiser",
-        "Jetmax"
+        "Jetmax",
+        "Veto Classic"
     ],
     "Housing": [
         {
@@ -3109,9 +3208,103 @@ PROFILES = {
         {
             "Name": "Los Santos Billboards",
             "Role": "TEMP"
+        },
+        {
+            "Name": "Maldini's Pizzeria",
+            "Role": "Dish Washer"
+        },
+        {
+            "Name": "Oasis",
+            "Role": "Board"
+        },
+        {
+            "Name": "Oasis Oil Company",
+            "Role": "Owner"
+        },
+        {
+            "Name": "Seacycle",
+            "Role": "Co-Owner"
+        },
+        {
+            "Name": "SeaCycle Inc",
+            "Role": "CEO"
+        },
+        {
+            "Name": "Sionis Industries",
+            "Role": "Sourcing Specialist"
+        },
+        {
+            "Name": "The Bullet Club",
+            "Role": "Suspended"
+        },
+        {
+            "Name": "UwU Cafe",
+            "Role": "SWO"
+        },
+        {
+            "Name": "Vultur Le Culture",
+            "Role": "Gem Appraiser"
         }
     ],
-    "LastUpdated": "2022/06/30"
+    "Priors": [
+        {
+            "Name": "Assault & Battery",
+            "Count": 3
+        },
+        {
+            "Name": "Unlawful Imprisonment",
+            "Count": 2
+        },
+        {
+            "Name": "Kidnapping",
+            "Count": 28
+        },
+        {
+            "Name": "Kidnapping a Gov Employee",
+            "Count": 2
+        },
+        {
+            "Name": "Assault with a Deadly Weapon",
+            "Count": 8
+        },
+        {
+            "Name": "Attempted 2nd Degree Murder",
+            "Count": 2
+        },
+        {
+            "Name": "Criminal Threats",
+            "Count": 1
+        },
+        {
+            "Name": "Attempted Murder of a Government Employee",
+            "Count": 69
+        },
+        {
+            "Name": "Gang Related Shooting",
+            "Count": 7
+        },
+        {
+            "Name": "Brandishing of a Firearm",
+            "Count": 1
+        },
+        {
+            "Name": "Petty Theft",
+            "Count": 1
+        },
+        {
+            "Name": "Joyriding",
+            "Count": 11
+        },
+        {
+            "Name": "Grand Theft Auto",
+            "Count": 2
+        },
+        {
+            "Name": "Tampering with a Vehicle",
+            "Count": 2
+        }
+    ],
+    "LastUpdated": "2022/07/15"
 },
 12643: {
     "StateID": 12643,
@@ -4278,6 +4471,54 @@ PROFILES = {
     ],
     "LastUpdated": "2022/06/30"
 },
+13567: {
+    "StateID": 13567,
+    "Name": "Brock Cain",
+    "ImageURL": "https://i.imgur.com/ttNVaPp.png",
+    "Description": "Stolen licenced Beretta reported stolen 13/04/2022 - I. Nivira",
+    "Licenses": [
+        "Drivers License",
+        "Weapons License",
+        "Fishing License",
+        "Hunting License",
+        "Weapons License"
+    ],
+    "Tags": [
+        "Stolen Firearm"
+    ],
+    "Vehicles": [
+        "Scorcher",
+        "BMX",
+        "Novak"
+    ],
+    "Housing": [
+        {
+            "Name": "Prosperity",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "Senora Way / Ron Alternates 8",
+            "Type": "Owner"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "A Light in The Dark",
+            "Role": "Booth Babe"
+        },
+        {
+            "Name": "Burger Shot",
+            "Role": "Guardian of the Holy Stash"
+        },
+        {
+            "Name": "Juice Up Gymnasiums",
+            "Role": "Janitor"
+        }
+    ],
+    "Priors": [],
+    "LastUpdated": "2022/07/15"
+},
 13643: {
     "StateID": 13643,
     "Name": "Alan Chewdansky",
@@ -4379,6 +4620,77 @@ PROFILES = {
         }
     ],
     "LastUpdated": "2022/07/09"
+},
+13847: {
+    "StateID": 13847,
+    "Name": "Sydney Lipsey",
+    "ImageURL": "https://i.imgur.com/CsC3vw8.png",
+    "Description": "",
+    "Licenses": [
+        "Drivers License",
+        "Weapons License"
+    ],
+    "Tags": [],
+    "Vehicles": [
+        "BMX",
+        "Flatbed"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "Dodo Logistics LLC",
+            "Role": "Express Temp Driver"
+        }
+    ],
+    "Priors": [
+        {
+            "Name": "Disobeying a Peace Officer",
+            "Count": 1
+        },
+        {
+            "Name": "Vandalism of Government Property",
+            "Count": 1
+        },
+        {
+            "Name": "Misdemeanor Possession of Controlled Dangerous Substance OXY / METH",
+            "Count": 1
+        },
+        {
+            "Name": "Sale of Drugs",
+            "Count": 1
+        },
+        {
+            "Name": "Resisting Arrest",
+            "Count": 1
+        },
+        {
+            "Name": "Evading",
+            "Count": 1
+        },
+        {
+            "Name": "Negligent Driving",
+            "Count": 1
+        },
+        {
+            "Name": "Third Degree Speeding",
+            "Count": 1
+        },
+        {
+            "Name": "Operating a Motor Vehicle Without Proper Identification",
+            "Count": 1
+        },
+        {
+            "Name": "Failure to Signal",
+            "Count": 4
+        }
+    ],
+    "LastUpdated": "2022/07/15"
 },
 13873: {
     "StateID": 13873,
@@ -5279,7 +5591,7 @@ PROFILES = {
         }
     ],
     "Priors": [],
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/15"
 },
 14225: {
     "StateID": 14225,
@@ -5340,7 +5652,7 @@ PROFILES = {
     "StateID": 1437,
     "Name": "Paris Argo",
     "ImageURL": "https://i.imgur.com/lzmw0oq.png",
-    "Description": "DOES NOT HAVE DRIVERS LICENSE HAS BEEN\nWARNED WILL BE ARRESTED IF SEEN DRIVING\nWITHOUT ACTIVE LICENSE\n\nP#:4151187606\n\nDongle Alias: Tinkerbell 10/26/21 - M. EspinoZ\n\nRacing Dongle: [R\u00a5\\\\%lg #30791 12/14/21 M. Espinoz\nAlias: barbiedoll 41587 04/05/22 460 L. VALE\n\nDNA Taken 08/30/21 Report# 19909\nDNA-1437\n\nWeapons License removed 05/21/21 Report# 10427\n\nNegligent Driving Ticket issued 8/5/2021 - If caught within 7 days\n\nnegligently driving please give Reckless Driving.\n\nDrivers License Removed by 607 J. Hale on 10/09/2021 after noticing 30\n\npoints on License.",
+    "Description": "P#: 4151187606 | DNA Taken 08/30/21 Report# 19909\n\nDongle Alias:\n\ne Tinkerbell - 2021/10/26 - M. Espinoz\n\ne TRAMP -2021/12/14 - #30791 - M. Espinoz\n\ne barbiedoll - 2022/04/05 - #41587 - 460 L. VALE\n\nLicence History:\n\ne Weapons License removed - 2021/05/21 - #10427\n\n\u00a2 Drivers License Removed - 2021/09/10 - 607 ). Hale\n\n\u00a2 Drivers License Reinstated - 2021/10/14 - Right of Way Driving - Tidus\n\nSchwinghammer\n\u00a2 Drivers License Removed - 2021/10/26 - 607 ). Hale\n\n\u00a2 Drivers License Reinstated - 2022/05/15 - Right of Way Driving -\nR.Might\n\nGang Affiliation:\n\u00a2 Balbani Crime Family - Left when it collapsed\n\ne LSD - Claimed by Jim Watson - Unconfirmed",
     "Licenses": [
         "Drivers License"
     ],
@@ -5369,7 +5681,7 @@ PROFILES = {
             "Type": "Keyholder"
         },
         {
-            "Name": "Spanish Ave 2 Apt/3",
+            "Name": "North Archer Ave 2 Apt/ 5",
             "Type": "Keyholder"
         }
     ],
@@ -5404,7 +5716,7 @@ PROFILES = {
         }
     ],
     "Hotels": [],
-    "LastUpdated": "2022/06/30"
+    "LastUpdated": "2022/07/15"
 },
 14381: {
     "StateID": 14381,
@@ -5519,14 +5831,15 @@ PROFILES = {
 },
 14554: {
     "StateID": 14554,
-    "Name": "Chris P Winsmore",
+    "Name": "Chris P. Winsmore",
     "ImageURL": "https://i.imgur.com/9uEOtDL.png",
-    "Description": "He\u2019's attractive, not cute - 425 A. Crow\n\nHunting & Fishing Licenses Expire July 5, 2022 - Clerk J. Hilton",
+    "Description": "p# 4154394220\n\nHe's attractive, not cute - 425 A. Crow\n\nHunting & Fishing Licenses Expire July 5, 2022 - Clerk J. Hilton\n\nBelieved to be part of \"LSD\" gang - 2022/06/28 P.Weaver\n\nDongle Alias - Labrador - 07/05/22 - Report #50147",
     "Licenses": [
         "Drivers License",
         "Weapons License",
         "Hunting License",
-        "Fishing License"
+        "Fishing License",
+        "Weapons License"
     ],
     "Tags": [],
     "Vehicles": [
@@ -5553,7 +5866,53 @@ PROFILES = {
         }
     ],
     "Priors": [],
-    "LastUpdated": "2022/06/29"
+    "LastUpdated": "2022/07/15"
+},
+1460: {
+    "StateID": 1460,
+    "Description": "Like a ferret on angel dust\n\nCries more than his dog\n\nGranted Class 2 Licence by Serge Cross - 19/04/22\n1460-LUm-339 | serial: 1460\n\nEmergency Contacts:\nPatricia Mayonnaise\nDude (His K9)\n\nKyle Pred",
+    "Licenses": [
+        "Drivers License",
+        "Weapons License",
+        "Hunting License",
+        "Fishing License",
+        "Pilot License",
+        "Class 2 Weapons License",
+        "Weapons License",
+        "Hunting License"
+    ],
+    "Tags": [
+        "K9",
+        "Air Corps"
+    ],
+    "Vehicles": [
+        "Flatbed",
+        "Scorcher",
+        "Explorer",
+        "Mustang 2015",
+        "NULL"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "Beachside Avenue 35",
+            "Type": "Owner"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "AirX",
+            "Role": "Instructor"
+        }
+    ],
+    "Priors": [],
+    "Name": "Dan Faily",
+    "ImageURL": "https://i.imgur.com/2Mk3RNH.png",
+    "LastUpdated": "2022/07/15"
 },
 14614: {
     "StateID": 14614,
@@ -5666,6 +6025,54 @@ PROFILES = {
         }
     ],
     "LastUpdated": "2022/06/30"
+},
+14740: {
+    "StateID": 14740,
+    "Name": "Liam Park",
+    "ImageURL": "https://i.imgur.com/CY6dpnB.png",
+    "Description": "P#:4154901038\n\nPilot License issued per confirmed EMS Cert. by Rivington Rivera - Judge\nCrane 3/12/22.\n\nOften calls officers \"PIGS\" do not\ngive warnings\n\nDenied Class 2 Weapons license, their reasoning for wanting one is \"Just\n\nto have another license\u201d\n\nDenied Class 2 Weapons License as previous decline in short time -\n04/25/2022 - R.Might\n\nClass 2 Weapons License issued 5/16/22 - Chief Judge Crane\nSerial: 14740-NVs-734 | Updated 21/06/2022 - K. Harvey",
+    "Licenses": [
+        "Drivers License",
+        "Hunting License",
+        "Fishing License",
+        "Weapons License",
+        "Pilot License",
+        "Class 2 Weapons License",
+        "Hunting License",
+        "Fishing License"
+    ],
+    "Tags": [
+        "Stolen Firearm"
+    ],
+    "Vehicles": [
+        "BMX",
+        "Flatbed",
+        "Journey",
+        "Cheburek",
+        "Speedo EMS",
+        "Raiden",
+        "Street Blazer",
+        "Rebla",
+        "Kamacho",
+        "Mower"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "Bridge Street 9",
+            "Type": "Owner"
+        },
+        {
+            "Name": "North Rockford Drive 2",
+            "Type": "Owner"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [],
+    "LastUpdated": "2022/07/15"
 },
 1481: {
     "StateID": 1481,
@@ -6239,6 +6646,85 @@ PROFILES = {
         }
     ],
     "LastUpdated": "2022/07/09"
+},
+15324: {
+    "StateID": 15324,
+    "Name": "Semlina Thaysa",
+    "ImageURL": "https://i.imgur.com/nu7qcMc.jpeg",
+    "Description": "699 T. Walker obtained DNA\n\nExpungement Complete and records sealed 6/5/2022",
+    "Licenses": [
+        "Drivers License",
+        "Fishing License",
+        "Weapons License",
+        "Hunting License",
+        "Business License",
+        "Fishing License"
+    ],
+    "Tags": [
+        "DNA On File"
+    ],
+    "Vehicles": [
+        "BMX",
+        "News Rumpo",
+        "Scorcher",
+        "Pro 2",
+        "Oracle XS"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "North Rockford Drive 12",
+            "Type": "Keyholder"
+        },
+        {
+            "Name": "Chumash Main St 6",
+            "Type": "Keyholder"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "A Light in The Dark",
+            "Role": "Booth Babe"
+        },
+        {
+            "Name": "Dodo Logistics LLC",
+            "Role": "Express Temp Driver"
+        },
+        {
+            "Name": "Cool Beans",
+            "Role": "Inactive"
+        },
+        {
+            "Name": "Dodo Logistics LLC",
+            "Role": "Express Temp Driver"
+        },
+        {
+            "Name": "Plus One",
+            "Role": "Event Coordinator"
+        },
+        {
+            "Name": "Plus One",
+            "Role": "Founder"
+        },
+        {
+            "Name": "Skyline FM",
+            "Role": "BTB"
+        },
+        {
+            "Name": "Tequi-La-La",
+            "Role": "Bartender"
+        },
+        {
+            "Name": "The Liquid Library",
+            "Role": "Librarian"
+        }
+    ],
+    "Priors": [],
+    "LastUpdated": "2022/07/15"
 },
 15336: {
     "StateID": 15336,
@@ -7136,7 +7622,7 @@ PROFILES = {
     "StateID": 1591,
     "Name": "Reed Dankleaf",
     "ImageURL": "https://i.imgur.com/5Om8KvB.png",
-    "Description": "Phone: 4158582119\n\nDriver's license removed: 3/20/2021 @567 L. Hawk - Incident #3955\n\nWeapons license removed: 03/20/2021 @389 M. Espinoz - Incident #3955\n\nDNA Taken - #11780 - L. Pond - 01/06/2021\n\n \n\nER@e (- EFUREN [Has been told he must let\n\npeople know he\u2019s on a list]\n\nDresses as Paddy Scratch-Patrickson frequently",
+    "Description": "Phone: 4158582119\n\nDriver's license removed: 3/20/2021 @567 L. Hawk - Incident #3955\n\nWeapons license removed: 03/20/2021 @389 M. Espinoz - Incident #3955\n\nDNA Taken - #11780 - L. Pond - 01/06/2021\n\n \n\nIEYe [l REMTI A (e R (Ve <ale - R @l f K- PAREN [Has been told he must let\n\npeople know he\u2019s on a list]\n\nDresses as Paddy Scratch-Patrickson frequently\n\nCURRENT WARRANT IS FOR 9 YEARS DO NOT\nCHARGE ANY LESS",
     "Licenses": [
         "Drivers License"
     ],
@@ -7180,13 +7666,9 @@ PROFILES = {
         {
             "Name": "Lost MC",
             "Role": "Treasurer"
-        },
-        {
-            "Name": "PawnHUB",
-            "Role": "Pawn Broker"
         }
     ],
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/15"
 },
 15960: {
     "StateID": 15960,
@@ -7402,7 +7884,7 @@ PROFILES = {
 1613: {
     "StateID": 1613,
     "Name": "Irwin Dundee",
-    "Description": "Dundee has been holding up county clerks and lawyers to get drivers\n\nlicenses issued onto his profile.\n\nPhone Dongle Alias: 19314SUBSCRIBERS\n\nUpdated Dongle Alias 3/29/22: 25THMOSTSUBSCRIBED\n\nDNA taken - 05/23/2021 - Report #10616 - E. Reed\n\n-FORCED AT GUNPOINT BY DUNDEE TO GRANT HIM WEAPONS LICENSE\n-O PEARSON 08/10/21\n\n-FORCED AT GUNPOINT BY DUNDEE TO GRANT HIM ALL LICENSES -\nSOPHIA MCMOO 11/26/2021\n\n-Sent someone else to hold Greyson at gunpoint to grant him a Drivers\nLicence 19/12/2021\n\n\u00a2 Requested that this should be on his MDW record that he will \u201c\"NEVER\nEVER NEVER EVER EVER PLEAD GUILTY!\"",
+    "Description": "P#: 6280146717\n\nDundee has been holding up county clerks and lawyers to get drivers\n\nlicenses issued onto his profile.\n\nPhone Dongle Alias: 19314SUBSCRIBERS\n\nUpdated Dongle Alias 3/29/22: 25STHMOSTSUBSCRIBED\n\nDNA taken - 05/23/2021 - Report #10616 - E. Reed\n\n-FORCED AT GUNPOINT BY DUNDEE TO GRANT HIM WEAPONS LICENSE\n-O PEARSON 08/10/21\n\n-FORCED AT GUNPOINT BY DUNDEE TO GRANT HIM ALL LICENSES -\nSOPHIA MCMOO 11/26/2021\n\n-Sent someone else to hold Greyson at gunpoint to grant him a Drivers\nLicence 19/12/2021",
     "Licenses": [],
     "Vehicles": [
         "Emperor",
@@ -7424,7 +7906,6 @@ PROFILES = {
         }
     ],
     "Hotels": [],
-    "Priors": [],
     "Tags": [
         "Bondi Boys MC",
         "DNA On File",
@@ -7437,7 +7918,7 @@ PROFILES = {
         },
         {
             "Name": "H & O Imports/Exports",
-            "Role": "Key Holder"
+            "Role": "Coordinator"
         },
         {
             "Name": "True Blue Scrap",
@@ -7452,7 +7933,7 @@ PROFILES = {
             "Role": "Slacking"
         }
     ],
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/15"
 },
 16226: {
     "StateID": 16226,
@@ -7706,8 +8187,8 @@ PROFILES = {
 16457: {
     "StateID": 16457,
     "Name": "Pact Nicely",
-    "ImageURL": "https://i.imgur.com/I73WPSa.png",
-    "Description": "P#. 4154268662\nHunting License revoked on 06/18/2021 by @315 J. Perkins - #13491\nWeapons License Removed 09/22/2021 Deputy Nova #22022\n\nFishing License Removed on 1/2/22 by 363 J. Hale - Report #32568\n\nWarned to get his fishing license reinstated before fishing again on\n5/18/2022 by 270 T. Lamb",
+    "ImageURL": "https://i.imgur.com/l73WPSa.png",
+    "Description": "P#: 4154268662\n\nHunting License revoked on 06/18/2021 by @315 J. Perkins - #13491\n\nWeapons License Removed 09/22/2021 Deputy Nova #22022\n\nFishing License Removed on 1/2/22 by 363 J. Hale - Report #32568\n\nWarned to get his fishing license reinstated before fishing again on\n5/18/2022 by 270 T. Lamb\n\nExpungement Completed 5/26/2022 - Judge Adams",
     "Licenses": [
         "Drivers License",
         "Business License"
@@ -7717,7 +8198,8 @@ PROFILES = {
         "Fishing License Removed"
     ],
     "Vehicles": [
-        "Pony"
+        "Pony",
+        "Sandking XL"
     ],
     "Housing": [
         {
@@ -7748,6 +8230,14 @@ PROFILES = {
             "Role": "Market Employee"
         },
         {
+            "Name": "Dodo Logistics LLC",
+            "Role": "Express Temp Driver"
+        },
+        {
+            "Name": "Dodo Logistics LLC",
+            "Role": "Express Temp Driver"
+        },
+        {
             "Name": "Down Under Dining",
             "Role": "Owner"
         },
@@ -7757,120 +8247,68 @@ PROFILES = {
         },
         {
             "Name": "Mojito Inn",
-            "Role": "Senior Kitchen Staff"
+            "Role": "Temp/New Hire"
+        },
+        {
+            "Name": "Off the Record",
+            "Role": "Actor"
         },
         {
             "Name": "Parks and Recreation",
             "Role": "Mid-State Outreach Super"
+        },
+        {
+            "Name": "Plus One",
+            "Role": "Event Coordinator"
+        },
+        {
+            "Name": "Plus One",
+            "Role": "Event Coordinator"
+        },
+        {
+            "Name": "Roosters Rest",
+            "Role": "Inactive"
+        },
+        {
+            "Name": "Skyline FM",
+            "Role": "Owner"
+        },
+        {
+            "Name": "Split Sides Comedy Club",
+            "Role": "Event Coprdinator"
+        },
+        {
+            "Name": "Starlight Entertainment Industries",
+            "Role": "Employee"
+        },
+        {
+            "Name": "Sugar Daddys",
+            "Role": "Sugar Booth Baby"
+        },
+        {
+            "Name": "Tequi-La-La",
+            "Role": "Event Coordinator"
+        },
+        {
+            "Name": "The Rose Garden",
+            "Role": "Florist"
+        },
+        {
+            "Name": "TonicsAndTinctures",
+            "Role": "Sales"
+        },
+        {
+            "Name": "Toys and Trinkets",
+            "Role": "Master Molds"
         }
     ],
     "Priors": [
         {
-            "Name": "Kidnapping",
-            "Count": 5
-        },
-        {
-            "Name": "Joyriding",
-            "Count": 3
-        },
-        {
-            "Name": "Possession of Contraband in the Third Degree",
-            "Count": 2
-        },
-        {
-            "Name": "Robbery",
-            "Count": 6
-        },
-        {
-            "Name": "Possession of Stolen Goods",
-            "Count": 1
-        },
-        {
-            "Name": "Possession of Dirty Money in the Second Degree",
-            "Count": 1
-        },
-        {
-            "Name": "Impersonation",
-            "Count": 1
-        },
-        {
-            "Name": "Burglary",
-            "Count": 1
-        },
-        {
-            "Name": "Vandalism of Government Property",
-            "Count": 1
-        },
-        {
-            "Name": "Felony Obstruction of Justice",
-            "Count": 1
-        },
-        {
-            "Name": "Misdemeanor Possession of Cocaine",
-            "Count": 1
-        },
-        {
-            "Name": "Misdemeanor Possession of Controlled Dangerous Substance OXY / METH",
-            "Count": 1
-        },
-        {
-            "Name": "Criminal Possession of a Firearm [Class 1]",
-            "Count": 8
-        },
-        {
-            "Name": "Criminal Possession of a Firearm [Class 2]",
-            "Count": 2
-        },
-        {
-            "Name": "Resisting Arrest",
-            "Count": 6
-        },
-        {
-            "Name": "Evading",
-            "Count": 1
-        },
-        {
-            "Name": "Reckless Evading",
-            "Count": 6
-        },
-        {
             "Name": "Third Degree Speeding",
-            "Count": 2
-        },
-        {
-            "Name": "Second Degree Speeding",
-            "Count": 2
-        },
-        {
-            "Name": "Illegal Passing",
-            "Count": 1
-        },
-        {
-            "Name": "Failure to Stop",
-            "Count": 2
-        },
-        {
-            "Name": "Unlawful Taking of Protected Fish or Wildlife",
-            "Count": 5
-        },
-        {
-            "Name": "Robbery of a Financial Institution",
-            "Count": 1
-        },
-        {
-            "Name": "Misdemeanor Possession of Thermite Charge",
-            "Count": 1
-        },
-        {
-            "Name": "Misdemeanor Possession of Illegal Fishing Hooks",
-            "Count": 1
-        },
-        {
-            "Name": "Criminal Use of Illegal Fishing Hooks",
             "Count": 1
         }
     ],
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/15"
 },
 1650: {
     "StateID": 1650,
@@ -7952,6 +8390,57 @@ PROFILES = {
         }
     ],
     "LastUpdated": "2022/07/06"
+},
+16624: {
+    "StateID": 16624,
+    "Name": "Jim Watson",
+    "ImageURL": "https://i.imgur.com/Rj0mvQ2.png",
+    "Description": "BANNED FROM 311/911:\n\nhttps://i.imgur.com/N7wPDgH.pn\n\nP#: 6281680197 | DNA Taken : DNA-16624 by M. Espinoz - #18949\n\n \n\nAlternative Mugshots:\n\u00a2 https://i.imgur.com/Dn\u00e96tYHa.png - Old Pic (WTF)\n\u00a2 https://i.imgur.com/azVOeh2.png\n\nLicence History:\n\ne Driver's License Revoked 30 points - 2021/10/24 - Nova\n\ne Driver\u2019s License Reinstated - 2021/11/28 - Justice Thomas.\n\ne Diriver's Licence Suspended - 2022/06/16 - DUI - C.STUBBLE\n\n\u00a2 Driver\u2019s License Reinstated - 2022/06/16 - Verified Test with Patrick\n\nDessault - Adams\n\nDongle Alias:\ne FUCKRHODES\n\ne lim - #ADDN8 #HAT1RD #ARDARA",
+    "Licenses": [
+        "Fishing License",
+        "Drivers License"
+    ],
+    "Tags": [
+        "DNA On File"
+    ],
+    "Vehicles": [
+        "Schafter V12",
+        "Burrito",
+        "Esskey",
+        "BMX"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "Bay City Ave Lower 3",
+            "Type": "Keyholder"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "Dodo Logistics LLC",
+            "Role": "Express Temp Driver"
+        }
+    ],
+    "Priors": [
+        {
+            "Name": "Assault & Battery",
+            "Count": 4
+        },
+        {
+            "Name": "Unlawful Imprisonment",
+            "Count": 1
+        },
+        {
+            "Name": "Kidnapping",
+            "Count": 4
+        }
+    ],
+    "LastUpdated": "2022/07/15"
 },
 1666: {
     "StateID": 1666,
@@ -8077,10 +8566,6 @@ PROFILES = {
             "Type": "Apartment"
         },
         {
-            "Name": "Brouge Avenue 3",
-            "Type": "Keyholder"
-        },
-        {
             "Name": "Brouge Avenue 8",
             "Type": "Keyholder"
         }
@@ -8155,12 +8640,12 @@ PROFILES = {
         }
     ],
     "Licenses": [
-        "Drivers License",
+        "Drivers Ligense",
         "Fishing License",
         "Hunting License",
         "Pilot License"
     ],
-    "LastUpdated": "2022/07/01"
+    "LastUpdated": "2022/07/15"
 },
 17052: {
     "StateID": 17052,
@@ -8506,7 +8991,7 @@ PROFILES = {
     "StateID": 1715,
     "Name": "Renato Ortiz",
     "ImageURL": "https://i.imgur.com/30HaZqY.png",
-    "Description": "DNA swabbed by S. Hardcastle 2/19/2022\n\n- A 1\n\n4154230639\n\nSelf Claimed \u201cSheriff of Jamestown\u201d",
+    "Description": "DNA swabbed by S. Hardcastle 2/19/2022\n\nphone:\n4154230639\n\nSelf Claimed \u201cSheriff of Jamestown\u201d",
     "Licenses": [
         "Drivers License"
     ],
@@ -8516,6 +9001,7 @@ PROFILES = {
     ],
     "Vehicles": [
         "BMX",
+        "Gran Turismo",
         "News Rumpo"
     ],
     "Housing": [
@@ -8530,14 +9016,14 @@ PROFILES = {
         {
             "Name": "Jamestown Street 17",
             "Type": "Keyholder"
+        },
+        {
+            "Name": "Jamestown Street 20/Apt38",
+            "Type": "Keyholder"
         }
     ],
     "Hotels": [],
     "Employment": [
-        {
-            "Name": "Burger Shot",
-            "Role": "Burger Flipper"
-        },
         {
             "Name": "La Fuente Blanca",
             "Role": "VIP Guest"
@@ -8547,15 +9033,19 @@ PROFILES = {
             "Role": "Auto-Detailer"
         },
         {
-            "Name": "Mato's Recycling & Lockpicks&",
-            "Role": "CEO"
+            "Name": "Pablo Lotto",
+            "Role": "Stash"
         },
         {
-            "Name": "Pablo Lotto",
-            "Role": "Security"
+            "Name": "The Rusty Hoe",
+            "Role": "Sr. Store Employee"
+        },
+        {
+            "Name": "Burger Shot",
+            "Role": "Burger Flipper"
         }
     ],
-    "LastUpdated": "2022/07/01"
+    "LastUpdated": "2022/07/15"
 },
 1718: {
     "StateID": 1718,
@@ -10867,7 +11357,7 @@ PROFILES = {
 19646: {
     "StateID": 19646,
     "Name": "Veronica Westfield",
-    "ImageURL": "https://i.imgur.com/PtjQgy9",
+    "ImageURL": "https://i.imgur.com/PtjQgy9.png",
     "Description": "Veronica Westfield Phone Number:\n6282666739",
     "Licenses": [
         "Drivers License",
@@ -10883,7 +11373,8 @@ PROFILES = {
         "Pro 3",
         "Pro 2",
         "Pro 3",
-        "Coquette"
+        "Coquette",
+        "unknown"
     ],
     "Housing": [
         {
@@ -10893,10 +11384,6 @@ PROFILES = {
         {
             "Name": "Chumash Main St 6",
             "Type": "Owner"
-        },
-        {
-            "Name": "Invention Court 9",
-            "Type": "Keyholder"
         },
         {
             "Name": "Nikola Ave 5",
@@ -10918,15 +11405,41 @@ PROFILES = {
             "Role": "EMS"
         },
         {
-            "Name": "McMoos Events",
-            "Role": "Event Organizer"
-        },
-        {
             "Name": "No Longer Homeless",
             "Role": "Member"
+        },
+        {
+            "Name": "Parks and Recreation",
+            "Role": "First Responder Super"
+        },
+        {
+            "Name": "Plus One",
+            "Role": "CEO"
+        },
+        {
+            "Name": "Sugar Daddys",
+            "Role": "Sugar Booth Baby"
+        },
+        {
+            "Name": "Targent Realty",
+            "Role": "Owner"
+        },
+        {
+            "Name": "UwU Cafe",
+            "Role": "Slacking"
         }
     ],
-    "LastUpdated": "2022/07/03"
+    "Priors": [
+        {
+            "Name": "Jaywalking",
+            "Count": 1
+        },
+        {
+            "Name": "Unauthorized Parking",
+            "Count": 1
+        }
+    ],
+    "LastUpdated": "2022/07/15"
 },
 19670: {
     "StateID": 19670,
@@ -10982,10 +11495,18 @@ PROFILES = {
         {
             "Name": "Cougar Ave 13 Apt/7",
             "Type": "Keyholder"
+        },
+        {
+            "Name": "Cougar Ave 13 Apt/6",
+            "Type": "Owner"
         }
     ],
     "Hotels": [],
     "Employment": [
+        {
+            "Name": "AFE Oil",
+            "Role": "Material Gatherer"
+        },
         {
             "Name": "Dodo Logistics LLC",
             "Role": "Influencer"
@@ -11011,22 +11532,86 @@ PROFILES = {
             "Role": "Half Man"
         },
         {
+            "Name": "Ved Services",
+            "Role": "Owner"
+        },
+        {
             "Name": "VLC Imports",
             "Role": "Material Acquisition"
         }
     ],
     "Priors": [
         {
+            "Name": "Assault & Battery",
+            "Count": 4
+        },
+        {
+            "Name": "Unlawful Imprisonment",
+            "Count": 2
+        },
+        {
+            "Name": "Kidnapping",
+            "Count": 4
+        },
+        {
+            "Name": "Assault with a Deadly Weapon",
+            "Count": 4
+        },
+        {
+            "Name": "Criminal Threats",
+            "Count": 1
+        },
+        {
+            "Name": "Attempted Murder of a Government Employee",
+            "Count": 27
+        },
+        {
+            "Name": "Gang Related Shooting",
+            "Count": 4
+        },
+        {
+            "Name": "Reckless Endangerment",
+            "Count": 1
+        },
+        {
+            "Name": "Petty Theft",
+            "Count": 1
+        },
+        {
+            "Name": "Joyriding",
+            "Count": 31
+        },
+        {
+            "Name": "Grand Theft Auto",
+            "Count": 8
+        },
+        {
+            "Name": "Tampering with a Vehicle",
+            "Count": 1
+        },
+        {
+            "Name": "Possession of Contraband in the Third Degree",
+            "Count": 8
+        },
+        {
+            "Name": "Possession of Contraband in the Third Degree",
+            "Count": 1
+        },
+        {
+            "Name": "Robbery",
+            "Count": 7
+        },
+        {
             "Name": "Possession of Dirty Money in the Second Degree",
             "Count": 3
         },
         {
             "Name": "Impersonating a Peace Officer",
-            "Count": 1
+            "Count": 2
         },
         {
             "Name": "Vehicle Registration Fraud",
-            "Count": 1
+            "Count": 3
         },
         {
             "Name": "Possession of Band of Notes and Small Band of Notes",
@@ -11147,69 +11732,9 @@ PROFILES = {
         {
             "Name": "Hunting Without a License",
             "Count": 1
-        },
-        {
-            "Name": "Assault & Battery",
-            "Count": 4
-        },
-        {
-            "Name": "Unlawful Imprisonment",
-            "Count": 1
-        },
-        {
-            "Name": "Kidnapping",
-            "Count": 4
-        },
-        {
-            "Name": "Assault with a Deadly Weapon",
-            "Count": 4
-        },
-        {
-            "Name": "Criminal Threats",
-            "Count": 1
-        },
-        {
-            "Name": "Attempted Murder of a Government Employee",
-            "Count": 14
-        },
-        {
-            "Name": "Gang Related Shooting",
-            "Count": 4
-        },
-        {
-            "Name": "Reckless Endangerment",
-            "Count": 1
-        },
-        {
-            "Name": "Petty Theft",
-            "Count": 1
-        },
-        {
-            "Name": "Joyriding",
-            "Count": 30
-        },
-        {
-            "Name": "Grand Theft Auto",
-            "Count": 8
-        },
-        {
-            "Name": "Tampering with a Vehicle",
-            "Count": 1
-        },
-        {
-            "Name": "Possession of Contraband in the Third Degree",
-            "Count": 7
-        },
-        {
-            "Name": "Possession of Contraband in the Third Degree",
-            "Count": 1
-        },
-        {
-            "Name": "Robbery",
-            "Count": 7
         }
     ],
-    "LastUpdated": "2022/07/03"
+    "LastUpdated": "2022/07/15"
 },
 1994: {
     "StateID": 1994,
@@ -12909,6 +13434,40 @@ PROFILES = {
     ],
     "LastUpdated": "2022/07/03"
 },
+22029: {
+    "StateID": 22029,
+    "Name": "Jacob Specter",
+    "ImageURL": "https://i.imgur.com/ttNVaPp.png",
+    "Description": "6284507560",
+    "Licenses": [
+        "Drivers License",
+        "Weapons License",
+        "Hunting License",
+        "Fishing License",
+        "Weapons License"
+    ],
+    "Tags": [],
+    "Vehicles": [
+        "Crown Victoria",
+        "Yosemite Rancher",
+        "Explorer"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "PD Parking Attendants",
+            "Role": "Lot Attendant"
+        }
+    ],
+    "Priors": [],
+    "LastUpdated": "2022/07/15"
+},
 22076: {
     "StateID": 22076,
     "Name": "Vincent Cannoli",
@@ -12958,6 +13517,246 @@ PROFILES = {
     ],
     "Priors": [],
     "LastUpdated": "2022/07/04"
+},
+22109: {
+    "StateID": 22109,
+    "Name": "Zoey Marie",
+    "ImageURL": "https://i.imgur.com/DPMhSXK.jpeg",
+    "Description": "Weapons license removed 30/8/2021 - 680 - R.Anderson - reference\n#19939\n\nDNA and Fingerprint taken 09/09/2021 - Deputy Nova\n\nDrivers Licenese revoked by Senior Deputy Everly 380 on 10/17/2021. |\n\nReason : She hit 21 points on her drivers license\n\nEntered into the expungement programme as of 12/12. !4 days, no\n\nfelonies or misdemeanors. - Judge MacNee\n\nDongle alias: Edna - Report #49982 - 638 K. Stokes",
+    "Licenses": [
+        "Drivers License"
+    ],
+    "Tags": [
+        "DNA On File"
+    ],
+    "Vehicles": [
+        "Asea",
+        "Feltzer"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "Church of la Angels",
+            "Role": "Heathen"
+        },
+        {
+            "Name": "Clucking Bell Farms",
+            "Role": "Hot Bitch"
+        },
+        {
+            "Name": "Fresh Out",
+            "Role": "Sales"
+        },
+        {
+            "Name": "MDM Records",
+            "Role": "Janitor"
+        },
+        {
+            "Name": "PawnHUB",
+            "Role": "Pawn Broker"
+        }
+    ],
+    "Priors": [
+        {
+            "Name": "Assault & Battery",
+            "Count": 11
+        },
+        {
+            "Name": "Unlawful Imprisonment",
+            "Count": 1
+        },
+        {
+            "Name": "Kidnapping",
+            "Count": 4
+        },
+        {
+            "Name": "Kidnapping a Gov Employee",
+            "Count": 1
+        },
+        {
+            "Name": "Assault with a Deadly Weapon",
+            "Count": 2
+        },
+        {
+            "Name": "Criminal Threats",
+            "Count": 3
+        },
+        {
+            "Name": "Petty Theft",
+            "Count": 2
+        },
+        {
+            "Name": "Joyriding",
+            "Count": 9
+        },
+        {
+            "Name": "Possession of Contraband in the Third Degree",
+            "Count": 1
+        },
+        {
+            "Name": "Possession of Contraband in the Second Degree",
+            "Count": 1
+        },
+        {
+            "Name": "Robbery",
+            "Count": 2
+        },
+        {
+            "Name": "Possession of Dirty Money in the First Degree",
+            "Count": 1
+        },
+        {
+            "Name": "Extortion",
+            "Count": 2
+        },
+        {
+            "Name": "Impersonation",
+            "Count": 4
+        },
+        {
+            "Name": "Bribery",
+            "Count": 1
+        },
+        {
+            "Name": "Conspiracy",
+            "Count": 1
+        },
+        {
+            "Name": "Disobeying a Peace Officer",
+            "Count": 3
+        },
+        {
+            "Name": "Misdemeanor Obstruction of Justice",
+            "Count": 2
+        },
+        {
+            "Name": "Evidence Tampering",
+            "Count": 1
+        },
+        {
+            "Name": "Vandalism of Government Property",
+            "Count": 1
+        },
+        {
+            "Name": "Animal Cruelty",
+            "Count": 12
+        },
+        {
+            "Name": "Felony Obstruction of Justice",
+            "Count": 1
+        },
+        {
+            "Name": "Misdemeanor Possession of Marijuana",
+            "Count": 1
+        },
+        {
+            "Name": "Misdemeanor Possession of Controlled Dangerous Substance OXY / METH",
+            "Count": 1
+        },
+        {
+            "Name": "Felony Possession of Marijuana",
+            "Count": 1
+        },
+        {
+            "Name": "Felony Possession with intent to Distribute",
+            "Count": 1
+        },
+        {
+            "Name": "Prostitution",
+            "Count": 1
+        },
+        {
+            "Name": "Criminal Possession of a Firearm [Class 1]",
+            "Count": 11
+        },
+        {
+            "Name": "Criminal Use of a Firearm",
+            "Count": 2
+        },
+        {
+            "Name": "Resisting Arrest",
+            "Count": 14
+        },
+        {
+            "Name": "Jaywalking",
+            "Count": 1
+        },
+        {
+            "Name": "Criminal Possession of a Government Issued Equipment",
+            "Count": 1
+        },
+        {
+            "Name": "Evading",
+            "Count": 1
+        },
+        {
+            "Name": "Reckless Evading",
+            "Count": 7
+        },
+        {
+            "Name": "Failure to Obey Traffic Control Devices",
+            "Count": 5
+        },
+        {
+            "Name": "Negligent Driving",
+            "Count": 3
+        },
+        {
+            "Name": "Reckless Driving",
+            "Count": 2
+        },
+        {
+            "Name": "Third Degree Speeding",
+            "Count": 6
+        },
+        {
+            "Name": "Second Degree Speeding",
+            "Count": 1
+        },
+        {
+            "Name": "First Degree Speeding",
+            "Count": 1
+        },
+        {
+            "Name": "Operating a Motor Vehicle on a Suspended or Revoked License",
+            "Count": 1
+        },
+        {
+            "Name": "Failure to Stop",
+            "Count": 1
+        },
+        {
+            "Name": "Unauthorized Parking",
+            "Count": 1
+        },
+        {
+            "Name": "Operating a Motor Vehicle Without Proper Identification",
+            "Count": 2
+        },
+        {
+            "Name": "Hunting/Fishing without a license",
+            "Count": 2
+        },
+        {
+            "Name": "Unauthorized Sales",
+            "Count": 1
+        },
+        {
+            "Name": "Robbery of a Financial Institution",
+            "Count": 3
+        },
+        {
+            "Name": "Felony Animal Cruelty",
+            "Count": 2
+        }
+    ],
+    "LastUpdated": "2022/07/15"
 },
 22147: {
     "StateID": 22147,
@@ -13881,6 +14680,71 @@ PROFILES = {
     ],
     "LastUpdated": "2022/07/05"
 },
+23269: {
+    "StateID": 23269,
+    "Name": "Abdulaziz Alrashidi",
+    "ImageURL": "https://i.imgur.com/mCBV8yo.jpeg",
+    "Description": "Fingerprint Taken 10/21/2021 - #24630 Deputy Nova",
+    "LastUpdated": "2022/07/15"
+},
+23310: {
+    "StateID": 23310,
+    "Name": "Sean Murphy",
+    "ImageURL": "https://i.imgur.com/z8PsW0p.jpeg",
+    "Description": "Hunting License taken for Poaching #23153 (Possession of a Mountain\n\nLion Carcass)",
+    "Licenses": [
+        "Drivers License",
+        "Weapons License",
+        "Fishing License"
+    ],
+    "Tags": [],
+    "Vehicles": [
+        "BMX"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [],
+    "Priors": [
+        {
+            "Name": "Joyriding",
+            "Count": 4
+        },
+        {
+            "Name": "Possession of Contraband in the Third Degree",
+            "Count": 1
+        },
+        {
+            "Name": "Resisting Arrest",
+            "Count": 2
+        },
+        {
+            "Name": "Reckless Evading",
+            "Count": 3
+        },
+        {
+            "Name": "Negligent Driving",
+            "Count": 1
+        },
+        {
+            "Name": "Second Degree Speeding",
+            "Count": 1
+        },
+        {
+            "Name": "Failure to Stop",
+            "Count": 1
+        },
+        {
+            "Name": "Unlawful Taking of Protected Fish or Wildlife",
+            "Count": 1
+        }
+    ],
+    "LastUpdated": "2022/07/15"
+},
 2333: {
     "StateID": 2333,
     "Name": "Shelly Smith",
@@ -13929,12 +14793,12 @@ PROFILES = {
             "Type": "Keyholder"
         },
         {
-            "Name": "Beachside Avenue 3",
+            "Name": "Kimble Hill Drive 2",
             "Type": "Owner"
         }
     ],
     "Hotels": [],
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/15"
 },
 23407: {
     "StateID": 23407,
@@ -16320,7 +17184,7 @@ PROFILES = {
             "Role": "Promoter"
         },
         {
-            "Name": "Dodo Logisitcs LCC",
+            "Name": "Dodo Logistics LCC",
             "Role": "Express Temp Driver"
         },
         {
@@ -16454,7 +17318,7 @@ PROFILES = {
             "Count": 1
         }
     ],
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/15"
 },
 25628: {
     "StateID": 25628,
@@ -16840,20 +17704,209 @@ PROFILES = {
     "Priors": [],
     "LastUpdated": "2022/06/27"
 },
+26124: {
+    "StateID": 26124,
+    "Name": "Derek Dixon",
+    "ImageURL": "https://i.imgur.com/nbXEw8n.png",
+    "Description": "6286372306\n\nIncident (#24220) - DNA Swab taken 17/10/2021 - @391 O. Fury\n\nFelony Possession with intent to Distribute | 29th October 2021 #25584\n\nAlias: DD - 43572 - 460 L. Vale - 04/24/22",
+    "Vehicles": [
+        "unknown"
+    ],
+    "Tags": [
+        "DNA On File",
+        "Bowl Cut Gang"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "Lindsay Circus Apartment 2",
+            "Type": "Keyholder"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "H & O Imports/Exports",
+            "Role": "Material Acquisition"
+        },
+        {
+            "Name": "Pigeon View",
+            "Role": "Photographer"
+        }
+    ],
+    "Priors": [
+        {
+            "Name": "Assault & Battery",
+            "Count": 2
+        },
+        {
+            "Name": "Kidnapping",
+            "Count": 3
+        },
+        {
+            "Name": "Assault with a Deadly Weapon",
+            "Count": 3
+        },
+        {
+            "Name": "Attempted 2nd Degree Murder",
+            "Count": 1
+        },
+        {
+            "Name": "Gang Related Shooting",
+            "Count": 1
+        },
+        {
+            "Name": "Reckless Endangerment",
+            "Count": 1
+        },
+        {
+            "Name": "Joyriding",
+            "Count": 7
+        },
+        {
+            "Name": "Grand Theft Auto",
+            "Count": 8
+        },
+        {
+            "Name": "Tampering with a Vehicle",
+            "Count": 1
+        },
+        {
+            "Name": "Possession of Contraband in the Third Degree",
+            "Count": 14
+        },
+        {
+            "Name": "Possession of Contraband in the Second Degree",
+            "Count": 1
+        },
+        {
+            "Name": "Possession of Contraband in the First Degree",
+            "Count": 1
+        },
+        {
+            "Name": "Robbery",
+            "Count": 1
+        },
+        {
+            "Name": "Possession of a Stolen Identification",
+            "Count": 1
+        },
+        {
+            "Name": "Possession of Dirty Money in the Second Degree",
+            "Count": 1
+        },
+        {
+            "Name": "Burglary",
+            "Count": 2
+        },
+        {
+            "Name": "Felony Trespassing",
+            "Count": 1
+        },
+        {
+            "Name": "Disobeying a Peace Officer",
+            "Count": 2
+        },
+        {
+            "Name": "Vandalism of Government Property",
+            "Count": 2
+        },
+        {
+            "Name": "Felony Obstruction of Justice",
+            "Count": 6
+        },
+        {
+            "Name": "Misdemeanor Possession of Controlled Dangerous Substance OXY / METH",
+            "Count": 4
+        },
+        {
+            "Name": "Sale of Drugs",
+            "Count": 1
+        },
+        {
+            "Name": "Felony Possession with intent to Distribute",
+            "Count": 2
+        },
+        {
+            "Name": "Criminal Possession of a Firearm [Class 1]",
+            "Count": 23
+        },
+        {
+            "Name": "Criminal Possession of a Firearm [Class 2]",
+            "Count": 13
+        },
+        {
+            "Name": "Criminal Possession of a Government-Issue Firearm",
+            "Count": 3
+        },
+        {
+            "Name": "Brandishing non Firearm",
+            "Count": 1
+        },
+        {
+            "Name": "Resisting Arrest",
+            "Count": 17
+        },
+        {
+            "Name": "Criminal Possession of a Government Issued Equipment",
+            "Count": 2
+        },
+        {
+            "Name": "Hit and Run",
+            "Count": 2
+        },
+        {
+            "Name": "Evading",
+            "Count": 2
+        },
+        {
+            "Name": "Reckless Evading",
+            "Count": 14
+        },
+        {
+            "Name": "First Degree Speeding",
+            "Count": 1
+        },
+        {
+            "Name": "Operating a Motor Vehicle on a Suspended or Revoked License",
+            "Count": 2
+        },
+        {
+            "Name": "Operating a Motor Vehicle Without Proper Identification",
+            "Count": 2
+        },
+        {
+            "Name": "Robbery of a Financial Institution",
+            "Count": 2
+        },
+        {
+            "Name": "Attempted Murder of a Government Employee",
+            "Count": 62
+        }
+    ],
+    "Licenses": [
+        "Fishing License"
+    ],
+    "LastUpdated": "2022/07/15"
+},
 26140: {
     "StateID": 26140,
     "Name": "Toni Balbani",
     "ImageURL": "https://i.imgur.com/QF9vviU.png",
-    "Description": "DNA TAKEN - 11/12/2021 - INCIDENT#27245 - M. Bancroft\n\nSTATED HE WILL DEFRAUD LOAN COMPANIES BY GETTING OTHER\nPEOPLE TO TAKE OUT LOANS BY PRETENDING TO GIVE THEM A\nPOSITION WITHIN HIS TERRIBLE CRIME FAMILY\n\nP#:(415) 432-3796\n\nLeader? of Italian gang:\n\u00a2 Toni Balbani\n\n\u00a2 Maz Razi\n\n\u00a2 Johnathan Johnson\n\u00a2 Luka Malarkey\n\n\u00a2 Boris Karishnikov\n\n\u00a2 Vice Roy\n\ne Alex S\u00e9derberg\n\n\u00a2 Larry Jonsen",
+    "Description": "DNA TAKEN - 11/12/2021 - INCIDENT#27245 - M. Bancroft\n\nSTATED HE WILL DEFRAUD LOAN COMPANIES BY GETTING OTHER\nPEOPLE TO TAKE OUT LOANS BY PRETENDING TO GIVE THEM A\nPOSITION WITHIN HIS TERRIBLE CRIME FAMILY\n\nP#:(415) 432-3796\n\nLeader? of Italian gang:\n\u00a2 Toni Balbani\n\n\u00a2 Maz Razi\n\n\u00a2 Johnathan Johnson\n\u00a2 Luka Malarkey\n\n\u00a2 Boris Karishnikov\n\n\u00a2 Vice Roy\n\ne Alex S\u00e9derberg\n\ne Larry Jonsen",
     "Licenses": [
         "Drivers License",
         "Business License"
     ],
     "Tags": [
-        "DNA On File",
-        "Balbani Crime Family"
+        "DNA On File"
     ],
-    "Vehicles": [],
+    "Vehicles": [
+        "News Rumpo"
+    ],
     "Housing": [
         {
             "Name": "No3",
@@ -16872,13 +17925,13 @@ PROFILES = {
         },
         {
             "Name": "The Gold Star Company",
-            "Role": "Executive Board Member"
+            "Role": "CFO"
         }
     ],
     "Priors": [
         {
             "Name": "Assault & Battery",
-            "Count": 10
+            "Count": 14
         },
         {
             "Name": "Kidnapping",
@@ -17009,7 +18062,7 @@ PROFILES = {
             "Count": 30
         }
     ],
-    "LastUpdated": "2022/07/05"
+    "LastUpdated": "2022/07/15"
 },
 26199: {
     "StateID": 26199,
@@ -17754,7 +18807,7 @@ PROFILES = {
     "StateID": 26474,
     "Name": "Jacob Pibb",
     "ImageURL": "https://i.imgur.com/4QKFtoB.png",
-    "Description": "DNA TAKEN BY 393 11/10/2021 REPORT #27032\nAlias: LilDemon - 12/04/21\n\nP#: 4156199055\n\nDriver's License Removed 4/13/22 - @925 W. Arnold (#42690)\n\nCompleted scouts program 5/17/2022 | 270 T. Lamb\n\nSomehow learned how to fly a helicopter - Judge Cross",
+    "Description": "DNA TAKEN BY 393 11/10/2021 REPORT #27032\nAlias: LilDemon - 12/04/21\n\nP#: 4156199055\n\nDriver's License Removed 4/13/22 - @925 W. Arnold (#42690)\n\nCompleted scouts program 5/17/2022 | 270 T. Lamb\n\nSomehow learned how to fly a helicopter - Judge Cross\n\nClaims to be the \"Leader\u201d of LSD | 6/28/2022",
     "Licenses": [
         "Hunting License",
         "Fishing License",
@@ -17766,6 +18819,7 @@ PROFILES = {
         "Vagos"
     ],
     "Vehicles": [
+        "Rebla",
         "BMX",
         "News Rumpo",
         "News Rumpo"
@@ -17774,6 +18828,10 @@ PROFILES = {
         {
             "Name": "No3",
             "Type": "Apartment"
+        },
+        {
+            "Name": "Burton 3",
+            "Type": "Keyholder"
         }
     ],
     "Hotels": [],
@@ -17785,6 +18843,10 @@ PROFILES = {
         {
             "Name": "Madrid Taqueria",
             "Role": "Employee"
+        },
+        {
+            "Name": "Maldini's Pizzeria",
+            "Role": "Cashiers"
         },
         {
             "Name": "Mato's Recycling & Lockpicks&",
@@ -17833,7 +18895,7 @@ PROFILES = {
             "Count": 4
         }
     ],
-    "LastUpdated": "2022/07/05"
+    "LastUpdated": "2022/07/15"
 },
 26622: {
     "StateID": 26622,
@@ -18044,6 +19106,70 @@ PROFILES = {
     "Description": "P# (628) 158-1116",
     "LastUpdated": "2022/06/27"
 },
+26783: {
+    "StateID": 26783,
+    "Name": "DeShawn Anston",
+    "ImageURL": "https://i.imgur.com/3KKSc7F.png",
+    "Description": "Supplied fake fishing license - https.//i.imgur.com/JrvqO3k.\n\np#: 6286844294\n\nStolen Firearm, 28/02/2022. (#38234)\n\nDNA on record C.Stubble 03/26/2022 #40569",
+    "Licenses": [
+        "Drivers License",
+        "Weapons License",
+        "Hunting License",
+        "Fishing License"
+    ],
+    "Tags": [
+        "Stolen Firearm",
+        "Personal Theft",
+        "DNA On File"
+    ],
+    "Vehicles": [
+        "News Rumpo",
+        "Burrito",
+        "RS6"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "Procopio Drive 20 / Apt 1",
+            "Type": "Keyholder"
+        },
+        {
+            "Name": "Roy Lowenstein Blvd 16",
+            "Type": "Keyholder"
+        },
+        {
+            "Name": "Jamestown Street 10",
+            "Type": "Owner"
+        },
+        {
+            "Name": "Jamestown Street 20/Apt38",
+            "Type": "Owner"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "Kaza Decor",
+            "Role": "Interior Designer"
+        },
+        {
+            "Name": "La Fuente Blanca",
+            "Role": "VIP Guest"
+        },
+        {
+            "Name": "Putos Frutos",
+            "Role": "Ranch Worker"
+        },
+        {
+            "Name": "The Rusty Hoe",
+            "Role": "Sr. Store Employee"
+        }
+    ],
+    "LastUpdated": "2022/07/15"
+},
 27095: {
     "StateID": 27095,
     "Name": "Thomas Whitlock",
@@ -18166,7 +19292,7 @@ PROFILES = {
         },
         {
             "Name": "Disobeying a Peace Officer",
-            "Count": 4
+            "Count": 5
         },
         {
             "Name": "Disturbing the Peace",
@@ -18233,7 +19359,7 @@ PROFILES = {
             "Count": 3
         }
     ],
-    "LastUpdated": "2022/07/06"
+    "LastUpdated": "2022/07/15"
 },
 27194: {
     "StateID": 27194,
@@ -18545,6 +19671,33 @@ PROFILES = {
     "Priors": [],
     "LastUpdated": "2022/06/28"
 },
+27505: {
+    "StateID": 27505,
+    "Name": "Gary Kebun",
+    "ImageURL": "https://i.imgur.com/shkuQGg.png",
+    "Description": "",
+    "Licenses": [
+        "Drivers License",
+        "Weapons License"
+    ],
+    "Tags": [],
+    "Vehicles": [],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "Inside Men",
+            "Role": "Security"
+        }
+    ],
+    "Priors": [],
+    "LastUpdated": "2022/07/15"
+},
 27574: {
     "StateID": 27574,
     "Name": "Zaceed Skengerton",
@@ -18598,6 +19751,77 @@ PROFILES = {
         }
     ],
     "LastUpdated": "2022/07/05"
+},
+27619: {
+    "StateID": 27619,
+    "Name": "Clayton Stokes",
+    "ImageURL": "https://i.imgur.com/nVMwDKQ.png",
+    "Description": "",
+    "Licenses": [
+        "Drivers License"
+    ],
+    "Tags": [
+        "DNA On File"
+    ],
+    "Vehicles": [],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [],
+    "Priors": [
+        {
+            "Name": "Robbery of a Financial Institution",
+            "Count": 1
+        }
+    ],
+    "LastUpdated": "2022/07/15"
+},
+27833: {
+    "StateID": 27833,
+    "Name": "Eryn Carter",
+    "ImageURL": "https://i.imgur.com/eTSpWto.png",
+    "Description": "Phone Number - (415) 100-6159\nDeputy Warden of the DOC, #702",
+    "Licenses": [
+        "Drivers License",
+        "Hunting License",
+        "Fishing License",
+        "Weapons License"
+    ],
+    "Tags": [],
+    "Vehicles": [
+        "Dominator GTX",
+        "Sugoi",
+        "Crown Victoria",
+        "BMX",
+        "Seashark"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "Procopio Drive 24",
+            "Type": "Owner"
+        },
+        {
+            "Name": "Beachside Avenue 24",
+            "Type": "Keyholder"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "Incarcenated Incorporated",
+            "Role": "PD Pals"
+        }
+    ],
+    "Priors": [],
+    "LastUpdated": "2022/07/15"
 },
 27930: {
     "StateID": 27930,
@@ -18977,6 +20201,73 @@ PROFILES = {
     ],
     "LastUpdated": "2022/07/05"
 },
+28343: {
+    "StateID": 28343,
+    "Name": "Chris Turtle",
+    "ImageURL": "https://i.imgur.com/eAvkjlw.png",
+    "Description": "Expungement Program Denied due to below harassment being\nunsatisfactorily answered for during hearing June 20, 2022 - Judge\nSiobhan Fitzpatrick\n\nillegal discharge due to drinking some unknown drink causing him to\nshoot. No violent priors. Will withhold pushing charges for now -\n11/28/2021 Roy 443\n\nDNA collected 12/02/2021 (#29495) @611 Deputy Bobbi Russel\n\nExpungement denied due to being a piece of garbage after harassing\nseveral people inside of City Hall and county clerk Odessa Pearson -\n\nJudge Cross\n\nTRIED TO GET ME TO OVERULE OTHER JUDGES ON HIS EXPUNGEMENT-\nCAREFUL - GREYSON\n\nRemoved weapons license on 03/07/2022 because he shot UM cops |\n#50004\n\n- v we . . - . e~ e~ \u2014~ e",
+    "Licenses": [],
+    "Tags": [
+        "DNA On File",
+        "Weapon License Removed"
+    ],
+    "Vehicles": [],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [],
+    "Priors": [
+        {
+            "Name": "Assault & Battery",
+            "Count": 2
+        },
+        {
+            "Name": "Unlawful Imprisonment",
+            "Count": 3
+        },
+        {
+            "Name": "Kidnapping",
+            "Count": 1
+        },
+        {
+            "Name": "Assault with a Deadly Weapon",
+            "Count": 1
+        },
+        {
+            "Name": "Criminal Threats",
+            "Count": 3
+        },
+        {
+            "Name": "Attempted Murder of a Government Employee",
+            "Count": 6
+        },
+        {
+            "Name": "Gang Related Shooting",
+            "Count": 1
+        },
+        {
+            "Name": "Brandishing of a Firearm",
+            "Count": 1
+        },
+        {
+            "Name": "Joyriding",
+            "Count": 3
+        },
+        {
+            "Name": "Grand Theft Auto",
+            "Count": 1
+        },
+        {
+            "Name": "Possession of Contraband in the Third Degree",
+            "Count": 1
+        }
+    ],
+    "LastUpdated": "2022/07/15"
+},
 28427: {
     "StateID": 28427,
     "Name": "Moe Gin",
@@ -19073,6 +20364,10 @@ PROFILES = {
             "Role": "Executive Board Member"
         },
         {
+            "Name": "Dodo Logistics LLC",
+            "Role": "Express Temp Driver"
+        },
+        {
             "Name": "Jiggity Studios",
             "Role": "Camera Man"
         },
@@ -19088,7 +20383,7 @@ PROFILES = {
     "Priors": [
         {
             "Name": "Kidnapping",
-            "Count": 4
+            "Count": 5
         },
         {
             "Name": "Kidnapping a Gov Employee",
@@ -19100,7 +20395,11 @@ PROFILES = {
         },
         {
             "Name": "Attempted Murder of a Government Employee",
-            "Count": 14
+            "Count": 30
+        },
+        {
+            "Name": "Gang Related Shooting",
+            "Count": 2
         },
         {
             "Name": "Brandishing of a Firearm",
@@ -19108,11 +20407,11 @@ PROFILES = {
         },
         {
             "Name": "Joyriding",
-            "Count": 8
+            "Count": 12
         },
         {
             "Name": "Grand Theft Auto",
-            "Count": 7
+            "Count": 8
         },
         {
             "Name": "Tampering with a Vehicle",
@@ -19120,11 +20419,11 @@ PROFILES = {
         },
         {
             "Name": "Possession of Contraband in the Third Degree",
-            "Count": 7
+            "Count": 8
         },
         {
             "Name": "Robbery",
-            "Count": 4
+            "Count": 5
         },
         {
             "Name": "First Degree Robbery",
@@ -19135,6 +20434,10 @@ PROFILES = {
             "Count": 2
         },
         {
+            "Name": "Impersonation",
+            "Count": 1
+        },
+        {
             "Name": "Vehicle Registration Fraud",
             "Count": 1
         },
@@ -19143,8 +20446,12 @@ PROFILES = {
             "Count": 1
         },
         {
+            "Name": "Conspiracy",
+            "Count": 1
+        },
+        {
             "Name": "Felony Obstruction of Justice",
-            "Count": 7
+            "Count": 9
         },
         {
             "Name": "Misdemeanor Possession of Cocaine",
@@ -19152,7 +20459,7 @@ PROFILES = {
         },
         {
             "Name": "Misdemeanor Possession of Controlled Dangerous Substance OXY / METH",
-            "Count": 2
+            "Count": 5
         },
         {
             "Name": "Possession of Drug Paraphernalia",
@@ -19215,7 +20522,7 @@ PROFILES = {
         "DNA On File",
         "Weapon License Removed"
     ],
-    "LastUpdated": "2022/07/05"
+    "LastUpdated": "2022/07/15"
 },
 28515: {
     "StateID": 28515,
@@ -20055,6 +21362,117 @@ PROFILES = {
     ],
     "LastUpdated": "2022/07/09"
 },
+30448: {
+    "StateID": 30448,
+    "Name": "JUNIOR LONG",
+    "ImageURL": "https://i.imgur.com/FnEf20N.png",
+    "Description": "P#: (415) 586-1653\n\nRacing Alias: Skert",
+    "Licenses": [
+        "Drivers License",
+        "Weapons License",
+        "Fishing License",
+        "Hunting License",
+        "Weapons License"
+    ],
+    "Tags": [],
+    "Vehicles": [
+        "Schwartzer 6STR",
+        "Speedo",
+        "BMX"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "6STR Tuner Shop",
+            "Role": "Mechanic"
+        },
+        {
+            "Name": "Bean Manor",
+            "Role": "Guest"
+        },
+        {
+            "Name": "Dodo Logistics LLC",
+            "Role": "Express Sr Driver"
+        },
+        {
+            "Name": "Forged Fabrications",
+            "Role": "Co Founder"
+        },
+        {
+            "Name": "Forged Fabrications",
+            "Role": "Co Founder"
+        },
+        {
+            "Name": "Overboost Drift School",
+            "Role": "Instructor"
+        },
+        {
+            "Name": "Safe Insure Inc.",
+            "Role": "Policy Manager"
+        },
+        {
+            "Name": "The Masters' Racehorse Lounge",
+            "Role": "Event Organizer"
+        }
+    ],
+    "Priors": [
+        {
+            "Name": "Grand Theft Auto",
+            "Count": 4
+        },
+        {
+            "Name": "Possession of Contraband in the Third Degree",
+            "Count": 3
+        },
+        {
+            "Name": "Vehicle Registration Fraud",
+            "Count": 2
+        },
+        {
+            "Name": "Conspiracy",
+            "Count": 1
+        },
+        {
+            "Name": "Felony Obstruction of Justice",
+            "Count": 1
+        },
+        {
+            "Name": "Criminal Possession of a Firearm [Class 1]",
+            "Count": 3
+        },
+        {
+            "Name": "Resisting Arrest",
+            "Count": 2
+        },
+        {
+            "Name": "Possession of Weapon Attachments",
+            "Count": 2
+        },
+        {
+            "Name": "Reckless Evading",
+            "Count": 5
+        },
+        {
+            "Name": "Reckless Driving",
+            "Count": 1
+        },
+        {
+            "Name": "Street Racing",
+            "Count": 2
+        },
+        {
+            "Name": "Robbery of a Financial Institution",
+            "Count": 1
+        }
+    ],
+    "LastUpdated": "2022/07/15"
+},
 30513: {
     "StateID": 30513,
     "Name": "Blake Jackson",
@@ -20840,7 +22258,7 @@ PROFILES = {
             "Count": 2
         }
     ],
-    "LastUpdated": "2022/07/05"
+    "LastUpdated": "2022/07/15"
 },
 31165: {
     "StateID": 31165,
@@ -22066,6 +23484,54 @@ PROFILES = {
     "Priors": [],
     "LastUpdated": "2022/07/05"
 },
+32405: {
+    "StateID": 32405,
+    "Name": "Darren Creasy",
+    "ImageURL": "https://i.imgur.com/eRS78Ev.png",
+    "Description": "Fishing License Expires - April 21st 2022 (4/21/2022)\nHunting License Expires - May 18th 2022 (5/18/2022) - Signed Clerk\n\nSilverton\n\nWarned about shooting mountain lions only out of necessity/self-defense\n-5/3/22 W. Arnold & T. Lamb\n\nDongle alias: Paria\n\nWeapon Stolen | 10th June 2022 | Report #47975\n\nHunting License Expires august 30th of August 2022 - Clerk |.Wagner.",
+    "Licenses": [
+        "Drivers License",
+        "Fishing License",
+        "Weapons License",
+        "Hunting License",
+        "Fishing License"
+    ],
+    "Tags": [
+        "Stolen Firearm"
+    ],
+    "Vehicles": [
+        "Sultan RS",
+        "Pony",
+        "News Rumpo",
+        "Sandking"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "Dodo Logistics LLC",
+            "Role": "Express Temp Driver"
+        },
+        {
+            "Name": "Harmony Imports",
+            "Role": "Sales"
+        },
+        {
+            "Name": "Harmony Repairs",
+            "Role": "Snr Mechanic"
+        },
+        {
+            "Name": "Vultur Le Culture",
+            "Role": "Gem Appraiser"
+        }
+    ],
+    "LastUpdated": "2022/07/15"
+},
 32479: {
     "StateID": 32479,
     "Name": "Timmy Dang",
@@ -22762,6 +24228,72 @@ PROFILES = {
     ],
     "LastUpdated": "2022/07/05"
 },
+32969: {
+    "StateID": 32969,
+    "Name": "Rexavious Redwood",
+    "ImageURL": "https://i.imgur.com/oDRQjp0.png",
+    "Description": "6287979251\n\nWeapons License Issued April 5, 2022 - Clerk J. Hilton\n\nHunting & Fishing Licenses Expire June 5, 2022 - Clerk J. Hilton\n\nFirearm reported stolen 14 Apr, 2022 - Report #42618 - D-28 K. Stokes\n\nDNA Taken J.Bane 06/08/2022 report 47765\n\nRemoved weapons license report 47765",
+    "Licenses": [
+        "Drivers License",
+        "Hunting License",
+        "Fishing License"
+    ],
+    "Tags": [
+        "Stolen Firearm",
+        "DNA On File",
+        "Brouge Street Kings"
+    ],
+    "Vehicles": [
+        "Pony",
+        "Bison",
+        "Pro 3",
+        "BMX",
+        "BMX",
+        "Esskey"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "Power Street 13",
+            "Type": "Keyholder"
+        },
+        {
+            "Name": "Brouge Avenue 4",
+            "Type": "Keyholder"
+        },
+        {
+            "Name": "Roy Lowenstein Blvd 4",
+            "Type": "Keyholder"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "Jiggity Studios",
+            "Role": "Actor"
+        },
+        {
+            "Name": "Syndicate Industries",
+            "Role": "Employee"
+        },
+        {
+            "Name": "Tequi-La-La",
+            "Role": "Performer"
+        },
+        {
+            "Name": "UwU Cafe",
+            "Role": "Employee"
+        },
+        {
+            "Name": "Wu-Chang Records",
+            "Role": "Producer"
+        }
+    ],
+    "LastUpdated": "2022/07/15"
+},
 32983: {
     "StateID": 32983,
     "Name": "Nicole Reynolds",
@@ -23447,6 +24979,40 @@ PROFILES = {
         }
     ],
     "LastUpdated": "2022/07/05"
+},
+33306: {
+    "StateID": 33306,
+    "Name": "Klaus Atascadero",
+    "ImageURL": "https://i.imgur.com/H1P7CXQ.png",
+    "Description": "P#: (415) 993-2207",
+    "Licenses": [
+        "Drivers License",
+        "Hunting License",
+        "Fishing License",
+        "Weapons License"
+    ],
+    "Tags": [
+        "Dispatch",
+        "The Bay"
+    ],
+    "Vehicles": [
+        "Blista Compact"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "PD Parking Attendants",
+            "Role": "Lot Attendant"
+        }
+    ],
+    "Priors": [],
+    "LastUpdated": "2022/07/15"
 },
 3331: {
     "StateID": 3331,
@@ -25871,7 +27437,8 @@ PROFILES = {
         "Drivers License",
         "Weapons License",
         "Hunting License",
-        "Fishing License"
+        "Fishing License",
+        "Weapons License"
     ],
     "Tags": [],
     "Vehicles": [
@@ -25911,7 +27478,7 @@ PROFILES = {
         }
     ],
     "Priors": [],
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/15"
 },
 34755: {
     "StateID": 34755,
@@ -26327,7 +27894,8 @@ PROFILES = {
         "Drivers License",
         "Weapons License",
         "Hunting License",
-        "Fishing License"
+        "Fishing License",
+        "Weapons License"
     ],
     "Tags": [],
     "Vehicles": [
@@ -26362,7 +27930,7 @@ PROFILES = {
         }
     ],
     "Priors": [],
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/15"
 },
 3527: {
     "StateID": 3527,
@@ -26475,6 +28043,28 @@ PROFILES = {
         }
     ],
     "LastUpdated": "2022/07/09"
+},
+35292: {
+    "StateID": 35292,
+    "Name": "Marcus Sin",
+    "ImageURL": "https://i.imgur.com/LtQeuzX.png",
+    "Description": "P#: (628) 845-2812",
+    "Licenses": [
+        "Drivers License",
+        "Weapons License"
+    ],
+    "Tags": [],
+    "Vehicles": [],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [],
+    "Priors": [],
+    "LastUpdated": "2022/07/15"
 },
 35325: {
     "StateID": 35325,
@@ -26627,13 +28217,12 @@ PROFILES = {
     "StateID": 35381,
     "Name": "Sticky Memz Green",
     "ImageURL": "https://i.imgur.com/Z24YISV.png",
-    "Description": "Found with [lel{RGFIIRYENSES in Dirty Money | #47783 | 08/06/2022 - ).\n\nDoe",
+    "Description": "Found with [lfRGEIRBYENES in Dirty Money | #47783 | 08/06/2022 - ).\n\nDoe\n\nFound with in Dirty Money | #48265 | 14/06/2022 - J. Doe\nFound with in Dirty Money | #49292 | 25/06/2022 - J. Doe\nAlias: Anonymous | #49292 | 25/06/2022 - ). Doe\n\nDNA taken by J.Talladega voluntarily on 01/07/2022 relating to incident\n#49814 (Green was GSR positive)",
     "Licenses": [
         "Drivers License"
     ],
     "Tags": [
-        "Metamorphine",
-        "Bands of Notes"
+        "DNA On File"
     ],
     "Vehicles": [
         "BMX",
@@ -26649,11 +28238,15 @@ PROFILES = {
     "Employment": [
         {
             "Name": "AFE Oil",
-            "Role": "Material Gatherer"
+            "Role": "Manager (Material Acquisition)"
         },
         {
             "Name": "Brothers Restaurant",
             "Role": "Employee"
+        },
+        {
+            "Name": "Dodo Logistics LLC",
+            "Role": "Express Temp Driver"
         },
         {
             "Name": "Jiggity Studios",
@@ -26666,6 +28259,10 @@ PROFILES = {
         {
             "Name": "MDM Records",
             "Role": "Junior Salesman"
+        },
+        {
+            "Name": "Ved Services",
+            "Role": "CEO"
         }
     ],
     "Priors": [
@@ -26674,7 +28271,40 @@ PROFILES = {
             "Count": 1
         }
     ],
-    "LastUpdated": "2022/07/05"
+    "LastUpdated": "2022/07/15"
+},
+35409: {
+    "StateID": 35409,
+    "Name": "Faye Antonia",
+    "ImageURL": "https://i.imgur.com/xZ4voDz.png",
+    "Description": "Resident at Pillbox Medical / Viceroy Medical\nP#: (415) 278-8245\n(She/They)\n\nMEDICAL INFORMATION:\n\u00a2 Blood Type: AB-",
+    "Licenses": [
+        "Drivers License",
+        "Weapons License"
+    ],
+    "Tags": [],
+    "Vehicles": [
+        "Scorcher"
+    ],
+    "Housing": [
+        {
+            "Name": "Prosperity",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "Coopenmartha Court 13",
+            "Type": "Owner"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "Los Santos Medical Group",
+            "Role": "Resident"
+        }
+    ],
+    "Priors": [],
+    "LastUpdated": "2022/07/15"
 },
 35504: {
     "StateID": 35504,
@@ -27169,18 +28799,18 @@ PROFILES = {
     "StateID": 35844,
     "Name": "Dominic Bastias",
     "ImageURL": "https://i.imgur.com/4vF6QtG.png",
-    "Description": "Fishing Licenses Expires - July 4th 2022 - Signed Clerk Silverton\n\nHunting License Expires - July 23rd 2022 - Signed Clerk Silverton\n\nCaught with Mountain Lion pelt, given warning - 06/15/2022 - 638 K.\nStokes\n\nDongle Alias: DZ | 645 M.Mills #48745\n\nDongle Alias: DB | 378 G.Sexton #49414\n\nGun was found on Zoe Marie 06/28/2022 no attempt at making a missing\n\ngun report - L. Bloom\n\nWeapon's License taken 07/06/22 - L. Bloom ~ | was right about him\nsupplying them legal guns",
+    "Description": "Fishing Licenses Expires - July 4th 2022 - Signed Clerk Silverton\n\nHunting License Expires - July 23rd 2022 - Signed Clerk Silverton\n\nCaught with Mountain Lion pelt, given warning - 06/15/2022 - 638 K.\nStokes\n\nDongle Alias: DZ | 645 M.Mills #48745\n\nDongle Alias: DB | 378 G.Sexton #49414\n\nGun was found on Zoe Marie 06/28/2022 no attempt at making a missing\n\ngun report - L. Bloom\n\nWeapon's License taken 07/06/22 - L. Bloom # | was right about him\nsupplying them legal guns\n\n \n\ngang named LSD (los Santos Dolls)\n\nDongle Alias - DB - Report #50554",
     "Licenses": [
         "Drivers License",
         "Fishing License",
-        "Weapons License",
         "Hunting License"
     ],
     "Tags": [],
     "Vehicles": [
         "Schafter Business",
         "Pro 3",
-        "Vagrant"
+        "Vagrant",
+        "Tropic"
     ],
     "Housing": [
         {
@@ -27277,7 +28907,7 @@ PROFILES = {
             "Count": 1
         }
     ],
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/15"
 },
 35850: {
     "StateID": 35850,
@@ -27728,14 +29358,16 @@ PROFILES = {
     "StateID": 36541,
     "Name": "Jennifer Doe",
     "ImageURL": "https://i.imgur.com/qHEUn3l.jpeg",
-    "Description": "Fishing license expires July 16, 2022 - Clerk J. Hilton\n\nFishing License removed, May 17th, 2022 - J. Price, Report #45742\n\nSAS Program completion - https://i.imgur.com/3P8kpDy.png\nHunting & Fishing licenses reinstated, expire July 23, 2022",
+    "Description": "p# 6284616388\n\nFishing license expires July 16, 2022 - Clerk J. Hilton\n\nFishing License removed, May 17th, 2022 - J. Price, Report #45742\n\nSAS Program completion - https://i.imgur.com/3P8kpDy.png\nHunting & Fishing licenses reinstated, expire July 23, 2022\n\nBelieved to be part of \"LSD\" gang - 2022/06/28 P.Weaver\n\nWeapons License Removed - 07/06/22 - Report #50231",
     "Licenses": [
         "Drivers License",
         "Hunting License",
         "Fishing License",
         "Weapons License"
     ],
-    "Tags": [],
+    "Tags": [
+        "Weapon License Removed"
+    ],
     "Vehicles": [
         "BD BIMX",
         "BMX"
@@ -27761,12 +29393,12 @@ PROFILES = {
             "Role": "Express Temp Driver"
         },
         {
-            "Name": "Paleto Pets and Veterinarian Service",
-            "Role": "Trial Pet Placement Specialist"
-        },
-        {
             "Name": "PUSSYCAT",
             "Role": "Temp. Management"
+        },
+        {
+            "Name": "Paleto Pets and Veterinarian Service",
+            "Role": "Trial Pet Placement Specialist"
         }
     ],
     "Priors": [
@@ -27791,7 +29423,7 @@ PROFILES = {
             "Count": 1
         }
     ],
-    "LastUpdated": "2022/07/05"
+    "LastUpdated": "2022/07/15"
 },
 3655: {
     "StateID": 3655,
@@ -28287,7 +29919,8 @@ PROFILES = {
         "Drivers License",
         "Weapons License",
         "Hunting License",
-        "Fishing License"
+        "Fishing License",
+        "Weapons License"
     ],
     "Tags": [],
     "Vehicles": [
@@ -28305,15 +29938,23 @@ PROFILES = {
     "Employment": [
         {
             "Name": "Burger Shot",
-            "Role": "Trainee"
+            "Role": "Burger Flipper"
         },
         {
             "Name": "Dodo Logistics LLC",
             "Role": "Express Temp Driver"
         },
         {
+            "Name": "Overboost Drift School",
+            "Role": "Key Holder"
+        },
+        {
             "Name": "San Andreas State Towing",
             "Role": "Tow Driver"
+        },
+        {
+            "Name": "UwU Cafe",
+            "Role": "Trainee"
         }
     ],
     "Priors": [
@@ -28359,7 +30000,7 @@ PROFILES = {
         },
         {
             "Name": "Third Degree Speeding",
-            "Count": 2
+            "Count": 3
         },
         {
             "Name": "Driving on the Wrong Side of The Road",
@@ -28367,7 +30008,7 @@ PROFILES = {
         },
         {
             "Name": "Failure to Stop",
-            "Count": 1
+            "Count": 2
         },
         {
             "Name": "Operating a Motor Vehicle Without Proper Identification",
@@ -28378,7 +30019,7 @@ PROFILES = {
             "Count": 1
         }
     ],
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/15"
 },
 36728: {
     "StateID": 36728,
@@ -28449,8 +30090,8 @@ PROFILES = {
 36774: {
     "StateID": 36774,
     "Name": "Aziz Abdallah",
-    "ImageURL": "https://i.imgur.com/ttNVaPp.png",
-    "Description": "Hunting & Fishing Licenses Expire 7/28/22 - Judge Siobhan Fitzpatrick",
+    "ImageURL": "https://i.imgur.com/TtVH952.jpeg",
+    "Description": "Hunting & Fishing Licenses Expire 7/28/22 - Judge Siobhan Fitzpatrick\ne Warned for Speeding in City (84 MPH) - V. Cannoli - 6/26/2022\n\ne Came to MRPD\n\nDNA Taken put on File 7/11/22",
     "Licenses": [
         "Drivers License",
         "Hunting License",
@@ -28475,8 +30116,13 @@ PROFILES = {
             "Role": "Employee"
         }
     ],
-    "Priors": [],
-    "LastUpdated": "2022/07/05"
+    "Priors": [
+        {
+            "Name": "Possession of Contraband in the Third Degree",
+            "Count": 1
+        }
+    ],
+    "LastUpdated": "2022/07/15"
 },
 36897: {
     "StateID": 36897,
@@ -28609,6 +30255,33 @@ PROFILES = {
     ],
     "LastUpdated": "2022/07/09"
 },
+3694: {
+    "StateID": 3694,
+    "Name": "Sean Mercer",
+    "ImageURL": "https://i.imgur.com/ttNVaPp.png",
+    "Description": "",
+    "Licenses": [
+        "Drivers License",
+        "Weapons License",
+        "Hunting License",
+        "Fishing License",
+        "Weapons License"
+    ],
+    "Tags": [],
+    "Vehicles": [
+        "BMX"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [],
+    "Priors": [],
+    "LastUpdated": "2022/07/15"
+},
 36959: {
     "StateID": 36959,
     "Name": "Jack Stones",
@@ -28688,6 +30361,55 @@ PROFILES = {
     ],
     "LastUpdated": "2022/07/05"
 },
+36974: {
+    "StateID": 36974,
+    "Name": "Jonathan Hoig",
+    "ImageURL": "https://i.imgur.com/TI0CwSy.png",
+    "Description": "",
+    "Licenses": [
+        "Drivers License"
+    ],
+    "Tags": [],
+    "Vehicles": [
+        "Yosemite",
+        "BD BIMX",
+        "Flatbed",
+        "Freecrawler",
+        "News Rumpo"
+    ],
+    "Housing": [
+        {
+            "Name": "Prosperity",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "North Archer Ave 2 Apt/ 2",
+            "Type": "Owner"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "UwU Cafe",
+            "Role": "Trainee"
+        }
+    ],
+    "Priors": [
+        {
+            "Name": "Possession of Contraband in the Third Degree",
+            "Count": 1
+        },
+        {
+            "Name": "Vehicle Registration Fraud",
+            "Count": 1
+        },
+        {
+            "Name": "Misdemeanor Obstruction of Justice",
+            "Count": 1
+        }
+    ],
+    "LastUpdated": "2022/07/15"
+},
 37006: {
     "StateID": 37006,
     "Name": "Knappy Cartier",
@@ -28712,6 +30434,61 @@ PROFILES = {
     "Employment": [],
     "Priors": [],
     "LastUpdated": "2022/07/05"
+},
+37030: {
+    "StateID": 37030,
+    "Name": "Jin Lee",
+    "ImageURL": "https://i.imgur.com/JieOZtT.png",
+    "Description": "Hunting & Fishing License Expire September 09, 2022 - Clerk 1.Wagner",
+    "Licenses": [
+        "Drivers License",
+        "Hunting License",
+        "Fishing License",
+        "Weapons License"
+    ],
+    "Tags": [],
+    "Vehicles": [
+        "Sultan MKII",
+        "BMX",
+        "Speedo",
+        "unknown"
+    ],
+    "Housing": [
+        {
+            "Name": "Pill Box Swiss St",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "El Rancho Blvd 9",
+            "Type": "Owner"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "WiseGuys Management Consultations LLC",
+            "Role": "Temp Sanitation"
+        }
+    ],
+    "Priors": [
+        {
+            "Name": "Joyriding",
+            "Count": 6
+        },
+        {
+            "Name": "Tampering with a Vehicle",
+            "Count": 1
+        },
+        {
+            "Name": "Failure to Obey Traffic Control Devices",
+            "Count": 1
+        },
+        {
+            "Name": "Third Degree Speeding",
+            "Count": 4
+        }
+    ],
+    "LastUpdated": "2022/07/15"
 },
 37051: {
     "StateID": 37051,
@@ -28911,6 +30688,32 @@ PROFILES = {
         "Drivers License"
     ],
     "LastUpdated": "2022/06/27"
+},
+37186: {
+    "StateID": 37186,
+    "Name": "Ramon Ortiz Soza",
+    "ImageURL": "https://i.imgur.com/ttNVaPp.png",
+    "Description": "",
+    "Licenses": [
+        "Drivers License"
+    ],
+    "Tags": [],
+    "Vehicles": [],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [],
+    "Priors": [
+        {
+            "Name": "Failure to Obey Traffic Control Devices",
+            "Count": 1
+        }
+    ],
+    "LastUpdated": "2022/07/15"
 },
 37199: {
     "StateID": 37199,
@@ -29990,6 +31793,27 @@ PROFILES = {
     "Priors": [],
     "LastUpdated": "2022/07/05"
 },
+4183: {
+    "StateID": 4183,
+    "Name": "Paul Ethan Hall",
+    "ImageURL": "https://i.imgur.com/ttNVaPp.png",
+    "Description": "Arrested for DUl on 07/12/22 Lost License - L. Bloom",
+    "Licenses": [
+        "Drivers License"
+    ],
+    "Tags": [],
+    "Vehicles": [],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [],
+    "Priors": [],
+    "LastUpdated": "2022/07/15"
+},
 4207: {
     "StateID": 4207,
     "Name": "Norman Adams",
@@ -30420,6 +32244,86 @@ PROFILES = {
     "Hotels": [],
     "LastUpdated": "2022/07/05"
 },
+5019: {
+    "StateID": 5019,
+    "Name": "Joey Toes",
+    "ImageURL": "https://i.imgur.com/j2b2fWk.jpeg",
+    "Description": "P#:4151965192\n\nWarned for riding through a red light on his bicycle by Cadet Kennedy on\n3/30/2021\n\nDNA Taken by 398 L. Collins - #39537",
+    "Licenses": [
+        "Drivers License",
+        "Weapons License",
+        "Hunting License",
+        "Fishing License",
+        "Weapons License"
+    ],
+    "Tags": [
+        "DNA On File"
+    ],
+    "Vehicles": [
+        "Blista Compact",
+        "BMX",
+        "Burrito",
+        "Flatbed",
+        "Sandking XL",
+        "Wolfsbane",
+        "Enduro"
+    ],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "Nikola Place 6",
+            "Type": "Keyholder"
+        },
+        {
+            "Name": "Nikola Place 5",
+            "Type": "Keyholder"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "Digital Den",
+            "Role": "Engineer - L1"
+        },
+        {
+            "Name": "Happy Yoga",
+            "Role": "Security"
+        },
+        {
+            "Name": "Iron Hog Repairs",
+            "Role": "Mechanic"
+        },
+        {
+            "Name": "PawnHUB",
+            "Role": "Lead Pawn Broker"
+        },
+        {
+            "Name": "RON Oil",
+            "Role": "Employee"
+        },
+        {
+            "Name": "San Andreas State Towing",
+            "Role": "Tow Driver"
+        },
+        {
+            "Name": "SoyBoys",
+            "Role": "Delivery Bouy"
+        },
+        {
+            "Name": "The Liquid Library",
+            "Role": "Bar Porter"
+        },
+        {
+            "Name": "ULSA: HALLS OF ACADAMIA",
+            "Role": "Student Union"
+        }
+    ],
+    "Priors": [],
+    "LastUpdated": "2022/07/15"
+},
 51593: {
     "StateID": 51593,
     "Name": "Colorado Blue Spruce",
@@ -30668,6 +32572,38 @@ PROFILES = {
     ],
     "Priors": [],
     "LastUpdated": "2022/07/05"
+},
+6220: {
+    "StateID": 6220,
+    "Name": "Alexander Rex",
+    "Description": "Phone #628554385",
+    "Licenses": [
+        "Drivers License",
+        "Weapons License"
+    ],
+    "Tags": [
+        "Howler"
+    ],
+    "Vehicles": [],
+    "Housing": [
+        {
+            "Name": "No3",
+            "Type": "Apartment"
+        },
+        {
+            "Name": "Coopenmartha Court 13",
+            "Type": "Keyholder"
+        }
+    ],
+    "Hotels": [],
+    "Employment": [
+        {
+            "Name": "Los Santos Medical Group",
+            "Role": "Resident"
+        }
+    ],
+    "Priors": [],
+    "LastUpdated": "2022/07/15"
 },
 6235: {
     "StateID": 6235,
@@ -31172,7 +33108,7 @@ PROFILES = {
     "StateID": 6592,
     "Name": "Jagger \"Chatterbox\" Gerardy",
     "ImageURL": "https://i.imgur.com/IUfpIIj.png",
-    "Description": "P#:4150670112\n\nWears  crecpy clow mask with spked shoulder pads\n\nKnown to fly into violent fits of rage at anyone who swears at him\nGoes by the name \u201cChatterbox\u201d\n\nDNA swabbed by @611 L. Hawk - 4/20/2021\n\nCheck prior incidents, possible Forcer\u2019s Law charges could be pressed -\nP. Mayonnaise, 07/24/2021\n\nDriving License removed in relation to incident #49243 L. Bloom",
+    "Description": "P#:4150670112\n\nWears crecpy clow mask with spked shoulder pads\n\nKnown to fly into violent fits of rage at anyone who swears at him\nGoes by the name \u201cChatterbox\u201d\n\nDNA swabbed by @611 L. Hawk - 4/20/2021\n\nCheck prior incidents, possible Forcer\u2019s Law charges could be pressed -\nP. Mayonnaise, 07/24/2021\n\nDriving License removed in relation to incident #49243 L. Bloom",
     "Licenses": [
         "Business License"
     ],
@@ -31222,7 +33158,7 @@ PROFILES = {
         },
         {
             "Name": "Assault with a Deadly Weapon",
-            "Count": 7
+            "Count": 8
         },
         {
             "Name": "2nd Degree Murder",
@@ -31441,13 +33377,13 @@ PROFILES = {
             "Count": 1
         }
     ],
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/15"
 },
 6681: {
     "StateID": 6681,
     "Name": "Chad Gable",
     "ImageURL": "https://i.imgur.com/swh2yM2.png",
-    "Description": "P#: 6281050308\nDispatch FTO\nInternal Affairs\nSingle i/\n\nAB negative\n\nClass 2 Licence,- Greyson - 22/05/22\ncartridge: 6681-blw-987 | serial: 6681 | quality: Good\n\nAlternative photo:\n\nhttps://i.imgur.com/swh2yM2.png",
+    "Description": "P#: 6281050308\nDispatch FTO\nInternal Affairs\nSingle i/\n\nAB negative\n\nDoes not have a pee kink\n\nClass 2 Licence,- Greyson - 22/05/22\ncartridge: 6681-blw-987 | serial: 6681 | quality: Good\n\nAlternative photo:\n\nhttps://i.imgur.com/swh2yM2.png",
     "Licenses": [
         "Drivers License",
         "Weapons License",
@@ -31463,7 +33399,8 @@ PROFILES = {
         "Blista Compact",
         "Ruffian",
         "Crown Victoria",
-        "Schafter V12"
+        "unknown",
+        "NULL"
     ],
     "Housing": [
         {
@@ -31486,7 +33423,8 @@ PROFILES = {
             "Role": "Lot Attendant"
         }
     ],
-    "LastUpdated": "2022/07/05"
+    "Priors": [],
+    "LastUpdated": "2022/07/15"
 },
 6876: {
     "StateID": 6876,
@@ -33803,7 +35741,7 @@ PROFILES = {
     "StateID": 9394,
     "Name": "Dean Quincy",
     "ImageURL": "https://i.imgur.com/kShXXj3.jpeg",
-    "Description": "P#:4157323113\nWeapons License Removed - 4/21/2021\n\nDNA Taken 5/4/2021 - Report #8637\n\nAlias | DaPlug - Incident# 10244\nAlias | TOKEN - Incident# 32813\n\nOXY4SALE - Sultan MkIl - 1st trike - Report #10700\nPeanut states that Dean Quincy left NBC. 22 AUG 2021 J. Bundy\n\nExpungement completed and records sealed 10/13/21. Weapons\n\nLiscence re-issued at the same time - Tidus Schwinghammer\n\nWeapons license removed 12/22/21 - @461 T. Martell\n\nACTUALLY REMOVING DRIVERS",
+    "Description": "GET AN ACTUAL MUGSHOT PICTURE - THIS IS\nNOT A REQUES\n\nP#:4157323113\n\nWeapons License Removed - 4/21/2021\nDNA Taken 5/4/2021 - Report #8637\n\nAlias | DaPlug - Incident# 10244\nAlias | TOKEN - Incident# 32813\n\nOXY4SALE - Sultan MkIl - 1st trike - Report #10700\nPeanut states that Dean Quincy left NBC. 22 AUG 2021 J. Bundy\n\nExpungement completed and records sealed 10/13/21. Weapons\n\nLiscence re-issued at the same time - Tidus Schwinghammer",
     "Licenses": [
         "Fishing License",
         "Business License",
@@ -33828,7 +35766,11 @@ PROFILES = {
         },
         {
             "Name": "Cougar Ave 13 Apt/9",
-            "Type": "Keyholder"
+            "Type": "Keyhoider"
+        },
+        {
+            "Name": "Cougar Ave 13 Apt/3",
+            "Type": "Owner"
         }
     ],
     "Hotels": [],
@@ -33862,7 +35804,7 @@ PROFILES = {
             "Role": "Suspended"
         }
     ],
-    "LastUpdated": "2022/07/09"
+    "LastUpdated": "2022/07/15"
 },
 9408: {
     "StateID": 9408,
@@ -34610,41 +36552,6 @@ PROFILES = {
         "Crown Victoria"
     ],
     "StateID": 1042,
-    "LastUpdated": "2022/02/06"
-},
-1043: {
-    "Name": "Ramee El Rahman",
-    "Housing": [
-        {
-            "Name": "Pill Box Swiss St",
-            "Type": "Apartment"
-        },
-        {
-            "Name": "Little Seoul Apartment 4",
-            "Type": "Owner"
-        },
-        {
-            "Name": "Americano Way 1",
-            "Type": "Keyholder"
-        },
-        {
-            "Name": "Beachside Avenue 6",
-            "Type": "Keyholder"
-        }
-    ],
-    "Vehicles": [
-        "Fagaloa",
-        "Burrito",
-        "AMG GT Black Series",
-        "Suntrap",
-        "Boxville",
-        "Schwartzer 6STR",
-        "AMG GT63",
-        "BT62-R",
-        "Continental SS",
-        "G63"
-    ],
-    "StateID": 1043,
     "LastUpdated": "2022/02/06"
 },
 1044: {
@@ -38068,30 +39975,6 @@ PROFILES = {
     "StateID": 1652,
     "LastUpdated": "2022/02/06"
 },
-16624: {
-    "Name": "Jim Watson",
-    "Housing": [
-        {
-            "Name": "No3",
-            "Type": "Apartment"
-        },
-        {
-            "Name": "Bay City Ave Lower 3",
-            "Type": "Keyholder"
-        },
-        {
-            "Name": "Bay City Ave Lower 4",
-            "Type": "Keyholder"
-        }
-    ],
-    "Employment": [],
-    "Vehicles": [
-        "Sanchez",
-        "Kanjo"
-    ],
-    "StateID": 16624,
-    "LastUpdated": "2022/02/06"
-},
 16877: {
     "Name": "Laura Gapes",
     "Housing": [
@@ -39036,44 +40919,6 @@ PROFILES = {
         "J - Hexer"
     ],
     "StateID": 22098,
-    "LastUpdated": "2022/02/06"
-},
-22109: {
-    "Name": "Zoey Marie",
-    "Housing": [
-        {
-            "Name": "No3",
-            "Type": "Apartment"
-        }
-    ],
-    "Employment": [
-        {
-            "Name": "Vanilla Unicorn",
-            "Role": "Probation"
-        },
-        {
-            "Name": "Fresh Out",
-            "Role": "Sales"
-        },
-        {
-            "Name": "PUSSYCAT",
-            "Role": "Stylist"
-        },
-        {
-            "Name": "PawnHUB",
-            "Role": "Pawn Broker"
-        },
-        {
-            "Name": "Lucky Pearl Lottery",
-            "Role": "Sales Trainee"
-        }
-    ],
-    "Vehicles": [
-        "Sentinel XS",
-        "Asea",
-        "Feltzer"
-    ],
-    "StateID": 22109,
     "LastUpdated": "2022/02/06"
 },
 22300: {
@@ -40244,39 +42089,6 @@ PROFILES = {
     "StateID": 2673,
     "LastUpdated": "2022/02/06"
 },
-26783: {
-    "Name": "DeShawn Anston",
-    "Housing": [
-        {
-            "Name": "No3",
-            "Type": "Apartment"
-        },
-        {
-            "Name": "Procopio Drive 20 / Apt 1",
-            "Type": "Keyholder"
-        }
-    ],
-    "Employment": [
-        {
-            "Name": "UwU Cafe",
-            "Role": "Employee"
-        },
-        {
-            "Name": "Putos Frutos",
-            "Role": "seller"
-        },
-        {
-            "Name": "La Fuente Blanca",
-            "Role": "Putos Frutos"
-        },
-        {
-            "Name": "Kaza Decor",
-            "Role": "Interior Designer"
-        }
-    ],
-    "StateID": 26783,
-    "LastUpdated": "2022/02/06"
-},
 2690: {
     "Name": "Manuela Santos",
     "Housing": [
@@ -41214,47 +43026,6 @@ PROFILES = {
     "Employment": [],
     "Vehicles": [],
     "StateID": 30430,
-    "LastUpdated": "2022/02/06"
-},
-30448: {
-    "Name": "JUNIOR LONG",
-    "Housing": [
-        {
-            "Name": "No3",
-            "Type": "Apartment"
-        },
-        {
-            "Name": "Brouge Avenue 7",
-            "Type": "Keyholder"
-        }
-    ],
-    "Employment": [
-        {
-            "Name": "Safe Insure Inc.",
-            "Role": "Policy Manager"
-        },
-        {
-            "Name": "Dodo Logistics LLC",
-            "Role": "Express Jr Driver"
-        },
-        {
-            "Name": "Bean Manor",
-            "Role": "Guest"
-        },
-        {
-            "Name": "The Masters' Racehorse Lounge",
-            "Role": "Event Organizer"
-        },
-        {
-            "Name": "6STR Tuner Shop",
-            "Role": "Mechanic"
-        }
-    ],
-    "Vehicles": [
-        "WRX",
-        "BMX"
-    ],
-    "StateID": 30448,
     "LastUpdated": "2022/02/06"
 },
 30454: {
@@ -44420,6 +46191,10 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 13847,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 13873,
             "Type": "Apartment"
         },
@@ -44480,11 +46255,19 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 1460,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 14614,
             "Type": "Apartment"
         },
         {
             "StateID": 14642,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 14740,
             "Type": "Apartment"
         },
         {
@@ -44517,6 +46300,10 @@ PROPERTIES = {
         },
         {
             "StateID": 15284,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 15324,
             "Type": "Apartment"
         },
         {
@@ -44601,6 +46388,10 @@ PROPERTIES = {
         },
         {
             "StateID": 16618,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 16624,
             "Type": "Apartment"
         },
         {
@@ -44808,7 +46599,15 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 22029,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 22076,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 22109,
             "Type": "Apartment"
         },
         {
@@ -44849,6 +46648,10 @@ PROPERTIES = {
         },
         {
             "StateID": 22917,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 23310,
             "Type": "Apartment"
         },
         {
@@ -44984,6 +46787,10 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 26124,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 26140,
             "Type": "Apartment"
         },
@@ -45036,6 +46843,10 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 26783,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 27095,
             "Type": "Apartment"
         },
@@ -45056,7 +46867,19 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 27505,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 27574,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 27619,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 27833,
             "Type": "Apartment"
         },
         {
@@ -45073,6 +46896,10 @@ PROPERTIES = {
         },
         {
             "StateID": 28338,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 28343,
             "Type": "Apartment"
         },
         {
@@ -45125,6 +46952,10 @@ PROPERTIES = {
         },
         {
             "StateID": 30053,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 30448,
             "Type": "Apartment"
         },
         {
@@ -45240,6 +47071,10 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 32405,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 32479,
             "Type": "Apartment"
         },
@@ -45276,6 +47111,10 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 32969,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 32983,
             "Type": "Apartment"
         },
@@ -45309,6 +47148,10 @@ PROPERTIES = {
         },
         {
             "StateID": 33262,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 33306,
             "Type": "Apartment"
         },
         {
@@ -45468,6 +47311,10 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 35292,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 35325,
             "Type": "Apartment"
         },
@@ -45604,6 +47451,10 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 3694,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 36959,
             "Type": "Apartment"
         },
@@ -45633,6 +47484,10 @@ PROPERTIES = {
         },
         {
             "StateID": 37158,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 37186,
             "Type": "Apartment"
         },
         {
@@ -45704,6 +47559,10 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 4183,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 4207,
             "Type": "Apartment"
         },
@@ -45744,6 +47603,10 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 5019,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 51593,
             "Type": "Apartment"
         },
@@ -45765,6 +47628,10 @@ PROPERTIES = {
         },
         {
             "StateID": 6167,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 6220,
             "Type": "Apartment"
         },
         {
@@ -46264,10 +48131,6 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
-            "StateID": 16624,
-            "Type": "Apartment"
-        },
-        {
             "StateID": 16877,
             "Type": "Apartment"
         },
@@ -46393,10 +48256,6 @@ PROPERTIES = {
         },
         {
             "StateID": 22098,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 22109,
             "Type": "Apartment"
         },
         {
@@ -46560,10 +48419,6 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
-            "StateID": 26783,
-            "Type": "Apartment"
-        },
-        {
             "StateID": 2690,
             "Type": "Apartment"
         },
@@ -46709,10 +48564,6 @@ PROPERTIES = {
         },
         {
             "StateID": 30430,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 30448,
             "Type": "Apartment"
         },
         {
@@ -47137,6 +48988,10 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 1043,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 1098,
             "Type": "Apartment"
         },
@@ -47205,6 +49060,10 @@ PROPERTIES = {
             "Type": "Apartment"
         },
         {
+            "StateID": 37030,
+            "Type": "Apartment"
+        },
+        {
             "StateID": 7497,
             "Type": "Apartment"
         },
@@ -47218,10 +49077,6 @@ PROPERTIES = {
         },
         {
             "StateID": 9963,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 1043,
             "Type": "Apartment"
         },
         {
@@ -47382,6 +49237,28 @@ PROPERTIES = {
         }
     ]
 },
+"Little Seoul Apartment 4": {
+    "Name": "Little Seoul Apartment 4",
+    "Keys": [
+        {
+            "StateID": 1043,
+            "Type": "Owner"
+        }
+    ]
+},
+"Vinewood Hills 4": {
+    "Name": "Vinewood Hills 4",
+    "Keys": [
+        {
+            "StateID": 1043,
+            "Type": "Owner"
+        },
+        {
+            "StateID": 6068,
+            "Type": "Owner"
+        }
+    ]
+},
 "Beachside Avenue 30": {
     "Name": "Beachside Avenue 30",
     "Keys": [
@@ -47529,6 +49406,140 @@ PROPERTIES = {
     "Keys": [
         {
             "StateID": 10724,
+            "Type": "Keyholder"
+        }
+    ]
+},
+"Prosperity": {
+    "Name": "Prosperity",
+    "Keys": [
+        {
+            "StateID": 10752,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 11930,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 12643,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 12873,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 13567,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 15193,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 19646,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 20505,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 2184,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 2333,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 25078,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 26016,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 28186,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 3066,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 31735,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 31818,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 32633,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 35409,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 36974,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 4049,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 7945,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 8593,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 12137,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 3916,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 45274,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 59207,
+            "Type": "Apartment"
+        },
+        {
+            "StateID": 9620,
+            "Type": "Apartment"
+        }
+    ]
+},
+"Forum Drive 12/Apt1": {
+    "Name": "Forum Drive 12/Apt1",
+    "Keys": [
+        {
+            "StateID": 10752,
+            "Type": "Keyholder"
+        },
+        {
+            "StateID": 15503,
+            "Type": "Keyholder"
+        },
+        {
+            "StateID": 1429,
+            "Type": "Keyholder"
+        },
+        {
+            "StateID": 2466,
             "Type": "Keyholder"
         }
     ]
@@ -47735,103 +49746,6 @@ PROPERTIES = {
         }
     ]
 },
-"Prosperity": {
-    "Name": "Prosperity",
-    "Keys": [
-        {
-            "StateID": 11930,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 12643,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 12873,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 15193,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 19646,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 20505,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 2184,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 2333,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 25078,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 26016,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 28186,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 3066,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 31735,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 31818,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 32633,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 4049,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 7945,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 8593,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 12137,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 3916,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 45274,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 59207,
-            "Type": "Apartment"
-        },
-        {
-            "StateID": 9620,
-            "Type": "Apartment"
-        }
-    ]
-},
 "Forum Drive 3/Apt19": {
     "Name": "Forum Drive 3/Apt19",
     "Keys": [
@@ -47867,10 +49781,6 @@ PROPERTIES = {
         },
         {
             "StateID": 3746,
-            "Type": "Keyholder"
-        },
-        {
-            "StateID": 1043,
             "Type": "Keyholder"
         }
     ]
@@ -48077,10 +49987,6 @@ PROPERTIES = {
         {
             "StateID": 13066,
             "Type": "Keyholder"
-        },
-        {
-            "StateID": 16624,
-            "Type": "Keyholder"
         }
     ]
 },
@@ -48250,6 +50156,15 @@ PROPERTIES = {
     "Keys": [
         {
             "StateID": 1349,
+            "Type": "Owner"
+        }
+    ]
+},
+"Senora Way / Ron Alternates 8": {
+    "Name": "Senora Way / Ron Alternates 8",
+    "Keys": [
+        {
+            "StateID": 13567,
             "Type": "Owner"
         }
     ]
@@ -48454,11 +50369,19 @@ PROPERTIES = {
         }
     ]
 },
-"Spanish Ave 2 Apt/3": {
-    "Name": "Spanish Ave 2 Apt/3",
+"North Archer Ave 2 Apt/ 5": {
+    "Name": "North Archer Ave 2 Apt/ 5",
     "Keys": [
         {
             "StateID": 1437,
+            "Type": "Keyholder"
+        },
+        {
+            "StateID": 3116,
+            "Type": "Owner"
+        },
+        {
+            "StateID": 36541,
             "Type": "Keyholder"
         }
     ]
@@ -48490,6 +50413,15 @@ PROPERTIES = {
         }
     ]
 },
+"Beachside Avenue 35": {
+    "Name": "Beachside Avenue 35",
+    "Keys": [
+        {
+            "StateID": 1460,
+            "Type": "Owner"
+        }
+    ]
+},
 "Nikola Ave 5": {
     "Name": "Nikola Ave 5",
     "Keys": [
@@ -48511,12 +50443,34 @@ PROPERTIES = {
             "Type": "Keyholder"
         },
         {
+            "StateID": 15324,
+            "Type": "Keyholder"
+        },
+        {
             "StateID": 19646,
             "Type": "Owner"
         },
         {
             "StateID": 32983,
             "Type": "Keyholder"
+        }
+    ]
+},
+"Bridge Street 9": {
+    "Name": "Bridge Street 9",
+    "Keys": [
+        {
+            "StateID": 14740,
+            "Type": "Owner"
+        }
+    ]
+},
+"North Rockford Drive 2": {
+    "Name": "North Rockford Drive 2",
+    "Keys": [
+        {
+            "StateID": 14740,
+            "Type": "Owner"
         }
     ]
 },
@@ -48654,6 +50608,19 @@ PROPERTIES = {
         }
     ]
 },
+"North Rockford Drive 12": {
+    "Name": "North Rockford Drive 12",
+    "Keys": [
+        {
+            "StateID": 15324,
+            "Type": "Keyholder"
+        },
+        {
+            "StateID": 16457,
+            "Type": "Owner"
+        }
+    ]
+},
 "Procopio Drive 6": {
     "Name": "Procopio Drive 6",
     "Keys": [
@@ -48702,23 +50669,6 @@ PROPERTIES = {
         {
             "StateID": 7542,
             "Type": "Owner"
-        }
-    ]
-},
-"Forum Drive 12/Apt1": {
-    "Name": "Forum Drive 12/Apt1",
-    "Keys": [
-        {
-            "StateID": 15503,
-            "Type": "Keyholder"
-        },
-        {
-            "StateID": 1429,
-            "Type": "Keyholder"
-        },
-        {
-            "StateID": 2466,
-            "Type": "Keyholder"
         }
     ]
 },
@@ -48957,15 +50907,6 @@ PROPERTIES = {
         }
     ]
 },
-"North Rockford Drive 12": {
-    "Name": "North Rockford Drive 12",
-    "Keys": [
-        {
-            "StateID": 16457,
-            "Type": "Owner"
-        }
-    ]
-},
 "Dream View Motel Rm/17": {
     "Name": "Dream View Motel Rm/17",
     "Keys": [
@@ -48979,16 +50920,12 @@ PROPERTIES = {
         }
     ]
 },
-"Brouge Avenue 3": {
-    "Name": "Brouge Avenue 3",
+"Bay City Ave Lower 3": {
+    "Name": "Bay City Ave Lower 3",
     "Keys": [
         {
-            "StateID": 16990,
+            "StateID": 16624,
             "Type": "Keyholder"
-        },
-        {
-            "StateID": 25355,
-            "Type": "Owner"
         }
     ]
 },
@@ -49067,6 +51004,19 @@ PROPERTIES = {
         {
             "StateID": 37239,
             "Type": "Keyholder"
+        }
+    ]
+},
+"Jamestown Street 20/Apt38": {
+    "Name": "Jamestown Street 20/Apt38",
+    "Keys": [
+        {
+            "StateID": 1715,
+            "Type": "Keyholder"
+        },
+        {
+            "StateID": 26783,
+            "Type": "Owner"
         }
     ]
 },
@@ -49355,6 +51305,10 @@ PROPERTIES = {
             "Type": "Keyholder"
         },
         {
+            "StateID": 32969,
+            "Type": "Keyholder"
+        },
+        {
             "StateID": 9208,
             "Type": "Keyholder"
         }
@@ -49425,29 +51379,21 @@ PROPERTIES = {
         }
     ]
 },
-"Invention Court 9": {
-    "Name": "Invention Court 9",
-    "Keys": [
-        {
-            "StateID": 19646,
-            "Type": "Keyholder"
-        },
-        {
-            "StateID": 34249,
-            "Type": "Keyholder"
-        },
-        {
-            "StateID": 11691,
-            "Type": "Keyholder"
-        }
-    ]
-},
 "Cougar Ave 13 Apt/7": {
     "Name": "Cougar Ave 13 Apt/7",
     "Keys": [
         {
             "StateID": 19758,
             "Type": "Keyholder"
+        }
+    ]
+},
+"Cougar Ave 13 Apt/6": {
+    "Name": "Cougar Ave 13 Apt/6",
+    "Keys": [
+        {
+            "StateID": 19758,
+            "Type": "Owner"
         }
     ]
 },
@@ -49481,10 +51427,6 @@ PROPERTIES = {
         },
         {
             "StateID": 8469,
-            "Type": "Keyholder"
-        },
-        {
-            "StateID": 1043,
             "Type": "Keyholder"
         }
     ]
@@ -49578,6 +51520,10 @@ PROPERTIES = {
         {
             "StateID": 2151,
             "Type": "Keyholder"
+        },
+        {
+            "StateID": 2333,
+            "Type": "Owner"
         },
         {
             "StateID": 1269,
@@ -49808,15 +51754,6 @@ PROPERTIES = {
         },
         {
             "StateID": 4592,
-            "Type": "Owner"
-        }
-    ]
-},
-"Beachside Avenue 3": {
-    "Name": "Beachside Avenue 3",
-    "Keys": [
-        {
-            "StateID": 2333,
             "Type": "Owner"
         }
     ]
@@ -50107,6 +52044,19 @@ PROPERTIES = {
         }
     ]
 },
+"Lindsay Circus Apartment 2": {
+    "Name": "Lindsay Circus Apartment 2",
+    "Keys": [
+        {
+            "StateID": 26124,
+            "Type": "Keyholder"
+        },
+        {
+            "StateID": 15966,
+            "Type": "Owner"
+        }
+    ]
+},
 "Brouge Avenue 5": {
     "Name": "Brouge Avenue 5",
     "Keys": [
@@ -50129,11 +52079,51 @@ PROPERTIES = {
         }
     ]
 },
+"Burton 3": {
+    "Name": "Burton 3",
+    "Keys": [
+        {
+            "StateID": 26474,
+            "Type": "Keyholder"
+        }
+    ]
+},
+"Procopio Drive 20 / Apt 1": {
+    "Name": "Procopio Drive 20 / Apt 1",
+    "Keys": [
+        {
+            "StateID": 26783,
+            "Type": "Keyholder"
+        }
+    ]
+},
+"Roy Lowenstein Blvd 16": {
+    "Name": "Roy Lowenstein Blvd 16",
+    "Keys": [
+        {
+            "StateID": 26783,
+            "Type": "Keyholder"
+        }
+    ]
+},
+"Jamestown Street 10": {
+    "Name": "Jamestown Street 10",
+    "Keys": [
+        {
+            "StateID": 26783,
+            "Type": "Owner"
+        }
+    ]
+},
 "Brouge Avenue 4": {
     "Name": "Brouge Avenue 4",
     "Keys": [
         {
             "StateID": 27095,
+            "Type": "Keyholder"
+        },
+        {
+            "StateID": 32969,
             "Type": "Keyholder"
         },
         {
@@ -50147,6 +52137,28 @@ PROPERTIES = {
     "Keys": [
         {
             "StateID": 27095,
+            "Type": "Keyholder"
+        }
+    ]
+},
+"Procopio Drive 24": {
+    "Name": "Procopio Drive 24",
+    "Keys": [
+        {
+            "StateID": 27833,
+            "Type": "Owner"
+        },
+        {
+            "StateID": 14807,
+            "Type": "Keyholder"
+        }
+    ]
+},
+"Beachside Avenue 24": {
+    "Name": "Beachside Avenue 24",
+    "Keys": [
+        {
+            "StateID": 27833,
             "Type": "Keyholder"
         }
     ]
@@ -50394,19 +52406,6 @@ PROPERTIES = {
         }
     ]
 },
-"North Archer Ave 2 Apt/ 5": {
-    "Name": "North Archer Ave 2 Apt/ 5",
-    "Keys": [
-        {
-            "StateID": 3116,
-            "Type": "Owner"
-        },
-        {
-            "StateID": 36541,
-            "Type": "Keyholder"
-        }
-    ]
-},
 "Fudge Lane 9": {
     "Name": "Fudge Lane 9",
     "Keys": [
@@ -50532,6 +52531,15 @@ PROPERTIES = {
         }
     ]
 },
+"Power Street 13": {
+    "Name": "Power Street 13",
+    "Keys": [
+        {
+            "StateID": 32969,
+            "Type": "Keyholder"
+        }
+    ]
+},
 "Spanish Ave 3 Apt/2": {
     "Name": "Spanish Ave 3 Apt/2",
     "Keys": [
@@ -50640,6 +52648,19 @@ PROPERTIES = {
         }
     ]
 },
+"Invention Court 9": {
+    "Name": "Invention Court 9",
+    "Keys": [
+        {
+            "StateID": 34249,
+            "Type": "Keyholder"
+        },
+        {
+            "StateID": 11691,
+            "Type": "Keyholder"
+        }
+    ]
+},
 "East Mirror Drive 3": {
     "Name": "East Mirror Drive 3",
     "Keys": [
@@ -50668,6 +52689,19 @@ PROPERTIES = {
         {
             "StateID": 3503,
             "Type": "Owner"
+        }
+    ]
+},
+"Coopenmartha Court 13": {
+    "Name": "Coopenmartha Court 13",
+    "Keys": [
+        {
+            "StateID": 35409,
+            "Type": "Owner"
+        },
+        {
+            "StateID": 6220,
+            "Type": "Keyholder"
         }
     ]
 },
@@ -50779,6 +52813,10 @@ PROPERTIES = {
         {
             "StateID": 36959,
             "Type": "Keyholder"
+        },
+        {
+            "StateID": 36974,
+            "Type": "Owner"
         }
     ]
 },
@@ -50791,11 +52829,24 @@ PROPERTIES = {
         }
     ]
 },
+"El Rancho Blvd 9": {
+    "Name": "El Rancho Blvd 9",
+    "Keys": [
+        {
+            "StateID": 37030,
+            "Type": "Owner"
+        }
+    ]
+},
 "Nikola Place 6": {
     "Name": "Nikola Place 6",
     "Keys": [
         {
             "StateID": 3709,
+            "Type": "Keyholder"
+        },
+        {
+            "StateID": 5019,
             "Type": "Keyholder"
         },
         {
@@ -50897,6 +52948,10 @@ PROPERTIES = {
     "Keys": [
         {
             "StateID": 4697,
+            "Type": "Keyholder"
+        },
+        {
+            "StateID": 5019,
             "Type": "Keyholder"
         }
     ]
@@ -51105,7 +53160,7 @@ PROPERTIES = {
         },
         {
             "StateID": 9394,
-            "Type": "Keyholder"
+            "Type": "Keyhoider"
         },
         {
             "StateID": 2956,
@@ -51260,6 +53315,15 @@ PROPERTIES = {
         }
     ]
 },
+"Cougar Ave 13 Apt/3": {
+    "Name": "Cougar Ave 13 Apt/3",
+    "Keys": [
+        {
+            "StateID": 9394,
+            "Type": "Owner"
+        }
+    ]
+},
 "Brouge Avenue 10": {
     "Name": "Brouge Avenue 10",
     "Keys": [
@@ -51279,10 +53343,6 @@ PROPERTIES = {
         {
             "StateID": 1257,
             "Type": "Owner"
-        },
-        {
-            "StateID": 30448,
-            "Type": "Keyholder"
         }
     ]
 },
@@ -51341,15 +53401,6 @@ PROPERTIES = {
         {
             "StateID": 1102,
             "Type": "Keyholder"
-        }
-    ]
-},
-"Little Seoul Apartment 4": {
-    "Name": "Little Seoul Apartment 4",
-    "Keys": [
-        {
-            "StateID": 1043,
-            "Type": "Owner"
         }
     ]
 },
@@ -51791,15 +53842,6 @@ PROPERTIES = {
         }
     ]
 },
-"Procopio Drive 24": {
-    "Name": "Procopio Drive 24",
-    "Keys": [
-        {
-            "StateID": 14807,
-            "Type": "Keyholder"
-        }
-    ]
-},
 "Marina Dr 7": {
     "Name": "Marina Dr 7",
     "Keys": [
@@ -51846,15 +53888,6 @@ PROPERTIES = {
         {
             "StateID": 15713,
             "Type": "Keyholder"
-        }
-    ]
-},
-"Lindsay Circus Apartment 2": {
-    "Name": "Lindsay Circus Apartment 2",
-    "Keys": [
-        {
-            "StateID": 15966,
-            "Type": "Owner"
         }
     ]
 },
@@ -51939,15 +53972,6 @@ PROPERTIES = {
         },
         {
             "StateID": 5924,
-            "Type": "Keyholder"
-        }
-    ]
-},
-"Bay City Ave Lower 3": {
-    "Name": "Bay City Ave Lower 3",
-    "Keys": [
-        {
-            "StateID": 16624,
             "Type": "Keyholder"
         }
     ]
@@ -52175,6 +54199,15 @@ PROPERTIES = {
         }
     ]
 },
+"Brouge Avenue 3": {
+    "Name": "Brouge Avenue 3",
+    "Keys": [
+        {
+            "StateID": 25355,
+            "Type": "Owner"
+        }
+    ]
+},
 "Bridge Street 2": {
     "Name": "Bridge Street 2",
     "Keys": [
@@ -52190,15 +54223,6 @@ PROPERTIES = {
         {
             "StateID": 2588,
             "Type": "Owner"
-        }
-    ]
-},
-"Procopio Drive 20 / Apt 1": {
-    "Name": "Procopio Drive 20 / Apt 1",
-    "Keys": [
-        {
-            "StateID": 26783,
-            "Type": "Keyholder"
         }
     ]
 },
@@ -52412,15 +54436,6 @@ PROPERTIES = {
     "Keys": [
         {
             "StateID": 6059,
-            "Type": "Owner"
-        }
-    ]
-},
-"Vinewood Hills 4": {
-    "Name": "Vinewood Hills 4",
-    "Keys": [
-        {
-            "StateID": 6068,
             "Type": "Owner"
         }
     ]
@@ -52699,6 +54714,10 @@ EMPLOYMENT = {
             "Role": "Express Manager"
         },
         {
+            "StateID": 13847,
+            "Role": "Express Temp Driver"
+        },
+        {
             "StateID": 14085,
             "Role": "Marketing"
         },
@@ -52727,6 +54746,14 @@ EMPLOYMENT = {
             "Role": "Express Jr Driver"
         },
         {
+            "StateID": 15324,
+            "Role": "Express Temp Driver"
+        },
+        {
+            "StateID": 15324,
+            "Role": "Express Temp Driver"
+        },
+        {
             "StateID": 15336,
             "Role": "Express Temp Driver"
         },
@@ -52744,6 +54771,18 @@ EMPLOYMENT = {
         },
         {
             "StateID": 16306,
+            "Role": "Express Temp Driver"
+        },
+        {
+            "StateID": 16457,
+            "Role": "Express Temp Driver"
+        },
+        {
+            "StateID": 16457,
+            "Role": "Express Temp Driver"
+        },
+        {
+            "StateID": 16624,
             "Role": "Express Temp Driver"
         },
         {
@@ -52907,6 +54946,10 @@ EMPLOYMENT = {
             "Role": "Express Temp Driver"
         },
         {
+            "StateID": 28481,
+            "Role": "Express Temp Driver"
+        },
+        {
             "StateID": 28576,
             "Role": "Express Temp Driver"
         },
@@ -52925,6 +54968,10 @@ EMPLOYMENT = {
         {
             "StateID": 30053,
             "Role": "Express Jr Driver"
+        },
+        {
+            "StateID": 30448,
+            "Role": "Express Sr Driver"
         },
         {
             "StateID": 30843,
@@ -52948,6 +54995,10 @@ EMPLOYMENT = {
         },
         {
             "StateID": 31856,
+            "Role": "Express Temp Driver"
+        },
+        {
+            "StateID": 32405,
             "Role": "Express Temp Driver"
         },
         {
@@ -53009,6 +55060,10 @@ EMPLOYMENT = {
         {
             "StateID": 34755,
             "Role": "Express Jr Driver"
+        },
+        {
+            "StateID": 35381,
+            "Role": "Express Temp Driver"
         },
         {
             "StateID": 35640,
@@ -53141,10 +55196,6 @@ EMPLOYMENT = {
         {
             "StateID": 2485,
             "Role": "Marketing"
-        },
-        {
-            "StateID": 30448,
-            "Role": "Express Jr Driver"
         }
     ]
 },
@@ -53162,6 +55213,10 @@ EMPLOYMENT = {
         {
             "StateID": 11930,
             "Role": "Slacking"
+        },
+        {
+            "StateID": 1263,
+            "Role": "SWO"
         },
         {
             "StateID": 12643,
@@ -53202,6 +55257,10 @@ EMPLOYMENT = {
         {
             "StateID": 19005,
             "Role": "G.P. Worker"
+        },
+        {
+            "StateID": 19646,
+            "Role": "Slacking"
         },
         {
             "StateID": 20170,
@@ -53296,6 +55355,10 @@ EMPLOYMENT = {
             "Role": "Trainee"
         },
         {
+            "StateID": 32969,
+            "Role": "Employee"
+        },
+        {
             "StateID": 32983,
             "Role": "Employee"
         },
@@ -53348,6 +55411,10 @@ EMPLOYMENT = {
             "Role": "Junior Employee"
         },
         {
+            "StateID": 36722,
+            "Role": "Trainee"
+        },
+        {
             "StateID": 36774,
             "Role": "Employee"
         },
@@ -53357,6 +55424,10 @@ EMPLOYMENT = {
         },
         {
             "StateID": 36959,
+            "Role": "Trainee"
+        },
+        {
+            "StateID": 36974,
             "Role": "Trainee"
         },
         {
@@ -53432,10 +55503,6 @@ EMPLOYMENT = {
             "Role": "CEO"
         },
         {
-            "StateID": 26783,
-            "Role": "Employee"
-        },
-        {
             "StateID": 27512,
             "Role": "Employee"
         },
@@ -53483,6 +55550,10 @@ EMPLOYMENT = {
         {
             "StateID": 11052,
             "Role": "Shift Lead"
+        },
+        {
+            "StateID": 1263,
+            "Role": "Dish Washer"
         },
         {
             "StateID": 14022,
@@ -53547,6 +55618,10 @@ EMPLOYMENT = {
         {
             "StateID": 26223,
             "Role": "Security"
+        },
+        {
+            "StateID": 26474,
+            "Role": "Cashiers"
         },
         {
             "StateID": 26622,
@@ -53858,10 +55933,6 @@ EMPLOYMENT = {
             "Role": "DJ"
         },
         {
-            "StateID": 22109,
-            "Role": "Probation"
-        },
-        {
             "StateID": 22746,
             "Role": "Mitch.TV Influencer"
         },
@@ -53943,6 +56014,10 @@ EMPLOYMENT = {
             "Role": "Trainee"
         },
         {
+            "StateID": 10752,
+            "Role": "Burger Flipper"
+        },
+        {
             "StateID": 10841,
             "Role": "The Royal Village Idiot"
         },
@@ -53961,6 +56036,10 @@ EMPLOYMENT = {
         {
             "StateID": 12643,
             "Role": "Burger Flipper"
+        },
+        {
+            "StateID": 13567,
+            "Role": "Guardian of the Holy Stash"
         },
         {
             "StateID": 15548,
@@ -54044,7 +56123,7 @@ EMPLOYMENT = {
         },
         {
             "StateID": 36722,
-            "Role": "Trainee"
+            "Role": "Burger Flipper"
         },
         {
             "StateID": 3803,
@@ -54212,6 +56291,10 @@ EMPLOYMENT = {
             "Role": "Security"
         },
         {
+            "StateID": 5019,
+            "Role": "Security"
+        },
+        {
             "StateID": 6403,
             "Role": "Security"
         },
@@ -54350,7 +56433,7 @@ EMPLOYMENT = {
         },
         {
             "StateID": 1613,
-            "Role": "Key Holder"
+            "Role": "Coordinator"
         },
         {
             "StateID": 1718,
@@ -54362,6 +56445,10 @@ EMPLOYMENT = {
         },
         {
             "StateID": 2251,
+            "Role": "Material Acquisition"
+        },
+        {
+            "StateID": 26124,
             "Role": "Material Acquisition"
         },
         {
@@ -54570,6 +56657,10 @@ EMPLOYMENT = {
             "Role": "VIP Membership"
         },
         {
+            "StateID": 32405,
+            "Role": "Snr Mechanic"
+        },
+        {
             "StateID": 33459,
             "Role": "Apprentice Mechanic"
         },
@@ -54660,6 +56751,163 @@ EMPLOYMENT = {
         {
             "StateID": 9925,
             "Role": "Mechanic"
+        }
+    ]
+},
+"Wu-Chang Records": {
+    "Name": "Wu-Chang Records",
+    "Employees": [
+        {
+            "StateID": 11052,
+            "Role": "Artist - Club Manager"
+        },
+        {
+            "StateID": 1239,
+            "Role": "Financial Advisor"
+        },
+        {
+            "StateID": 1339,
+            "Role": "Promoter"
+        },
+        {
+            "StateID": 1396,
+            "Role": "Tenured Artist"
+        },
+        {
+            "StateID": 15563,
+            "Role": "Artist"
+        },
+        {
+            "StateID": 18319,
+            "Role": "Artist - Club Manager"
+        },
+        {
+            "StateID": 2554,
+            "Role": "Alumni"
+        },
+        {
+            "StateID": 27930,
+            "Role": "Promoter"
+        },
+        {
+            "StateID": 28427,
+            "Role": "Producer"
+        },
+        {
+            "StateID": 28620,
+            "Role": "Executive"
+        },
+        {
+            "StateID": 31745,
+            "Role": "Markting & Merchandise"
+        },
+        {
+            "StateID": 32969,
+            "Role": "Producer"
+        },
+        {
+            "StateID": 33459,
+            "Role": "Intern -Artist"
+        },
+        {
+            "StateID": 34608,
+            "Role": "Artist"
+        },
+        {
+            "StateID": 34722,
+            "Role": "Bartender"
+        },
+        {
+            "StateID": 35833,
+            "Role": "Bartender"
+        },
+        {
+            "StateID": 36696,
+            "Role": "Receptionist/Intern"
+        },
+        {
+            "StateID": 3803,
+            "Role": "Receptionist/Intern"
+        },
+        {
+            "StateID": 6879,
+            "Role": "Intern - Merchandiser"
+        },
+        {
+            "StateID": 7567,
+            "Role": "Vocal Coach"
+        },
+        {
+            "StateID": 9574,
+            "Role": "Janitor"
+        },
+        {
+            "StateID": 1041,
+            "Role": "Owner"
+        },
+        {
+            "StateID": 1045,
+            "Role": "CFO"
+        },
+        {
+            "StateID": 1054,
+            "Role": "Consultant"
+        },
+        {
+            "StateID": 1062,
+            "Role": "Assistant"
+        },
+        {
+            "StateID": 1102,
+            "Role": "Consultant"
+        },
+        {
+            "StateID": 11866,
+            "Role": "Senior Artist"
+        },
+        {
+            "StateID": 1467,
+            "Role": "Designer"
+        },
+        {
+            "StateID": 1600,
+            "Role": "Artist"
+        },
+        {
+            "StateID": 1929,
+            "Role": "Consultant"
+        },
+        {
+            "StateID": 22746,
+            "Role": "NS Artist"
+        },
+        {
+            "StateID": 2485,
+            "Role": "Assistant"
+        },
+        {
+            "StateID": 2664,
+            "Role": "Artist"
+        },
+        {
+            "StateID": 29204,
+            "Role": "Artist"
+        },
+        {
+            "StateID": 29645,
+            "Role": "Artist"
+        },
+        {
+            "StateID": 31743,
+            "Role": "Intern-Artist"
+        },
+        {
+            "StateID": 3916,
+            "Role": "Producer"
+        },
+        {
+            "StateID": 4694,
+            "Role": "Head Manager"
         }
     ]
 },
@@ -54816,306 +57064,16 @@ EMPLOYMENT = {
         }
     ]
 },
-"Wu-Chang Records": {
-    "Name": "Wu-Chang Records",
-    "Employees": [
-        {
-            "StateID": 11052,
-            "Role": "Artist - Club Manager"
-        },
-        {
-            "StateID": 1239,
-            "Role": "Financial Advisor"
-        },
-        {
-            "StateID": 1339,
-            "Role": "Promoter"
-        },
-        {
-            "StateID": 1396,
-            "Role": "Tenured Artist"
-        },
-        {
-            "StateID": 15563,
-            "Role": "Artist"
-        },
-        {
-            "StateID": 18319,
-            "Role": "Artist - Club Manager"
-        },
-        {
-            "StateID": 2554,
-            "Role": "Alumni"
-        },
-        {
-            "StateID": 27930,
-            "Role": "Promoter"
-        },
-        {
-            "StateID": 28427,
-            "Role": "Producer"
-        },
-        {
-            "StateID": 28620,
-            "Role": "Executive"
-        },
-        {
-            "StateID": 31745,
-            "Role": "Markting & Merchandise"
-        },
-        {
-            "StateID": 33459,
-            "Role": "Intern -Artist"
-        },
-        {
-            "StateID": 34608,
-            "Role": "Artist"
-        },
-        {
-            "StateID": 34722,
-            "Role": "Bartender"
-        },
-        {
-            "StateID": 35833,
-            "Role": "Bartender"
-        },
-        {
-            "StateID": 36696,
-            "Role": "Receptionist/Intern"
-        },
-        {
-            "StateID": 3803,
-            "Role": "Receptionist/Intern"
-        },
-        {
-            "StateID": 6879,
-            "Role": "Intern - Merchandiser"
-        },
-        {
-            "StateID": 7567,
-            "Role": "Vocal Coach"
-        },
-        {
-            "StateID": 9574,
-            "Role": "Janitor"
-        },
-        {
-            "StateID": 1041,
-            "Role": "Owner"
-        },
-        {
-            "StateID": 1045,
-            "Role": "CFO"
-        },
-        {
-            "StateID": 1054,
-            "Role": "Consultant"
-        },
-        {
-            "StateID": 1062,
-            "Role": "Assistant"
-        },
-        {
-            "StateID": 1102,
-            "Role": "Consultant"
-        },
-        {
-            "StateID": 11866,
-            "Role": "Senior Artist"
-        },
-        {
-            "StateID": 1467,
-            "Role": "Designer"
-        },
-        {
-            "StateID": 1600,
-            "Role": "Artist"
-        },
-        {
-            "StateID": 1929,
-            "Role": "Consultant"
-        },
-        {
-            "StateID": 22746,
-            "Role": "NS Artist"
-        },
-        {
-            "StateID": 2485,
-            "Role": "Assistant"
-        },
-        {
-            "StateID": 2664,
-            "Role": "Artist"
-        },
-        {
-            "StateID": 29204,
-            "Role": "Artist"
-        },
-        {
-            "StateID": 29645,
-            "Role": "Artist"
-        },
-        {
-            "StateID": 31743,
-            "Role": "Intern-Artist"
-        },
-        {
-            "StateID": 3916,
-            "Role": "Producer"
-        },
-        {
-            "StateID": 4694,
-            "Role": "Head Manager"
-        }
-    ]
-},
-"6STR Tuner Shop": {
-    "Name": "6STR Tuner Shop",
-    "Employees": [
-        {
-            "StateID": 1052,
-            "Role": "VIP"
-        },
-        {
-            "StateID": 1225,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 1349,
-            "Role": "VIP"
-        },
-        {
-            "StateID": 15193,
-            "Role": "Supervisor"
-        },
-        {
-            "StateID": 1562,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 1718,
-            "Role": "VIP"
-        },
-        {
-            "StateID": 1722,
-            "Role": "Executive Assistant"
-        },
-        {
-            "StateID": 2554,
-            "Role": "Supervisor"
-        },
-        {
-            "StateID": 25891,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 26622,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 2665,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 31747,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 31999,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 32490,
-            "Role": "Marketing"
-        },
-        {
-            "StateID": 33168,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 33262,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 33459,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 34491,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 3655,
-            "Role": "VIP"
-        },
-        {
-            "StateID": 6470,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 7497,
-            "Role": "VIP"
-        },
-        {
-            "StateID": 8018,
-            "Role": "Manager"
-        },
-        {
-            "StateID": 1045,
-            "Role": "DOL"
-        },
-        {
-            "StateID": 1062,
-            "Role": "Head of Marketing"
-        },
-        {
-            "StateID": 1114,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 11435,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 1250,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 1269,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 2088,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 2495,
-            "Role": "Receptionist"
-        },
-        {
-            "StateID": 30448,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 5734,
-            "Role": "Attorney"
-        },
-        {
-            "StateID": 68061,
-            "Role": "Senior Mechanic"
-        },
-        {
-            "StateID": 9981,
-            "Role": "Mechanic"
-        }
-    ]
-},
 "Vultur Le Culture": {
     "Name": "Vultur Le Culture",
     "Employees": [
         {
             "StateID": 1002,
             "Role": "Consultant"
+        },
+        {
+            "StateID": 1263,
+            "Role": "Gem Appraiser"
         },
         {
             "StateID": 13440,
@@ -55147,6 +57105,10 @@ EMPLOYMENT = {
         },
         {
             "StateID": 26474,
+            "Role": "Gem Appraiser"
+        },
+        {
+            "StateID": 32405,
             "Role": "Gem Appraiser"
         },
         {
@@ -55311,6 +57273,10 @@ EMPLOYMENT = {
             "Role": "Lot Manager"
         },
         {
+            "StateID": 22029,
+            "Role": "Lot Attendant"
+        },
+        {
             "StateID": 22076,
             "Role": "Lot Manager"
         },
@@ -55324,6 +57290,10 @@ EMPLOYMENT = {
         },
         {
             "StateID": 32571,
+            "Role": "Lot Attendant"
+        },
+        {
+            "StateID": 33306,
             "Role": "Lot Attendant"
         },
         {
@@ -55406,6 +57376,10 @@ EMPLOYMENT = {
         {
             "StateID": 16012,
             "Role": "Trainee"
+        },
+        {
+            "StateID": 16457,
+            "Role": "Inactive"
         },
         {
             "StateID": 17779,
@@ -55518,6 +57492,147 @@ EMPLOYMENT = {
         {
             "StateID": 6422,
             "Role": "VIP"
+        }
+    ]
+},
+"6STR Tuner Shop": {
+    "Name": "6STR Tuner Shop",
+    "Employees": [
+        {
+            "StateID": 1052,
+            "Role": "VIP"
+        },
+        {
+            "StateID": 1225,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 1349,
+            "Role": "VIP"
+        },
+        {
+            "StateID": 15193,
+            "Role": "Supervisor"
+        },
+        {
+            "StateID": 1562,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 1718,
+            "Role": "VIP"
+        },
+        {
+            "StateID": 1722,
+            "Role": "Executive Assistant"
+        },
+        {
+            "StateID": 2554,
+            "Role": "Supervisor"
+        },
+        {
+            "StateID": 25891,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 26622,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 2665,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 30448,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 31747,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 31999,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 32490,
+            "Role": "Marketing"
+        },
+        {
+            "StateID": 33168,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 33262,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 33459,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 34491,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 3655,
+            "Role": "VIP"
+        },
+        {
+            "StateID": 6470,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 7497,
+            "Role": "VIP"
+        },
+        {
+            "StateID": 8018,
+            "Role": "Manager"
+        },
+        {
+            "StateID": 1045,
+            "Role": "DOL"
+        },
+        {
+            "StateID": 1062,
+            "Role": "Head of Marketing"
+        },
+        {
+            "StateID": 1114,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 11435,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 1250,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 1269,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 2088,
+            "Role": "Mechanic"
+        },
+        {
+            "StateID": 2495,
+            "Role": "Receptionist"
+        },
+        {
+            "StateID": 5734,
+            "Role": "Attorney"
+        },
+        {
+            "StateID": 68061,
+            "Role": "Senior Mechanic"
+        },
+        {
+            "StateID": 9981,
+            "Role": "Mechanic"
         }
     ]
 },
@@ -55710,6 +57825,10 @@ EMPLOYMENT = {
             "Role": "Actor"
         },
         {
+            "StateID": 32969,
+            "Role": "Actor"
+        },
+        {
             "StateID": 34359,
             "Role": "Marketing / Promoter"
         },
@@ -55896,6 +58015,10 @@ EMPLOYMENT = {
             "Role": "Grandchild"
         },
         {
+            "StateID": 30448,
+            "Role": "Guest"
+        },
+        {
             "StateID": 3503,
             "Role": "Guest"
         },
@@ -55938,10 +58061,6 @@ EMPLOYMENT = {
         {
             "StateID": 20127,
             "Role": "Nephew"
-        },
-        {
-            "StateID": 30448,
-            "Role": "Guest"
         },
         {
             "StateID": 3114,
@@ -56078,16 +58197,16 @@ EMPLOYMENT = {
             "Role": "Pawn Broker"
         },
         {
-            "StateID": 1591,
-            "Role": "Pawn Broker"
-        },
-        {
             "StateID": 1851,
             "Role": "Manager"
         },
         {
             "StateID": 21531,
             "Role": "Jr. Pawn Broker"
+        },
+        {
+            "StateID": 22109,
+            "Role": "Pawn Broker"
         },
         {
             "StateID": 2415,
@@ -56114,6 +58233,10 @@ EMPLOYMENT = {
             "Role": "Jr. Pawn Broker"
         },
         {
+            "StateID": 5019,
+            "Role": "Lead Pawn Broker"
+        },
+        {
             "StateID": 1062,
             "Role": "Co-Founder"
         },
@@ -56123,10 +58246,6 @@ EMPLOYMENT = {
         },
         {
             "StateID": 2031,
-            "Role": "Pawn Broker"
-        },
-        {
-            "StateID": 22109,
             "Role": "Pawn Broker"
         },
         {
@@ -56280,6 +58399,10 @@ EMPLOYMENT = {
             "Role": "VIP Guest"
         },
         {
+            "StateID": 26783,
+            "Role": "VIP Guest"
+        },
+        {
             "StateID": 28186,
             "Role": "Rancher/Farmer"
         },
@@ -56322,10 +58445,6 @@ EMPLOYMENT = {
         {
             "StateID": 2588,
             "Role": "Guest"
-        },
-        {
-            "StateID": 26783,
-            "Role": "Putos Frutos"
         },
         {
             "StateID": 4108,
@@ -56422,6 +58541,91 @@ EMPLOYMENT = {
         }
     ]
 },
+"ULSA: HALLS OF ACADAMIA": {
+    "Name": "ULSA: HALLS OF ACADAMIA",
+    "Employees": [
+        {
+            "StateID": 1339,
+            "Role": "Teacher"
+        },
+        {
+            "StateID": 15960,
+            "Role": "Student Union"
+        },
+        {
+            "StateID": 1718,
+            "Role": "Guidance Counselor"
+        },
+        {
+            "StateID": 5019,
+            "Role": "Student Union"
+        },
+        {
+            "StateID": 5730,
+            "Role": "Counselor"
+        },
+        {
+            "StateID": 1134,
+            "Role": "Co-Founder"
+        },
+        {
+            "StateID": 11690,
+            "Role": "Teacher"
+        },
+        {
+            "StateID": 11866,
+            "Role": "Teacher"
+        },
+        {
+            "StateID": 1250,
+            "Role": "Counselor"
+        },
+        {
+            "StateID": 1278,
+            "Role": "Dean"
+        },
+        {
+            "StateID": 1292,
+            "Role": "Vice Dean"
+        },
+        {
+            "StateID": 1307,
+            "Role": "Teacher"
+        },
+        {
+            "StateID": 1429,
+            "Role": "Teacher"
+        },
+        {
+            "StateID": 1463,
+            "Role": "Student Union"
+        },
+        {
+            "StateID": 18488,
+            "Role": "Teacher"
+        },
+        {
+            "StateID": 22300,
+            "Role": "Teacher"
+        },
+        {
+            "StateID": 23448,
+            "Role": "Teacher"
+        },
+        {
+            "StateID": 2835,
+            "Role": "Student Union"
+        },
+        {
+            "StateID": 7104,
+            "Role": "Teacher"
+        },
+        {
+            "StateID": 7772,
+            "Role": "Student Union"
+        }
+    ]
+},
 "346 Tow Union": {
     "Name": "346 Tow Union",
     "Employees": [
@@ -56503,84 +58707,84 @@ EMPLOYMENT = {
         }
     ]
 },
-"ULSA: HALLS OF ACADAMIA": {
-    "Name": "ULSA: HALLS OF ACADAMIA",
+"Overboost Drift School": {
+    "Name": "Overboost Drift School",
     "Employees": [
         {
-            "StateID": 1339,
-            "Role": "Teacher"
+            "StateID": 1176,
+            "Role": "COO"
         },
         {
-            "StateID": 15960,
-            "Role": "Student Union"
+            "StateID": 1851,
+            "Role": "Event Coordinator"
         },
         {
-            "StateID": 1718,
-            "Role": "Guidance Counselor"
+            "StateID": 1851,
+            "Role": "Event Coordinator"
+        },
+        {
+            "StateID": 2139,
+            "Role": "Orientation Queen"
+        },
+        {
+            "StateID": 27095,
+            "Role": "Track Staff"
+        },
+        {
+            "StateID": 30053,
+            "Role": "Track Staff"
+        },
+        {
+            "StateID": 30448,
+            "Role": "Instructor"
+        },
+        {
+            "StateID": 30513,
+            "Role": "Track Staff"
+        },
+        {
+            "StateID": 31708,
+            "Role": "Fan girls of ShaneO"
+        },
+        {
+            "StateID": 31856,
+            "Role": "Track Staff"
+        },
+        {
+            "StateID": 36682,
+            "Role": "Instructor"
+        },
+        {
+            "StateID": 36722,
+            "Role": "Key Holder"
+        },
+        {
+            "StateID": 3803,
+            "Role": "Event Coordinator"
         },
         {
             "StateID": 5730,
-            "Role": "Counselor"
+            "Role": "Track Staff"
         },
         {
-            "StateID": 1134,
-            "Role": "Co-Founder"
+            "StateID": 7594,
+            "Role": "Instructor"
         },
         {
-            "StateID": 11690,
-            "Role": "Teacher"
+            "StateID": 7746,
+            "Role": "Instructor"
         },
         {
-            "StateID": 11866,
-            "Role": "Teacher"
+            "StateID": 7945,
+            "Role": "Track Staff"
         },
         {
-            "StateID": 1250,
-            "Role": "Counselor"
+            "StateID": 1102,
+            "Role": "Instructor"
         },
         {
-            "StateID": 1278,
-            "Role": "Dean"
-        },
-        {
-            "StateID": 1292,
-            "Role": "Vice Dean"
-        },
-        {
-            "StateID": 1307,
-            "Role": "Teacher"
-        },
-        {
-            "StateID": 1429,
-            "Role": "Teacher"
-        },
-        {
-            "StateID": 1463,
-            "Role": "Student Union"
-        },
-        {
-            "StateID": 18488,
-            "Role": "Teacher"
-        },
-        {
-            "StateID": 22300,
-            "Role": "Teacher"
-        },
-        {
-            "StateID": 23448,
-            "Role": "Teacher"
-        },
-        {
-            "StateID": 2835,
-            "Role": "Student Union"
-        },
-        {
-            "StateID": 7104,
-            "Role": "Teacher"
-        },
-        {
-            "StateID": 7772,
-            "Role": "Student Union"
+            "StateID": 5734,
+            "Role": "Attorney"
         }
     ]
 },
@@ -56662,6 +58866,83 @@ EMPLOYMENT = {
         {
             "StateID": 9981,
             "Role": "Taxi"
+        }
+    ]
+},
+"San Andreas State Towing": {
+    "Name": "San Andreas State Towing",
+    "Employees": [
+        {
+            "StateID": 10446,
+            "Role": "Tow Driver"
+        },
+        {
+            "StateID": 1674,
+            "Role": "Owner"
+        },
+        {
+            "StateID": 24998,
+            "Role": "Tow Driver"
+        },
+        {
+            "StateID": 25078,
+            "Role": "Tow Driver"
+        },
+        {
+            "StateID": 27095,
+            "Role": "Tow Driver"
+        },
+        {
+            "StateID": 30569,
+            "Role": "Tow Driver"
+        },
+        {
+            "StateID": 33459,
+            "Role": "Tow Driver"
+        },
+        {
+            "StateID": 34359,
+            "Role": "Tow Driver"
+        },
+        {
+            "StateID": 34722,
+            "Role": "Tow Driver"
+        },
+        {
+            "StateID": 34755,
+            "Role": "Tow Driver"
+        },
+        {
+            "StateID": 35640,
+            "Role": "HR Manager"
+        },
+        {
+            "StateID": 36722,
+            "Role": "Tow Driver"
+        },
+        {
+            "StateID": 5019,
+            "Role": "Tow Driver"
+        },
+        {
+            "StateID": 6235,
+            "Role": "Co-Owner"
+        },
+        {
+            "StateID": 8593,
+            "Role": "Tow Driver"
+        },
+        {
+            "StateID": 14313,
+            "Role": "Head Manager"
+        },
+        {
+            "StateID": 28073,
+            "Role": "Tow Driver"
+        },
+        {
+            "StateID": 3114,
+            "Role": "Tow Driver"
         }
     ]
 },
@@ -56815,149 +59096,72 @@ EMPLOYMENT = {
         }
     ]
 },
-"San Andreas State Towing": {
-    "Name": "San Andreas State Towing",
+"Tequi-La-La": {
+    "Name": "Tequi-La-La",
     "Employees": [
         {
-            "StateID": 10446,
-            "Role": "Tow Driver"
+            "StateID": 11052,
+            "Role": "Performer"
         },
         {
-            "StateID": 1674,
-            "Role": "Owner"
+            "StateID": 13440,
+            "Role": "Bartender"
         },
         {
-            "StateID": 24998,
-            "Role": "Tow Driver"
+            "StateID": 15324,
+            "Role": "Bartender"
         },
         {
-            "StateID": 25078,
-            "Role": "Tow Driver"
+            "StateID": 16457,
+            "Role": "Event Coordinator"
         },
         {
-            "StateID": 27095,
-            "Role": "Tow Driver"
+            "StateID": 18319,
+            "Role": "Performer"
         },
         {
-            "StateID": 30569,
-            "Role": "Tow Driver"
+            "StateID": 18943,
+            "Role": "Security"
         },
         {
-            "StateID": 33459,
-            "Role": "Tow Driver"
+            "StateID": 22188,
+            "Role": "Event Coordinator"
         },
         {
-            "StateID": 34359,
-            "Role": "Tow Driver"
+            "StateID": 2276,
+            "Role": "Business Partner"
         },
         {
-            "StateID": 34722,
-            "Role": "Tow Driver"
+            "StateID": 32969,
+            "Role": "Performer"
         },
         {
-            "StateID": 34755,
-            "Role": "Tow Driver"
+            "StateID": 32983,
+            "Role": "Event Coordinator"
         },
         {
-            "StateID": 35640,
-            "Role": "HR Manager"
+            "StateID": 9297,
+            "Role": "Event Coordinator AU"
         },
         {
-            "StateID": 36722,
-            "Role": "Tow Driver"
+            "StateID": 22667,
+            "Role": "Inactive"
         },
         {
-            "StateID": 6235,
-            "Role": "Co-Owner"
-        },
-        {
-            "StateID": 8593,
-            "Role": "Tow Driver"
-        },
-        {
-            "StateID": 14313,
-            "Role": "Head Manager"
+            "StateID": 2272,
+            "Role": "L.A.W"
         },
         {
             "StateID": 28073,
-            "Role": "Tow Driver"
+            "Role": "Security"
         },
         {
-            "StateID": 3114,
-            "Role": "Tow Driver"
-        }
-    ]
-},
-"Overboost Drift School": {
-    "Name": "Overboost Drift School",
-    "Employees": [
-        {
-            "StateID": 1176,
-            "Role": "COO"
+            "StateID": 7772,
+            "Role": "Manager"
         },
         {
-            "StateID": 1851,
-            "Role": "Event Coordinator"
-        },
-        {
-            "StateID": 1851,
-            "Role": "Event Coordinator"
-        },
-        {
-            "StateID": 2139,
-            "Role": "Orientation Queen"
-        },
-        {
-            "StateID": 27095,
-            "Role": "Track Staff"
-        },
-        {
-            "StateID": 30053,
-            "Role": "Track Staff"
-        },
-        {
-            "StateID": 30513,
-            "Role": "Track Staff"
-        },
-        {
-            "StateID": 31708,
-            "Role": "Fan girls of ShaneO"
-        },
-        {
-            "StateID": 31856,
-            "Role": "Track Staff"
-        },
-        {
-            "StateID": 36682,
-            "Role": "Instructor"
-        },
-        {
-            "StateID": 3803,
-            "Role": "Event Coordinator"
-        },
-        {
-            "StateID": 5730,
-            "Role": "Track Staff"
-        },
-        {
-            "StateID": 7594,
-            "Role": "Instructor"
-        },
-        {
-            "StateID": 7746,
-            "Role": "Instructor"
-        },
-        {
-            "StateID": 7945,
-            "Role": "Track Staff"
-        },
-        {
-            "StateID": 1102,
-            "Role": "Instructor"
-        },
-        {
-            "StateID": 5734,
-            "Role": "Attorney"
+            "StateID": 7902,
+            "Role": "UwU Goth"
         }
     ]
 },
@@ -57022,60 +59226,64 @@ EMPLOYMENT = {
         }
     ]
 },
-"Tequi-La-La": {
-    "Name": "Tequi-La-La",
+"Plus One": {
+    "Name": "Plus One",
     "Employees": [
         {
-            "StateID": 11052,
-            "Role": "Performer"
-        },
-        {
-            "StateID": 13440,
-            "Role": "Bartender"
-        },
-        {
-            "StateID": 18319,
-            "Role": "Performer"
-        },
-        {
-            "StateID": 18943,
-            "Role": "Security"
-        },
-        {
-            "StateID": 22188,
+            "StateID": 15324,
             "Role": "Event Coordinator"
         },
         {
-            "StateID": 2276,
-            "Role": "Business Partner"
+            "StateID": 15324,
+            "Role": "Founder"
+        },
+        {
+            "StateID": 16457,
+            "Role": "Event Coordinator"
+        },
+        {
+            "StateID": 16457,
+            "Role": "Event Coordinator"
+        },
+        {
+            "StateID": 19646,
+            "Role": "CEO"
+        },
+        {
+            "StateID": 24991,
+            "Role": "Store Manager"
+        },
+        {
+            "StateID": 31071,
+            "Role": "Sales"
         },
         {
             "StateID": 32983,
             "Role": "Event Coordinator"
         },
         {
-            "StateID": 9297,
-            "Role": "Event Coordinator AU"
+            "StateID": 35665,
+            "Role": "Event Coordinator"
         },
         {
-            "StateID": 22667,
-            "Role": "Inactive"
+            "StateID": 35833,
+            "Role": "Event Coordinator"
         },
         {
-            "StateID": 2272,
-            "Role": "L.A.W"
+            "StateID": 1101,
+            "Role": "Business Associate"
         },
         {
-            "StateID": 28073,
-            "Role": "Security"
+            "StateID": 11691,
+            "Role": "Business Associate"
         },
         {
-            "StateID": 7772,
-            "Role": "Manager"
+            "StateID": 6653,
+            "Role": "Business Associate"
         },
         {
-            "StateID": 7902,
-            "Role": "UwU Goth"
+            "StateID": 7542,
+            "Role": "Business Associate"
         }
     ]
 },
@@ -57103,6 +59311,10 @@ EMPLOYMENT = {
             "Role": "Sales"
         },
         {
+            "StateID": 22109,
+            "Role": "Sales"
+        },
+        {
             "StateID": 7497,
             "Role": "Sales"
         },
@@ -57123,69 +59335,12 @@ EMPLOYMENT = {
             "Role": "Sales"
         },
         {
-            "StateID": 22109,
-            "Role": "Sales"
-        },
-        {
             "StateID": 22746,
             "Role": "Sales"
         },
         {
             "StateID": 2466,
             "Role": "Sales"
-        }
-    ]
-},
-"Betta Life": {
-    "Name": "Betta Life",
-    "Employees": [
-        {
-            "StateID": 10285,
-            "Role": "CTO"
-        },
-        {
-            "StateID": 12050,
-            "Role": "HR"
-        },
-        {
-            "StateID": 3503,
-            "Role": "Business Consultant"
-        },
-        {
-            "StateID": 8640,
-            "Role": "Sales Rep - Booth"
-        },
-        {
-            "StateID": 11690,
-            "Role": "COO"
-        },
-        {
-            "StateID": 19651,
-            "Role": "CFO"
-        },
-        {
-            "StateID": 2272,
-            "Role": "Attorney"
-        },
-        {
-            "StateID": 27717,
-            "Role": "Sales Rep - Booth"
-        },
-        {
-            "StateID": 28541,
-            "Role": "Trainee Staff"
-        },
-        {
-            "StateID": 30454,
-            "Role": "Trainee Staff"
-        },
-        {
-            "StateID": 6422,
-            "Role": "Janitor"
-        },
-        {
-            "StateID": 9567,
-            "Role": "Trainee Staff"
         }
     ]
 },
@@ -57203,6 +59358,10 @@ EMPLOYMENT = {
         {
             "StateID": 1380,
             "Role": "Owner"
+        },
+        {
+            "StateID": 22109,
+            "Role": "Hot Bitch"
         },
         {
             "StateID": 7497,
@@ -57242,6 +59401,63 @@ EMPLOYMENT = {
         }
     ]
 },
+"The Liquid Library": {
+    "Name": "The Liquid Library",
+    "Employees": [
+        {
+            "StateID": 15066,
+            "Role": "Temp Bartenders"
+        },
+        {
+            "StateID": 15324,
+            "Role": "Librarian"
+        },
+        {
+            "StateID": 15960,
+            "Role": "Bartender"
+        },
+        {
+            "StateID": 1718,
+            "Role": "Bar Porter"
+        },
+        {
+            "StateID": 21531,
+            "Role": "Bartender"
+        },
+        {
+            "StateID": 2276,
+            "Role": "Senior Bartender"
+        },
+        {
+            "StateID": 24035,
+            "Role": "Temp Bartenders"
+        },
+        {
+            "StateID": 24180,
+            "Role": "Bartender"
+        },
+        {
+            "StateID": 33383,
+            "Role": "Bartender"
+        },
+        {
+            "StateID": 34068,
+            "Role": "Temp Bartenders"
+        },
+        {
+            "StateID": 3709,
+            "Role": "Bar Porter"
+        },
+        {
+            "StateID": 5019,
+            "Role": "Bar Porter"
+        },
+        {
+            "StateID": 5730,
+            "Role": "Bar Porter"
+        }
+    ]
+},
 "MDM Records": {
     "Name": "MDM Records",
     "Employees": [
@@ -57252,6 +59468,10 @@ EMPLOYMENT = {
         {
             "StateID": 19758,
             "Role": "Keyholder"
+        },
+        {
+            "StateID": 22109,
+            "Role": "Janitor"
         },
         {
             "StateID": 23988,
@@ -57315,6 +59535,10 @@ EMPLOYMENT = {
             "Role": "Arcade Staff"
         },
         {
+            "StateID": 5019,
+            "Role": "Engineer - L1"
+        },
+        {
             "StateID": 1062,
             "Role": "Arcade Staff"
         },
@@ -57345,6 +59569,59 @@ EMPLOYMENT = {
         {
             "StateID": 7322,
             "Role": "Retail"
+        }
+    ]
+},
+"Betta Life": {
+    "Name": "Betta Life",
+    "Employees": [
+        {
+            "StateID": 10285,
+            "Role": "CTO"
+        },
+        {
+            "StateID": 12050,
+            "Role": "HR"
+        },
+        {
+            "StateID": 3503,
+            "Role": "Business Consultant"
+        },
+        {
+            "StateID": 8640,
+            "Role": "Sales Rep - Booth"
+        },
+        {
+            "StateID": 11690,
+            "Role": "COO"
+        },
+        {
+            "StateID": 19651,
+            "Role": "CFO"
+        },
+        {
+            "StateID": 2272,
+            "Role": "Attorney"
+        },
+        {
+            "StateID": 27717,
+            "Role": "Sales Rep - Booth"
+        },
+        {
+            "StateID": 28541,
+            "Role": "Trainee Staff"
+        },
+        {
+            "StateID": 30454,
+            "Role": "Trainee Staff"
+        },
+        {
+            "StateID": 6422,
+            "Role": "Janitor"
+        },
+        {
+            "StateID": 9567,
+            "Role": "Trainee Staff"
         }
     ]
 },
@@ -57397,6 +59674,55 @@ EMPLOYMENT = {
         }
     ]
 },
+"AirX": {
+    "Name": "AirX",
+    "Employees": [
+        {
+            "StateID": 1048,
+            "Role": "Instructor"
+        },
+        {
+            "StateID": 1079,
+            "Role": "Instructor"
+        },
+        {
+            "StateID": 1460,
+            "Role": "Instructor"
+        },
+        {
+            "StateID": 4697,
+            "Role": "Instructor"
+        },
+        {
+            "StateID": 1070,
+            "Role": "Owner"
+        },
+        {
+            "StateID": 1109,
+            "Role": "Flight Chief"
+        },
+        {
+            "StateID": 1278,
+            "Role": "Senior Flight Instructor"
+        },
+        {
+            "StateID": 1451,
+            "Role": "Legal Team"
+        },
+        {
+            "StateID": 2060,
+            "Role": "Instructor"
+        },
+        {
+            "StateID": 6068,
+            "Role": "Instructor"
+        },
+        {
+            "StateID": 7998,
+            "Role": "Instructor"
+        }
+    ]
+},
 "Pablo Lotto": {
     "Name": "Pablo Lotto",
     "Employees": [
@@ -57406,7 +59732,7 @@ EMPLOYMENT = {
         },
         {
             "StateID": 1715,
-            "Role": "Security"
+            "Role": "Stash"
         },
         {
             "StateID": 18943,
@@ -57443,6 +59769,104 @@ EMPLOYMENT = {
         {
             "StateID": 9359,
             "Role": "Sales"
+        }
+    ]
+},
+"Sionis Industries": {
+    "Name": "Sionis Industries",
+    "Employees": [
+        {
+            "StateID": 1098,
+            "Role": "Sourcing Specialist."
+        },
+        {
+            "StateID": 1263,
+            "Role": "Sourcing Specialist"
+        },
+        {
+            "StateID": 15596,
+            "Role": "Refiner"
+        },
+        {
+            "StateID": 1637,
+            "Role": "Refiner"
+        },
+        {
+            "StateID": 20206,
+            "Role": "Sourcing Specialist"
+        },
+        {
+            "StateID": 1371,
+            "Role": "Personal Assistant"
+        },
+        {
+            "StateID": 1448,
+            "Role": "Sr. Workers"
+        },
+        {
+            "StateID": 1449,
+            "Role": "Board of Directors."
+        },
+        {
+            "StateID": 15208,
+            "Role": "Managers."
+        },
+        {
+            "StateID": 22919,
+            "Role": "Sr. Workers"
+        },
+        {
+            "StateID": 2910,
+            "Role": "Workers"
+        }
+    ]
+},
+"A Light in The Dark": {
+    "Name": "A Light in The Dark",
+    "Employees": [
+        {
+            "StateID": 13567,
+            "Role": "Booth Babe"
+        },
+        {
+            "StateID": 15324,
+            "Role": "Booth Babe"
+        },
+        {
+            "StateID": 16457,
+            "Role": "Booth Babe"
+        },
+        {
+            "StateID": 22188,
+            "Role": "Event Coordinator"
+        },
+        {
+            "StateID": 24180,
+            "Role": "Security"
+        },
+        {
+            "StateID": 4697,
+            "Role": "Security"
+        },
+        {
+            "StateID": 9349,
+            "Role": "Security"
+        },
+        {
+            "StateID": 11691,
+            "Role": "Booth Babe"
+        },
+        {
+            "StateID": 14313,
+            "Role": "Booth Babe"
+        },
+        {
+            "StateID": 28073,
+            "Role": "Booth Manager"
+        },
+        {
+            "StateID": 31531,
+            "Role": "Booth Babe"
         }
     ]
 },
@@ -57508,7 +59932,7 @@ EMPLOYMENT = {
         },
         {
             "StateID": 16457,
-            "Role": "Senior Kitchen Staff"
+            "Role": "Temp/New Hire"
         },
         {
             "StateID": 32479,
@@ -57541,55 +59965,6 @@ EMPLOYMENT = {
         {
             "StateID": 4460,
             "Role": "Security"
-        }
-    ]
-},
-"The Liquid Library": {
-    "Name": "The Liquid Library",
-    "Employees": [
-        {
-            "StateID": 15066,
-            "Role": "Temp Bartenders"
-        },
-        {
-            "StateID": 15960,
-            "Role": "Bartender"
-        },
-        {
-            "StateID": 1718,
-            "Role": "Bar Porter"
-        },
-        {
-            "StateID": 21531,
-            "Role": "Bartender"
-        },
-        {
-            "StateID": 2276,
-            "Role": "Senior Bartender"
-        },
-        {
-            "StateID": 24035,
-            "Role": "Temp Bartenders"
-        },
-        {
-            "StateID": 24180,
-            "Role": "Bartender"
-        },
-        {
-            "StateID": 33383,
-            "Role": "Bartender"
-        },
-        {
-            "StateID": 34068,
-            "Role": "Temp Bartenders"
-        },
-        {
-            "StateID": 3709,
-            "Role": "Bar Porter"
-        },
-        {
-            "StateID": 5730,
-            "Role": "Bar Porter"
         }
     ]
 },
@@ -57691,96 +60066,6 @@ EMPLOYMENT = {
         }
     ]
 },
-"AirX": {
-    "Name": "AirX",
-    "Employees": [
-        {
-            "StateID": 1048,
-            "Role": "Instructor"
-        },
-        {
-            "StateID": 1079,
-            "Role": "Instructor"
-        },
-        {
-            "StateID": 4697,
-            "Role": "Instructor"
-        },
-        {
-            "StateID": 1070,
-            "Role": "Owner"
-        },
-        {
-            "StateID": 1109,
-            "Role": "Flight Chief"
-        },
-        {
-            "StateID": 1278,
-            "Role": "Senior Flight Instructor"
-        },
-        {
-            "StateID": 1451,
-            "Role": "Legal Team"
-        },
-        {
-            "StateID": 2060,
-            "Role": "Instructor"
-        },
-        {
-            "StateID": 6068,
-            "Role": "Instructor"
-        },
-        {
-            "StateID": 7998,
-            "Role": "Instructor"
-        }
-    ]
-},
-"Sionis Industries": {
-    "Name": "Sionis Industries",
-    "Employees": [
-        {
-            "StateID": 1098,
-            "Role": "Sourcing Specialist."
-        },
-        {
-            "StateID": 15596,
-            "Role": "Refiner"
-        },
-        {
-            "StateID": 1637,
-            "Role": "Refiner"
-        },
-        {
-            "StateID": 20206,
-            "Role": "Sourcing Specialist"
-        },
-        {
-            "StateID": 1371,
-            "Role": "Personal Assistant"
-        },
-        {
-            "StateID": 1448,
-            "Role": "Sr. Workers"
-        },
-        {
-            "StateID": 1449,
-            "Role": "Board of Directors."
-        },
-        {
-            "StateID": 15208,
-            "Role": "Managers."
-        },
-        {
-            "StateID": 22919,
-            "Role": "Sr. Workers"
-        },
-        {
-            "StateID": 2910,
-            "Role": "Workers"
-        }
-    ]
-},
 "Come": {
     "Name": "Come",
     "Employees": [
@@ -57868,6 +60153,51 @@ EMPLOYMENT = {
         {
             "StateID": 2485,
             "Role": "Chicken Bitch"
+        }
+    ]
+},
+"The Bullet Club": {
+    "Name": "The Bullet Club",
+    "Employees": [
+        {
+            "StateID": 1263,
+            "Role": "Suspended"
+        },
+        {
+            "StateID": 17244,
+            "Role": "Harambes Bitch"
+        },
+        {
+            "StateID": 2251,
+            "Role": "Harambes Bitch"
+        },
+        {
+            "StateID": 2285,
+            "Role": "Harambes Bitch"
+        },
+        {
+            "StateID": 27574,
+            "Role": "Harambes Bitch"
+        },
+        {
+            "StateID": 30053,
+            "Role": "Harambes Bitch"
+        },
+        {
+            "StateID": 33687,
+            "Role": "CEO"
+        },
+        {
+            "StateID": 8469,
+            "Role": "Harambes Bitch"
+        },
+        {
+            "StateID": 1062,
+            "Role": "Investor"
+        },
+        {
+            "StateID": 2485,
+            "Role": "Booth Manager"
         }
     ]
 },
@@ -58003,51 +60333,6 @@ EMPLOYMENT = {
         {
             "StateID": 31151,
             "Role": "Sales"
-        }
-    ]
-},
-"PUSSYCAT": {
-    "Name": "PUSSYCAT",
-    "Employees": [
-        {
-            "StateID": 1437,
-            "Role": "CEO"
-        },
-        {
-            "StateID": 1995,
-            "Role": "Model"
-        },
-        {
-            "StateID": 3116,
-            "Role": "Board of Directors"
-        },
-        {
-            "StateID": 35679,
-            "Role": "Designer"
-        },
-        {
-            "StateID": 35844,
-            "Role": "Temp. Management"
-        },
-        {
-            "StateID": 36541,
-            "Role": "Temp. Management"
-        },
-        {
-            "StateID": 11866,
-            "Role": "PGA-Management"
-        },
-        {
-            "StateID": 22109,
-            "Role": "Stylist"
-        },
-        {
-            "StateID": 22746,
-            "Role": "Manager"
-        },
-        {
-            "StateID": 4460,
-            "Role": "Accountant"
         }
     ]
 },
@@ -58223,126 +60508,85 @@ EMPLOYMENT = {
         }
     ]
 },
-"A Light in The Dark": {
-    "Name": "A Light in The Dark",
+"PUSSYCAT": {
+    "Name": "PUSSYCAT",
     "Employees": [
         {
-            "StateID": 16457,
-            "Role": "Booth Babe"
-        },
-        {
-            "StateID": 22188,
-            "Role": "Event Coordinator"
-        },
-        {
-            "StateID": 24180,
-            "Role": "Security"
-        },
-        {
-            "StateID": 4697,
-            "Role": "Security"
-        },
-        {
-            "StateID": 9349,
-            "Role": "Security"
-        },
-        {
-            "StateID": 11691,
-            "Role": "Booth Babe"
-        },
-        {
-            "StateID": 14313,
-            "Role": "Booth Babe"
-        },
-        {
-            "StateID": 28073,
-            "Role": "Booth Manager"
-        },
-        {
-            "StateID": 31531,
-            "Role": "Booth Babe"
-        }
-    ]
-},
-"The Bullet Club": {
-    "Name": "The Bullet Club",
-    "Employees": [
-        {
-            "StateID": 17244,
-            "Role": "Harambes Bitch"
-        },
-        {
-            "StateID": 2251,
-            "Role": "Harambes Bitch"
-        },
-        {
-            "StateID": 2285,
-            "Role": "Harambes Bitch"
-        },
-        {
-            "StateID": 27574,
-            "Role": "Harambes Bitch"
-        },
-        {
-            "StateID": 30053,
-            "Role": "Harambes Bitch"
-        },
-        {
-            "StateID": 33687,
+            "StateID": 1437,
             "Role": "CEO"
         },
         {
-            "StateID": 8469,
-            "Role": "Harambes Bitch"
+            "StateID": 1995,
+            "Role": "Model"
         },
         {
-            "StateID": 1062,
-            "Role": "Investor"
+            "StateID": 3116,
+            "Role": "Board of Directors"
         },
         {
-            "StateID": 2485,
-            "Role": "Booth Manager"
+            "StateID": 35679,
+            "Role": "Designer"
+        },
+        {
+            "StateID": 35844,
+            "Role": "Temp. Management"
+        },
+        {
+            "StateID": 36541,
+            "Role": "Temp. Management"
+        },
+        {
+            "StateID": 11866,
+            "Role": "PGA-Management"
+        },
+        {
+            "StateID": 22746,
+            "Role": "Manager"
+        },
+        {
+            "StateID": 4460,
+            "Role": "Accountant"
         }
     ]
 },
-"Plus One": {
-    "Name": "Plus One",
+"Parks and Recreation": {
+    "Name": "Parks and Recreation",
     "Employees": [
         {
-            "StateID": 24991,
-            "Role": "Store Manager"
+            "StateID": 15563,
+            "Role": "Recreation Coordinator"
         },
         {
-            "StateID": 31071,
-            "Role": "Sales"
+            "StateID": 16457,
+            "Role": "Mid-State Outreach Super"
+        },
+        {
+            "StateID": 19646,
+            "Role": "First Responder Super"
+        },
+        {
+            "StateID": 22188,
+            "Role": "Recreation Coordinator"
+        },
+        {
+            "StateID": 31745,
+            "Role": "Recreation Coordinator"
         },
         {
             "StateID": 32983,
-            "Role": "Event Coordinator"
+            "Role": "Assistant Director"
         },
         {
-            "StateID": 35665,
-            "Role": "Event Coordinator"
+            "StateID": 9297,
+            "Role": "Upper-State Ouaeach Super"
         },
         {
-            "StateID": 35833,
-            "Role": "Event Coordinator"
+            "StateID": 11690,
+            "Role": "Events"
         },
         {
-            "StateID": 1101,
-            "Role": "Business Associate"
-        },
-        {
-            "StateID": 11691,
-            "Role": "Business Associate"
-        },
-        {
-            "StateID": 6653,
-            "Role": "Business Associate"
-        },
-        {
-            "StateID": 7542,
-            "Role": "Business Associate"
+            "StateID": 15501,
+            "Role": "Events"
         }
     ]
 },
@@ -58720,40 +60964,40 @@ EMPLOYMENT = {
         }
     ]
 },
-"Parks and Recreation": {
-    "Name": "Parks and Recreation",
+"Iron Hog Repairs": {
+    "Name": "Iron Hog Repairs",
     "Employees": [
         {
-            "StateID": 15563,
-            "Role": "Recreation Coordinator"
+            "StateID": 1503,
+            "Role": "Mechanic"
         },
         {
-            "StateID": 16457,
-            "Role": "Mid-State Outreach Super"
+            "StateID": 1591,
+            "Role": "Head investigator who is chief of security"
         },
         {
-            "StateID": 22188,
-            "Role": "Recreation Coordinator"
+            "StateID": 1637,
+            "Role": "Mechanic"
         },
         {
-            "StateID": 31745,
-            "Role": "Recreation Coordinator"
+            "StateID": 24555,
+            "Role": "Senior Mechanic"
         },
         {
-            "StateID": 32983,
-            "Role": "Assistant Director"
+            "StateID": 5019,
+            "Role": "Mechanic"
         },
         {
-            "StateID": 9297,
-            "Role": "Upper-State Ouaeach Super"
+            "StateID": 1068,
+            "Role": "Shop Security et al"
         },
         {
-            "StateID": 11690,
-            "Role": "Events"
+            "StateID": 1144,
+            "Role": "Shop Security et al"
         },
         {
-            "StateID": 15501,
-            "Role": "Events"
+            "StateID": 1463,
+            "Role": "Mechanic"
         }
     ]
 },
@@ -58930,6 +61174,72 @@ EMPLOYMENT = {
         }
     ]
 },
+"Sugar Daddys": {
+    "Name": "Sugar Daddys",
+    "Employees": [
+        {
+            "StateID": 12050,
+            "Role": "Upper Management"
+        },
+        {
+            "StateID": 16457,
+            "Role": "Sugar Booth Baby"
+        },
+        {
+            "StateID": 19646,
+            "Role": "Sugar Booth Baby"
+        },
+        {
+            "StateID": 11691,
+            "Role": "Co-owner / CEO"
+        },
+        {
+            "StateID": 14313,
+            "Role": "Sugar Booth Baby"
+        },
+        {
+            "StateID": 17324,
+            "Role": "Sugar Booth Baby"
+        },
+        {
+            "StateID": 28073,
+            "Role": "Sugar Booth Baby"
+        }
+    ]
+},
+"RON Oil": {
+    "Name": "RON Oil",
+    "Employees": [
+        {
+            "StateID": 1270,
+            "Role": "Personal Assistant"
+        },
+        {
+            "StateID": 15193,
+            "Role": "Employee"
+        },
+        {
+            "StateID": 1562,
+            "Role": "Supervisor"
+        },
+        {
+            "StateID": 2391,
+            "Role": "Supervisor"
+        },
+        {
+            "StateID": 30569,
+            "Role": "Employee"
+        },
+        {
+            "StateID": 30857,
+            "Role": "Employee"
+        },
+        {
+            "StateID": 5019,
+            "Role": "Employee"
+        }
+    ]
+},
 "Sessanta Nove": {
     "Name": "Sessanta Nove",
     "Employees": [
@@ -58960,39 +61270,6 @@ EMPLOYMENT = {
         {
             "StateID": 8593,
             "Role": "Owner"
-        }
-    ]
-},
-"Iron Hog Repairs": {
-    "Name": "Iron Hog Repairs",
-    "Employees": [
-        {
-            "StateID": 1503,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 1591,
-            "Role": "Head investigator who is chief of security"
-        },
-        {
-            "StateID": 1637,
-            "Role": "Mechanic"
-        },
-        {
-            "StateID": 24555,
-            "Role": "Senior Mechanic"
-        },
-        {
-            "StateID": 1068,
-            "Role": "Shop Security et al"
-        },
-        {
-            "StateID": 1144,
-            "Role": "Shop Security et al"
-        },
-        {
-            "StateID": 1463,
-            "Role": "Mechanic"
         }
     ]
 },
@@ -59256,6 +61533,35 @@ EMPLOYMENT = {
         }
     ]
 },
+"Cool Beans": {
+    "Name": "Cool Beans",
+    "Employees": [
+        {
+            "StateID": 10724,
+            "Role": "Social Media Manager"
+        },
+        {
+            "StateID": 15324,
+            "Role": "Inactive"
+        },
+        {
+            "StateID": 19646,
+            "Role": "Inactive"
+        },
+        {
+            "StateID": 24991,
+            "Role": "Manager"
+        },
+        {
+            "StateID": 6470,
+            "Role": "Social Media Manager"
+        },
+        {
+            "StateID": 1467,
+            "Role": "Owner"
+        }
+    ]
+},
 "Fast Loans": {
     "Name": "Fast Loans",
     "Employees": [
@@ -59297,6 +61603,10 @@ EMPLOYMENT = {
             "Role": "FAMILY"
         },
         {
+            "StateID": 26783,
+            "Role": "Ranch Worker"
+        },
+        {
             "StateID": 14313,
             "Role": "Ranch Worker"
         },
@@ -59307,39 +61617,6 @@ EMPLOYMENT = {
         {
             "StateID": 16485,
             "Role": "Jester"
-        },
-        {
-            "StateID": 26783,
-            "Role": "seller"
-        }
-    ]
-},
-"RON Oil": {
-    "Name": "RON Oil",
-    "Employees": [
-        {
-            "StateID": 1270,
-            "Role": "Personal Assistant"
-        },
-        {
-            "StateID": 15193,
-            "Role": "Employee"
-        },
-        {
-            "StateID": 1562,
-            "Role": "Supervisor"
-        },
-        {
-            "StateID": 2391,
-            "Role": "Supervisor"
-        },
-        {
-            "StateID": 30569,
-            "Role": "Employee"
-        },
-        {
-            "StateID": 30857,
-            "Role": "Employee"
         }
     ]
 },
@@ -59369,6 +61646,35 @@ EMPLOYMENT = {
         {
             "StateID": 9925,
             "Role": "Vendor"
+        }
+    ]
+},
+"Juice Up Gymnasiums": {
+    "Name": "Juice Up Gymnasiums",
+    "Employees": [
+        {
+            "StateID": 13567,
+            "Role": "Janitor"
+        },
+        {
+            "StateID": 15563,
+            "Role": "Manager"
+        },
+        {
+            "StateID": 22076,
+            "Role": "Swimming Instructor"
+        },
+        {
+            "StateID": 23407,
+            "Role": "Vocal Trainer"
+        },
+        {
+            "StateID": 3803,
+            "Role": "Wardrobe Management"
+        },
+        {
+            "StateID": 3916,
+            "Role": "Sales Rep."
         }
     ]
 },
@@ -59604,35 +61910,6 @@ EMPLOYMENT = {
         }
     ]
 },
-"Lucky Pearl Lottery": {
-    "Name": "Lucky Pearl Lottery",
-    "Employees": [
-        {
-            "StateID": 14313,
-            "Role": "Sales Representative I"
-        },
-        {
-            "StateID": 19612,
-            "Role": "Sales Trainee"
-        },
-        {
-            "StateID": 22109,
-            "Role": "Sales Trainee"
-        },
-        {
-            "StateID": 24576,
-            "Role": "Sales Trainee"
-        },
-        {
-            "StateID": 4120,
-            "Role": "Fingle"
-        },
-        {
-            "StateID": 6858,
-            "Role": "Artist"
-        }
-    ]
-},
 "Right of Way Driving School": {
     "Name": "Right of Way Driving School",
     "Employees": [
@@ -59680,31 +61957,6 @@ EMPLOYMENT = {
         {
             "StateID": 1429,
             "Role": "Head Barber"
-        }
-    ]
-},
-"Cool Beans": {
-    "Name": "Cool Beans",
-    "Employees": [
-        {
-            "StateID": 10724,
-            "Role": "Social Media Manager"
-        },
-        {
-            "StateID": 19646,
-            "Role": "Inactive"
-        },
-        {
-            "StateID": 24991,
-            "Role": "Manager"
-        },
-        {
-            "StateID": 6470,
-            "Role": "Social Media Manager"
-        },
-        {
-            "StateID": 1467,
-            "Role": "Owner"
         }
     ]
 },
@@ -59833,28 +62085,28 @@ EMPLOYMENT = {
         }
     ]
 },
-"Sugar Daddys": {
-    "Name": "Sugar Daddys",
+"WiseGuys Management Consultations LLC": {
+    "Name": "WiseGuys Management Consultations LLC",
     "Employees": [
         {
             "StateID": 12050,
-            "Role": "Upper Management"
+            "Role": "Interim COO"
         },
         {
-            "StateID": 11691,
-            "Role": "Co-owner / CEO"
+            "StateID": 26357,
+            "Role": "Owner"
         },
         {
-            "StateID": 14313,
-            "Role": "Sugar Booth Baby"
+            "StateID": 37030,
+            "Role": "Temp Sanitation"
         },
         {
-            "StateID": 17324,
-            "Role": "Sugar Booth Baby"
+            "StateID": 37222,
+            "Role": "Temp Sanitation"
         },
         {
-            "StateID": 28073,
-            "Role": "Sugar Booth Baby"
+            "StateID": 37222,
+            "Role": "Temp Sanitation"
         }
     ]
 },
@@ -59905,6 +62157,56 @@ EMPLOYMENT = {
         {
             "StateID": 6403,
             "Role": "Talent"
+        }
+    ]
+},
+"Oasis Oil Company": {
+    "Name": "Oasis Oil Company",
+    "Employees": [
+        {
+            "StateID": 1263,
+            "Role": "Owner"
+        },
+        {
+            "StateID": 1709,
+            "Role": "Manager"
+        },
+        {
+            "StateID": 19005,
+            "Role": "Attendant"
+        },
+        {
+            "StateID": 21535,
+            "Role": "Attendant"
+        },
+        {
+            "StateID": 33359,
+            "Role": "Attendant"
+        }
+    ]
+},
+"Starlight Entertainment Industries": {
+    "Name": "Starlight Entertainment Industries",
+    "Employees": [
+        {
+            "StateID": 12643,
+            "Role": "Employee"
+        },
+        {
+            "StateID": 16457,
+            "Role": "Employee"
+        },
+        {
+            "StateID": 27264,
+            "Role": "Creative Designer"
+        },
+        {
+            "StateID": 30053,
+            "Role": "Fool"
+        },
+        {
+            "StateID": 31745,
+            "Role": "Artist"
         }
     ]
 },
@@ -59983,6 +62285,31 @@ EMPLOYMENT = {
         }
     ]
 },
+"Pigeon View": {
+    "Name": "Pigeon View",
+    "Employees": [
+        {
+            "StateID": 14022,
+            "Role": "Photographer"
+        },
+        {
+            "StateID": 2251,
+            "Role": "Photographer"
+        },
+        {
+            "StateID": 26124,
+            "Role": "Photographer"
+        },
+        {
+            "StateID": 26223,
+            "Role": "Photographer"
+        },
+        {
+            "StateID": 3861,
+            "Role": "Photographer"
+        }
+    ]
+},
 "Little Paws Animal Hospital": {
     "Name": "Little Paws Animal Hospital",
     "Employees": [
@@ -60005,31 +62332,6 @@ EMPLOYMENT = {
         {
             "StateID": 1615,
             "Role": "Owner"
-        }
-    ]
-},
-"Juice Up Gymnasiums": {
-    "Name": "Juice Up Gymnasiums",
-    "Employees": [
-        {
-            "StateID": 15563,
-            "Role": "Manager"
-        },
-        {
-            "StateID": 22076,
-            "Role": "Swimming Instructor"
-        },
-        {
-            "StateID": 23407,
-            "Role": "Vocal Trainer"
-        },
-        {
-            "StateID": 3803,
-            "Role": "Wardrobe Management"
-        },
-        {
-            "StateID": 3916,
-            "Role": "Sales Rep."
         }
     ]
 },
@@ -60108,6 +62410,56 @@ EMPLOYMENT = {
         }
     ]
 },
+"The Rose Garden": {
+    "Name": "The Rose Garden",
+    "Employees": [
+        {
+            "StateID": 16457,
+            "Role": "Florist"
+        },
+        {
+            "StateID": 22188,
+            "Role": "Owner"
+        },
+        {
+            "StateID": 22657,
+            "Role": "Florist"
+        },
+        {
+            "StateID": 17324,
+            "Role": "Co-Owner"
+        },
+        {
+            "StateID": 31531,
+            "Role": "Florist"
+        }
+    ]
+},
+"Syndicate Industries": {
+    "Name": "Syndicate Industries",
+    "Employees": [
+        {
+            "StateID": 16990,
+            "Role": "CEO"
+        },
+        {
+            "StateID": 26199,
+            "Role": "Employee"
+        },
+        {
+            "StateID": 27095,
+            "Role": "Employee"
+        },
+        {
+            "StateID": 32969,
+            "Role": "Employee"
+        },
+        {
+            "StateID": 9711,
+            "Role": "Employee"
+        }
+    ]
+},
 "Paparratto's Deli": {
     "Name": "Paparratto's Deli",
     "Employees": [
@@ -60130,31 +62482,6 @@ EMPLOYMENT = {
         {
             "StateID": 28480,
             "Role": "Co Owner"
-        }
-    ]
-},
-"McMoos Events": {
-    "Name": "McMoos Events",
-    "Employees": [
-        {
-            "StateID": 19646,
-            "Role": "Event Organizer"
-        },
-        {
-            "StateID": 11691,
-            "Role": "Active Collaborator"
-        },
-        {
-            "StateID": 15208,
-            "Role": "Co-owner"
-        },
-        {
-            "StateID": 16421,
-            "Role": "Event Staff"
-        },
-        {
-            "StateID": 7542,
-            "Role": "Event Organizer"
         }
     ]
 },
@@ -60208,6 +62535,31 @@ EMPLOYMENT = {
         }
     ]
 },
+"Incarcenated Incorporated": {
+    "Name": "Incarcenated Incorporated",
+    "Employees": [
+        {
+            "StateID": 27833,
+            "Role": "PD Pals"
+        },
+        {
+            "StateID": 9813,
+            "Role": "PD Pals"
+        },
+        {
+            "StateID": 13745,
+            "Role": "Warden"
+        },
+        {
+            "StateID": 14944,
+            "Role": "DOC Command"
+        },
+        {
+            "StateID": 19843,
+            "Role": "DOC Command"
+        }
+    ]
+},
 "The Peg Inn": {
     "Name": "The Peg Inn",
     "Employees": [
@@ -60233,6 +62585,31 @@ EMPLOYMENT = {
         }
     ]
 },
+"SoyBoys": {
+    "Name": "SoyBoys",
+    "Employees": [
+        {
+            "StateID": 5019,
+            "Role": "Delivery Bouy"
+        },
+        {
+            "StateID": 1250,
+            "Role": "White Communist"
+        },
+        {
+            "StateID": 1307,
+            "Role": "Owner"
+        },
+        {
+            "StateID": 1463,
+            "Role": "The Dark Lord"
+        },
+        {
+            "StateID": 15065,
+            "Role": "Minion"
+        }
+    ]
+},
 "Life of the ParTEE": {
     "Name": "Life of the ParTEE",
     "Employees": [
@@ -60255,6 +62632,31 @@ EMPLOYMENT = {
         {
             "StateID": 7104,
             "Role": "Assistant"
+        }
+    ]
+},
+"Lucky Pearl Lottery": {
+    "Name": "Lucky Pearl Lottery",
+    "Employees": [
+        {
+            "StateID": 14313,
+            "Role": "Sales Representative I"
+        },
+        {
+            "StateID": 19612,
+            "Role": "Sales Trainee"
+        },
+        {
+            "StateID": 24576,
+            "Role": "Sales Trainee"
+        },
+        {
+            "StateID": 4120,
+            "Role": "Fingle"
+        },
+        {
+            "StateID": 6858,
+            "Role": "Artist"
         }
     ]
 },
@@ -60405,27 +62807,6 @@ EMPLOYMENT = {
         }
     ]
 },
-"WiseGuys Management Consultations LLC": {
-    "Name": "WiseGuys Management Consultations LLC",
-    "Employees": [
-        {
-            "StateID": 12050,
-            "Role": "Interim COO"
-        },
-        {
-            "StateID": 26357,
-            "Role": "Owner"
-        },
-        {
-            "StateID": 37222,
-            "Role": "Temp Sanitation"
-        },
-        {
-            "StateID": 37222,
-            "Role": "Temp Sanitation"
-        }
-    ]
-},
 "The Masters' Racehorse Lounge": {
     "Name": "The Masters' Racehorse Lounge",
     "Employees": [
@@ -60444,27 +62825,6 @@ EMPLOYMENT = {
         {
             "StateID": 30448,
             "Role": "Event Organizer"
-        }
-    ]
-},
-"Starlight Entertainment Industries": {
-    "Name": "Starlight Entertainment Industries",
-    "Employees": [
-        {
-            "StateID": 12643,
-            "Role": "Employee"
-        },
-        {
-            "StateID": 27264,
-            "Role": "Creative Designer"
-        },
-        {
-            "StateID": 30053,
-            "Role": "Fool"
-        },
-        {
-            "StateID": 31745,
-            "Role": "Artist"
         }
     ]
 },
@@ -60510,27 +62870,6 @@ EMPLOYMENT = {
         }
     ]
 },
-"Pigeon View": {
-    "Name": "Pigeon View",
-    "Employees": [
-        {
-            "StateID": 14022,
-            "Role": "Photographer"
-        },
-        {
-            "StateID": 2251,
-            "Role": "Photographer"
-        },
-        {
-            "StateID": 26223,
-            "Role": "Photographer"
-        },
-        {
-            "StateID": 3861,
-            "Role": "Photographer"
-        }
-    ]
-},
 "Ask A Lawyer Law Group": {
     "Name": "Ask A Lawyer Law Group",
     "Employees": [
@@ -60573,48 +62912,6 @@ EMPLOYMENT = {
         }
     ]
 },
-"Syndicate Industries": {
-    "Name": "Syndicate Industries",
-    "Employees": [
-        {
-            "StateID": 16990,
-            "Role": "CEO"
-        },
-        {
-            "StateID": 26199,
-            "Role": "Employee"
-        },
-        {
-            "StateID": 27095,
-            "Role": "Employee"
-        },
-        {
-            "StateID": 9711,
-            "Role": "Employee"
-        }
-    ]
-},
-"Oasis Oil Company": {
-    "Name": "Oasis Oil Company",
-    "Employees": [
-        {
-            "StateID": 1709,
-            "Role": "Manager"
-        },
-        {
-            "StateID": 19005,
-            "Role": "Attendant"
-        },
-        {
-            "StateID": 21535,
-            "Role": "Attendant"
-        },
-        {
-            "StateID": 33359,
-            "Role": "Attendant"
-        }
-    ]
-},
 "Hydra Body Pillows": {
     "Name": "Hydra Body Pillows",
     "Employees": [
@@ -60633,6 +62930,27 @@ EMPLOYMENT = {
         {
             "StateID": 9737,
             "Role": "Employee"
+        }
+    ]
+},
+"AFE Oil": {
+    "Name": "AFE Oil",
+    "Employees": [
+        {
+            "StateID": 19758,
+            "Role": "Material Gatherer"
+        },
+        {
+            "StateID": 34722,
+            "Role": "Material Gatherer"
+        },
+        {
+            "StateID": 35265,
+            "Role": "Material Gatherer"
+        },
+        {
+            "StateID": 35381,
+            "Role": "Manager (Material Acquisition)"
         }
     ]
 },
@@ -60678,27 +62996,6 @@ EMPLOYMENT = {
         }
     ]
 },
-"The Rose Garden": {
-    "Name": "The Rose Garden",
-    "Employees": [
-        {
-            "StateID": 22188,
-            "Role": "Owner"
-        },
-        {
-            "StateID": 22657,
-            "Role": "Florist"
-        },
-        {
-            "StateID": 17324,
-            "Role": "Co-Owner"
-        },
-        {
-            "StateID": 31531,
-            "Role": "Florist"
-        }
-    ]
-},
 "The Gold Star Company": {
     "Name": "The Gold Star Company",
     "Employees": [
@@ -60708,7 +63005,7 @@ EMPLOYMENT = {
         },
         {
             "StateID": 26140,
-            "Role": "Executive Board Member"
+            "Role": "CFO"
         },
         {
             "StateID": 28481,
@@ -60804,27 +63101,6 @@ EMPLOYMENT = {
         }
     ]
 },
-"Incarcenated Incorporated": {
-    "Name": "Incarcenated Incorporated",
-    "Employees": [
-        {
-            "StateID": 9813,
-            "Role": "PD Pals"
-        },
-        {
-            "StateID": 13745,
-            "Role": "Warden"
-        },
-        {
-            "StateID": 14944,
-            "Role": "DOC Command"
-        },
-        {
-            "StateID": 19843,
-            "Role": "DOC Command"
-        }
-    ]
-},
 "Winery": {
     "Name": "Winery",
     "Employees": [
@@ -60888,24 +63164,24 @@ EMPLOYMENT = {
         }
     ]
 },
-"SoyBoys": {
-    "Name": "SoyBoys",
+"McMoos Events": {
+    "Name": "McMoos Events",
     "Employees": [
         {
-            "StateID": 1250,
-            "Role": "White Communist"
+            "StateID": 11691,
+            "Role": "Active Collaborator"
         },
         {
-            "StateID": 1307,
-            "Role": "Owner"
+            "StateID": 15208,
+            "Role": "Co-owner"
         },
         {
-            "StateID": 1463,
-            "Role": "The Dark Lord"
+            "StateID": 16421,
+            "Role": "Event Staff"
         },
         {
-            "StateID": 15065,
-            "Role": "Minion"
+            "StateID": 7542,
+            "Role": "Event Organizer"
         }
     ]
 },
@@ -61066,6 +63342,23 @@ EMPLOYMENT = {
         }
     ]
 },
+"The Rusty Hoe": {
+    "Name": "The Rusty Hoe",
+    "Employees": [
+        {
+            "StateID": 1098,
+            "Role": "Board Member"
+        },
+        {
+            "StateID": 1715,
+            "Role": "Sr. Store Employee"
+        },
+        {
+            "StateID": 26783,
+            "Role": "Sr. Store Employee"
+        }
+    ]
+},
 "Smoke On The Water": {
     "Name": "Smoke On The Water",
     "Employees": [
@@ -61148,6 +63441,40 @@ EMPLOYMENT = {
         {
             "StateID": 3114,
             "Role": "Signature Staff"
+        }
+    ]
+},
+"Church of la Angels": {
+    "Name": "Church of la Angels",
+    "Employees": [
+        {
+            "StateID": 1239,
+            "Role": "Gods Angels"
+        },
+        {
+            "StateID": 1380,
+            "Role": "Gods Angels"
+        },
+        {
+            "StateID": 22109,
+            "Role": "Heathen"
+        }
+    ]
+},
+"Harmony Imports": {
+    "Name": "Harmony Imports",
+    "Employees": [
+        {
+            "StateID": 1270,
+            "Role": "Finance"
+        },
+        {
+            "StateID": 32405,
+            "Role": "Sales"
+        },
+        {
+            "StateID": 7497,
+            "Role": "Co-Owner"
         }
     ]
 },
@@ -61253,23 +63580,6 @@ EMPLOYMENT = {
         }
     ]
 },
-"Mato's Recycling & Lockpicks&": {
-    "Name": "Mato's Recycling & Lockpicks&",
-    "Employees": [
-        {
-            "StateID": 1437,
-            "Role": "Sales"
-        },
-        {
-            "StateID": 1715,
-            "Role": "CEO"
-        },
-        {
-            "StateID": 26474,
-            "Role": "Owner"
-        }
-    ]
-},
 "Tiptop Marketing Agency": {
     "Name": "Tiptop Marketing Agency",
     "Employees": [
@@ -61338,6 +63648,23 @@ EMPLOYMENT = {
         }
     ]
 },
+"Skyline FM": {
+    "Name": "Skyline FM",
+    "Employees": [
+        {
+            "StateID": 15324,
+            "Role": "BTB"
+        },
+        {
+            "StateID": 15563,
+            "Role": "Co-Owner"
+        },
+        {
+            "StateID": 16457,
+            "Role": "Owner"
+        }
+    ]
+},
 "Bodega & Gifts": {
     "Name": "Bodega & Gifts",
     "Employees": [
@@ -61352,6 +63679,23 @@ EMPLOYMENT = {
         {
             "StateID": 28186,
             "Role": "Floor manager"
+        }
+    ]
+},
+"TonicsAndTinctures": {
+    "Name": "TonicsAndTinctures",
+    "Employees": [
+        {
+            "StateID": 16457,
+            "Role": "Sales"
+        },
+        {
+            "StateID": 3250,
+            "Role": "Human resources"
+        },
+        {
+            "StateID": 23301,
+            "Role": "Human resources"
         }
     ]
 },
@@ -61474,6 +63818,40 @@ EMPLOYMENT = {
         }
     ]
 },
+"Forged Fabrications": {
+    "Name": "Forged Fabrications",
+    "Employees": [
+        {
+            "StateID": 26327,
+            "Role": "Parts Technician"
+        },
+        {
+            "StateID": 30448,
+            "Role": "Co Founder"
+        },
+        {
+            "StateID": 30448,
+            "Role": "Co Founder"
+        }
+    ]
+},
+"Kaza Decor": {
+    "Name": "Kaza Decor",
+    "Employees": [
+        {
+            "StateID": 26783,
+            "Role": "Interior Designer"
+        },
+        {
+            "StateID": 1467,
+            "Role": "Interior Designer"
+        },
+        {
+            "StateID": 8803,
+            "Role": "Owner"
+        }
+    ]
+},
 "Clubhouse Transportations": {
     "Name": "Clubhouse Transportations",
     "Employees": [
@@ -61539,23 +63917,6 @@ EMPLOYMENT = {
         {
             "StateID": 37051,
             "Role": "Booth Worker"
-        }
-    ]
-},
-"AFE Oil": {
-    "Name": "AFE Oil",
-    "Employees": [
-        {
-            "StateID": 34722,
-            "Role": "Material Gatherer"
-        },
-        {
-            "StateID": 35265,
-            "Role": "Material Gatherer"
-        },
-        {
-            "StateID": 35381,
-            "Role": "Material Gatherer"
         }
     ]
 },
@@ -61692,23 +64053,6 @@ EMPLOYMENT = {
         {
             "StateID": 5734,
             "Role": "Accountant"
-        }
-    ]
-},
-"Kaza Decor": {
-    "Name": "Kaza Decor",
-    "Employees": [
-        {
-            "StateID": 1467,
-            "Role": "Interior Designer"
-        },
-        {
-            "StateID": 26783,
-            "Role": "Interior Designer"
-        },
-        {
-            "StateID": 8803,
-            "Role": "Owner"
         }
     ]
 },
@@ -61914,32 +64258,6 @@ EMPLOYMENT = {
         }
     ]
 },
-"Church of la Angels": {
-    "Name": "Church of la Angels",
-    "Employees": [
-        {
-            "StateID": 1239,
-            "Role": "Gods Angels"
-        },
-        {
-            "StateID": 1380,
-            "Role": "Gods Angels"
-        }
-    ]
-},
-"Harmony Imports": {
-    "Name": "Harmony Imports",
-    "Employees": [
-        {
-            "StateID": 1270,
-            "Role": "Finance"
-        },
-        {
-            "StateID": 7497,
-            "Role": "Co-Owner"
-        }
-    ]
-},
 "Hen House": {
     "Name": "Hen House",
     "Employees": [
@@ -62096,6 +64414,19 @@ EMPLOYMENT = {
         }
     ]
 },
+"Mato's Recycling & Lockpicks&": {
+    "Name": "Mato's Recycling & Lockpicks&",
+    "Employees": [
+        {
+            "StateID": 1437,
+            "Role": "Sales"
+        },
+        {
+            "StateID": 26474,
+            "Role": "Owner"
+        }
+    ]
+},
 "Blaine County Mountain Rescue": {
     "Name": "Blaine County Mountain Rescue",
     "Employees": [
@@ -62119,6 +64450,19 @@ EMPLOYMENT = {
         {
             "StateID": 6068,
             "Role": "Owner"
+        }
+    ]
+},
+"Split Sides Comedy Club": {
+    "Name": "Split Sides Comedy Club",
+    "Employees": [
+        {
+            "StateID": 15563,
+            "Role": "Event Coordinator"
+        },
+        {
+            "StateID": 16457,
+            "Role": "Event Coprdinator"
         }
     ]
 },
@@ -62158,6 +64502,19 @@ EMPLOYMENT = {
         {
             "StateID": 7249,
             "Role": "COO"
+        }
+    ]
+},
+"Toys and Trinkets": {
+    "Name": "Toys and Trinkets",
+    "Employees": [
+        {
+            "StateID": 16457,
+            "Role": "Master Molds"
+        },
+        {
+            "StateID": 28620,
+            "Role": "Designer"
         }
     ]
 },
@@ -62249,6 +64606,19 @@ EMPLOYMENT = {
         {
             "StateID": 33175,
             "Role": "Employee"
+        }
+    ]
+},
+"Ved Services": {
+    "Name": "Ved Services",
+    "Employees": [
+        {
+            "StateID": 19758,
+            "Role": "Owner"
+        },
+        {
+            "StateID": 35381,
+            "Role": "CEO"
         }
     ]
 },
@@ -62434,19 +64804,6 @@ EMPLOYMENT = {
         }
     ]
 },
-"TonicsAndTinctures": {
-    "Name": "TonicsAndTinctures",
-    "Employees": [
-        {
-            "StateID": 3250,
-            "Role": "Human resources"
-        },
-        {
-            "StateID": 23301,
-            "Role": "Human resources"
-        }
-    ]
-},
 "All Ears": {
     "Name": "All Ears",
     "Employees": [
@@ -62509,6 +64866,19 @@ EMPLOYMENT = {
         {
             "StateID": 1202,
             "Role": "CEO"
+        }
+    ]
+},
+"Los Santos Medical Group": {
+    "Name": "Los Santos Medical Group",
+    "Employees": [
+        {
+            "StateID": 35409,
+            "Role": "Resident"
+        },
+        {
+            "StateID": 6220,
+            "Role": "Resident"
         }
     ]
 },
@@ -62830,15 +65200,6 @@ EMPLOYMENT = {
         }
     ]
 },
-"The Rusty Hoe": {
-    "Name": "The Rusty Hoe",
-    "Employees": [
-        {
-            "StateID": 1098,
-            "Role": "Board Member"
-        }
-    ]
-},
 "Cleaning Laundry Industrial Tile": {
     "Name": "Cleaning Laundry Industrial Tile",
     "Employees": [
@@ -62863,6 +65224,33 @@ EMPLOYMENT = {
         {
             "StateID": 11930,
             "Role": "Express Sr Driver"
+        }
+    ]
+},
+"Oasis": {
+    "Name": "Oasis",
+    "Employees": [
+        {
+            "StateID": 1263,
+            "Role": "Board"
+        }
+    ]
+},
+"Seacycle": {
+    "Name": "Seacycle",
+    "Employees": [
+        {
+            "StateID": 1263,
+            "Role": "Co-Owner"
+        }
+    ]
+},
+"SeaCycle Inc": {
+    "Name": "SeaCycle Inc",
+    "Employees": [
+        {
+            "StateID": 1263,
+            "Role": "CEO"
         }
     ]
 },
@@ -62974,24 +65362,6 @@ EMPLOYMENT = {
         }
     ]
 },
-"Skyline FM": {
-    "Name": "Skyline FM",
-    "Employees": [
-        {
-            "StateID": 15563,
-            "Role": "Co-Owner"
-        }
-    ]
-},
-"Split Sides Comedy Club": {
-    "Name": "Split Sides Comedy Club",
-    "Employees": [
-        {
-            "StateID": 15563,
-            "Role": "Event Coordinator"
-        }
-    ]
-},
 "Who Knows?": {
     "Name": "Who Knows?",
     "Employees": [
@@ -63034,6 +65404,15 @@ EMPLOYMENT = {
         {
             "StateID": 16457,
             "Role": "Owner"
+        }
+    ]
+},
+"Off the Record": {
+    "Name": "Off the Record",
+    "Employees": [
+        {
+            "StateID": 16457,
+            "Role": "Actor"
         }
     ]
 },
@@ -63136,6 +65515,15 @@ EMPLOYMENT = {
         }
     ]
 },
+"Targent Realty": {
+    "Name": "Targent Realty",
+    "Employees": [
+        {
+            "StateID": 19646,
+            "Role": "Owner"
+        }
+    ]
+},
 "UK Oil": {
     "Name": "UK Oil",
     "Employees": [
@@ -63217,21 +65605,12 @@ EMPLOYMENT = {
         }
     ]
 },
-"Dodo Logisitcs LCC": {
-    "Name": "Dodo Logisitcs LCC",
+"Dodo Logistics LCC": {
+    "Name": "Dodo Logistics LCC",
     "Employees": [
         {
             "StateID": 2554,
             "Role": "Express Temp Driver"
-        }
-    ]
-},
-"Forged Fabrications": {
-    "Name": "Forged Fabrications",
-    "Employees": [
-        {
-            "StateID": 26327,
-            "Role": "Parts Technician"
         }
     ]
 },
@@ -63241,6 +65620,15 @@ EMPLOYMENT = {
         {
             "StateID": 26622,
             "Role": "Board Member"
+        }
+    ]
+},
+"Inside Men": {
+    "Name": "Inside Men",
+    "Employees": [
+        {
+            "StateID": 27505,
+            "Role": "Security"
         }
     ]
 },
@@ -63280,21 +65668,21 @@ EMPLOYMENT = {
         }
     ]
 },
-"Toys and Trinkets": {
-    "Name": "Toys and Trinkets",
-    "Employees": [
-        {
-            "StateID": 28620,
-            "Role": "Designer"
-        }
-    ]
-},
 "Oasis 0il Company": {
     "Name": "Oasis 0il Company",
     "Employees": [
         {
             "StateID": 30053,
             "Role": "Attendant"
+        }
+    ]
+},
+"Safe Insure Inc.": {
+    "Name": "Safe Insure Inc.",
+    "Employees": [
+        {
+            "StateID": 30448,
+            "Role": "Policy Manager"
         }
     ]
 },
@@ -63808,15 +66196,6 @@ EMPLOYMENT = {
         {
             "StateID": 27717,
             "Role": "Incubus"
-        }
-    ]
-},
-"Safe Insure Inc.": {
-    "Name": "Safe Insure Inc.",
-    "Employees": [
-        {
-            "StateID": 30448,
-            "Role": "Policy Manager"
         }
     ]
 },
@@ -64393,7 +66772,7 @@ RANKINGS = {
 },
 {
 "stateId":6592,
-"count":462
+"count":463
 },
 {
 "stateId":10285,
@@ -64412,12 +66791,12 @@ RANKINGS = {
 "count":302
 },
 {
-"stateId":11140,
-"count":277
+"stateId":19758,
+"count":294
 },
 {
-"stateId":19758,
-"count":275
+"stateId":11140,
+"count":277
 },
 {
 "stateId":2381,
@@ -64440,12 +66819,16 @@ RANKINGS = {
 "count":214
 },
 {
+"stateId":26124,
+"count":212
+},
+{
 "stateId":1098,
 "count":202
 },
 {
 "stateId":26140,
-"count":195
+"count":199
 },
 {
 "stateId":8593,
@@ -64454,6 +66837,10 @@ RANKINGS = {
 {
 "stateId":31794,
 "count":190
+},
+{
+"stateId":28481,
+"count":180
 },
 {
 "stateId":29432,
@@ -64479,14 +66866,6 @@ RANKINGS = {
 "stateId":32485,
 "count":149
 },
-{
-"stateId":28481,
-"count":147
-},
-{
-"stateId":7594,
-"count":143
-},
 ],
 "mostUniquePriors": [
 {
@@ -64507,6 +66886,10 @@ RANKINGS = {
 },
 {
 "stateId":19758,
+"count":48
+},
+{
+"stateId":22109,
 "count":48
 },
 {
@@ -64538,6 +66921,10 @@ RANKINGS = {
 "count":37
 },
 {
+"stateId":26124,
+"count":37
+},
+{
 "stateId":29432,
 "count":37
 },
@@ -64552,6 +66939,10 @@ RANKINGS = {
 {
 "stateId":27274,
 "count":35
+},
+{
+"stateId":28481,
+"count":34
 },
 {
 "stateId":32485,
@@ -64577,79 +66968,71 @@ RANKINGS = {
 "stateId":4049,
 "count":32
 },
-{
-"stateId":22917,
-"count":31
-},
-{
-"stateId":28481,
-"count":31
-},
-{
-"stateId":3946,
-"count":31
-},
 ],
 "vehicleOwnership": [
 {
 "name": "BMX",
-"count":416
+"count":429
 },
 {
 "name": "Flatbed",
-"count":133
+"count":138
 },
 {
 "name": "News Rumpo",
-"count":97
+"count":102
 },
 {
 "name": "unknown",
-"count":96
+"count":101
 },
 {
 "name": "Burrito",
-"count":77
+"count":80
 },
 {
 "name": "Speedo",
-"count":74
+"count":76
 },
 {
 "name": "Scorcher",
-"count":65
+"count":69
 },
 {
 "name": "Pony",
-"count":64
+"count":66
 },
 {
 "name": "Crown Victoria",
-"count":62
+"count":64
 },
 {
 "name": "BD BIMX",
-"count":58
+"count":59
 },
 {
 "name": "Pro 3",
-"count":51
+"count":52
 },
 {
 "name": "Seashark",
-"count":44
+"count":45
+},
+{
+"name": "Explorer",
+"count":42
 },
 {
 "name": "Cruiser",
 "count":41
 },
 {
-"name": "Explorer",
-"count":40
+"name": "Sandking XL",
+"count":36
 },
 {
-"name": "Sandking XL",
-"count":34
+"name": "NULL",
+"count":28
 },
 {
 "name": "Faggio Sport",
@@ -64658,10 +67041,6 @@ RANKINGS = {
 {
 "name": "Taxi",
 "count":27
-},
-{
-"name": "NULL",
-"count":24
 },
 {
 "name": "Bodhi",
@@ -64673,19 +67052,19 @@ RANKINGS = {
 },
 {
 "name": "Journey",
+"count":21
+},
+{
+"name": "Enduro",
 "count":20
+},
+{
+"name": "Sandking",
+"count":19
 },
 {
 "name": "Double-T",
 "count":19
-},
-{
-"name": "Enduro",
-"count":19
-},
-{
-"name": "Sandking",
-"count":18
 },
 {
 "name": "Asea",
@@ -64706,24 +67085,28 @@ RANKINGS = {
 "value":117.2
 },
 {
+"name": "H & O Imports/Exports",
+"value":117.0
+},
+{
 "name": "Abdul's Taxi Services",
 "value":112.16666666666667
 },
 {
-"name": "H & O Imports/Exports",
-"value":99.33333333333333
+"name": "Oasis Oil Company",
+"value":110.0
 },
 {
 "name": "VLC Imports",
-"value":94.72
+"value":95.52
+},
+{
+"name": "Vultur Le Culture",
+"value":92.35714285714286
 },
 {
 "name": "Clean Manor",
 "value":90.27272727272727
-},
-{
-"name": "Vultur Le Culture",
-"value":88.76923076923077
 },
 {
 "name": "Lost MC",
@@ -64732,6 +67115,10 @@ RANKINGS = {
 {
 "name": "Mane Enterprises",
 "value":81.5
+},
+{
+"name": "MDM Records",
+"value":75.7
 },
 {
 "name": "Gulag Enterprises",
@@ -64750,54 +67137,50 @@ RANKINGS = {
 "value":68.875
 },
 {
-"name": "MDM Records",
-"value":66.55555555555556
+"name": "Balbani's Butchery",
+"value":61.7
 },
 {
 "name": "Hayes Autos",
-"value":59.8
+"value":59.86666666666667
 },
 {
 "name": "346 Tow Union",
 "value":59.285714285714285
 },
 {
-"name": "Bean Manor",
-"value":58.666666666666664
-},
-{
-"name": "Balbani's Butchery",
-"value":58.0
-},
-{
-"name": "Overboost Drift School",
-"value":57.5
-},
-{
 "name": "Harmony Repairs",
-"value":56.476190476190474
+"value":57.38095238095238
+},
+{
+"name": "The Bullet Club",
+"value":57.333333333333336
 },
 {
 "name": "Maldini's Pizzeria",
-"value":52.25
+"value":57.0
 },
 {
-"name": "Dodo Logistics LLC",
-"value":49.28048780487805
+"name": "Bean Manor",
+"value":54.142857142857146
+},
+{
+"name": "Overboost Drift School",
+"value":50.8
 },
 {
 "name": "Jiggity Studios",
-"value":46.46153846153846
-},
-{
-"name": "Sessanta Nove",
-"value":46.166666666666664
+"value":50.46153846153846
 },
 ],
 "averageTagPriors": [
 {
 "name": "Bondi Boys MC",
-"value":147.5
+"value":196.66666666666666
+},
+{
+"name": "Sea Side",
+"value":196.66666666666666
 },
 {
 "name": "Lost MC",
@@ -64817,7 +67200,7 @@ RANKINGS = {
 },
 {
 "name": "Brouge Street Kings",
-"value":56.0
+"value":56.333333333333336
 },
 {
 "name": "Mortelle",
@@ -64851,7 +67234,7 @@ RANKINGS = {
 },
 {
 "stateId": "10285",
-"value":1138900
+"value":1140925
 },
 {
 "stateId": "2381",
@@ -64863,7 +67246,11 @@ RANKINGS = {
 },
 {
 "stateId": "6592",
-"value":752950
+"value":755350
+},
+{
+"stateId": "26124",
+"value":736825
 },
 {
 "stateId": "1098",
@@ -64891,7 +67278,7 @@ RANKINGS = {
 },
 {
 "stateId": "26140",
-"value":578750
+"value":582950
 },
 {
 "stateId": "18569",
@@ -64902,8 +67289,16 @@ RANKINGS = {
 "value":549125
 },
 {
+"stateId": "28481",
+"value":513050
+},
+{
 "stateId": "11140",
 "value":501100
+},
+{
+"stateId": "1263",
+"value":478600
 },
 {
 "stateId": "15596",
@@ -64912,6 +67307,10 @@ RANKINGS = {
 {
 "stateId": "8593",
 "value":470775
+},
+{
+"stateId": "19758",
+"value":459125
 },
 {
 "stateId": "15284",
@@ -64926,24 +67325,8 @@ RANKINGS = {
 "value":418625
 },
 {
-"stateId": "28481",
-"value":406350
-},
-{
 "stateId": "1176",
 "value":383875
-},
-{
-"stateId": "19758",
-"value":379250
-},
-{
-"stateId": "32485",
-"value":356675
-},
-{
-"stateId": "23948",
-"value":355300
 },
 ],
 "profileTime": [
@@ -64953,7 +67336,7 @@ RANKINGS = {
 },
 {
 "stateId": "10285",
-"value":9373
+"value":9391
 },
 {
 "stateId": "2381",
@@ -64965,7 +67348,7 @@ RANKINGS = {
 },
 {
 "stateId": "6592",
-"value":6255
+"value":6276
 },
 {
 "stateId": "21535",
@@ -64984,6 +67367,10 @@ RANKINGS = {
 "value":5849
 },
 {
+"stateId": "26124",
+"value":5653
+},
+{
 "stateId": "31794",
 "value":5436
 },
@@ -64993,7 +67380,7 @@ RANKINGS = {
 },
 {
 "stateId": "26140",
-"value":4781
+"value":4825
 },
 {
 "stateId": "18569",
@@ -65002,6 +67389,14 @@ RANKINGS = {
 {
 "stateId": "24630",
 "value":4557
+},
+{
+"stateId": "1263",
+"value":4485
+},
+{
+"stateId": "19758",
+"value":4464
 },
 {
 "stateId": "15596",
@@ -65020,8 +67415,8 @@ RANKINGS = {
 "value":4164
 },
 {
-"stateId": "19758",
-"value":3791
+"stateId": "28481",
+"value":4098
 },
 {
 "stateId": "4606",
@@ -65035,125 +67430,117 @@ RANKINGS = {
 "stateId": "16990",
 "value":3385
 },
-{
-"stateId": "32485",
-"value":3369
-},
-{
-"stateId": "1176",
-"value":3235
-},
-{
-"stateId": "31372",
-"value":3172
-},
 ],
 "totalPriorTypes": [
 {
 "prior": "Attempted Murder of a Government Employee",
-"value":2011
+"value":2177
 },
 {
 "prior": "Criminal Possession of a Firearm [Class 1]",
-"value":865
+"value":894
 },
 {
 "prior": "Resisting Arrest",
-"value":810
+"value":840
 },
 {
 "prior": "Kidnapping",
-"value":746
+"value":789
 },
 {
 "prior": "Reckless Evading",
-"value":651
+"value":674
 },
 {
 "prior": "Joyriding",
-"value":582
+"value":624
 },
 {
 "prior": "Possession of Contraband in the Third Degree",
-"value":554
+"value":576
 },
 {
 "prior": "Criminal Possession of a Firearm [Class 2]",
-"value":510
+"value":521
 },
 {
 "prior": "Grand Theft Auto",
-"value":390
+"value":406
 },
 {
 "prior": "Unlawful Imprisonment",
-"value":265
+"value":273
 },
 {
 "prior": "Assault & Battery",
-"value":228
+"value":258
 },
 {
 "prior": "Assault with a Deadly Weapon",
-"value":217
+"value":233
 },
 {
 "prior": "Felony Obstruction of Justice",
-"value":203
+"value":212
 },
 {
 "prior": "Negligent Driving",
-"value":192
+"value":197
 },
 {
 "prior": "Misdemeanor Possession of Controlled Dangerous Substance OXY / METH",
-"value":177
-},
-{
-"prior": "Robbery",
-"value":173
+"value":185
 },
 {
 "prior": "Third Degree Speeding",
-"value":161
+"value":172
+},
+{
+"prior": "Robbery",
+"value":171
 },
 {
 "prior": "Gang Related Shooting",
-"value":153
+"value":164
 },
 {
 "prior": "Criminal Threats",
-"value":139
+"value":146
 },
 {
 "prior": "Failure to Obey Traffic Control Devices",
-"value":135
+"value":142
 },
 {
 "prior": "Robbery of a Financial Institution",
-"value":128
+"value":134
 },
 {
 "prior": "Evading",
-"value":122
+"value":125
 },
 {
 "prior": "Kidnapping a Gov Employee",
-"value":117
+"value":120
 },
 {
 "prior": "Vehicle Registration Fraud",
-"value":100
+"value":105
 },
 {
 "prior": "Disobeying a Peace Officer",
-"value":97
+"value":104
 },
 ],
 "idsWithMostEmployment": [
 {
 "stateId": "13440",
 "value":24
+},
+{
+"stateId": "16457",
+"value":22
 },
 {
 "stateId": "9297",
@@ -65190,6 +67577,10 @@ RANKINGS = {
 {
 "stateId": "6068",
 "value":14
+},
+{
+"stateId": "1263",
+"value":13
 },
 {
 "stateId": "17711",
@@ -65243,17 +67634,117 @@ RANKINGS = {
 "stateId": "1851",
 "value":11
 },
+],
+"totalIncidentsByOfficer": [
 {
-"stateId": "22188",
-"value":11
+"officer": "Lea Nova",
+"count":20
 },
 {
-"stateId": "7567",
-"value":11
+"officer": "Alex Suarez",
+"count":15
+},
+{
+"officer": "Ethan Maxwell",
+"count":12
+},
+{
+"officer": "Matt Rhodes",
+"count":10
+},
+{
+"officer": "Vincent Cannoli",
+"count":9
+},
+{
+"officer": "Aleksandr November",
+"count":9
+},
+{
+"officer": "Dan Faily",
+"count":8
+},
+{
+"officer": "Maddison Bancroft",
+"count":8
+},
+{
+"officer": "Chad Gable",
+"count":8
+},
+{
+"officer": "Louis Bloom",
+"count":8
+},
+{
+"officer": "Jeffrey Price",
+"count":7
+},
+{
+"officer": "Odessa Glafx",
+"count":7
+},
+{
+"officer": "Louise Campbell",
+"count":6
+},
+{
+"officer": "Ezra Funkhouser",
+"count":6
+},
+{
+"officer": "John Doe",
+"count":6
+},
+{
+"officer": "Klaus Atascadero",
+"count":6
+},
+{
+"officer": "Jim Underwood",
+"count":5
+},
+{
+"officer": "Eli Hawkins",
+"count":5
+},
+{
+"officer": "Silas Grimmer",
+"count":5
+},
+{
+"officer": "Crocodile Steve",
+"count":5
+},
+{
+"officer": "Aspen Gray",
+"count":5
+},
+{
+"officer": "Jake Cooper",
+"count":5
+},
+{
+"officer": "Jack Ripley",
+"count":5
+},
+{
+"officer": "Connor Stubble",
+"count":5
+},
+{
+"officer": "Lisa Adkins",
+"count":4
 },
 ]
 }
 INCIDENTS = {
+11558: {
+    "IncidentID": 11558,
+    "Title": "Akuma Aishiteru Rooster\u2019s Rest Assault & Battery - 5/30/2021",
+    "Creator": "Bob Smith",
+    "LastUpdated": "2022/07/18"
+},
 15857: {
     "IncidentID": 15857,
     "Title": "Werner - Tampering",
@@ -65294,13 +67785,43 @@ INCIDENTS = {
     "IncidentID": 21983,
     "Title": "Shooting on EMS | MRPD | 21st Sept 2021",
     "Creator": "Louise Campbell",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
+},
+23092: {
+    "IncidentID": 23092,
+    "Title": "Scotty Dixon - Third Degree Speeding - 10/04/21",
+    "Creator": "Matthew Espinoz",
+    "LastUpdated": "2022/07/18"
+},
+24037: {
+    "IncidentID": 24037,
+    "Title": "Scotty Dixon - Third Degree Speeding",
+    "Creator": "Matt Rhodes",
+    "LastUpdated": "2022/07/18"
+},
+24145: {
+    "IncidentID": 24145,
+    "Title": "Scotty Dixon | Tortures a Doctor | 2021-10-16",
+    "Creator": "Willy Glory",
+    "LastUpdated": "2022/07/18"
+},
+24686: {
+    "IncidentID": 24686,
+    "Title": "Tresspassing @ MRPD - Scotty Dixon - 10/21/2021",
+    "Creator": "Owen Svensen",
+    "LastUpdated": "2022/07/18"
 },
 25447: {
     "IncidentID": 25447,
     "Title": "Silvio DiVincenzo | Failure to Obey a Traffic Control De\\ 10/28/2021",
     "Creator": "Lewis Collins",
     "LastUpdated": "2022/07/12"
+},
+25651: {
+    "IncidentID": 25651,
+    "Title": "Scotty Dixon - Third Degree Speeding - 10/30/2021",
+    "Creator": "Eli Hawkins",
+    "LastUpdated": "2022/07/18"
 },
 26326: {
     "IncidentID": 26326,
@@ -65314,6 +67835,12 @@ INCIDENTS = {
     "Creator": "Silas Grimmer",
     "LastUpdated": "2022/07/12"
 },
+26535: {
+    "IncidentID": 26535,
+    "Title": "Scotty Dixon (Warning) - Failure to Obey - 11/6/21",
+    "Creator": "Skye Faye",
+    "LastUpdated": "2022/07/18"
+},
 26543: {
     "IncidentID": 26543,
     "Title": "Silvio DiVincenzo - Negligent Driving - 6/11/2021",
@@ -65326,11 +67853,23 @@ INCIDENTS = {
     "Creator": "Rocko Columbo",
     "LastUpdated": "2022/07/12"
 },
+26923: {
+    "IncidentID": 26923,
+    "Title": "Scotty Dixon | 37 Shootout - 9-11-2021",
+    "Creator": "Luka Kozlov",
+    "LastUpdated": "2022/07/18"
+},
 27272: {
     "IncidentID": 27272,
     "Title": "unauthorized parking - 309 K Pred - 11/12/2021",
     "Creator": "Kyle Pred",
     "LastUpdated": "2022/07/12"
+},
+28390: {
+    "IncidentID": 28390,
+    "Title": "Sydney Lipsey - Operating a vehicle without proper ID - 11/22/2021",
+    "Creator": "Silas Grimmer",
+    "LastUpdated": "2022/07/18"
 },
 29425: {
     "IncidentID": 29425,
@@ -65338,11 +67877,58 @@ INCIDENTS = {
     "Creator": "Edward Thatch",
     "LastUpdated": "2022/07/12"
 },
+29601: {
+    "IncidentID": 29601,
+    "Title": "Bobby and Scotty Held Up Trooper Snow",
+    "Creator": "Lisa Adkins",
+    "Criminals": {
+        "10752": {
+            "StateID": 10752,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Grand Theft Auto",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Band of Notes and Small Band of Notes",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Unlawful Imprisonment",
+                    "Type": "Accomplice",
+                    "Count": 1
+                }
+            ],
+            "Time": "32",
+            "Parole": "64",
+            "Fine": 3425.0,
+            "PleadedGuilty": false,
+            "Processed": false
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n2021-12-03 16:40:55 UTC\nReporting Officer\n\n@612 Cadet Lisa Adkins\n\nDebrief:\n\n205 spotted a car being chopper right next to Elysian Fields FWY. 205\ntazed the suspect IN THE FACE. Bobby then got out of his audi R8 and\npointed a gun at 205 to get his friend free. Both suspects escaped in the\nwhite R8 but were spotted again by police. Scott put his hands up and\nBobby continued driving. Both were eventually put in cuffs and admitted\n\nto GTA.",
+    "LastUpdated": "2022/07/18"
+},
 29794: {
     "IncidentID": 29794,
     "Title": "Elliot Clyne - lllegal Turn",
     "Creator": "John Spartan",
     "LastUpdated": "2022/07/12"
+},
+30038: {
+    "IncidentID": 30038,
+    "Title": "Scotty Dixon - Joyriding - 12/7/2021",
+    "Creator": "Dan Faily",
+    "LastUpdated": "2022/07/18"
 },
 32471: {
     "IncidentID": 32471,
@@ -65402,7 +67988,59 @@ INCIDENTS = {
     "IncidentID": 36487,
     "Title": "BTF Bust at Legion Square - 2/10/2022",
     "Creator": "Silas Grimmer",
-    "LastUpdated": "2022/07/12"
+    "Criminals": {
+        "30849": {
+            "StateID": 30849,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Weapons Trafficking",
+                    "Type": "Accomplice",
+                    "Count": 1
+                },
+                {
+                    "Name": "Felony Possession of Controlled Dangerous Substance OXY / METH",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "25",
+            "Parole": "50",
+            "Fine": 2350.0,
+            "PleadedGuilty": false,
+            "Processed": false
+        },
+        "31088": {
+            "StateID": 31088,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Weapons Trafficking",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Drug Trafficking",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 1.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n\n2022-02-10 20:20:57 UTC\n\nReporting Officer\n\n@909 Corporal Silas Grimmer\n\nAssisting Officer/s:\n\nSuspect/s:\n\nLiam Osullivan\n\nHaych Khan\n\nThomas James\n\nLocation:\n\nLegion Square Parking Lot\n\nDebrief:\n\nGrimmer was given a tip that a weapon's deal was taking place behind\nLegion Square Bank\u2019s parking lot by [REDACTED). On scene, Grimmer and\nhis backup witnessed 3 individuals inside a car. The indiviuals were\ndetained and identified as: Liam Osullivan, Haych Khan and Thomas\nJames. Haych had $36,000 cash on him and an illegal gun, while Thomas\nhad 6 illegal guns. Thomas James admitted to buying the guns from\nHaych and giving Hayce $36,000 for the guns. Liam claimed he was\nassisting his friend, Haych, but didn\u2019t know what was really going on. At\nSDSO, all 3 individuals gave Grimmer consent to go inside their\napartments and vehicles. Liam\u2019s apartment contained felony amounts of\noxy and dirty money. Haych's apartment contained two more illegal guns,\n127 bags of meth, 1468 rolled up notes, scales, baggies, fertilizer, a\nwatering can, 2 marijuana plants, a delivery list, and 16 bottles of oxy.\n\nThomas James\u2019 apartment and vehicles were clean.",
+    "LastUpdated": "2022/07/18"
+},
+36771: {
+    "IncidentID": 36771,
+    "Title": "Klaus Kane - Failure to Obey Traffic Control Devices - 02/13/2022",
+    "Creator": "Maddison Bancroft",
+    "LastUpdated": "2022/07/18"
 },
 36899: {
     "IncidentID": 36899,
@@ -65410,17 +68048,81 @@ INCIDENTS = {
     "Creator": "Jeffrey Price",
     "LastUpdated": "2022/07/11"
 },
+36960: {
+    "IncidentID": 36960,
+    "Title": "JUNIOR LONG - Street racing",
+    "Creator": "Joel Garcia",
+    "LastUpdated": "2022/07/18"
+},
+37054: {
+    "IncidentID": 37054,
+    "Title": "Junior Long - (Ap) Robbery of a Financial Institution - 16/02/2022 #37054",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/18"
+},
 37184: {
     "IncidentID": 37184,
     "Title": "Stafford Boost - 2/17/2022",
     "Creator": "Candice DefFitt",
-    "LastUpdated": "2022/07/11"
+    "LastUpdated": "2022/07/18"
+},
+37266: {
+    "IncidentID": 37266,
+    "Title": "A Boost - 19/2/2022",
+    "Creator": "Pual GreenWay",
+    "LastUpdated": "2022/07/18"
+},
+37532: {
+    "IncidentID": 37532,
+    "Title": "1099 Stratum | 2/20/2022",
+    "Creator": "Dwayne Carter",
+    "LastUpdated": "2022/07/18"
 },
 37731: {
     "IncidentID": 37731,
     "Title": "Vehicle Impound - Raz Mitchell Kanjo",
     "Creator": "Matt Rhodes",
     "LastUpdated": "2022/07/11"
+},
+38147: {
+    "IncidentID": 38147,
+    "Criminals": {
+        "27619": {
+            "StateID": 27619,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Robbery of a Financial Institution",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "60",
+            "Parole": "120",
+            "Fine": 10500.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        },
+        "6579": {
+            "StateID": 6579,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Robbery of a Financial Institution",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "60",
+            "Parole": "120",
+            "Fine": 10500.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n\n2022-02-28 00:35:36 UTC\nReporting Officer\n\n@541 Cadet JOHN COPPERTON\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief\n\nJOHN COP:\n\nJohn Cobb Responded To A Bank Robbery At Paleto Bank This Bank\nRobbery Could Have Been Stopped Had Kyle Pred Not Abandoned His\nPost In Pulido Fortunately The Sandy Boys Were Nearby Ready And\nWaiting To Pounce On Sick Perverted Of Bank Robber Pieces Of S***.\nJohn Kopp Responded To The Robbery Where He Identified Four\nPeople Dressed As The Power Rangers Turns Out The Japanese Don't\nHave An Issue With Monsters Coming Out Of The Ocean Anymore And\nThese Guys Are Down Bad. After A Long Chase John Cobb Pitted Them\nInto A Driveway In The District Of The Vespucci Canals They Were\nDetained Hard",
+    "LastUpdated": "2022/07/18"
 },
 38158: {
     "IncidentID": 38158,
@@ -65432,7 +68134,7 @@ INCIDENTS = {
     "IncidentID": 38823,
     "Title": "Sentinel 10-99 - 07/03/2022",
     "Creator": "Jim Parker",
-    "LastUpdated": "2022/07/11"
+    "LastUpdated": "2022/07/18"
 },
 39991: {
     "IncidentID": 39991,
@@ -65493,15 +68195,21 @@ INCIDENTS = {
 },
 40839: {
     "IncidentID": 40839,
-    "Title": "Jamal Abdul Jabbar | Criminal Possession of a Firear [Class 2] | 03/29/2022",
+    "Title": "Jamal Abdul Jabbar | Criminal Possession of a Firearrr [Class 2] | 03/29/2022",
     "Creator": "Saul Leesemann",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 41300: {
     "IncidentID": 41300,
     "Title": "Joza Bagan - Jaywalking - 4/2/2022",
     "Creator": "Ezra Funkhouser",
     "LastUpdated": "2022/07/12"
+},
+41334: {
+    "IncidentID": 41334,
+    "Title": "Arthur Klaus - Speeding/Disobeying Traffic Signals 02/04/2022",
+    "Creator": "Adrian Pearce",
+    "LastUpdated": "2022/07/18"
 },
 41346: {
     "IncidentID": 41346,
@@ -65525,17 +68233,23 @@ INCIDENTS = {
     "IncidentID": 42260,
     "Title": "Jamal Huntah - OIS 4/10/22",
     "Creator": "Joel Garcia",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 42287: {
     "IncidentID": 42287,
     "Title": "Marabunta OIS - 4/11/2022",
     "Creator": "Patricia Mayonnaise",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
+},
+42351: {
+    "IncidentID": 42351,
+    "Title": "Steve Block Shots Fired - 4/11/22",
+    "Creator": "Tommy Tinker",
+    "LastUpdated": "2022/07/18"
 },
 42539: {
     "IncidentID": 42539,
-    "Title": "Jamal Huntah, Faz Thuggerson, Prince Tate | 10-37 in Into Weapon & Drug Trafficking || 04/13/22",
+    "Title": "Jamal Huntah, Faz Thuggerson, Prince Tate | 10-37 intc Into Weapon & Drug Trafficking || 04/13/22",
     "Creator": "Amber Gold",
     "Criminals": {
         "31372": {
@@ -65592,7 +68306,7 @@ INCIDENTS = {
     },
     "IsComplex": true,
     "Description": "Unified Police Report\n2022-04-13 20:22:45 UTC\n\nReporting Officer/s:\ne @353 Corporal Lea Nova (Primary)\n\u00a2 @490 Officer Percy Weaver (Support)\n\nAssisting Officer/s:\n\ne @311 Deputy Eli Hawkins\n\ne @594 Cadet Adam Watson\ne @399 Deputy Amber Gold\n\ne @238 Trooper Olivia Copper\n\nSuspect/s:\n\n\u00a2 Jamal Huntah\n\u00a2 Faz Thuggerson\n\n\u00ae Prince Tate\n\nLocation:\n\u00a2 Pursuit Began: Vinewood near Vault\n\no Pursuit Ended: El Rancho Boulevard\n\nExecutive Summary:\nOfficers pursued a vehicle leaving suspicious activity call. It flipped, driver\nshot, two indviduals attempted to break driver out of custody by shooting\n\nofficers. Raid warrant signed for driver, who had Weapons Trafficking",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 42800: {
     "IncidentID": 42800,
@@ -65617,6 +68331,12 @@ INCIDENTS = {
     "Title": "Thai Chav | Vin Scatch + Speeding | 4/22/22",
     "Creator": "Brian Knight",
     "LastUpdated": "2022/07/11"
+},
+43413: {
+    "IncidentID": 43413,
+    "Title": "Antonio Chorizo | Failure to Obey Traffic Control Device 4/22/2022",
+    "Creator": "Ethan Maxwell",
+    "LastUpdated": "2022/07/18"
 },
 43426: {
     "IncidentID": 43426,
@@ -65658,13 +68378,13 @@ INCIDENTS = {
     "IncidentID": 43643,
     "Title": "Shooting at Maldinis",
     "Creator": "Gary Sexton",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 43662: {
     "IncidentID": 43662,
     "Title": "CG/Marabunta Gang Related Shooting | 4/25/2022",
     "Creator": "Flop Dugong",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 43677: {
     "IncidentID": 43677,
@@ -65672,11 +68392,17 @@ INCIDENTS = {
     "Creator": "Rudy Chalk",
     "LastUpdated": "2022/07/11"
 },
+43684: {
+    "IncidentID": 43684,
+    "Title": "0IS - Ethan Maxwell - 4/25/22",
+    "Creator": "Mackenzie Hayes",
+    "LastUpdated": "2022/07/18"
+},
 43747: {
     "IncidentID": 43747,
     "Title": "EMS 10-14a 26/04/2022",
     "Creator": "Alex Casterman",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 43795: {
     "IncidentID": 43795,
@@ -65706,19 +68432,66 @@ INCIDENTS = {
     "IncidentID": 43860,
     "Title": "OIS OLYMPIC | 4/27/2022",
     "Creator": "Maddison Bancroft",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 43872: {
     "IncidentID": 43872,
     "Title": "Palomino OIS - 4/27/2022",
     "Creator": "Ezra Funkhouser",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 44065: {
     "IncidentID": 44065,
     "Title": "Arya Shah | Accomplice to GTA | 29 APR 2022",
     "Creator": "Jeffrey Bundy",
     "LastUpdated": "2022/07/12"
+},
+44073: {
+    "IncidentID": 44073,
+    "Title": "Andrew Jackson - Grand Theft - 4/29/2022",
+    "Creator": "Ethan Maxwell",
+    "Criminals": {
+        "1059": {
+            "StateID": 1059,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Grand Theft",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Brandishing of a Firearm",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Threats",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Disobeying a Peace Officer",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "First Degree Robbery",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Hunting Without a License",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "PleadedGuilty": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n\n2022-04-30 03:20:01 UTC\nReporting Officer\n\n@505 Cadet Ethan Maxwell\n\nAssisting Officer/s:\n(988) Michael Pike\n\nSuspect/s:\n\nAndrew Jackson\n\nVictim/s:\nKertis Oneil\n\nLocation:\nCassidy Trail\nDebrief:\n\n505 E. Maxwell Statement\n\nE. Maxwell and M. Pike responded to a 911 call from the fishing spot that\nindividuals had robbed a man and that they were currently fishing.\nArriving on scene, two individuals were seen fishing, one of which was\nimmediately aggitated at the presence of officers. The individual who\nwould later identify himself as Andrew Jackson advised officers to not\nmake any sudden movements or he would \u201cair it out\u201d. M. Pike advised\n\nthat the two were only checking fishing licenses, but Mr. Jackson",
+    "LastUpdated": "2022/07/18"
 },
 44116: {
     "IncidentID": 44116,
@@ -65742,7 +68515,7 @@ INCIDENTS = {
     "IncidentID": 44199,
     "Title": "Little Seoul Marabuntas Shooting | 05.02.2022",
     "Creator": "Nancy Ree",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 44278: {
     "IncidentID": 44278,
@@ -65834,7 +68607,7 @@ INCIDENTS = {
     "IncidentID": 44807,
     "Title": "Jamal Tyson - Contempt of Court",
     "Creator": "Elizabeth Reed",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 44836: {
     "IncidentID": 44836,
@@ -65882,6 +68655,12 @@ INCIDENTS = {
     "IsComplex": true,
     "Description": "BCSO Report\n2022-05-09 01:38:49 UTC\n\nReporting Officer\n@315 Sr. Deputy Vincent Cannoli\n\nAssisting Officer/s:\n532 Jeremias Jimenes\n561 Jerry Sweets\n\n533 Ari Preston\n\n438 Ruger Daniels\n358 Minerva Maat\n\nSuspect/s:\nXalvedor Lorenhart (#15804)\n\nAndy Kingmen (#34287)\n\nLocation:\n\nCougar Avenue Gas Station, Vinewood\n\nDebrief:\n\nStatement | V. Cannoli:\nV. Cannoli was conducting patrol with Sr. Deputy Minerva Maat when\ndispatch received a call regarding suspicious activity in Vinewood on\nClinton Avenue near the gas station on the corner of Meteor St and\n\nClinton Avenue.",
     "LastUpdated": "2022/07/11"
+},
+44855: {
+    "IncidentID": 44855,
+    "Title": "Stabbing near Courthouse | 05/08/2022",
+    "Creator": "Jerry Sweets",
+    "LastUpdated": "2022/07/18"
 },
 44925: {
     "IncidentID": 44925,
@@ -66039,6 +68818,12 @@ INCIDENTS = {
     "Creator": "Wynona Fontaine",
     "LastUpdated": "2022/07/11"
 },
+45212: {
+    "IncidentID": 45212,
+    "Title": "Airport Radio Tower SWAT Holdout | 5/11/2022",
+    "Creator": "Ethan Maxwell",
+    "LastUpdated": "2022/07/18"
+},
 45257: {
     "IncidentID": 45257,
     "Title": "BBMC Attack Hayes Auto | Attempted 1st murder x8 | 12/05/2022",
@@ -66123,11 +68908,23 @@ INCIDENTS = {
     "Creator": "Louise Campbell",
     "LastUpdated": "2022/07/11"
 },
+45408: {
+    "IncidentID": 45408,
+    "Title": "Pierce Hawthorne / Selena Gomez / Benny Gomez - Burgulary - 5/13/2022",
+    "Creator": "William Gunner",
+    "LastUpdated": "2022/07/18"
+},
 45422: {
     "IncidentID": 45422,
     "Title": "Keith Herman - Traffic Stop",
     "Creator": "Lily Anderson",
     "LastUpdated": "2022/07/12"
+},
+45498: {
+    "IncidentID": 45498,
+    "Title": "Asher Grey | Felony Possession | 5/14/20222",
+    "Creator": "Ethan Maxwell",
+    "LastUpdated": "2022/07/18"
 },
 45525: {
     "IncidentID": 45525,
@@ -66192,6 +68989,12 @@ INCIDENTS = {
     "Description": "LSPD Report\n2022-05-16 01:45:28 UTC\nReporting Officer\n\n@418 Officer Aspen Gray\n\nAssisting Officer/s:\n(400) Dwayne Carter\n(418) Aspen Gray\n(504) Jeffrey Bones\n(998) Colt Shepherd\n\nSuspect/s:\nFrankie Fitch (#1779)\n\nLorelei Astra (#31225)\nDanielle Roberts (#1783)\n\nLocation: Marathon Ave, Del perro.\nDebrief:\n\n@699 Jeffrey Bones Statement:\n\nJeffrey Bones responded to a burglary call at marathon ave. Officer Aspen\narrived first and called out that people were getting into a black jeep. The\nJeep got into a pursuit. The person driving was wearing a mask and a\nbiker cut and was latter identified as Frankie Fitch. The car crashed out in\n\ngrapeseed and the suspects bailed on foot. Officers tased and cuffed",
     "LastUpdated": "2022/07/12"
 },
+45656: {
+    "IncidentID": 45656,
+    "Title": "So they thought | Hunting without a license | 05/16/20:",
+    "Creator": "Maddison Bancroft",
+    "LastUpdated": "2022/07/18"
+},
 45688: {
     "IncidentID": 45688,
     "Title": "Harmony Bank Robbery - 5/16/2022",
@@ -66244,6 +69047,47 @@ INCIDENTS = {
     "Creator": "Dan Faily",
     "LastUpdated": "2022/07/12"
 },
+45843: {
+    "IncidentID": 45843,
+    "Title": "Paris Argo - Reckless Evading - 05/18/2022",
+    "Creator": "Eli Hawkins",
+    "Criminals": {
+        "1437": {
+            "StateID": 1437,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "37",
+            "Parole": "74",
+            "Fine": 3375.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n\n2022-05-18 09:02:15 UTC\nReporting Officer\n\n@311 Senior Deputy Eli Hawkins\n\nAssisting Officer/s:\n\n@638 Deputy Kylie Stokes\n@517 Officer Craig Barrett\n@666 Officer Martin Baron\n\nSuspect/s:\nParis Argo - Served Warrant #45656\n\nLocation:\n\nSinner St \u2014 Calais Ave & Lindsay Circus\nDebrief:\nTBW\n\n@517 Craig Barrett's Statement:\nOfficer Craig Barret was posted on west side of Little Bighorn between\nSinners Passage and Atlee St with his common pool LSPD CVPI facing\neast with radar running that had been tuned and calibrated with certified\ntuning fork calibration tools the morning of. Observed a white G-Wagon\n\ntraveling northbound on Little Bighorn. Radar detected the vehicle",
+    "LastUpdated": "2022/07/18"
+},
 45876: {
     "IncidentID": 45876,
     "Title": "Roel Vasho - Drug Trafficking - 5/18/2022",
@@ -66262,17 +69106,55 @@ INCIDENTS = {
     "Creator": "Tommy Horver",
     "LastUpdated": "2022/07/11"
 },
+46069: {
+    "IncidentID": 46069,
+    "Title": "Bay City Bank",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/18"
+},
+4620: {
+    "IncidentID": 4620,
+    "IsComplex": true,
+    "Description": "BCSO Report March 27, 2021 approximately 0800 CST\n\nPrimary Officer(s):\nDaisy Dukakis\n\nSecondary Officer(s):\n\nEllis Pinzon, Kevin Keyte, Luka Kozlov\n\nVictim(s):\nBobbi Russel\n\nWitnesses:\nNA\n\nSuspect(s):\n\nAlexander Rex\n\nLocation:\n\nMirror Park Gas Station\n\nIncident:\n\nDukakis, Keyte, Pinzon, and F. Williams responded to radio traffic by P-33\nOrianna Frost that she believed fellow EMS Bobbi Russel had been\nkidnapped and made to sign off duty. Keyte went to the lifequard stand\non Vespucci beach where Russel's tracker was last seen and found the\n\nAmbulance abandoned. At this time, officers searched common places",
+    "LastUpdated": "2022/07/18"
+},
 46249: {
     "IncidentID": 46249,
     "Title": "DJ Cooper Speeds | 5/22/2022",
     "Creator": "Wesley Arnold",
     "LastUpdated": "2022/07/12"
 },
+46256: {
+    "IncidentID": 46256,
+    "Title": "Balbanis Get Shot | 5/22/22",
+    "Creator": "Wesley Amold",
+    "Criminals": {
+        "8469": {
+            "StateID": 8469,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Gang Related Shooting",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "75",
+            "Parole": "150",
+            "Fine": 750.0,
+            "PleadedGuilty": false,
+            "Processed": false
+        }
+    },
+    "IsComplex": true,
+    "Description": "275 W. Arnold Statement:\n\nOfficers responded to multiple calls of shots fired both on foot and from\nvehicles including a red RX7, a Drafter, and a Silver and Blue PRB. Upon\narrival officers found five downed suspects from the Balbani Crime Family\nalong with Paris Argo. Paris and Maz Razi were GSR negative while all\nother suspects on scene were GSR Positive but had been robbed. Officers\n\nhad no evidence to issue any arrests but collected evidence.",
+    "LastUpdated": "2022/07/18"
+},
 46270: {
     "IncidentID": 46270,
     "Title": "Seaside OIS | 5/22/2022",
     "Creator": "Ruager Daniels",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 46375: {
     "IncidentID": 46375,
@@ -66284,7 +69166,7 @@ INCIDENTS = {
     "IncidentID": 46563,
     "Title": "lvan Samarsky - Grand Theft Auto - 05/25/2022",
     "Creator": "Jim Underwood",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 46711: {
     "IncidentID": 46711,
@@ -66312,7 +69194,7 @@ INCIDENTS = {
 },
 46982: {
     "IncidentID": 46982,
-    "Title": "Douglas James, Raz Mitchell, JUNIOR LONG, Khalid Ali(WARRANT) / Grapeseed street race / 05/30/2022  Apprehension",
+    "Title": "Douglas James, Raz Mitchell, JUNIOR LONG, Khalid Ali(WARRANT) / Grapeseed street race / 05/30/2022 |  Apprehension",
     "Creator": "Connor Stubble",
     "Criminals": {
         "2554": {
@@ -66353,8 +69235,8 @@ INCIDENTS = {
         }
     },
     "IsComplex": true,
-    "Description": "PBSO Report\n\n2022-05-30 04:41:05 UTC\n\nReporting Officer\n\n@345 Deputy Connor Stubble (Air 1/ Report / Warrant placed)\n\nAssisting Officer/s:\n\n(318) Daisy Dukakis (Air 1)\n\n(424) Jack Davenport (Pursuit)\n\n(460) Lydia Vale (Pursuit)\n\n(320) Matt Rhodes (Pursuit + Raz Mitchell)\n\n(389) Matthew Espinoz (Air 1)\n\n(594) Adam Watson (Pursuit)\n\n(566) Brandy Kaas (Pursuit + Processed Junior Long)\n\n(314) Pual GreenWay (Pursuit)\n\n(205) Jackie Snow (Pursuit)\n\n(470) Robert Anderson (Pursuit + Processed Douglas James)\n\nSuspect/s:\n\nDouglas James (Murcielago)\nRaz Mitchell (Schwartzer 6STR)",
-    "LastUpdated": "2022/07/11"
+    "Description": "PBSO Report\n\n2022-05-30 04:41:05 UTC\n\nReporting Officer\n\n@345 Deputy Connor Stubble (Air 1 / Report / Warrant placed)\n\nAssisting Officer/s:\n\n(318) Daisy Dukakis (Air 1)\n\n(424) Jack Davenport (Pursuit)\n\n(460) Lydia Vale (Pursuit)\n\n(320) Matt Rhodes (Pursuit + Raz Mitchell)\n\n(389) Matthew Espinoz (Air 1)\n\n(594) Adam Watson (Pursuit)\n\n(566) Brandy Kaas (Pursuit + Processed Junior Long)\n\n(314) Pual GreenWay (Pursuit)\n\n(205) Jackie Snow (Pursuit)\n\n(470) Robert Anderson (Pursuit + Processed Douglas James)\n\nSuspect/s:\n\nDouglas James (Murcielago)\nRaz Mitchell (Schwartzer 6STR)",
+    "LastUpdated": "2022/07/18"
 },
 47039: {
     "IncidentID": 47039,
@@ -66366,7 +69248,7 @@ INCIDENTS = {
     "IncidentID": 47084,
     "Title": "Gang related sea side and ?77? gallery shooting",
     "Creator": "Lea Nova",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 47151: {
     "IncidentID": 47151,
@@ -66425,11 +69307,84 @@ INCIDENTS = {
     "Description": "LSPD Reporf]\n2022-06-01 05:37:32 UTC\n\nReporting Office\n\nOfficer Tommy Tinker\n\nAssisting Officer/s;|\n202-K9 - Jack Ripley\n275 - Wesley Arnold\n345 - Connor Stubble\n419 - Aaron Byson\n421 - Joseph Oxlong\n\n616 - Jessica Easton\n\nArya Shah\n\nVictim/s:\nN/A\n\nWitnesses:\nN/A\n\nVespucci",
     "LastUpdated": "2022/07/12"
 },
+47182: {
+    "IncidentID": 47182,
+    "Title": "Chad Gable OIS | Little Seoul | 6/1/22",
+    "Creator": "Ryan Edwards",
+    "Criminals": {
+        "16624": {
+            "StateID": 16624,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "52",
+            "Parole": "104",
+            "Fine": 6100.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        },
+        "15417": {
+            "StateID": 15417,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Accomplice",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Use of a Firearm",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Operating a Motor Vehicle on a Suspended or Revoked License",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "78",
+            "Parole": "156",
+            "Fine": 8700.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n2022-06-01 17:21:49 UTC\n\nReporting Officer\n* @490 Officer Percy Weaver (Processed Baker Brown)\n\nAssisting Officer/s:\n\ne @354 Deputy Ryan Edwards (Evidence Collection)\n\n* @394 Corporal Oliver Fury (Processed Jim Watson)\n\ne @461 Captain Tracy Martell (Pursuit / Processed Paris Argo)\ne @460 Sergeant Lydia Vale (Pursuit & Overwatch)\n\nSuspect/s:\no Baker Brown (AO/ Weaver)\n\n\u00a2 Jim Watson (AO/ Fury)\n\u00a2 Paris Argo (AO/ Martell, cut loose)\n\nVictim/s:\ne @915 Deputy Chad Gable\n\nLocation:\n\u00a2 Began: Little Seoul\n\no Ended: Davis Ave\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
 47200: {
     "IncidentID": 47200,
     "Title": "DJ Cooper | Speeding | 6/1/22",
     "Creator": "Wynona Fontaine",
     "LastUpdated": "2022/07/12"
+},
+47257: {
+    "IncidentID": 47257,
+    "Title": "Shane Powers, Junior Long | Reckless Evading | 06/02/2022",
+    "Creator": "Connor Stubble",
+    "LastUpdated": "2022/07/18"
 },
 47280: {
     "IncidentID": 47280,
@@ -66447,13 +69402,19 @@ INCIDENTS = {
     "IncidentID": 47440,
     "Title": "Great Ocean Robbery - 6/4/2022",
     "Creator": "Alex Suarez",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 47498: {
     "IncidentID": 47498,
     "Title": "City Vault Robbery - 06/05/22",
     "Creator": "Matthew Espinoz",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
+},
+47543: {
+    "IncidentID": 47543,
+    "Title": "Gwyar Cythraul drives stolen Prius and stabs Shelly | 6/5/22",
+    "Creator": "Shelly Smith",
+    "LastUpdated": "2022/07/18"
 },
 47551: {
     "IncidentID": 47551,
@@ -66465,13 +69426,13 @@ INCIDENTS = {
     "IncidentID": 47845,
     "Title": "Jamal Jabbar - AMGE - 06/09/2022",
     "Creator": "Leonardo Garcia",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 47848: {
     "IncidentID": 47848,
     "Title": "10-90 Vault | 6/9/2022",
     "Creator": "william Clubb",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 47863: {
     "IncidentID": 47863,
@@ -66483,13 +69444,13 @@ INCIDENTS = {
     "IncidentID": 47921,
     "Title": "10-99 S+ 6/10/2022",
     "Creator": "william Clubb",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 47930: {
     "IncidentID": 47930,
     "Title": "VAULT",
     "Creator": "Flop Dugong",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 47956: {
     "IncidentID": 47956,
@@ -66658,6 +69619,75 @@ INCIDENTS = {
     "Creator": "Alex Suarez",
     "LastUpdated": "2022/07/12"
 },
+48314: {
+    "IncidentID": 48314,
+    "Criminals": {
+        "4407": {
+            "StateID": 4407,
+            "IsWarrant": true,
+            "Charges": [
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 2
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Drug Trafficking",
+                    "Type": "Accessory",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 4
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Drug Paraphernalia",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Vehicle Registration Fraud",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Drug Trafficking",
+                    "Type": "Accessory",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Dirty Money in the Second Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ]
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n\n2022-07-12 20:53:57 UTC\nReporting Officer\n\n@519 Cadet Aleksandr November\nAssisting Officer/s:\n\nLocation:\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
 48343: {
     "IncidentID": 48343,
     "Title": "Liam O'Sullivan - Negligent Driving - 6/15/2022",
@@ -66674,7 +69704,7 @@ INCIDENTS = {
     "IncidentID": 48471,
     "Title": "Cora Star - 37A turned OIS - 06/17/2022",
     "Creator": "Maddison Bancroft",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 48518: {
     "IncidentID": 48518,
@@ -66780,17 +69810,23 @@ INCIDENTS = {
     "Creator": "Jim Underwood",
     "LastUpdated": "2022/07/11"
 },
+48643: {
+    "IncidentID": 48643,
+    "Title": "Crazy woman shoots man over stolen vehicle | 6/18/2022",
+    "Creator": "Tessa Lamb",
+    "LastUpdated": "2022/07/18"
+},
 48682: {
     "IncidentID": 48682,
     "Title": "Bay City Bank",
     "Creator": "Mono Block",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 48688: {
     "IncidentID": 48688,
     "Title": "Gang related shooting -> OIS - 06/19/2022",
     "Creator": "Leonardo Garcia",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 48693: {
     "IncidentID": 48693,
@@ -66808,7 +69844,7 @@ INCIDENTS = {
     "IncidentID": 48740,
     "Title": "Ivan Samarsky - Joyriding #48740",
     "Creator": "Lea Nova",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 48751: {
     "IncidentID": 48751,
@@ -66856,6 +69892,24 @@ INCIDENTS = {
     "IsComplex": true,
     "Description": "LSPD Reporf]\n2022-06-20 15:50:09 UTC\n\nReporting Office\n\nOfficer Tommy Tinker\n\nAssisting Officer/s;|\n237 - Jim Underwood\n495 - Brian Knight\n500-L - Michael Lowrey\n603 - Tommy Tinker\n\nLexi Narco - Guilty\nLiam O'Sullivan - Guilty\nCharlotte Spade - Guilty\n\nVictim/s:\nN/A\n\nWitnesses:\nN/A\n\n(e,\n\nSouth Rockford Dr",
     "LastUpdated": "2022/07/11"
+},
+48814: {
+    "IncidentID": 48814,
+    "Title": "Dean Gulberry | Evading | HVTU Apprension | 06/20/20:",
+    "Creator": "Chimi Changa",
+    "LastUpdated": "2022/07/18"
+},
+48820: {
+    "IncidentID": 48820,
+    "Title": "Sebastian Reynolds, Bubbles Smith | Sandy OIS | 06/20/22",
+    "Creator": "Louise Campbell",
+    "LastUpdated": "2022/07/18"
+},
+48871: {
+    "IncidentID": 48871,
+    "Title": "Traffic",
+    "Creator": "Craig Barrett",
+    "LastUpdated": "2022/07/18"
 },
 48949: {
     "IncidentID": 48949,
@@ -66908,13 +69962,46 @@ INCIDENTS = {
     "IncidentID": 48999,
     "Title": "Ivan Samarsky- speeding",
     "Creator": "Mike Ross",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49023: {
     "IncidentID": 49023,
     "Title": "Moped Evades from 31A - 6/22/22",
-    "Creator": "Mackenzie Hayes",
-    "LastUpdated": "2022/07/11"
+    "Creator": "Mackenzie Haves",
+    "Criminals": {
+        "35767": {
+            "StateID": 35767,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Misdemeanor Obstruction of Justice",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "12",
+            "Parole": "24",
+            "Fine": 1075.0
+        }
+    },
+    "IsComplex": true,
+    "Description": "BCSO Report\n\n2022-06-22 22:35:20 UTC\nReporting Officer\n\n@540 Deputy Odessa Glafx\n\nAssisting Officer/s:\n\n@391 Sr. Deputy Mackenzie Hayes\n@618 Deputy Ethan Maxwell\n@465 Officer Alex Suarez\n\nSuspect/s:\nCharlotte Spade | CID: 35767\n\nLiam O'Sullivan | CID: 30849\nLucy Sinclair | CID: 25309\n\nVictim/s:\nN/A\n\nWitnesses:\nN/A\n\nLocation:\nClinton Ave 24/7\n\nPacific Standard Vault\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
 },
 49063: {
     "IncidentID": 49063,
@@ -66989,7 +70076,7 @@ INCIDENTS = {
     "IncidentID": 49094,
     "Title": "SAMARSKI illegal possesion class 1",
     "Creator": "John Hydra",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49116: {
     "IncidentID": 49116,
@@ -67044,6 +70131,24 @@ INCIDENTS = {
     "Creator": "Paddy Luke",
     "LastUpdated": "2022/07/12"
 },
+49137: {
+    "IncidentID": 49137,
+    "Title": "Johnny Sinner - Assault on EMS - 6/23/2022",
+    "Creator": "Richard Tips",
+    "LastUpdated": "2022/07/18"
+},
+49139: {
+    "IncidentID": 49139,
+    "Title": "Pepe Ramos - Grand Theft Auto - 06/23/2022",
+    "Creator": "Ethan Maxwell",
+    "LastUpdated": "2022/07/18"
+},
+49142: {
+    "IncidentID": 49142,
+    "Title": "Momo Chee - Misuse of 911 | 6/23/2022",
+    "Creator": "Shelby Lane",
+    "LastUpdated": "2022/07/18"
+},
 49172: {
     "IncidentID": 49172,
     "Title": "Joza Bogan | Failure to Stop | 6.24.22",
@@ -67052,9 +70157,9 @@ INCIDENTS = {
 },
 49173: {
     "IncidentID": 49173,
-    "Title": "Dominique & Ivan | Penumbra 99 | 6/24/2022 | #4917",
+    "Title": "Dominique & lvan | Penumbra 99 | 6/24/2022 | #49173",
     "Creator": "Brjndy Kaas",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49179: {
     "IncidentID": 49179,
@@ -67385,7 +70490,7 @@ INCIDENTS = {
     },
     "IsComplex": true,
     "Description": "SDSO Report\n\n2022-06-25 15:47:40 UTC\nReporting Officer\n\n@915 Deputy Chad Gable\n\nLocation:\n\nMilton Road\n\nDebrief:\n\nDeputy Chad Gable was travelling north bound on Milton Road with his\nlights and sirens on in correct lanes of travel when Luke Atar came south\nbound in oncoming lanes of travel at speeds of 80+ mph and struck\nGable at high speeds. Gable was laying on the ground in great pain after\nbeing sent off his bike from the crash. Luke said \u201cget good bozo\u2122 and\ndrove off. Deputy Gable IDed Luke Atar with the assistance of Lea Nova.\nLea Nova conducted a traffic stop on Luke Atar around 15 minutes prior\nto this incident in the same vehicle and IDed him at the time. Gable was\n\npresent for the stop.\n\nAround an hour after the events above, Deputy Gable got in 3 seperate\n10-80s with the assistance of Odessa and Sheriff Pred and lost Luke\n\nmultiple times",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49275: {
     "IncidentID": 49275,
@@ -67517,35 +70622,93 @@ INCIDENTS = {
     "Creator": "Adrian Pearce",
     "LastUpdated": "2022/07/11"
 },
+49287: {
+    "IncidentID": 49287,
+    "Title": "Mr Ratchet | OIS | 6/25/2022",
+    "Creator": "Alex Suarez",
+    "Criminals": {
+        "33892": {
+            "StateID": 33892,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Default",
+                    "Count": 2
+                },
+                {
+                    "Name": "Felony Possession of Marijuana",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Use of a Firearm",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "PleadedGuilty": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n2022-06-25 18:40:54 UTC\n\nReporting Officer\n@465 Officer Alex Suarez\n\nAssisting Officer/s:\n\n(505) Ethan Maxwell\n\n(519) Aleksandr November\n(405) Winston Walker\n(663) Michael Hemsworth\n\nSuspect/s:\nMr Ratchet\n\nLocation:\n\nSubway Station off San Andreas Ave\n\nDebrief:\n\n@465 Officer Alex Suarez\u2019s Statement\nOfficer Suarez responded to a active pursuit. Mr Ratchet, the driver,\npulled into the subway and was boxed inside. Mr Ratchet got out and\nbegan to fire upon officers. Suarez and units shot down Mr Ratchet on\nthe scene and he was hereafter processed by November and Suarez.\n\nHemsworth documented the vehicle.",
+    "LastUpdated": "2022/07/18"
+},
+49294: {
+    "IncidentID": 49294,
+    "Title": "Lexi Narco - Burglary - 6/25/2022",
+    "Creator": "Ethan Maxwell",
+    "LastUpdated": "2022/07/18"
+},
 49310: {
     "IncidentID": 49310,
     "Title": "Aziz Abdallah - Failure to Yield to Emergency Vehicle- 6/25/2022",
     "Creator": "Zach Casady",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49311: {
     "IncidentID": 49311,
     "Title": "OIS Canals | 6/25/2022",
     "Creator": "William Clubb",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49312: {
     "IncidentID": 49312,
     "Title": "Oliver - Bundy - Contempt",
     "Creator": "William Gunner",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49316: {
     "IncidentID": 49316,
     "Title": "WAYNE DRUG TRAFFICKING | 06/25/2022",
     "Creator": "Shane Jones",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49319: {
     "IncidentID": 49319,
     "Title": "3rd Degree Speeding - Lee Nova - 06/25/2022",
     "Creator": "Raycardo Flick",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 4932: {
     "IncidentID": 4932,
@@ -67554,39 +70717,39 @@ INCIDENTS = {
 },
 49320: {
     "IncidentID": 49320,
-    "Title": "Chip Wheeler - embarrassing attempt at BBMC hell wi",
+    "Title": "Chip Wheeler - embarrassing attempt at BBMC hell we",
     "Creator": "Crocodile Steve",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49321: {
     "IncidentID": 49321,
     "Title": "Criminal Use - Lee Nova / Jessi Adler - 6/25/22",
     "Creator": "Chris Kross",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49322: {
     "IncidentID": 49322,
     "Title": "Zuck Cuc - Joyriding - 6/25/22",
     "Creator": "Chris Kross",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49323: {
     "IncidentID": 49323,
     "Title": "Lee Nova Reckless Evading",
     "Creator": "Crocodile Steve",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49326: {
     "IncidentID": 49326,
     "Title": "Vagos",
     "Creator": "Sexton Hardcastle",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49327: {
     "IncidentID": 49327,
     "Title": "Pinky Peppers - Reckless Evading - 06/26/22",
     "Creator": "Rodney Fuel",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49328: {
     "IncidentID": 49328,
@@ -67647,7 +70810,7 @@ INCIDENTS = {
             "Processed": true
         }
     },
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49329: {
     "IncidentID": 49329,
@@ -67673,7 +70836,7 @@ INCIDENTS = {
     },
     "IsComplex": true,
     "Description": "BCSO Report\n\n2022-06-26 08:41:59 UTC\nReporting Officer\n\n@995 Deputy Ezra Funkhouser\nAssisting Officer/s:\n\nSpeeding Westbound on Route 68. Is a dirty burglar, but only because\n\nJasmine Sullivan said so.",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49330: {
     "IncidentID": 49330,
@@ -67704,7 +70867,7 @@ INCIDENTS = {
     },
     "IsComplex": true,
     "Description": "Police Report\n\n2022-06-26 08:47:28 UTC\nReporting Officer\n\n@560 Officer Dominic Parker\n\nAssisting Officer/s:\n(311) Eli Hawkins\n\nSuspect/s:\nAubrey Webster\n\nLocation:\nAdam\u2019s Apple BLVD\n\nDebrief:\n\n@560 D. Parker Statement:\nD.Parker was riding with E.Hawkings when they witness a vehicle crash\ninto another vehicle. They proceeded to pull Aubrey Webster over but he\ndidn't have a license. When D.Parker told him he would need to step out\nof the vehicle since he doesn't have a valid drivers license Aubrey\n\nWebster took off from the traffic stop.",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49331: {
     "IncidentID": 49331,
@@ -67729,7 +70892,7 @@ INCIDENTS = {
         }
     },
     "IsComplex": true,
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49334: {
     "IncidentID": 49334,
@@ -67770,7 +70933,7 @@ INCIDENTS = {
     },
     "IsComplex": true,
     "Description": "LSPD Report\n\n2022-06-26 09:19:55 UTC\nReporting Officer\n\n@548 Cadet Jackie Talladega\n\nAssisting Officer/s:\n(389) Matthew Espinoz\n(407) Joel Garcia\n\nLocation: Sandcastle way \u2014 Great Ocean Highway\n\nDebrief:\n\n548 Deputy Talladega\n548 Talladega responded to a backup request for a stolen Astrobe at\nSandcastle Way. Vehicle evaded recklessly and was pursued through the\ncity before crashing out Northbound Great Ocean Highway. Suspect later\nidentified as Kat Atla fled the vehicle, ran into the ocean and continued\nto evade officers. Atla was apprehended in the water and placed under\narrest. Atla was in possesion of multiple lockpicks and a small amount of\n\ndirty money in bands and rolls. Atla pled not guilty to all charges.",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49335: {
     "IncidentID": 49335,
@@ -67796,7 +70959,7 @@ INCIDENTS = {
     },
     "IsComplex": true,
     "Description": "BCSO Report\n\n2022-06-26 09:24:40 UTC\nReporting Officer\n\n@995 Deputy Ezra Funkhouser\nAssisting Officer/s:\n\nLocation:\nDebrief:",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49336: {
     "IncidentID": 49336,
@@ -67842,31 +71005,31 @@ INCIDENTS = {
     },
     "IsComplex": true,
     "Description": "",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49338: {
     "IncidentID": 49338,
     "Title": "Dakota Black-Frost | Poaching | 06/26/2022",
     "Creator": "Ziggy Buggs",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49340: {
     "IncidentID": 49340,
     "Title": "[DELETE] 10-99 Ginger St",
     "Creator": "Gage Draider",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49341: {
     "IncidentID": 49341,
     "Title": "Olympic Freeway Gangshooting to 0IS?",
     "Creator": "Ashley Smith",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49342: {
     "IncidentID": 49342,
     "Title": "Schafter OIS",
     "Creator": "Tommy Horver",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49355: {
     "IncidentID": 49355,
@@ -67932,7 +71095,7 @@ INCIDENTS = {
     "IncidentID": 49366,
     "Title": "BSK vs NBC | Gang Related Shooting | 06/26/22",
     "Creator": "Louise Campbell",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 49370: {
     "IncidentID": 49370,
@@ -68145,6 +71308,566 @@ INCIDENTS = {
     "Creator": "Preston Hale",
     "LastUpdated": "2022/07/12"
 },
+49424: {
+    "IncidentID": 49424,
+    "Criminals": {
+        "36626": {
+            "StateID": 36626,
+            "IsWarrant": true,
+            "Charges": [
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Grand Theft Auto",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Accomplice",
+                    "Count": 1
+                },
+                {
+                    "Name": "Kidnapping a Gov Employee",
+                    "Type": "Accomplice",
+                    "Count": 1
+                },
+                {
+                    "Name": "Escaping Custody",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Joyriding",
+                    "Type": "Accomplice",
+                    "Count": 1
+                },
+                {
+                    "Name": "Parole Violation",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Drug Trafficking",
+                    "Type": "Accessory",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Dirty Money in the Second Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ]
+        }
+    },
+    "IsComplex": true,
+    "Description": "WHEN CAUGHT SEND HIM IN FOR\n+\n\n9 YEARS AND FULL FINE\nPOINTS\n\nLSPD Report\n\n2022-06-27 13:49:18 UTC\n\n|\n3\n\nReporting Officer\n\n@494 Officer Adam Watson / 345 Deputy Connor Stubble\n\nAssisting Officer/s:\n\n(345) Connor Stubble\n(434) Gage Draider\n(314) Pual GreenWay\n(408) Lisa Adkins\n(402) Alex Casterman\n(352) Brandy Kaas\n(311) Eli Hawkins\n(406) Emma Dupont\n(325) Flop Dugong\n(392) George Lawson\n(337) Jim Underwood\n(305) John Spartan",
+    "LastUpdated": "2022/07/18"
+},
+49439: {
+    "IncidentID": 49439,
+    "Title": "Clarke Bishop - Red Light - 06/27/2022",
+    "Creator": "Minerva Maat",
+    "LastUpdated": "2022/07/18"
+},
+49448: {
+    "IncidentID": 49448,
+    "Title": "Benjamin Duff | 1st Deg Speeding | 27 Jun 22",
+    "Creator": "Odessa Glafx",
+    "LastUpdated": "2022/07/18"
+},
+49696: {
+    "IncidentID": 49696,
+    "Title": "Chase of People with Class 2's - 6/30/22",
+    "Creator": "Bobby Boolderman",
+    "LastUpdated": "2022/07/18"
+},
+49703: {
+    "IncidentID": 49703,
+    "Title": "Shooting Near Humane Labs",
+    "Creator": "william Gunner",
+    "LastUpdated": "2022/07/18"
+},
+49761: {
+    "IncidentID": 49761,
+    "Title": "Jules Abel | Burglary | 6/30/2022",
+    "Creator": "Ethan Maxwell",
+    "Criminals": {
+        "22684": {
+            "StateID": 22684,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Burglary",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "PleadedGuilty": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-06-30 22:37:15 UTC\nReporting Officer\n\n@618 Cadet Ethan Maxwell\n\nSuspect/s:\nJules Abel\n\nLocation:\n\nHillcrest Ridge\n\nDebrief:\n\nE. Maxwell Statement:\n\nE. Maxwell responded to a breaking and entering call on Hillcrest Ridge.\nUpon arrival, no vehicles were on scene. E. Maxwell waited for backup to\narrive before breaching the residence. Upon breach, a suspect was\ndiscovered downstairs in the residence, who immediately attempted to\nflee from officers. E. Maxwell attempted to detain the suspect, who\nresisted and left the house. After a short foot pursuit, E. Maxwell was able\nto detain the suspect, later identified as Jules Abel. An additional vehicle\npulled up to the detained suspect, with an individual getting out of the\nvehicle and attempting to uncuff the detained suspect. Officers were able\nto chase the vehicle out of the area before moving the detained suspect\n\nto a vehicle before moving to Bob Smith to process.",
+    "LastUpdated": "2022/07/18"
+},
+49762: {
+    "IncidentID": 49762,
+    "Title": "CG OIS",
+    "Creator": "Shane Jones",
+    "LastUpdated": "2022/07/18"
+},
+49763: {
+    "IncidentID": 49763,
+    "Title": "HUBCAP JONES RUNING RED LIGHT",
+    "Creator": "Klaus Atascadero",
+    "Criminals": {
+        "2124": {
+            "StateID": 2124,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Failure to Obey Traffic Control Devices",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 225.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-01 00:31:41 UTC\nReporting Officer\n\n@535 Deputy Klaus Atascadero\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
+49765: {
+    "IncidentID": 49765,
+    "Title": "Shivanand Sunandrankumar Speeding",
+    "Creator": "Klaus Atascadero",
+    "Criminals": {
+        "6972": {
+            "StateID": 6972,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Third Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 375.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-01 00:53:52 UTC\nReporting Officer\n\n@535 Deputy Klaus Atascadero\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
+49769: {
+    "IncidentID": 49769,
+    "Title": "Adam Ababwa Speeding",
+    "Creator": "Klaus Atascadero",
+    "Criminals": {
+        "6188": {
+            "StateID": 6188,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Third Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 375.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "CIV Report\n\n2022-07-01 01:04:21 UTC\nReporting Officer\n\n@535 Deputy Klaus Atascadero\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
+49772: {
+    "IncidentID": 49772,
+    "Title": "Cooper Hart Speeding",
+    "Creator": "Klaus Atascadero",
+    "Criminals": {
+        "24309": {
+            "StateID": 24309,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Third Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 375.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "CIV Report\n\n2022-07-01 01:13:54 UTC\nReporting Officer\n\n@535 Deputy Klaus Atascadero\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
+49796: {
+    "IncidentID": 49796,
+    "Title": "uWu OIS",
+    "Creator": "Thomas Taylor",
+    "LastUpdated": "2022/07/18"
+},
+49893: {
+    "IncidentID": 49893,
+    "Title": "Gang Related Shooting Brouge",
+    "Creator": "Lisa Adkins",
+    "LastUpdated": "2022/07/18"
+},
+49910: {
+    "IncidentID": 49910,
+    "Title": "Sidney Lipsey & James Hunt | Sale of Drugs & Attempt\u00a2 Murder | 02 Jul 22",
+    "Creator": "Odessa Glafx",
+    "Criminals": {
+        "13847": {
+            "StateID": 13847,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Sale of Drugs",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Misdemeanor Possession of Controlled Dangerous Substance OXY / METH",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "32",
+            "Parole": "64",
+            "Fine": 3425.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        },
+        "16010": {
+            "StateID": 16010,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Attempted 1st Degree Murder",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "49",
+            "Parole": "98",
+            "Fine": 6450.0
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-02 17:16:35 UTC\n\nReporting Officer\n\n@(540) Deputy Odessa Glafx\nAssisting Officer/s:\n\n@(385) Senior Deputy Dan Faily\n@(490) Detective Percy Weaver\n@(519) Officer Aleksandr November\n\nSuspect/s:\nSydney Lipsey | CID: #13847\n\nJames Hunt | CID: #16010\n\nVictim/s:\nSydney Lipsey | CID: #13847\n\nWitnesses:\nN/A\n\nLocation:\nSouthbound Power Street\n\nImpound Lot\n\nDebrief:\nLEOs responded to 911s near the Impound lot of a man selling oxy out of\n\na vehicle parked under Olympic Freeway. When Glafx, Faily, and",
+    "LastUpdated": "2022/07/18"
+},
+50002: {
+    "IncidentID": 50002,
+    "Title": "James Hunt | Reckless Evading | 03 Jul 22",
+    "Creator": "Odessa Glafx",
+    "LastUpdated": "2022/07/18"
+},
+50006: {
+    "IncidentID": 50006,
+    "Title": "Jonathan Snow - Resisting Arrest - 7/3/2022",
+    "Creator": "Vincent Cannoli",
+    "LastUpdated": "2022/07/18"
+},
+50011: {
+    "IncidentID": 50011,
+    "Title": "10-90 Bay City Bank 7/3/22",
+    "Creator": "Peach Chee",
+    "LastUpdated": "2022/07/18"
+},
+50023: {
+    "IncidentID": 50023,
+    "Title": "Burger Shot Stabbing - 07/03/2022",
+    "Creator": "Jeffrey Price",
+    "LastUpdated": "2022/07/18"
+},
+50039: {
+    "IncidentID": 50039,
+    "Criminals": {
+        "26140": {
+            "StateID": 26140,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Misdemeanor Possession of Controlled Dangerous Substance OXY / METH",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Felony Obstruction of Justice",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "54",
+            "Parole": "108",
+            "Fine": 5025.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n\n2022-07-04 04:22:34 UTC\nReporting Officer\n\n@450 Officer Booga Ooga\n\nAssisting Officer/s:\n@427 Daniel Kain\n\nSuspect/s:\n\nToni Balbani\n\nLocation:\nVault\n\nDebrief:\n\n427 Daniel Kain Statement;|\n\nOfficer Daniel Kain responded to a C.U.M. alert at the city vault, a suspect\nin a green Lynx fled the scene. Officers chased the vehicle that drove at\nhigh rates of speed with no regard for public safety in oncoming lanes of\n\ntravel\n\nThe chase led to Popular ST where a red comet picked up the suspect,\nonce again a reckless highspeed chase occurred, the comet drove down\nbehind Tuner Shop and dumped the car in the Ocean. Both suspects\n\nswam in different directions, one suspect later identified as Toni Balbani",
+    "LastUpdated": "2022/07/18"
+},
+50046: {
+    "IncidentID": 50046,
+    "Title": "C.U.M. - Zee Carbone - 7/4/22",
+    "Creator": "william Gunner",
+    "LastUpdated": "2022/07/18"
+},
+50053: {
+    "IncidentID": 50053,
+    "Title": "Gang Related Shooting | Gulag Gang / GSF | Future Her | 04/07/2022 ~",
+    "Creator": "Lily Pond",
+    "Criminals": {
+        "26140": {
+            "StateID": 26140,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "23",
+            "Parole": "46",
+            "Fine": 2175.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        },
+        "28481": {
+            "StateID": 28481,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Gang Related Shooting",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "75",
+            "Parole": "150",
+            "Fine": 750.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n2022-07-04 08:36:22 UTC\n\nReporting Officer\n@413 Sergeant Lily Pond\n\nAssisting Officer/s:\nSuspect/s:\nVictim/s:\nWitnesses:\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
+50092: {
+    "IncidentID": 50092,
+    "Title": "Claudette Jean Louis - Third Degree Speeding - 04/07/2022",
+    "Creator": "John Doe",
+    "LastUpdated": "2022/07/18"
+},
+50098: {
+    "IncidentID": 50098,
+    "Title": "10-90 Harmony | 7/4/2022",
+    "Creator": "Flop Dugong",
+    "LastUpdated": "2022/07/18"
+},
+50112: {
+    "IncidentID": 50112,
+    "Title": "Shannon Gucci - Threatening EMS | 7/4/22",
+    "Creator": "Booga Ooga",
+    "LastUpdated": "2022/07/18"
+},
+50145: {
+    "IncidentID": 50145,
+    "Title": "BANKS TURNED OIS CAUSE",
+    "Creator": "Maddison Bancroft",
+    "Criminals": {
+        "3946": {
+            "StateID": 3946,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Accomplice",
+                    "Count": 8
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Robbery",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Kidnapping",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Misdemeanor Possession of Controlled Dangerous Substance OXY / METH",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "142",
+            "Parole": "284",
+            "Fine": 55425.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "SASPR Report\n\n2022-07-05 09:31:16 UTC\n\nReporting Officer\n\n@282 Senior Ranger Maddison Bancroft\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
+50147: {
+    "IncidentID": 50147,
+    "Title": "Paris Argo - 10-99A - 07/05/2022",
+    "Creator": "Jack Davenport",
+    "Criminals": {
+        "1437": {
+            "StateID": 1437,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Grand Theft Auto",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "51",
+            "Parole": "102",
+            "Fine": 4950.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n2022-07-05 11:45:47 UTC\nReporting Officer\n\n@445 Marshal Mills\n\nAssisting Officer/s:\nJack Davenport\n(365) Henri King\n(624) Rodney Fuel\n(624) Rodney Fuel\n(353) Lea Nova\n\nSuspect/s:\n\nChris P. Winsmore\nParis Argo\n\nDominic Bastias\n\nLocation:\nMirror Park\n\nDebrief:\n\n@445 Statement | M.Mills\n! responded to a vehicle theft in progress at Mirror Park about a Red in\nColor Dominator GTX.\n\n! located the vehicle and a pursuit was engaged where eventually the",
+    "LastUpdated": "2022/07/18"
+},
+50183: {
+    "IncidentID": 50183,
+    "Title": "Pedro stabs Kumkums | 07/05/2022",
+    "Creator": "Max Muller",
+    "LastUpdated": "2022/07/18"
+},
+50187: {
+    "IncidentID": 50187,
+    "Title": "Kiku Ishimoto | Street Racing | 7/5/2022",
+    "Creator": "Alex Suarez",
+    "LastUpdated": "2022/07/18"
+},
 50201: {
     "IncidentID": 50201,
     "Title": "Delver Lee",
@@ -68167,7 +71890,7 @@ INCIDENTS = {
     "IncidentID": 50205,
     "Title": "Gang Related Shooting - GSF vs GG - NO WIPES POG - 07/05/2022",
     "Creator": "TJ Mack",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 50206: {
     "IncidentID": 50206,
@@ -68191,7 +71914,7 @@ INCIDENTS = {
     "IncidentID": 50210,
     "Title": "City Vault | 7/5/2022",
     "Creator": "James McTavish",
-    "LastUpdated": "2022/07/12"
+    "LastUpdated": "2022/07/18"
 },
 50211: {
     "IncidentID": 50211,
@@ -68422,18 +72145,1574 @@ INCIDENTS = {
                     "Count": 1
                 }
             ],
-            "Time": "131",
+            "Time": "44",
             "Parole": "88",
             "Fine": 4875.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        },
+        "35844": {
+            "StateID": 35844,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Robbery",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Kidnapping",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "62",
+            "Parole": "124",
+            "Fine": 6575.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-06 09:22:43 UTC\nReporting Officer\n\n@625 Cadet Tommy Horver\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:\n\n329 Tommy Horver spotted invidiuals out front of the legion square bank\nholding an individual at gunpoint whilst using rope and a bison to tear an\nATM out of the wall. The suspects provided their demands and once they\nwere meant the hostage was safely released and the suspects fled the\nscene. Units pursued the suspect till they were boxed on hawick ave. All\n\nfour suspects fled on foot and all were swiftly apprehended.",
+    "Title": "ATM Robbery",
+    "Creator": "Tommy Horver",
+    "LastUpdated": "2022/07/18"
+},
+50285: {
+    "IncidentID": 50285,
+    "Title": "Oakley Stallion | Failure to Obey Traffic Control Device | 7/6/2022",
+    "Creator": "Ethan Maxwell",
+    "LastUpdated": "2022/07/18"
+},
+50358: {
+    "IncidentID": 50358,
+    "Title": "TOPI - Att 1st Degree Murder | 7/7/2022",
+    "Creator": "Salem Yellow",
+    "LastUpdated": "2022/07/18"
+},
+50360: {
+    "IncidentID": 50360,
+    "Title": "Amir Sadiq | Joyriding | 07 Jul 22",
+    "Creator": "Odessa Glafx",
+    "LastUpdated": "2022/07/18"
+},
+50369: {
+    "IncidentID": 50369,
+    "Title": "Cargo Shootout",
+    "Creator": "Brittany Angel",
+    "LastUpdated": "2022/07/18"
+},
+50405: {
+    "IncidentID": 50405,
+    "Title": "Clinton Avenue C.U.M. Trap",
+    "Creator": "Ethan Maxwell",
+    "Criminals": {
+        "18407": {
+            "StateID": 18407,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Assault with a Deadly Weapon",
+                    "Type": "Accomplice",
+                    "Count": 1
+                },
+                {
+                    "Name": "Assault with a Deadly Weapon",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Parole Violation",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "21",
+            "Parole": "42",
+            "Fine": 2400.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-07 22:28:01 UTC\nReporting Officer\n\n@505 Cadet Ethan Maxwell\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:\n\nE. Maxwell Statement:\n\nE. Maxwell responded to a 911 call about Mel Rickenbacker with a class 2\nweapon on his back. M. Hayes located Mel in his green Lambo and asked\nhim to step out of the vehicle. Mel fled into a small room and officers\npursued, where several individuals were discovered and began attacking\nHayes. Hayes discharged her weapon but was knocked down. Officers\ncontinued to push into the room as individuals continued to attack. 4\nindividuals were shot down with 2 caught fleeing the scene and\n\nattempting to hide, who were detained.\n\nBe advised, individuals stated that they are a part of \u201cOperation\nCondom\u00ae, an attempt to contain the C.U.M. unit, and expressed that they\nwould continue to assault C.U.M. units until Mel has reclaimed the name\n\nas his own.",
+    "LastUpdated": "2022/07/18"
+},
+50423: {
+    "IncidentID": 50423,
+    "Title": "Knate Anker | Kidnapping | July 7th 2022",
+    "Creator": "Ethan Maxwell",
+    "Criminals": {
+        "24158": {
+            "StateID": 24158,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Kidnapping",
+                    "Type": "Default",
+                    "Count": 2
+                },
+                {
+                    "Name": "Brandishing non Firearm",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "PleadedGuilty": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-08 00:34:17 UTC\nReporting Officer\n\n@505 Cadet Ethan Maxwell\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\nChelsea Lafayette\n\nLocation:\n\nAdam\u2019s Apple Construction Site\n\nDebrief:\n\nE. Maxwell Statement:\n\nE. Maxwell responded to a 911 call about two individuals being held\nhostage at the construction site on Adam's Apple. Upon arrival, E.\nMaxwell noticed an individual in a clown mask holding two people\nhostage at knife-point. E. Maxwell initiated negotiations, where the\nsuspect demanded 9 chicken nuggets, a half-full mitkshake, and a burger\nwith a bite taken out of it. A unit was dispatched to BurgerShot to\nretreive the food. Upon delivery, the suspect fled upwards in the\nconstruction site, where he attempted to jump a gap and fell four stories,\n\nwhere he was detained. E. Maxwell took the following hostage statement",
+    "LastUpdated": "2022/07/18"
+},
+50438: {
+    "IncidentID": 50438,
+    "Title": "Burger Shot Shooting - 07/08/2022",
+    "Creator": "Jeffrey Price",
+    "LastUpdated": "2022/07/18"
+},
+50452: {
+    "IncidentID": 50452,
+    "Title": "Paris Argo - Second Degree Speeding - 07/08/2022",
+    "Creator": "Spartan Biggs",
+    "Criminals": {
+        "1437": {
+            "StateID": 1437,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Second Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 750.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "SDSO Report\n2022-07-08 09:14:01 UTC\n\nReporting Officer\n@590 Deputy Spartan Biggs\n\nAssisting Officer/s:\nN/A\n\nSuspect/s:\nParis Argo\n\nWitnesses:\n\n@590 Deputy Spartan Biggs\n\nLocation:\n\nNorth on Elgin Avenue & Vespucci Boulevard\n\nDebrief:\n\nOn 07/08/2022 09:14:01 UTC @590 Deputy Spartan Biggs was out on\nbasic patrol when Deputy Biggs clocks a vehicle heading west on\nVespucci Boulevard going 85MPH in a 35 MPH zone. Deputy Biggs\nperformed a traffic stop on the vehicle where the driver was then\nidentified as Ms Paris Argo. Ms Paris Argo then received a traffic citation\nfor (Second Degree Speeding). Ms Paris Argo was then let go without\n\nfurther incident.",
+    "LastUpdated": "2022/07/18"
+},
+50495: {
+    "IncidentID": 50495,
+    "Title": "Winston Bolt & Sparky Kane | Attempted Murder of a Government Employee | 08 Jul 22",
+    "Creator": "Odessa Glafx",
+    "LastUpdated": "2022/07/18"
+},
+50505: {
+    "IncidentID": 50505,
+    "IsComplex": true,
+    "Description": "",
+    "LastUpdated": "2022/07/18"
+},
+50507: {
+    "IncidentID": 50507,
+    "Title": "MDM Shooting | 07/08/2022",
+    "Creator": "Aspen Gray",
+    "LastUpdated": "2022/07/18"
+},
+50508: {
+    "IncidentID": 50508,
+    "IsComplex": true,
+    "Description": "LSPD Report\n\n2022-07-12 20:53:57 UTC\nReporting Officer\n\n@519 Cadet Aleksandr November\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
+50526: {
+    "IncidentID": 50526,
+    "Title": "Gwyar Cythraul | OIS x2 | 7/8/22",
+    "Creator": "Brian Knight",
+    "LastUpdated": "2022/07/18"
+},
+50554: {
+    "IncidentID": 50554,
+    "Title": "Dominic Bastias - Slam Van 99 - 07/09/22",
+    "Creator": "Rodney Fuel",
+    "Criminals": {
+        "1437": {
+            "StateID": 1437,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Grand Theft Auto",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "44",
+            "Parole": "88",
+            "Fine": 4350.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n2022-07-09 10:31:03 UTC\nReporting Officer\n\n@624 Cadet Rodney Fuel\n\nAssisting Officer/s:\n@538 D. Burns\n\nSuspect/s:\n\nDominic Bastias\n\nParis Argo\n\nLocation:\n\nLittle Seoul\nDebrief:\n\n@624 Statement | R. Fuel:\n@624 responded to a 99a call for a slamvan in Little Seoul. @624\narrived on scene to see a male and female wearing pink bandana\u2019s\nlockpicking the vehicle. The vehicle took off at high rates of speed\ncrossing into oncoming lanes of travel several times. The Slamvan\ndrove directly towards LS Fwy and took off North all the way to Paleto\nand then down South on Great Ocean. Tracker was removed near\nRoute 68. The vehicle drove around the city and was successfully\n\npitted at Uwu cafe where it was flipped on its roof. Both suspects got",
+    "LastUpdated": "2022/07/18"
+},
+50558: {
+    "IncidentID": 50558,
+    "Criminals": {
+        "32479": {
+            "StateID": 32479,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Drug Trafficking",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Felony Possession with intent to Distribute",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Joyriding",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Dirty Money in the First Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "190",
+            "Parole": "380",
+            "Fine": 28175.0,
             "PleadedGuilty": false,
             "Processed": false
         }
     },
     "IsComplex": true,
-    "Description": "PBSO Report\n\n2022-07-06 09:22:43 UTC\nReporting Officer\n\n@625 Cadet Tommy Horver\nAssisting Officer/s:\n\n329 Tommy Horver spotted invidiuals out front of the legion square bank\nholding an individual at gunpoint whilst using rope and a bison to tear an\nATM out of the wall. The suspects provided their demands and once they\nwere meant the hostage was safely released and the suspects fied the\nscene. Units pursued the suspect till they were boxed on hawick ave. All\n\nfour suspects fled on foot and all were swiftly apprehended.",
-    "Title": "ATM Robbery",
-    "Creator": "Tommy Horver",
-    "LastUpdated": "2022/07/12"
+    "Description": "TIMMY DANG IS CLEARED TO BE RELEASED\nFROM HIS HOLD - DO NOT UNDER ANY\nCIRCUMSTANCES PROCESS HIM OR CHARGE\nHIM. HE IS GOING ON THE DOCKET.\n\n  \n\nNarcotics Report\n2022-07-09 11:32:31 UTC\n\nReporting Officer\ne @353 Corporal Lea Nova (Primary)\n* @490 Detective Percy Weaver (Support)\n\nAssisting Officer/s:\n\ne @511 Cadet Alberto El Churro\n\ne @625 Deputy Tommy Horver (Apprehension support)\ne @378 Deputy Gary Sexton (Apprehension support)\n\ne @550 Cadet Mono Block (Apprehension support)\n\nSuspect/s:\n\u00a2 Timmy Dang\n\nLocation:\n\u00a2 Began: Orchardvale Ave 20\n\u00a2 Ended: Autopia Docks",
+    "LastUpdated": "2022/07/18"
+},
+50588: {
+    "IncidentID": 50588,
+    "Title": "Eddie Ochoa | Joyriding | 07/09/2022",
+    "Creator": "Klaus Atascadero",
+    "IsComplex": true,
+    "Criminals": {
+        "37812": {
+            "StateID": 37812,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Joyriding",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "14",
+            "Parole": "28",
+            "Fine": 1200.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "Description": "PBSO Report\n\n2022-07-09 20:20:50 UTC\nReporting Officer\n\n@535 Deputy Klaus Atascadero\nAssisting Officer/s:\n\n(398) Lewis Collins\n\n(914) Jake Cooper\n\nSuspect/s:\n\nEddie Ochoa (#37812)\nLocation:\n\nHotel Parking by Alta Street.\nDebrief:\n\n@535 Deputy Klaus Atascadero\u2019s Statement:\n\nDeputy Klaus was doing legion square patrol when his car\u2019s radar picked\nup a flagged plate. Deputy Klaus radio\u2019ed in and performed a felony stop\non the vehicle off by Hotel Parking by Atla Street. Driver of the vehicle\nwas identified as Eddie Ochoa who was mirandized. Despite knowing his\nrights Eddie Ochoa decided to speak to Deputy Klaus and admited that\nhe saw the car running by the Alta Street apartments and decided to get\nin and drive off. Eddie Ochoa was transported, processed and sent to\n\nprison.\n\nSuspect Pleaded Guility.",
+    "LastUpdated": "2022/07/18"
+},
+50589: {
+    "IncidentID": 50589,
+    "Title": "MDM Vault | 04:15 pm EST | 09/07/22",
+    "Creator": "Louise Campbell",
+    "LastUpdated": "2022/07/18"
+},
+50647: {
+    "IncidentID": 50647,
+    "Title": "Jewellery Store - Hostage Stabs Eli - 07/10/2022",
+    "Creator": "Eli Hawkins",
+    "LastUpdated": "2022/07/18"
+},
+50676: {
+    "IncidentID": 50676,
+    "Criminals": {
+        "9394": {
+            "StateID": 9394,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Act of Torture",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Kidnapping a Gov Employee",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Threats",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Use of a Firearm",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Act of Torture",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Kidnapping a Gov Employee",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "95",
+            "Parole": "190",
+            "Fine": 12075.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-10 17:35:08 UTC\n\nReporting Officer:\n\n@(655) Deputy Odessa Glafx\nAssisting Officer/s:\n\nSuspect/s:\nDean Quincy | CID: #9394\n\nVictim/s:\n\nWinston Walker | CID: #22673\n\nWitnesses: a\n\nN/A\n\nLocation:\n\nMandem Block\nBob Smith PD\n\nDebrief:\n\nOn 10 July, 2022, Shankeal O'Neal & Dean Quincy began to harass\nWinston Walker, prying for information. When Walker refused to co-\noperate, the two focibly took Walker and began waterboarding them.\n\nThey began to interrogate him for information. Following this, they then",
+    "LastUpdated": "2022/07/18"
+},
+50681: {
+    "IncidentID": 50681,
+    "Title": "Niall Obrien | Grand Theft Auto | 7/10/2022",
+    "Creator": "Nikki Drewel",
+    "LastUpdated": "2022/07/18"
+},
+50692: {
+    "IncidentID": 50692,
+    "Title": "Chris Turtle & Mr Ratchet | 10-99A turns into 13A | 7/10/2022",
+    "Creator": "Harper Belmont",
+    "LastUpdated": "2022/07/18"
+},
+50695: {
+    "IncidentID": 50695,
+    "Title": "Malvo Johnson - Unauthorized Operation of an Off-Roa Vehicle - 10/07/2022",
+    "Creator": "John Doe",
+    "LastUpdated": "2022/07/18"
+},
+50701: {
+    "IncidentID": 50701,
+    "Title": "Harry Martinez | Failure to Obey Traffic Control | 7/10/2022",
+    "Creator": "r Ethan Maxwell",
+    "LastUpdated": "2022/07/18"
+},
+50752: {
+    "IncidentID": 50752,
+    "Title": "Zee Carbone - Black Stratum - 07/11/22 #50752",
+    "Creator": "Louis Bloom",
+    "Criminals": {
+        "28481": {
+            "StateID": 28481,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Misdemeanor Possession of Controlled Dangerous Substance OXY / METH",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "12",
+            "Parole": "24",
+            "Fine": 1075.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-11 09:29:44 UTC\nReporting Officer\n\n@360 Deputy Louis Bloom\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
+50811: {
+    "IncidentID": 50811,
+    "Title": "Attempted Murder of a Government Employee | Ramee Rahman | 12/07/2022",
+    "Creator": "Vincent Cannoli",
+    "LastUpdated": "2022/07/18"
+},
+50812: {
+    "IncidentID": 50812,
+    "Title": "MRPD Stabbing | Gwyar Cythraul | 07/11/2022",
+    "Creator": "a Jake Cooper",
+    "Criminals": {
+        "25974": {
+            "StateID": 25974,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Attempted 2nd Degree Murder",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "25",
+            "Parole": "50",
+            "Fine": 2825.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "SDSO Report\n2022-07-12 00:28:12 UTC\n\nReporting Officer\n@914 Deputy Jake Cooper\n\nSuspect/s:\nGwyar Cythraul\n\nVictim/s:\n\nLucifer Romano |l\n\nWitnesses:\nRose Rhodes\n\nLocation:\nMRPD Lobby\n\nDebrief:\n\n914 J. Cooper Statement:\nDeputy Cooper was in the MRPD fishbowl with dispatcher Rose Rhodes\ndoing paperwork when two individuals, Gwyar Cythraul & Lucifer\nRomano I, walked into the lobby. It was apparently Mr. Romano\u2019s first\nday in the city and Mr. Cythraul claimed he was giving him a tour\naround. Deputy Cooper continued to pay attention to his paperwork\nwhile the two and Rose talked for a bit until Mr. Cythraul started talking",
+    "LastUpdated": "2022/07/18"
+},
+50834: {
+    "IncidentID": 50834,
+    "Title": "BBMC Hostage Turned OIS at GG Gas Station | 07/11/2022",
+    "Creator": "Aziz Sultan",
+    "LastUpdated": "2022/07/18"
+},
+50836: {
+    "IncidentID": 50836,
+    "Title": "Brett Maxwell / Akuma Gorg - Sale of Drugs - 7/12/202",
+    "Creator": "Vincent Cannoli",
+    "LastUpdated": "2022/07/18"
+},
+50837: {
+    "IncidentID": 50837,
+    "Title": "Paul Ethan Hall - DUI - 07/12/22 #50837",
+    "Creator": "Louis Bloom",
+    "LastUpdated": "2022/07/18"
+},
+50838: {
+    "IncidentID": 50838,
+    "Title": "DELETE THIS BECAUSE CROC DOSENT LISTEN",
+    "Creator": "Jerry Sweets",
+    "LastUpdated": "2022/07/18"
+},
+50839: {
+    "IncidentID": 50839,
+    "Title": "Stumbles Weed",
+    "Creator": "Crocodile Steve",
+    "LastUpdated": "2022/07/18"
+},
+50840: {
+    "IncidentID": 50840,
+    "Title": "Jacob Cass - OIS - 07/12/22 #50840",
+    "Creator": "Louis Bloom",
+    "LastUpdated": "2022/07/18"
+},
+50841: {
+    "IncidentID": 50841,
+    "Title": "DELETE",
+    "Creator": "Kylie Stokes",
+    "LastUpdated": "2022/07/18"
+},
+50842: {
+    "IncidentID": 50842,
+    "Title": "Malvo Joyrides - 7/12/2022",
+    "Creator": "Fingle Goutman Dan",
+    "LastUpdated": "2022/07/18"
+},
+50843: {
+    "IncidentID": 50843,
+    "Title": "10-37A Incident",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/18"
+},
+50845: {
+    "IncidentID": 50845,
+    "Title": "Rudi Rinsen - HVTU Apprehension - 07/12/2022",
+    "Creator": "Eli Hawkins",
+    "LastUpdated": "2022/07/18"
+},
+50847: {
+    "IncidentID": 50847,
+    "Title": "Aubrey Webster | Kidnapping Gov Employee | 7-12-22",
+    "Creator": "Alice Watson",
+    "LastUpdated": "2022/07/18"
+},
+50848: {
+    "IncidentID": 50848,
+    "Title": "Tracy Martell - Contempt of Court - 12/07/2022",
+    "Creator": "Richard Dark",
+    "LastUpdated": "2022/07/18"
+},
+50849: {
+    "IncidentID": 50849,
+    "Title": "Attempted Murder of a Government Employee at Legio Square | 12.07.2022",
+    "Creator": "Kieran Harvey",
+    "Criminals": {
+        "1437": {
+            "StateID": 1437,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Accomplice",
+                    "Count": 1
+                }
+            ],
+            "Time": "156",
+            "Parole": "114",
+            "Fine": 6575.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n2022-07-12 10:46:36 UTC\n\nReporting Officer\n@652 Kieran Harvey\n\nAssisting Officer/s:\n@638 Kylie Stokes\n@447 Luka Kozlov\n@550 Mono Block\n\nSuspect/s:\nParis Argo (#1437)\n\nVictim/s:\n\nWitnesses:\n\nCassie Millar - #628-222-6958\n\nLocation:\n\nLegion Square infront of Flecca Bank\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
+50850: {
+    "IncidentID": 50850,
+    "Title": "Alex Fibbler, Zayn Ahmed, Alessio Jilani - Gang Related Shooting - 2022/07/12",
+    "Creator": "Richard Dark",
+    "LastUpdated": "2022/07/18"
+},
+50851: {
+    "IncidentID": 50851,
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-12 11:23:22 UTC\nReporting Officer\n\n@320 Undersheriff Matt Rhodes\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "Title": "Aubrey Webster -",
+    "Creator": "Matt Rhodes",
+    "LastUpdated": "2022/07/18"
+},
+50852: {
+    "IncidentID": 50852,
+    "Title": "Paca Kumar - Third Degree Speeding - 12/7/2022",
+    "Creator": "Aleksandr November",
+    "LastUpdated": "2022/07/18"
+},
+50853: {
+    "IncidentID": 50853,
+    "Title": "Sidney Lipsey - Speeding 7/12/22",
+    "Creator": "John Wanderlust",
+    "Criminals": {
+        "13847": {
+            "StateID": 13847,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Third Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 375.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "SDSO Report\n\n2022-07-12 11:45:23 UTC\n\nReporting Officer\n\n@565 Cadet John Wanderlust\n\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief: Cadet Wanderlust, Lt Mack, and Petty God Rhodes pulled over\nSidney Lipsey doing a dodo run for speeding.",
+    "LastUpdated": "2022/07/18"
+},
+50854: {
+    "IncidentID": 50854,
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-12 12:05:14 UTC\nReporting Officer\n\n@320 Undersheriff Matt Rhodes\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:\n\nDidn\u2019t use his turn signal 4 times (entering lane of travel, crossed 2 lanes,\n\nleft hand turn).",
+    "Criminals": {
+        "13847": {
+            "StateID": 13847,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Failure to Signal",
+                    "Type": "Default",
+                    "Count": 4
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 600.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "Title": "Sidney Lipsey - Failure to Signal",
+    "Creator": "Matt Rhodes",
+    "LastUpdated": "2022/07/18"
+},
+50855: {
+    "IncidentID": 50855,
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-12 12:13:53 UTC\nReporting Officer\n\n@320 Undersheriff Matt Rhodes\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:\n\nClocked doing a blazing 42MPH in a 35MPH Zone (Dutch London St)",
+    "Criminals": {
+        "13847": {
+            "StateID": 13847,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Third Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 375.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "Title": "Sidney Lipsey - Third Degree Speeding",
+    "Creator": "Matt Rhodes",
+    "LastUpdated": "2022/07/18"
+},
+50856: {
+    "IncidentID": 50856,
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-12 12:13:53 UTC\nReporting Officer\n\n@320 Undersheriff Matt Rhodes\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:\n\nClocked doing a blazing 41MPH in a 35",
+    "Title": "Sidney Lipsey - Third Degree Speeding",
+    "Creator": "Matt Rhodes",
+    "Criminals": {
+        "13847": {
+            "StateID": 13847,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Third Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "1",
+            "Parole": "2",
+            "Fine": 375.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "LastUpdated": "2022/07/18"
+},
+50857: {
+    "IncidentID": 50857,
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-12 12:13:53 UTC\nReporting Officer\n\n@320 Undersheriff Matt Rhodes\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:\n\nRhodes pulled over Sidney Lipsey originally for failing to use their turn\nsignal. Upon doing so, Sidney sped up to 40+MPH and then pulled over\nwithout using their turn signal. Upon informing them of this, they\neventually took offf and began fleeing at slow speeds, eventually\nslamming into a fire hydrant, then turning and driving through the\nStrawberry Gas Station and into a stone bench. They were boxed in, got\nout, and began running on foot. They were tazed, cuffed, and placed\n\nunder arrest.",
+    "Title": "Sidney Lipsey - Evading",
+    "Creator": "Matt Rhodes",
+    "Criminals": {
+        "13847": {
+            "StateID": 13847,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Third Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Failure to Signal",
+                    "Type": "Default",
+                    "Count": 2
+                },
+                {
+                    "Name": "Disobeying a Peace Officer",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Vandalism of Government Property",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "24",
+            "Parole": "48",
+            "Fine": 3350.0,
+            "PleadedGuilty": false,
+            "Processed": true
+        }
+    },
+    "LastUpdated": "2022/07/18"
+},
+50858: {
+    "IncidentID": 50858,
+    "Title": "Sean Murphy - Reckless Evading - 12/7/2022",
+    "Creator": "Aleksandr November",
+    "Criminals": {
+        "23310": {
+            "StateID": 23310,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Failure to Stop",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Joyriding",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "30",
+            "Parole": "60",
+            "Fine": 3150.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n\n2022-07-12 12:50:03 UTC\nReporting Officer\n\n@699 Cadet Aleksandr November\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
+50859: {
+    "IncidentID": 50859,
+    "Title": "Aubrey Webster, Chase O'Dell - Officer Kidnapping in a 07/12/2022",
+    "Creator": "tli Hawkins",
+    "Criminals": {
+        "26223": {
+            "StateID": 26223,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Operating a Motor Vehicle on a Suspended or Revoked License",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Kidnapping a Gov Employee",
+                    "Type": "Default",
+                    "Count": 2
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Felony Obstruction of Justice",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Felony Animal Cruelty",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "118",
+            "Parole": "236",
+            "Fine": 14625.0,
+            "PleadedGuilty": false,
+            "Processed": false
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-12 13:19:26 UTC\nReporting Officer\n\n@311 Sr. Deputy Eli Hawkins\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
+50861: {
+    "IncidentID": 50861,
+    "Title": "Legion Square shooting - 12JUN22",
+    "Creator": "Michael Colt",
+    "LastUpdated": "2022/07/18"
+},
+50876: {
+    "IncidentID": 50876,
+    "Title": "Weckless drivin",
+    "Creator": "Kevin Little",
+    "LastUpdated": "2022/07/18"
+},
+50877: {
+    "IncidentID": 50877,
+    "Title": "Muppet at Legion Sq",
+    "Creator": "Kevin Little",
+    "LastUpdated": "2022/07/18"
+},
+50878: {
+    "IncidentID": 50878,
+    "Title": "Oakley Stallion - Third Degree - 7/12/2022",
+    "Creator": "Silas Grimmer",
+    "LastUpdated": "2022/07/18"
+},
+50879: {
+    "IncidentID": 50879,
+    "Title": "IGOR KIDNAPS SNOW + TORTURE | 12707/2022",
+    "Creator": "Olivia Copper",
+    "LastUpdated": "2022/07/18"
+},
+50881: {
+    "IncidentID": 50881,
+    "Title": "Vespucci beach 10-37",
+    "Creator": "Kevin Little",
+    "LastUpdated": "2022/07/18"
+},
+50882: {
+    "IncidentID": 50882,
+    "Title": "Failed Hold Up on The Boat - 7/12/2022",
+    "Creator": "Silas Grimmer",
+    "LastUpdated": "2022/07/18"
+},
+50884: {
+    "IncidentID": 50884,
+    "Title": "Meelo Graves - Negligent Driving - 12/07/2022",
+    "Creator": "Aleksandr November",
+    "LastUpdated": "2022/07/18"
+},
+50885: {
+    "IncidentID": 50885,
+    "Title": "Justin Bridges | Reckless Driving",
+    "Creator": "Emest Kaminski",
+    "LastUpdated": "2022/07/18"
+},
+50886: {
+    "IncidentID": 50886,
+    "Title": "Maldini's unauthorized parking - 07/12 - Ingevar",
+    "Creator": "Ingevar Falk",
+    "LastUpdated": "2022/07/18"
+},
+50887: {
+    "IncidentID": 50887,
+    "Title": "Sam Axe | SPeeding",
+    "Creator": "Emest Kaminski",
+    "LastUpdated": "2022/07/18"
+},
+50889: {
+    "IncidentID": 50889,
+    "Title": "Frederick Dutton | Trying to blow up officers",
+    "Creator": "Emest Kaminski",
+    "LastUpdated": "2022/07/18"
+},
+50891: {
+    "IncidentID": 50891,
+    "Title": "Jake Williams - Third Degree Speeding Senora Fwy - 7/12/22",
+    "Creator": "Bobby Boolderman",
+    "LastUpdated": "2022/07/18"
+},
+50892: {
+    "IncidentID": 50892,
+    "Title": "Sassa Raven | Joyriding | 07/12/2022",
+    "Creator": "Raycardo Flick",
+    "LastUpdated": "2022/07/18"
+},
+50894: {
+    "IncidentID": 50894,
+    "Title": "Dwayne Flores - Assault with a Deadly - 12/07/2022",
+    "Creator": "Aleksandr November",
+    "LastUpdated": "2022/07/18"
+},
+50895: {
+    "IncidentID": 50895,
+    "Title": "Happy Dklown - Failure to Obey Traffic Control Devices 07/12/2022",
+    "Creator": "A Spartan Biggs",
+    "LastUpdated": "2022/07/18"
+},
+50896: {
+    "IncidentID": 50896,
+    "Title": "Speeding in a stolen car without a driving licence | 12/07/2022",
+    "Creator": "Klaus Atascadero",
+    "Criminals": {
+        "2446": {
+            "StateID": 2446,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Third Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Operating a Motor Vehicle Without Proper Identification",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Joyriding",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "7",
+            "Parole": "14",
+            "Fine": 1350.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n2022-07-12 19:49:31 UTC\nReporting Officer\n\n@535 Cadet Klaus Atascadero\nAssisting Officer/s:\n@440 Raycardo Flick\nSuspect/s:\n\nJane Obamma\n\nLocation:\n\nVespucci Blvd\n\nDebrief:\n\n@535 Deputy Klaus's Statement:\nDeputy Klaus was assisting officer Raycardo Flick in a traffic stop. As soon\nas the traffic stop was completed a grey SUV rammed into Deputy Klaus\u2019s\ncrusier. Deputy Klaus turned his lights and sirens on and pulled the SUV\nover. The driver of the vehicle was very disrespectful and was failing to\nprovide Deputy Klaus with a driving license. After running the plates of\nthe car it came back as flagged stolen. Deputy Klaus processed the\nsuspect at MRPD.\n\nSuspect pleaded m on all charges.",
+    "LastUpdated": "2022/07/18"
+},
+50897: {
+    "IncidentID": 50897,
+    "Title": "FUTUTURE + RICHARD OCONNER TRAFFIC STOP TUR! HIGH SPEED CHASE",
+    "Creator": "Olivia Copper",
+    "LastUpdated": "2022/07/18"
+},
+50898: {
+    "IncidentID": 50898,
+    "Title": "Jay Jay | Unauthorised Parking | 12/07/22",
+    "Creator": "Max Muller",
+    "LastUpdated": "2022/07/18"
+},
+50899: {
+    "IncidentID": 50899,
+    "Title": "Mila Smoak - Failure to Stop | 12/07/2022",
+    "Creator": "Jeff Waters",
+    "LastUpdated": "2022/07/18"
+},
+50900: {
+    "IncidentID": 50900,
+    "Title": "Cooper Hart | Negligent Driving | 12/07/22",
+    "Creator": "Eryn Carter",
+    "LastUpdated": "2022/07/18"
+},
+50902: {
+    "IncidentID": 50902,
+    "Title": "Misha Standal - Operating a Motor Vehicle Without Pro Identification - 12/07/2022",
+    "Creator": "John Doe",
+    "LastUpdated": "2022/07/18"
+},
+50903: {
+    "IncidentID": 50903,
+    "Title": "Luke Webb - Failure to Stop | 12/07/2022",
+    "Creator": "Jeff Waters",
+    "LastUpdated": "2022/07/18"
+},
+50904: {
+    "IncidentID": 50904,
+    "Title": "Joyriding Jim Watson 7/12/22",
+    "Creator": "Peach Chee",
+    "LastUpdated": "2022/07/18"
+},
+50905: {
+    "IncidentID": 50905,
+    "Title": "Luke Webb | Negligent Driving | 7/12/2022",
+    "Creator": "Alex Suarez",
+    "LastUpdated": "2022/07/18"
+},
+50908: {
+    "IncidentID": 50908,
+    "IsComplex": true,
+    "Description": "LSPD Report\n\n2022-07-12 20:53:57 UTC\nReporting Officer\n\n@519 Cadet Aleksandr November\nAssisting Officer/s:\n\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "Title": "Richard O'Conner - Reckless Evading - 12/07/2022",
+    "Creator": "Aleksandr November",
+    "LastUpdated": "2022/07/18"
+},
+50910: {
+    "IncidentID": 50910,
+    "Title": "Rhys Gilbert - Escalated Traffic Stop | 12/07/2022",
+    "Creator": "Jeff Waters",
+    "LastUpdated": "2022/07/18"
+},
+50912: {
+    "IncidentID": 50912,
+    "Title": "Future hendrix ticket",
+    "Creator": "Vingle Dan",
+    "LastUpdated": "2022/07/18"
+},
+50913: {
+    "IncidentID": 50913,
+    "Title": "1995",
+    "Creator": "Spartan Biggs",
+    "LastUpdated": "2022/07/18"
+},
+50914: {
+    "IncidentID": 50914,
+    "Title": "Reckless Evading - Limo - 12/7/2022",
+    "Creator": "Aleksandr November",
+    "LastUpdated": "2022/07/18"
+},
+50916: {
+    "IncidentID": 50916,
+    "Title": "Gerard Hawthorne - Speeding - 7/12/22",
+    "Creator": "Philomena Hawthorne",
+    "LastUpdated": "2022/07/18"
+},
+50917: {
+    "IncidentID": 50917,
+    "Title": "Dominic Luciano -",
+    "Creator": "Sexton Hardcastle",
+    "LastUpdated": "2022/07/18"
+},
+50918: {
+    "IncidentID": 50918,
+    "Title": "Ricardo Runs A Red Light | 07/12/2022",
+    "Creator": "Sam Baas",
+    "LastUpdated": "2022/07/18"
+},
+50919: {
+    "IncidentID": 50919,
+    "Title": "Mr Kebun | Speeding | 7/12/2022",
+    "Creator": "Alex Suarez",
+    "LastUpdated": "2022/07/18"
+},
+50922: {
+    "IncidentID": 50922,
+    "Title": "Aziz Abdallah | Reckless Driving | 7/12/2022",
+    "Creator": "r Ethan Maxwell",
+    "Criminals": {
+        "36774": {
+            "StateID": 36774,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Driving",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "PleadedGuilty": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-12 22:33:51 UTC\nReporting Officer\n\n@618 Cadet Ethan Maxwell\n\nAssisting Officer/s:\n\n(391) Mackenzie Hayes\n(495) Brian Knight\n\nSuspect/s:\nAziz Abdallah\n\nLocation:\n\nCrusade Hospital\n\nDebrief:\n\nE. Maxwell Statement:\n\nE. Maxwell witnessed Aziz Abdallah speed through the intersection of\n\nStrawberry & Innocence, drifting his vehicle in a left turn into opposing\n\nlanes. E. Maxwell pursued the vehicle with B. Knight in primary. Units\n\nwent VCB momentarily before B. Knight located the vehicle hiding inside\n\nCrusade Hospital's emergency lane. Units cornered the vehicle and\n\nordered the suspect out, who was detained for reckless driving and\n\nevading.",
+    "LastUpdated": "2022/07/18"
+},
+50925: {
+    "IncidentID": 50925,
+    "Title": "Vault | 07/12/2022",
+    "Creator": "Aspen Gray",
+    "LastUpdated": "2022/07/18"
+},
+50926: {
+    "IncidentID": 50926,
+    "Title": "Traffic Citation - Marty Banks - 7/12/22",
+    "Creator": "Tommy Tinker",
+    "LastUpdated": "2022/07/18"
+},
+50927: {
+    "IncidentID": 50927,
+    "Title": "Hahn Do | Failure to Obey Traffic Control Device | 7/12/2022",
+    "Creator": "Ethan Maxwell",
+    "Criminals": {
+        "31336": {
+            "StateID": 31336,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Failure to Obey Traffic Control Devices",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "PleadedGuilty": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-12 23:25:54 UTC\nReporting Officer\n\n@505 Cadet Ethan Maxwell\n\nAssisting Officer/s:\n(391) Mackenzie Hayes\n\nLocation:\nSan Andreas & South Rockford Drive\n\nDebrief:\nE. Maxwell witnessed Hahn Do run the red light at San Andreas &\n\nRockford Drive. Mr. Do was issued one citation for failure to obey traffic\n\ncontrol devices.",
+    "LastUpdated": "2022/07/18"
+},
+50928: {
+    "IncidentID": 50928,
+    "Criminals": {
+        "15048": {
+            "StateID": 15048,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Misdemeanor Obstruction of Justice",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "PleadedGuilty": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n\n2022-07-12 23:26:13 UTC\nReporting Officer\n\n@495 Lieutenant Brian Knight\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "Title": "JimBob | Felony Obstruction | 7/12/22",
+    "Creator": "Brian Knight",
+    "LastUpdated": "2022/07/18"
+},
+50930: {
+    "IncidentID": 50930,
+    "Title": "Chatterbox Joyriding",
+    "Creator": "Ethan Maxwell",
+    "Criminals": {
+        "6592": {
+            "StateID": 6592,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "First Degree Speeding",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Joyriding",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Operating a Motor Vehicle Without Proper Identification",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Threats",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "PleadedGuilty": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-12 23:38:48 UTC\nReporting Officer\n\n@618 Cadet Ethan Maxwell\n\nAssisting Officer/s:\n(391) Mackenzie Hayes\n(941) Domenic Toretti\n(988) Michael Pike\n(408) Lisa Adkins\n\nSuspect/s:\nJagger \u201cChatterbox\" Gerardy\n\nLocation:\n\nLittle Seoul\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
+50931: {
+    "IncidentID": 50931,
+    "Title": "Chatterbox Evades Again | 7/12/2022",
+    "Creator": "Shelby Lane",
+    "Criminals": {
+        "23064": {
+            "StateID": 23064,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "PleadedGuilty": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "SDSO Report\n\n2022-07-12 23:53:56 UTC\nReporting Officer\n\n@918 Deputy Shelby Lane\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:",
+    "LastUpdated": "2022/07/18"
+},
+50932: {
+    "IncidentID": 50932,
+    "Title": "Traffic Stop | Jost Zueger | 07/12/22",
+    "Creator": "Kurt Doug",
+    "LastUpdated": "2022/07/18"
+},
+50933: {
+    "IncidentID": 50933,
+    "Title": "Traffic - CrabAss",
+    "Creator": "Crocodile Steve",
+    "LastUpdated": "2022/07/18"
+},
+50934: {
+    "IncidentID": 50934,
+    "Title": "Louie Crabgrass - Class 1",
+    "Creator": "a Crocodile Steve",
+    "LastUpdated": "2022/07/18"
+},
+50995: {
+    "IncidentID": 50995,
+    "Title": "fATONI saRDUCHI - SPEEDING",
+    "Creator": "Jaden Bane",
+    "LastUpdated": "2022/07/18"
+},
+50998: {
+    "IncidentID": 50998,
+    "Title": "SPEEDING | HIGHWAYMAN R. COLUMBO",
+    "Creator": "Rocko Columbo",
+    "LastUpdated": "2022/07/18"
+},
+50999: {
+    "IncidentID": 50999,
+    "Title": "Padraig Adhern - Public Intoxication - 07/13/2022",
+    "Creator": "Ethan Turrow",
+    "LastUpdated": "2022/07/18"
+},
+51001: {
+    "IncidentID": 51001,
+    "Title": "Scarlett Skye - Felony Possession with intent to Distrib #51001",
+    "Creator": "Lea Nova",
+    "LastUpdated": "2022/07/18"
+},
+51002: {
+    "IncidentID": 51002,
+    "Title": "SPEEDING/RECKLESS EVADING/VIN CAR",
+    "Creator": "Rocko Columbo",
+    "LastUpdated": "2022/07/18"
+},
+51004: {
+    "IncidentID": 51004,
+    "Title": "Suki Wright - Third degree speeding 7/13/2022",
+    "Creator": "Salem Yellow",
+    "LastUpdated": "2022/07/18"
+},
+51005: {
+    "IncidentID": 51005,
+    "Title": "Penumbra FF joyriding - 07/13 - Ingevar",
+    "Creator": "Ingevar Falk",
+    "LastUpdated": "2022/07/18"
+},
+51006: {
+    "IncidentID": 51006,
+    "Title": "Max Brown | Unauthorised Parking",
+    "Creator": "Ernest Kaminski",
+    "LastUpdated": "2022/07/18"
+},
+51007: {
+    "IncidentID": 51007,
+    "Title": "Sticky Memz Green | Unauthorized Parking",
+    "Creator": "Ernest Kaminski",
+    "LastUpdated": "2022/07/18"
+},
+51008: {
+    "IncidentID": 51008,
+    "Title": "Claire Seducer - Sale of Guns - 7/13/22",
+    "Creator": "Booga Ooga",
+    "LastUpdated": "2022/07/18"
+},
+51009: {
+    "IncidentID": 51009,
+    "Title": "Mt Chilliad Grow up | 05/13/22",
+    "Creator": "Louise Campbell",
+    "LastUpdated": "2022/07/18"
+},
+51011: {
+    "IncidentID": 51011,
+    "Title": "Pact Nicely | Reckless Driving",
+    "Creator": "Ernest Kaminski",
+    "LastUpdated": "2022/07/18"
+},
+51013: {
+    "IncidentID": 51013,
+    "Title": "Roland Nelson | 7/13/2022 | AMGE",
+    "Creator": "Alex Suarez",
+    "LastUpdated": "2022/07/18"
+},
+51014: {
+    "IncidentID": 51014,
+    "Title": "Royal Mafia Don't Want Ticket [0IS] - 07/13/2022",
+    "Creator": "",
+    "LastUpdated": "2022/07/18"
+},
+51018: {
+    "IncidentID": 51018,
+    "Title": "Jamie Roc - Reckless Evading",
+    "Creator": "Mike Bayo",
+    "LastUpdated": "2022/07/18"
+},
+51019: {
+    "IncidentID": 51019,
+    "Title": "Janette Styles Negligent driving",
+    "Creator": "Vingle Dan",
+    "LastUpdated": "2022/07/18"
+},
+51021: {
+    "IncidentID": 51021,
+    "Title": "Walden Dinker | Burglary",
+    "Creator": "Ernest Kaminski",
+    "LastUpdated": "2022/07/18"
+},
+51022: {
+    "IncidentID": 51022,
+    "Title": "Bayo OIS - 7/13/2022",
+    "Creator": "Dan Faily",
+    "LastUpdated": "2022/07/18"
+},
+51023: {
+    "IncidentID": 51023,
+    "Title": "B Boost bozo's - 7/13/2022",
+    "Creator": "Claire Everly",
+    "LastUpdated": "2022/07/18"
+},
+51024: {
+    "IncidentID": 51024,
+    "Title": "Vagos 37a-7/13/2022",
+    "Creator": "Dan Faily",
+    "Criminals": {
+        "1095": {
+            "StateID": 1095,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Attempted Murder of a Government Employee",
+                    "Type": "Accomplice",
+                    "Count": 8
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 2]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Reckless Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "191",
+            "Parole": "206",
+            "Fine": 51025.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "PBSO Report\n\n2022-07-13 21:21:58 UTC\nReporting Officer\n\n@385 Sr. Deputy Dan Faily\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:\n\n535 Deputy Klaus Statement:\nDeputy Klaus was at viceroy medical with Snr Deputy Hayes collecting\nstatement from Deputy Odessa about a different incident. As soon as\nDeputy Klaus was done writing the statement. 13A went off which means\nofficer down (emergency). Klaus and Hayes responded to the emergency\ncall and upon arriving at the scene saw officers being shot from the Rich-\nmen hotel roof. Klaus took cover behind concrete barrels but\nunfortunately, bullets penetrated the concrete and hit Klaus in his left\n\narm and incapacitated him.",
+    "LastUpdated": "2022/07/18"
+},
+51025: {
+    "IncidentID": 51025,
+    "Title": "Street Racer Attempts to Evade | 7/13/2022",
+    "Creator": "Alex Suarez",
+    "LastUpdated": "2022/07/18"
+},
+51028: {
+    "IncidentID": 51028,
+    "Title": "Mike and Co. Blows Up Cops with a Grenade",
+    "Creator": "Domenic Toretti",
+    "LastUpdated": "2022/07/18"
+},
+51030: {
+    "IncidentID": 51030,
+    "Title": "Quimbley Hayabusa | Speeding | 7/13/22",
+    "Creator": "John Sheppard",
+    "LastUpdated": "2022/07/18"
+},
+51031: {
+    "IncidentID": 51031,
+    "Title": "Larry Yoinks Interceptor | 7/13/2022",
+    "Creator": "Alex Suarez",
+    "Criminals": {
+        "24990": {
+            "StateID": 24990,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Resisting Arrest",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Evading",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Grand Theft Auto",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Criminal Possession of a Firearm [Class 1]",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "145",
+            "Parole": "80",
+            "Fine": 3850.0,
+            "PleadedGuilty": true,
+            "Processed": true
+        }
+    },
+    "IsComplex": true,
+    "Description": "LSPD Report\n\n2022-07-13 22:51:44 UTC\nReporting Officer\n\n@465 Sr. Officer Alex Suarez\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:\n\nLarry Also charged for hot gun. Reference report 50731",
+    "LastUpdated": "2022/07/18"
+},
+51033: {
+    "IncidentID": 51033,
+    "Title": "Mikel Frost Trespasses | 07/13/2022",
+    "Creator": "Sam Baas",
+    "LastUpdated": "2022/07/18"
+},
+51037: {
+    "IncidentID": 51037,
+    "Title": "Aziz | Evades Police | 07/13/2022",
+    "Creator": "Aspen Gray",
+    "LastUpdated": "2022/07/18"
+},
+51038: {
+    "IncidentID": 51038,
+    "Title": "Harmony Bank Robbery | 07/13/2022",
+    "Creator": "A Brick James",
+    "Criminals": {
+        "1239": {
+            "StateID": 1239,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Robbery of a Financial Institution",
+                    "Type": "Default",
+                    "Count": 1
+                },
+                {
+                    "Name": "Possession of Contraband in the Third Degree",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "67",
+            "Parole": "134",
+            "Fine": 11100.0,
+            "PleadedGuilty": false,
+            "Processed": false
+        },
+        "11870": {
+            "StateID": 11870,
+            "IsWarrant": false,
+            "Charges": [
+                {
+                    "Name": "Robbery of a Financial Institution",
+                    "Type": "Default",
+                    "Count": 1
+                }
+            ],
+            "Time": "60",
+            "Parole": "120",
+            "Fine": 10500.0,
+            "PleadedGuilty": false,
+            "Processed": false
+        }
+    },
+    "IsComplex": true,
+    "Description": "SDSO Report\n\n2022-07-13 23:26:44 UTC\nReporting Officer\n\n@925 Deputy Brick James\nAssisting Officer/s:\nSuspect/s:\n\nVictim/s:\n\nWitnesses:\n\nLocation:\n\nDebrief:\n\n@450 Officer Booba\n\nOfficer Booba responded to a bank robbery at the Fleeca across from\nHarmony Repairs. The robbers left in a grey bison with a trailer attached,\nthey feld north up Chilliad where they tried multiple times to climb the\n\nmountain.",
+    "LastUpdated": "2022/07/18"
+},
+51039: {
+    "IncidentID": 51039,
+    "Title": "\u00bb Craig Munson | 7/13/2022",
+    "Creator": "Alex Suarez",
+    "LastUpdated": "2022/07/18"
+},
+56858: {
+    "IncidentID": 56858,
+    "Title": "Sean Murphy - Reckless Evading - 12/7/2022",
+    "Creator": "Aleksandr November",
+    "LastUpdated": "2022/07/18"
+},
+6818: {
+    "IncidentID": 6818,
+    "Title": "Klaus Schmidt - Joyriding / Third Degree Speeding | 20/04/2021",
+    "Creator": "Darrel McCormik",
+    "LastUpdated": "2022/07/18"
 },
 
 }
@@ -70539,7 +75818,7 @@ CHARGES = {
     "Name": "Criminal Possession of a Firearm [Class 3]"
 }, 
 "Possession of Explosives": {
-    "Type": "Misdemeanor",
+    "Type": "Felony",
     "Group": 7,
     "Default": {
         "Time": 45,
@@ -71029,7 +76308,7 @@ CHARGES = {
     "Name": "Reckless Driving"
 }, 
 "Operating a Motor Vehicle on a Suspended or Revoked License": {
-    "Type": "Misdemeanor",
+    "Type": "Felony",
     "Group": 8,
     "Default": {
         "Time": 14,
@@ -71068,11 +76347,9 @@ CHARGES = {
     },
     "Name": "Felony Misuse of a High-Performance Rental Vehicle"
 }, 
-"Possession of Stolen Goods": {
-    "Name": "Possession of Stolen Goods"
-}, 
 "Hunting in an Unregulated Area": {
     "Type": "Misdemeanor",
+    "Group": 9,
     "Default": {
         "Time": 0,
         "Fine": 550,
@@ -71080,8 +76357,69 @@ CHARGES = {
     },
     "Name": "Hunting in an Unregulated Area"
 }, 
+"Misdemeanor Animal Cruelty": {
+    "Type": "Misdemeanor",
+    "Group": 9,
+    "Default": {
+        "Time": 7,
+        "Fine": 675,
+        "Points": 0
+    },
+    "Accomplice": {
+        "Time": 7,
+        "Fine": 1975,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 6,
+        "Fine": 420,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Animal Cruelty"
+}, 
+"Misdemeanor Possession of a Gill Net": {
+    "Type": "Misdemeanor",
+    "Group": 9,
+    "Default": {
+        "Time": 7,
+        "Fine": 600,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Possession of a Gill Net"
+}, 
+"Hunting Without a License": {
+    "Type": "Misdemeanor",
+    "Group": 9,
+    "Default": {
+        "Time": 10,
+        "Fine": 800,
+        "Points": 0
+    },
+    "Name": "Hunting Without a License"
+}, 
+"Fishing Without a License": {
+    "Type": "Misdemeanor",
+    "Group": 9,
+    "Default": {
+        "Time": 10,
+        "Fine": 800,
+        "Points": 0
+    },
+    "Name": "Fishing Without a License"
+}, 
+"Misdemeanor Possession of Illegal Fishing Hooks": {
+    "Type": "Felony",
+    "Group": 9,
+    "Default": {
+        "Time": 7,
+        "Fine": 650,
+        "Points": 0
+    },
+    "Name": "Misdemeanor Possession of Illegal Fishing Hooks"
+}, 
 "Unlawful Taking of Protected Fish or Wildlife": {
     "Type": "Felony",
+    "Group": 9,
     "Default": {
         "Time": 18,
         "Fine": 1700,
@@ -71099,29 +76437,39 @@ CHARGES = {
     },
     "Name": "Unlawful Taking of Protected Fish or Wildlife"
 }, 
-"Hunting/Fishing without a license": {
-    "Name": "Hunting/Fishing without a license"
-}, 
-"Hunting Without a License": {
-    "Type": "Misdemeanor",
-    "Default": {
-        "Time": 10,
-        "Fine": 800,
-        "Points": 0
-    },
-    "Name": "Hunting Without a License"
-}, 
-"Misdemeanor Possession of Illegal Fishing Hooks": {
+"Felony Animal Cruelty": {
     "Type": "Felony",
+    "Group": 9,
     "Default": {
-        "Time": 7,
-        "Fine": 650,
+        "Time": 18,
+        "Fine": 2025,
         "Points": 0
     },
-    "Name": "Misdemeanor Possession of Illegal Fishing Hooks"
+    "Accomplice": {
+        "Time": 18,
+        "Fine": 2025,
+        "Points": 0
+    },
+    "Accessory": {
+        "Time": 15,
+        "Fine": 1650,
+        "Points": 0
+    },
+    "Name": "Felony Animal Cruelty"
+}, 
+"Criminal Use of a Gill Net": {
+    "Type": "Felony",
+    "Group": 9,
+    "Default": {
+        "Time": 18,
+        "Fine": 1700,
+        "Points": 0
+    },
+    "Name": "Criminal Use of a Gill Net"
 }, 
 "Criminal Use of Illegal Fishing Hooks": {
     "Type": "Felony",
+    "Group": 9,
     "Default": {
         "Time": 18,
         "Fine": 1700,
@@ -71129,146 +76477,1299 @@ CHARGES = {
     },
     "Name": "Criminal Use of Illegal Fishing Hooks"
 }, 
-"Felony Animal Cruelty": {
-    "Name": "Felony Animal Cruelty"
+"Possession of Stolen Goods": {
+    "Name": "Possession of Stolen Goods"
 }, 
-"Misdemeanor Animal Cruelty": {
-    "Name": "Misdemeanor Animal Cruelty"
+"Hunting/Fishing without a license": {
+    "Name": "Hunting/Fishing without a license"
 }, 
 "Criminal Possession of a Beanbag Shotgun": {
     "Name": "Criminal Possession of a Beanbag Shotgun"
 }, 
+"Animal Cruelty": {
+    "Name": "Animal Cruelty"
+}, 
 
 }
 METRICS = {
-framesCollected: 100635,
-profilesOnRecord: 781,
-propertiesOnRecord: 472,
-businessesOnRecord: 424,
-incidentsOnRecord: 262,
-averageKeysPerProperty: 3.218220338983051,
-averageEmployeesPerBusiness: 5.488207547169812,
-priorTypes: 180,
-totalPriors: 3055,
-averagePriorsPerProfile: 8.855072463768115,
+framesCollected: 107462,
+profilesOnRecord: 807,
+propertiesOnRecord: 484,
+businessesOnRecord: 432,
+incidentsOnRecord: 457,
+averageKeysPerProperty: 3.2334710743801653,
+averageEmployeesPerBusiness: 5.574074074074074,
+priorTypes: 184,
+totalPriors: 3191,
+averagePriorsPerProfile: 8.577956989247312,
 
 }
 RECENT_UPDATES = [
-1023,
-18543,
-21535,
-30053,
-37239,
-2554,
-1055,
-1396,
-20170,
-36696,
-1573,
-3619,
-34755,
-31856,
-35358,
-9156,
-2603,
-6876,
-32633,
-17711,
-37095,
-15066,
-34563,
-14179,
-35822,
-36031,
-4606,
-11140,
-1718,
-9394,
-36626,
-17855,
-3946,
-25472,
-27274,
-36682,
-10223,
-28576,
-3655,
-3066,
-2375,
-15503,
-37313,
-34033,
-35640,
-6382,
-1613,
-25891,
-34188,
+16457,
+15324,
+22109,
+27833,
+32405,
 35265,
 34722,
-35665,
-15397,
-3527,
-1481,
-1079,
-10278,
-2251,
-34249,
-4207,
-13643,
-1216,
-1090,
-28186,
-4838,
-1872,
-7497,
-3803,
-1506,
-33525,
-21531,
-1251,
-23835,
-30888,
-33449,
-35285,
-12643,
-35844,
-10724,
-37138,
-26199,
-9711,
-35833,
-7945,
-37840,
-27930,
-1591,
-2415,
-1112,
-1380,
-15284,
-1098,
-3503,
-7567,
-7939,
-17244,
-2333,
-36924,
-1674,
-30843,
-19005,
-8593,
-28427,
-34491,
-30726,
-17052,
-18269,
-1270,
-17779,
-6235,
+27505,
+6681,
+22029,
 36722,
-13202,
-11930,
-20182,
+1043,
+19758,
+35381,
+1613,
+4183,
+1591,
+27095,
+16990,
+1263,
+1112,
+14740,
+27619,
+5019,
+1437,
+14554,
+35844,
+36541,
+36974,
+3116,
+26474,
+16624,
+28481,
+10752,
+26140,
+30448,
+13847,
+3694,
+23310,
+35409,
+32969,
+6220,
+28343,
+13567,
+23269,
+36774,
 6592,
-31999,
+37030,
+26124,
+19646,
+37186,
+14179,
+26783,
+2333,
+1715,
+35292,
+33306,
+1460,
+9394,
 
 ]
+MAP = {
+	"Areas": {
+		"Little Seoul Compound": {
+			"Name": "Little Seoul Compound",
+			"Points": [
+				[
+						1881,
+						2768
+				],
+				[
+						1894,
+						2768
+				],
+				[
+						1894,
+						2783
+				],
+				[
+						1880,
+						2783
+				]
+			]
+		},
+		"Lost Compound": {
+			"Name": "Lost Compound",
+			"Points": [
+				[
+						1974,
+						2085
+				],
+				[
+						1987,
+						2064
+				],
+				[
+						2004,
+						2060
+				],
+				[
+						2020,
+						2072
+				],
+				[
+						2021,
+						2088
+				],
+				[
+						2014,
+						2098
+				],
+				[
+						2001,
+						2091
+				],
+				[
+						1985,
+						2089
+				]
+			]
+		}
+	},
+    "Streets": {
+        "Forum Drive": {
+            "Name": "Forum Drive",
+            "Points": [
+                [
+                    1973.8,
+                    2903.4
+                ],
+                [
+                    1966.2,
+                    2894.6
+                ],
+                [
+                    1966.6,
+                    2882.8
+                ],
+                [
+                    1983.4,
+                    2862.2
+                ],
+                [
+                    1994.6,
+                    2861.2
+                ],
+                [
+                    2002.6,
+                    2867.2
+                ]
+            ]
+        },
+        "Grove Street": {
+            "Name": "Grove Street",
+            "Points": [
+                [
+                    1977,
+                    2905
+                ],
+                [
+                    2010,
+                    2935
+                ]
+            ]
+        },
+        "South Mo Milton Drive": {
+            "Name": "South Mo Milton Drive",
+            "Points": [
+                [
+                    1892,
+                    2597
+                ],
+                [
+                    1871,
+                    2596
+                ],
+                [
+                    1866,
+                    2594
+                ],
+                [
+                    1864,
+                    2590
+                ],
+                [
+                    1863,
+                    2569
+                ],
+                [
+                    1861,
+                    2560
+                ],
+                [
+                    1856,
+                    2554
+                ],
+                [
+                    1848,
+                    2550
+                ],
+                [
+                    1839,
+                    2548
+                ],
+                [
+                    1832,
+                    2549
+                ],
+                [
+                    1824,
+                    2553
+                ],
+                [
+                    1816,
+                    2555
+                ],
+                [
+                    1807,
+                    2557
+                ],
+                [
+                    1804,
+                    2560
+                ],
+                [
+                    1804,
+                    2568
+                ]
+            ]
+        },
+        "Bay City Avenue": {
+            "Name": "Bay City Avenue",
+            "Points": [
+                [
+                    1839,
+                    2889
+                ],
+                [
+                    1841,
+                    2883
+                ],
+                [
+                    1838,
+                    2876
+                ],
+                [
+                    1818,
+                    2844
+                ],
+                [
+                    1812,
+                    2829
+                ],
+                [
+                    1809,
+                    2815
+                ],
+                [
+                    1798,
+                    2778
+                ],
+                [
+                    1792,
+                    2768
+                ],
+                [
+                    1735,
+                    2722
+                ],
+                [
+                    1729,
+                    2716
+                ],
+                [
+                    1727,
+                    2711
+                ],
+                [
+                    1728,
+                    2705
+                ],
+                [
+                    1735,
+                    2697
+                ]
+            ]
+        },
+        "Bridge Street": {
+            "Name": "Bridge Street",
+            "Points": [
+                [
+                    2089,
+                    2651
+                ],
+                [
+                    2096,
+                    2656
+                ],
+                [
+                    2154,
+                    2692
+                ],
+                [
+                    2157,
+                    2696
+                ],
+                [
+                    2158,
+                    2700
+                ],
+                [
+                    2156,
+                    2715
+                ]
+            ]
+        },
+        "Ineseno Road": {
+            "Name": "Ineseno Road",
+            "Points": [
+                [
+                    1531,
+                    2605
+                ],
+                [
+                    1526,
+                    2604
+                ],
+                [
+                    1524,
+                    2600
+                ],
+                [
+                    1524,
+                    2595
+                ],
+                [
+                    1526,
+                    2588
+                ],
+                [
+                    1530,
+                    2577
+                ],
+                [
+                    1534,
+                    2567
+                ],
+                [
+                    1535,
+                    2559
+                ],
+                [
+                    1535,
+                    2551
+                ],
+                [
+                    1532,
+                    2544
+                ],
+                [
+                    1527,
+                    2536
+                ],
+                [
+                    1524,
+                    2532
+                ],
+                [
+                    1524,
+                    2528
+                ],
+                [
+                    1526,
+                    2525
+                ]
+            ]
+        },
+        "Steele Way": {
+            "Name": "Steele Way",
+            "Points": [
+                [
+                    1844,
+                    2602
+                ],
+                [
+                    1841,
+                    2609
+                ],
+                [
+                    1842,
+                    2612
+                ],
+                [
+                    1846,
+                    2617
+                ],
+                [
+                    1851,
+                    2620
+                ]
+            ]
+        },
+        "Roy Lowenstein Boulevard": {
+            "Name": "Roy Lowenstein Boulevard",
+            "Points": [
+                [
+                    2016,
+                    2947
+                ],
+                [
+                    2017,
+                    2942
+                ],
+                [
+                    2073,
+                    2874
+                ]
+            ]
+        },
+        "Carson Avenue": {
+            "Name": "Carson Avenue",
+            "Points": [
+                [
+                    1960,
+                    2858
+                ],
+                [
+                    2046,
+                    2931
+                ],
+                [
+                    2066,
+                    2951
+                ]
+            ]
+        },
+        "Jamestown Street": {
+            "Name": "Jamestown Street",
+            "Points": [
+                [
+                    2030,
+                    2953
+                ],
+                [
+                    2047,
+                    2933
+                ],
+                [
+                    2069,
+                    2912
+                ],
+                [
+                    2068,
+                    2907
+                ],
+                [
+                    2072,
+                    2898
+                ],
+                [
+                    2076,
+                    2893
+                ],
+                [
+                    2083,
+                    2890
+                ]
+            ]
+        },
+        "Marina Drive": {
+            "Name": "Marina Drive",
+            "Points": [
+                [
+                    2306,
+                    2074
+                ],
+                [
+                    2291,
+                    2048
+                ],
+                [
+                    2285,
+                    2042
+                ],
+                [
+                    2278,
+                    2040
+                ],
+                [
+                    2265,
+                    2042
+                ],
+                [
+                    2255,
+                    2046
+                ],
+                [
+                    2244,
+                    2055
+                ],
+                [
+                    2229,
+                    2068
+                ],
+                [
+                    2217,
+                    2076
+                ],
+                [
+                    2189,
+                    2086
+                ],
+                [
+                    2174,
+                    2089
+                ],
+                [
+                    2134,
+                    2089
+                ],
+                [
+                    2119,
+                    2089
+                ],
+                [
+                    2104,
+                    2095
+                ],
+                [
+                    2083,
+                    2097
+                ],
+                [
+                    2063,
+                    2095
+                ],
+                [
+                    2048,
+                    2093
+                ],
+                [
+                    2044,
+                    2099
+                ]
+            ]
+        },
+        "Procopio Drive": {
+            "Name": "Procopio Drive",
+            "Points": [
+                [
+                    2014,
+                    1647
+                ],
+                [
+                    1999,
+                    1632
+                ],
+                [
+                    1994,
+                    1632
+                ],
+                [
+                    1972,
+                    1650
+                ],
+                [
+                    1967,
+                    1657
+                ],
+                [
+                    1960,
+                    1666
+                ],
+                [
+                    1950,
+                    1672
+                ],
+                [
+                    1937,
+                    1684
+                ],
+                [
+                    1932,
+                    1687
+                ],
+                [
+                    1931,
+                    1700
+                ],
+                [
+                    1936,
+                    1704
+                ]
+            ]
+        },
+        "Strawberry Avenue": {
+            "Name": "Strawberry Avenue",
+            "Points": [
+                [
+                    1971,
+                    2906
+                ],
+                [
+                    2017,
+                    2850
+                ],
+                [
+                    2027,
+                    2837
+                ],
+                [
+                    2026,
+                    2811
+                ],
+                [
+                    2027,
+                    2797
+                ],
+                [
+                    2048,
+                    2740
+                ]
+            ]
+        },
+        "Davis Avenue": {
+            "Name": "Davis Avenue",
+            "Points": [
+                [
+                    1883,
+                    2966
+                ],
+                [
+                    1929,
+                    2921
+                ],
+                [
+                    1939,
+                    2916
+                ],
+                [
+                    1951,
+                    2917
+                ],
+                [
+                    1973,
+                    2905
+                ],
+                [
+                    2000,
+                    2893
+                ],
+                [
+                    2022,
+                    2881
+                ],
+                [
+                    2062,
+                    2857
+                ]
+            ]
+        },
+        "Brogue Avenue": {
+            "Name": "Brogue Avenue",
+            "Points": [
+                [
+                    2003,
+                    2928
+                ],
+                [
+                    2021,
+                    2905
+                ],
+                [
+                    2027,
+                    2903
+                ],
+                [
+                    2035,
+                    2893
+                ]
+            ]
+        },
+        "Covenant Avenue": {
+            "Name": "Covenant Avenue",
+            "Points": [
+                [
+                    2008,
+                    2921
+                ],
+                [
+                    2026,
+                    2930
+                ]
+            ]
+        },
+        "Little Bighorn Avenue": {
+            "Name": "Little Bighorn Avenue",
+            "Points": [
+                [
+                    2052,
+                    2936
+                ],
+                [
+                    2071,
+                    2928
+                ],
+                [
+                    2079,
+                    2923
+                ],
+                [
+                    2083,
+                    2918
+                ],
+                [
+                    2085,
+                    2882
+                ],
+                [
+                    2075,
+                    2872
+                ],
+                [
+                    2073,
+                    2867
+                ],
+                [
+                    2075,
+                    2846
+                ],
+                [
+                    2070,
+                    2837
+                ],
+                [
+                    2070,
+                    2743
+                ]
+            ]
+        },
+        "Innocence Boulevard": {
+            "Name": "Innocence Boulevard",
+            "Points": [
+                [
+                    1919,
+                    2820
+                ],
+                [
+                    1921,
+                    2827
+                ],
+                [
+                    1914,
+                    2842
+                ],
+                [
+                    1916,
+                    2850
+                ],
+                [
+                    1920,
+                    2854
+                ],
+                [
+                    1927,
+                    2856
+                ],
+                [
+                    1959,
+                    2856
+                ],
+                [
+                    1977,
+                    2846
+                ],
+                [
+                    2007,
+                    2846
+                ],
+                [
+                    2030,
+                    2859
+                ],
+                [
+                    2080,
+                    2900
+                ],
+                [
+                    2087,
+                    2902
+                ],
+                [
+                    2148,
+                    2907
+                ],
+                [
+                    2180,
+                    2895
+                ],
+                [
+                    2195,
+                    2885
+                ]
+            ]
+        },
+        "Macdonald Street": {
+            "Name": "Macdonald Street",
+            "Points": [
+                [
+                    2003,
+                    2868
+                ],
+                [
+                    2019,
+                    2881
+                ],
+                [
+                    2023,
+                    2882
+                ],
+                [
+                    2067,
+                    2919
+                ],
+                [
+                    2071,
+                    2928
+                ]
+            ]
+        },
+        "El Rancho Boulevard": {
+            "Name": "El Rancho Boulevard",
+            "Points": [
+                [
+                    2068,
+                    2951
+                ],
+                [
+                    2076,
+                    2950
+                ],
+                [
+                    2135,
+                    2955
+                ],
+                [
+                    2155,
+                    2955
+                ],
+                [
+                    2173,
+                    2954
+                ],
+                [
+                    2198,
+                    2945
+                ],
+                [
+                    2207,
+                    2936
+                ],
+                [
+                    2210,
+                    2925
+                ],
+                [
+                    2209,
+                    2912
+                ],
+                [
+                    2207,
+                    2904
+                ],
+                [
+                    2204,
+                    2895
+                ],
+                [
+                    2191,
+                    2877
+                ],
+                [
+                    2181,
+                    2849
+                ],
+                [
+                    2182,
+                    2835
+                ],
+                [
+                    2182,
+                    2822
+                ],
+                [
+                    2177,
+                    2809
+                ],
+                [
+                    2171,
+                    2799
+                ],
+                [
+                    2169,
+                    2783
+                ]
+            ]
+        },
+        "Capital Boulevard": {
+            "Name": "Capital Boulevard",
+            "Points": [
+                [
+                    2027,
+                    2837
+                ],
+                [
+                    2041,
+                    2837
+                ],
+                [
+                    2064,
+                    2857
+                ],
+                [
+                    2183,
+                    2857
+                ]
+            ]
+        },
+        "Crusade Road": {
+            "Name": "Crusade Road",
+            "Points": [
+                [
+                    2030,
+                    2859
+                ],
+                [
+                    2053,
+                    2831
+                ],
+                [
+                    2070,
+                    2831
+                ]
+            ]
+        },
+        "Popular Street": {
+            "Name": "Popular Street",
+            "Points": [
+                [
+                    2065,
+                    2687
+                ],
+                [
+                    2091,
+                    2699
+                ],
+                [
+                    2111,
+                    2715
+                ],
+                [
+                    2111,
+                    2764
+                ],
+                [
+                    2112,
+                    2793
+                ],
+                [
+                    2115,
+                    2823
+                ],
+                [
+                    2115,
+                    2859
+                ],
+                [
+                    2122,
+                    2880
+                ],
+                [
+                    2119,
+                    2908
+                ],
+                [
+                    2111,
+                    2949
+                ],
+                [
+                    2106,
+                    3008
+                ]
+            ]
+        },
+        "Vespucci Boulevard": {
+            "Name": "Vespucci Boulevard",
+            "Points": [
+                [
+                    2169,
+                    2783
+                ],
+                [
+                    2144,
+                    2791
+                ],
+                [
+                    2112,
+                    2792
+                ],
+                [
+                    2054,
+                    2798
+                ],
+                [
+                    2027,
+                    2798
+                ],
+                [
+                    1989,
+                    2783
+                ],
+                [
+                    1949,
+                    2769
+                ],
+                [
+                    1933,
+                    2767
+                ],
+                [
+                    1853,
+                    2766
+                ],
+                [
+                    1842,
+                    2764
+                ],
+                [
+                    1835,
+                    2774
+                ],
+                [
+                    1809,
+                    2788
+                ],
+                [
+                    1788,
+                    2790
+                ],
+                [
+                    1780,
+                    2796
+                ]
+            ]
+        }
+    },
+	"Locations": {
+		"No3": {
+			"Icon": "apartment",
+			"Coords": [ 1955,2785 ]
+		},
+		"Prosperity": {
+			"Icon": "apartment",
+			"Coords": [ 1783,2726 ]
+		},
+		"Pill Box Swiss St": {
+			"Icon": "apartment",
+			"Coords": [ 2015,2727 ]
+		},
+		"Burger Shot": {
+			"Icon": "burger",
+			"Coords": [ 1813,2774 ]
+		},
+		"MRPD": {
+			"Icon": "police",
+			"Coords": [ 2058,2791 ]
+		},
+		"Davis Sheriff's Station": {
+			"Icon": "police",
+			"Coords": [ 2049,2879 ]
+		},
+		"Vespucci Police Station (Bob Smith)": {
+			"Icon": "police",
+			"Coords": [ 1821,2767 ]
+		},
+		"La Mesa (Trooper PD)": {
+			"Icon": "police",
+			"Coords": [ 2117,2837 ]
+		},
+		"Ranger Station": {
+			"Icon": "police",
+			"Coords": [ 2051,2519 ]
+		},
+		"Sandy Shores Sheriff Station": {
+			"Icon": "police",
+			"Coords": [ 2273,2080 ]
+		},
+		"Paleto Bay Sheriff's Office": {
+			"Icon": "police",
+			"Coords": [ 1925,1727 ]
+		},
+		"Pillbox Hill Medical Center": {
+			"Icon": "hospital",
+			"Coords": [ 2038,2729 ]
+		},
+		"Vice Roy Medical Center": {
+			"Icon": "hospital",
+			"Coords": [ 1867,2823 ]
+		},
+		"The Pacific Standard Bank (Vault)": {
+			"Icon": "bank",
+			"Coords": [ 2028,2605 ]
+		},
+		"The Pacific Standard Bank (Vault)": {
+			"Icon": "bank",
+			"Coords": [ 2028,2605 ]
+		},
+		"Maze Bank Bay City Avenue Branch": {
+			"Icon": "bank",
+			"Coords": [ 1773,2748 ]
+		},
+		"UwU Cafe": {
+			"Icon": "cat",
+			"Coords": [ 1905,2803 ]
+		},
+		"Maldini's Pizzeria": {
+			"Icon": "pizza",
+			"Coords": [ 1906,2773 ]
+		},
+		"Roosters Rest": {
+			"Icon": "bowl",
+			"Coords": [ 1972,2596 ]
+		},
+		"Sai Carter's Gun Emporium": {
+			"Icon": "gun",
+			"Coords": [ 2170,2838 ]
+		},
+		"Mirror Park Blvd 7": {
+			"Street": "Mirror Park Boulevard"
+		},
+		"Procopio Drive 2": {
+			"Street": "Procopio Drive"
+		},
+		"Bridge Street 13": {
+			"Street": "Bridge Street"
+		},
+		"South Milton Drive 3": {
+			"Street": "South Mo Milton Drive"
+		},
+		"Inseno Rd 5": {
+			"Street": "Ineseno Road"
+		},
+		"Roy Lowenstein Blvd 18": {
+			"Street": "Roy Lowenstein Boulevard"
+		},
+		"Carson Avenue 1/Apt3": {
+			"Street": "Carson Avenue"
+		},
+		"Carson Avenue 1/Apt2": {
+			"Street": "Carson Avenue"
+		},
+		"Marina Drive 1": {
+			"Street": "Marina Drive"
+		},
+		"El Rancho Blvd 3": {
+			"Street": "El Rancho Boulevard"
+		},
+		"El Rancho Blvd 1": {
+			"Street": "El Rancho Boulevard"
+		},
+		"El Rancho Blvd 9": {
+			"Street": "El Rancho Boulevard"
+		},
+		"El Rancho Blvd 2": {
+			"Street": "El Rancho Boulevard"
+		},
+		"El Rancho Blvd 7": {
+			"Street": "El Rancho Boulevard"
+		},
+		"El Rancho Blvd 8": {
+			"Street": "El Rancho Boulevard"
+		},
+		"El Rancho Blvd Olympic Fwy 2": {
+			"Street": "El Rancho Boulevard"
+		},
+		"Forum Drive 7": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 12/Apt11": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 12/Apt1": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 3/Apt19": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 12/Apt8": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 4": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 12/Apt12": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 11/Apt20": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 2/Apt7": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 12/Apt4": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 2/Apt4": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 8": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 5": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 3/Apt7": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 3/Apt1": {
+			"Street": "Forum Drive"
+		},
+		"Forum Drive 2/Apt9": {
+			"Street": "Forum Drive"
+		},
+		"Little Seoul Apartment 8": {
+			"Area": "Little Seoul Compound"
+		},
+		"Little Seoul Apartment 4": {
+			"Area": "Little Seoul Compound"
+		},
+		"Little Seoul Apartment 12": {
+			"Area": "Little Seoul Compound"
+		},
+		"Little Seoul Apartment 10": {
+			"Area": "Little Seoul Compound"
+		},
+		"Little Seoul Apartment 3": {
+			"Area": "Little Seoul Compound"
+		},
+		"Little Seoul Apartment 9": {
+			"Area": "Little Seoul Compound"
+		},
+		"Little Seoul Apartment 2": {
+			"Area": "Little Seoul Compound"
+		},
+		"Little Seoul Apartment 5": {
+			"Area": "Little Seoul Compound"
+		},
+		"Little Seoul Apartment 6": {
+			"Area": "Little Seoul Compound"
+		},
+		"Little Seoul Apartment 7": {
+			"Area": "Little Seoul Compound"
+		},
+		"Little Seoul Apartment 11": {
+			"Area": "Little Seoul Compound"
+		}
+	}
+}

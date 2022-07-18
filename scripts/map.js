@@ -1,3 +1,330 @@
+function coordAsVec(coord) {
+    return new Vector(coord[0], coord[1]);
+}
+
+class MapObject {
+    constructor(parent) {
+        this.parent = parent;
+
+        this.hovered = false;
+
+        this.selectable = false;
+        this.selected = false;
+    }
+
+    draw(ctx, center, zoom) {}
+
+    onHoverStart() {
+        this.hovered = true;
+    }
+
+    onHoverEnd() {
+        this.hovered = false;
+    }
+
+    onSelect() {
+        this.selected = true;
+    }
+
+    onDeselect() {
+        this.selected = false;
+    }
+}
+
+class StreetObject extends MapObject {
+    constructor(parent, street) {
+        super(parent);
+
+        this.street = street;
+
+        this.selectable = true;
+
+        this.color = "dimgrey";
+
+        this.textFade = 0;
+        this.textFadeTarget = 1;
+
+        this.calculateBounds();
+    }
+
+    calculateBounds() {
+        var minX = 9999;
+        var maxX = -9999;
+        var minY = 9999;
+        var maxY = -9999;
+
+        for (var point of this.street.Points) {
+            minX = Math.min(minX, point[0]);
+            maxX = Math.max(maxX, point[0]);
+            minY = Math.min(minY, point[1]);
+            maxY = Math.max(maxY, point[1]);
+        }
+
+        this.bounds = {
+            min: new Vector(minX, minY),
+            center: new Vector((minX + maxX) / 2, (minY + maxY) / 2),
+            max: new Vector(maxX, maxY),
+            area: (maxX - minX) * (maxY - minY),
+        };
+    }
+
+    inCursor(cursor) {
+        var points = this.street.Points;
+
+        var cursorVec = this.parent.getCoordFromPos(cursor);
+
+        for (let i = 1; i < points.length; i++) {
+            var lastPoint = coordAsVec(points[i - 1]);
+            var point = coordAsVec(points[i]);
+
+            var lineDir = Vector.sub(point, lastPoint);
+            var lineLength = lineDir.magnitude();
+            lineDir = lineDir.normalized();
+
+            var projectLength = Math.max(
+                Math.min(
+                    Vector.sub(cursorVec, lastPoint).dotProduct(lineDir),
+                    lineLength
+                ),
+                0
+            );
+
+            var closestPoint = Vector.add(
+                lastPoint,
+                lineDir.mult(projectLength)
+            );
+
+            if (closestPoint.distance(cursorVec) < 8) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    draw(ctx, offset, zoom) {
+        this.color = this.hovered || this.selected ? "red" : "grey";
+
+        ctx.globalAlpha = this.hovered ? 0.5 : 0.1 + this.textFade * 0.25;
+        ctx.strokeStyle = this.color;
+        ctx.lineWidth = 2 * zoom;
+
+        ctx.beginPath();
+
+        var posStart = this.parent.getPosFromCoord(
+            coordAsVec(this.street.Points[0])
+        );
+
+        ctx.moveTo(posStart.x, posStart.y);
+
+        for (let index = 1; index < this.street.Points.length; index++) {
+            const pointA = this.street.Points[index];
+
+            var pos = this.parent.getPosFromCoord(coordAsVec(pointA));
+
+            ctx.lineTo(pos.x, pos.y);
+        }
+        ctx.stroke();
+
+        // todo: this coord selection is naive since it assume each line is the same length. Maybe better in future to replace with a correct interpolation of the line
+        var textCoord = coordAsVec(
+            this.street.Points[Math.round(this.street.Points.length / 2) - 1]
+        );
+
+        var textPos = this.parent.getPosFromCoord(textCoord);
+
+        if (
+            (offset.distance(textCoord) < 60 &&
+                zoom >= 2 &&
+                this.parent.hoveredObject == null) ||
+            (this.hovered && this.parent.hoveredObject == this) ||
+            this.selected
+        ) {
+            this.textFadeTarget = 1;
+        } else {
+            this.textFadeTarget = 0;
+        }
+
+        this.textFade += (this.textFadeTarget - this.textFade) * 0.05;
+
+        ctx.save();
+
+        ctx.font = this.bounds.area ** 0.15 * 6 + "px Arial";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.strokeStyle = this.color;
+        ctx.lineWidth = 3;
+        ctx.globalAlpha = this.textFade;
+
+        var textNextPos = this.parent.getPosFromCoord(
+            coordAsVec(
+                this.street.Points[Math.round(this.street.Points.length / 2)]
+            )
+        );
+        var centerPos = Vector.add(textPos, textNextPos).mult(0.5);
+        ctx.translate(centerPos.x, centerPos.y);
+
+        ctx.strokeText(this.street.Name, 0, 0);
+
+        ctx.fillText(this.street.Name, 0, 0);
+
+        ctx.restore();
+    }
+}
+
+class LocationObject extends MapObject {
+    constructor(parent, location) {
+        super(parent);
+
+        this.location = location;
+        this.selectable = true;
+
+        this.bounds = {
+            min: coordAsVec(this.location.Coords),
+            center: coordAsVec(this.location.Coords),
+            max: coordAsVec(this.location.Coords),
+            area: 1,
+        };
+    }
+
+    inCursor(cursor) {
+        var cursorVec = this.parent.getCoordFromPos(cursor);
+
+        if (this.bounds.center.distance(cursorVec) < 5) return true;
+
+        return false;
+    }
+
+    draw(ctx, offset, zoom) {
+        ctx.globalAlpha = 1;
+        var vec = this.parent.getPosFromCoord(coordAsVec(this.location.Coords));
+
+        ctx.beginPath();
+        ctx.arc(vec.x, vec.y, 4 * zoom, 0, 2 * Math.PI, false);
+        ctx.fillStyle = this.hovered || this.selected ? "red" : "#333333";
+        ctx.fill();
+
+        if (this.location.Icon != null) {
+            var scaleFactor = 0.035 * zoom;
+            var icon = this.parent.getIcon(this.location.Icon);
+            ctx.drawImage(
+                icon,
+                vec.x - (icon.width * scaleFactor) / 2,
+                vec.y - (icon.height * scaleFactor) / 2,
+                icon.width * scaleFactor,
+                icon.height * scaleFactor
+            );
+        }
+
+        //
+        var center = this.parent.getPosFromCoord(this.bounds.center);
+
+        //
+        if (
+            (offset.distance(this.bounds.center) < 60 && zoom >= 2) ||
+            this.selected
+        ) {
+        } else {
+            return;
+        }
+
+        ctx.font = 12 + "px Arial";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.strokeStyle = this.hovered || this.selected ? "red" : "grey";
+        ctx.lineWidth = 3;
+
+        var center = this.parent.getPosFromCoord(this.bounds.center);
+
+        ctx.strokeText(this.location.Name, center.x, center.y + 5 * zoom);
+
+        ctx.fillText(this.location.Name, center.x, center.y + 5 * zoom);
+    }
+}
+
+class AreaObject extends MapObject {
+    constructor(parent, area) {
+        super(parent);
+
+        this.selectable = false;
+
+        this.area = area;
+
+        this.calculateBounds();
+    }
+
+    calculateBounds() {
+        var minX = 9999;
+        var maxX = -9999;
+        var minY = 9999;
+        var maxY = -9999;
+
+        for (var point of this.area.Points) {
+            minX = Math.min(minX, point[0]);
+            maxX = Math.max(maxX, point[0]);
+            minY = Math.min(minY, point[1]);
+            maxY = Math.max(maxY, point[1]);
+        }
+
+        this.bounds = {
+            min: new Vector(minX, minY),
+            center: new Vector((minX + maxX) / 2, (minY + maxY) / 2),
+            max: new Vector(maxX, maxY),
+            area: (maxX - minX) * (maxY - minY),
+        };
+    }
+
+    inCursor(cursor) {
+        return false;
+    }
+
+    draw(ctx, offset, zoom) {
+        ctx.globalAlpha = 0.5;
+
+        var posStart = this.parent.getPosFromCoord(
+            coordAsVec(this.area.Points[0])
+        );
+
+        ctx.moveTo(posStart.x, posStart.y);
+
+        for (let index = 1; index < this.area.Points.length; index++) {
+            const pointA = this.area.Points[index];
+
+            var pos = this.parent.getPosFromCoord(coordAsVec(pointA));
+
+            ctx.lineTo(pos.x, pos.y);
+        }
+
+        ctx.lineTo(posStart.x, posStart.y);
+
+        ctx.strokeStyle = "red";
+        ctx.fill();
+        ctx.stroke();
+
+        if (
+            (offset.distance(this.bounds.center) < 60 && zoom >= 2) ||
+            this.selected
+        ) {
+        } else {
+            return;
+        }
+
+        ctx.globalAlpha = 1;
+
+        ctx.font = 14 + "px Arial";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.strokeStyle = this.hovered || this.selected ? "red" : "grey";
+        ctx.lineWidth = 3;
+
+        var center = this.parent.getPosFromCoord(this.bounds.center);
+
+        ctx.strokeText(this.area.Name, center.x, center.y);
+
+        ctx.fillText(this.area.Name, center.x, center.y);
+    }
+}
+
 class MapProvider {
     constructor(canvasParent) {
         this.canvasParent = canvasParent;
@@ -10,10 +337,10 @@ class MapProvider {
 
         this.mapImage.onload = () => {
             // center the map based on image size
-            this.offset = {
-                x: this.mapImage.width / 2,
-                y: this.mapImage.height / 1.75,
-            };
+            this.offset = new Vector(
+                this.mapImage.width / 2,
+                this.mapImage.height / 1.75
+            );
             this.zoom = 0.5;
 
             this.draw();
@@ -21,12 +348,41 @@ class MapProvider {
 
         this.icons = {};
 
-        this.offset = { x: 0, y: 0 };
-        this.zoom = 1;
+        this.loadIcon("apartment", "images/apartment.svg");
+        this.loadIcon("police", "images/shield.svg");
+        this.loadIcon("hospital", "images/hospital.svg");
+        this.loadIcon("bank", "images/bank.svg");
+        this.loadIcon("gun", "images/gun.svg");
+        this.loadIcon("cat", "images/cat.svg");
+        this.loadIcon("burger", "images/burger.svg");
+        this.loadIcon("pizza", "images/pizza.svg");
+        this.loadIcon("bowl", "images/bowl.svg");
 
-        this.dragStart = { x: 0, y: 0 };
+        this.offset = new Vector();
+        this.zoom = 1.0;
+
+        this.dragStart = new Vector();
         this.isHolding = false;
         this.isMoving = false;
+
+        this.mapObjects = {};
+        this.selectedObject = null;
+        this.hoveredObject = null;
+
+        for (const [key, area] of Object.entries(MAP.Areas)) {
+            this.mapObjects[key] = new AreaObject(this, area);
+        }
+
+        for (const [key, street] of Object.entries(MAP.Streets)) {
+            this.mapObjects[key] = new StreetObject(this, street);
+        }
+
+        for (const [key, location] of Object.entries(MAP.Locations)) {
+            if (location.Coords != null) {
+                location["Name"] = key;
+                this.mapObjects[key] = new LocationObject(this, location);
+            }
+        }
 
         var context = this;
 
@@ -37,28 +393,32 @@ class MapProvider {
         };
 
         window.addEventListener("mousemove", function (e) {
-            if (!context.isHolding) return;
-
             var pos = context.getXY(e);
 
-            var deltaX = context.dragStart.x - pos.x;
-            var deltaY = context.dragStart.y - pos.y;
+            context.testForHover(pos);
 
-            var delta = deltaX * deltaX + deltaY * deltaY;
-            if ((delta) => 9 * 9) context.isMoving = true;
+            if (!context.isHolding) {
+                return;
+            }
+
+            var delta = Vector.sub(context.dragStart, pos);
+
+            if (delta.magnitude() > 3) context.isMoving = true;
 
             if (context.isMoving) {
-                context.offset.x += deltaX / context.zoom;
-                context.offset.y += deltaY / context.zoom;
+                context.offset.add(delta.mult(1 / context.zoom));
 
-                context.draw();
-
-                context.dragStart = { x: pos.x, y: pos.y };
+                context.dragStart.x = pos.x;
+                context.dragStart.y = pos.y;
             }
         });
 
         window.addEventListener("mouseup", function (e) {
             context.isHolding = false;
+
+            if (!context.isMoving) {
+                context.testForSelect(context.getXY(e));
+            }
         });
 
         this.canvas.addEventListener("wheel", function (e) {
@@ -69,28 +429,25 @@ class MapProvider {
             } else {
                 context.zoom *= 1.25;
 
-                context.offset.x +=
-                    (centerDelta.x - context.canvas.width / 2) /
-                    context.zoom /
-                    4;
-                context.offset.y +=
-                    (centerDelta.y - context.canvas.height / 2) /
-                    context.zoom /
-                    4;
+                context.offset.add(
+                    Vector.sub(
+                        centerDelta,
+                        new Vector(
+                            context.canvas.width / 2,
+                            context.canvas.height / 2
+                        )
+                    ).mult(1 / (context.zoom * 4))
+                );
             }
-
-            context.draw();
         });
 
         // resize callback
         new ResizeObserver(() => {
+            if (this.canvas.offsetParent === null) return;
+
             this.canvas.width = this.canvas.offsetWidth;
             this.canvas.height = this.canvas.offsetHeight;
-
-            this.draw();
         }).observe(this.canvasParent);
-
-        this.entries = [];
     }
 
     draw() {
@@ -106,45 +463,89 @@ class MapProvider {
             this.mapImage.height * this.zoom
         );
 
-        this.entries.forEach((entry) => {
-            var pos = this.getMapPosFromCoord(entry.coords);
-            entry.drawFunction(
-                ctx,
-                this.canvas.width / 2 + (-this.offset.x + pos.x) * this.zoom,
-                this.canvas.height / 2 + (-this.offset.y + pos.y) * this.zoom,
-                this.zoom
-            );
-        });
+        for (const [key, mapObject] of Object.entries(this.mapObjects)) {
+            mapObject.draw(ctx, this.offset, this.zoom);
+        }
+
+        this.animateMotion(1000 / 60);
+
+        var context = this;
+        setTimeout(function () {
+            context.draw();
+        }, 1000 / 60);
     }
 
-    updateEntries(entries) {
-        this.entries = entries;
+    testForHover(pos) {
+        var isHoveringObject = false;
+        for (const [key, mapObject] of Object.entries(this.mapObjects)) {
+            if (mapObject.inCursor(pos)) {
+                isHoveringObject = true;
+                if (this.hoveredObject == null) {
+                    mapObject.onHoverStart();
 
-        this.draw();
+                    this.hoveredObject = mapObject;
+                    break;
+                } else if (this.hoveredObject != mapObject) {
+                    this.hoveredObject.onHoverEnd();
+
+                    this.hoveredObject = null;
+                    break;
+                }
+            }
+        }
+
+        if (!isHoveringObject && this.hoveredObject != null) {
+            this.hoveredObject.onHoverEnd();
+            this.hoveredObject = null;
+        }
     }
 
-    getMapPosFromCoord(coord) {
-        var centerX = coord.x;
-        var centerY = coord.y;
+    testForSelect(pos) {
+        var somethingInCursor = false;
+        for (const [key, mapObject] of Object.entries(this.mapObjects)) {
+            if (!mapObject.selectable) continue;
 
-        // manual offsets temporary for low res image
-        return { x: centerX, y: centerY };
+            if (mapObject.inCursor(pos)) {
+                somethingInCursor = true;
+
+                this.selectObject(mapObject);
+                this.focus(mapObject);
+            }
+        }
+
+        if (!somethingInCursor && this.selectedObject != null) {
+            this.deselectObject();
+        }
+    }
+
+    getPosFromCoord(coord) {
+        return new Vector(
+            this.canvas.width / 2.0 + (-this.offset.x + coord.x) * this.zoom,
+            this.canvas.height / 2.0 + (-this.offset.y + coord.y) * this.zoom
+        );
+    }
+
+    getCoordFromPos(pos) {
+        return new Vector(
+            this.offset.x + (pos.x - this.canvas.width / 2.0) / this.zoom,
+            this.offset.y + (pos.y - this.canvas.height / 2.0) / this.zoom
+        );
     }
 
     getXY(e) {
         var rect = this.canvas.getBoundingClientRect();
-        return { x: e.clientX - rect.left, y: e.clientY - rect.top };
+        return new Vector(e.clientX - rect.left, e.clientY - rect.top);
     }
 
     animateMotion(delta) {
+        if (!this.animating) return;
+
         var deltaT = delta / 1000;
 
         this.offset.x += (this.targetOffset.x - this.offset.x) * deltaT * 4;
         this.offset.y += (this.targetOffset.y - this.offset.y) * deltaT * 4;
 
         this.zoom += (this.targetZoom - this.zoom) * deltaT * 3;
-
-        this.draw();
 
         if (
             Math.abs(this.targetOffset.x - this.offset.x) < 2 &&
@@ -154,35 +555,70 @@ class MapProvider {
             this.animating = false;
             return;
         }
-
-        var context = this;
-
-        setTimeout(function () {
-            context.animateMotion(1000 / 60);
-        }, 1000 / 60);
     }
 
-    focus(coords) {
-        this.targetOffset = coords;
-        this.targetZoom = 6;
+    selectObject(object) {
+        if (!object.selectable) return;
+        if (this.selectedObject != null) this.selectedObject.onDeselect();
 
-        if (!this.animating) {
-            this.animating = true;
-            this.animateMotion(0);
+        this.selectedObject = object;
+        object.onSelect();
+    }
+
+    deselectObject() {
+        if (this.selectedObject != null) this.selectedObject.onDeselect();
+
+        this.selectedObject = null;
+    }
+
+    focus(object) {
+        var bounds = object.bounds;
+
+        this.targetOffset = bounds.center;
+        this.targetZoom =
+            (Math.min(this.canvas.width, this.canvas.height) -
+                bounds.min.distance(bounds.max)) **
+                2 /
+            (140 * Math.min(this.canvas.width, this.canvas.height));
+
+        this.animating = true;
+    }
+
+    focusLocation(location) {
+        if (location.Name in this.mapObjects) {
+            var targetObject = this.mapObjects[location.Name];
+
+            this.selectObject(targetObject);
+            this.focus(this.mapObjects[location.Name]);
+            return;
+        }
+
+        if (location.Area in this.mapObjects) {
+            var targetObject = this.mapObjects[location.Area];
+
+            this.selectObject(targetObject);
+            this.focus(this.mapObjects[location.Area]);
+            return;
+        }
+
+        if (location.Street in this.mapObjects) {
+            var targetObject = this.mapObjects[location.Street];
+
+            this.selectObject(targetObject);
+            this.focus(this.mapObjects[location.Street]);
+        } else {
+            this.resetView();
         }
     }
 
     resetView() {
-        this.targetOffset = {
-            x: this.mapImage.width / 2,
-            y: this.mapImage.height / 1.75,
-        };
+        this.targetOffset = new Vector(
+            this.mapImage.width / 2,
+            this.mapImage.height / 1.75
+        );
         this.targetZoom = 0.5;
 
-        if (!this.animating) {
-            this.animating = true;
-            this.animateMotion(0);
-        }
+        this.animating = true;
     }
 
     loadIcon(key, imageSrc) {
