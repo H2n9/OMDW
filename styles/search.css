@@ -46,14 +46,17 @@
 }
 
 .search-content .entry {
-    height: 7vmin;
+    min-height: 7vmin;
     background-color: var(--foreground-4);
     margin-bottom: 0.5vmin;
     padding: 1vmin;
 
     transition: 0.2s;
 
-    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
 }
 
 .search-content .entry:hover {
@@ -64,7 +67,6 @@
     color: var(--font-color-1);
 
     font-size: 2vmin;
-    line-height: 80%;
 }
 
 .search-content .entry .subtitle {
@@ -72,11 +74,7 @@
 
     font-size: 1.5vmin;
 
-    vertical-align: bottom;
-
-    position: absolute;
-    bottom: 1vmin;
-    left: 2vmin;
+    margin-top: 1vmin;
 }
 
 .search-content::-webkit-scrollbar {
