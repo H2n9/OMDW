@@ -338,8 +338,8 @@ class MapProvider {
         this.mapImage.onload = () => {
             // center the map based on image size
             this.offset = new Vector(
-                this.mapImage.width / 2,
-                this.mapImage.height / 1.75
+                this.mapImage.width / 4,
+                this.mapImage.height / 3.5
             );
             this.zoom = 0.5;
 
@@ -459,8 +459,8 @@ class MapProvider {
             this.mapImage,
             this.canvas.width / 2 - this.offset.x * this.zoom,
             this.canvas.height / 2 - this.offset.y * this.zoom,
-            this.mapImage.width * this.zoom,
-            this.mapImage.height * this.zoom
+            (this.mapImage.width * this.zoom) / 2,
+            (this.mapImage.height * this.zoom) / 2
         );
 
         for (const [key, mapObject] of Object.entries(this.mapObjects)) {
@@ -613,8 +613,8 @@ class MapProvider {
 
     resetView() {
         this.targetOffset = new Vector(
-            this.mapImage.width / 2,
-            this.mapImage.height / 1.75
+            this.mapImage.width / 4,
+            this.mapImage.height / 3.5
         );
         this.targetZoom = 0.5;
 
