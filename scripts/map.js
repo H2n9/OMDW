@@ -29,38 +29,47 @@ class MapObject {
     onDeselect() {
         this.selected = false;
     }
+
+    inCursor(cursor) {}
+
+    inBounds(point) {
+        // includes 10% safe zone
+        if (
+            point.x > this.bounds.min.x * 0.9 &&
+            point.x < this.bounds.max.x * 1.1
+        ) {
+            if (
+                point.y > this.bounds.min.y * 0.9 &&
+                point.y < this.bounds.max.y * 1.1
+            ) {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }
 
-class StreetObject extends MapObject {
-    constructor(parent, street) {
-        super(parent);
-
-        this.street = street;
-
-        this.selectable = true;
-
-        this.color = "dimgrey";
-
-        this.textFade = 0;
-        this.textFadeTarget = 1;
-
-        this.calculateBounds();
+class StreetSegment {
+    constructor(parentStreet, points) {
+        this.parentStreet = parentStreet;
+        this.points = points;
     }
 
-    calculateBounds() {
+    getBounds() {
         var minX = 9999;
         var maxX = -9999;
         var minY = 9999;
         var maxY = -9999;
 
-        for (var point of this.street.Points) {
+        for (var point of this.points) {
             minX = Math.min(minX, point[0]);
             maxX = Math.max(maxX, point[0]);
             minY = Math.min(minY, point[1]);
             maxY = Math.max(maxY, point[1]);
         }
 
-        this.bounds = {
+        return {
             min: new Vector(minX, minY),
             center: new Vector((minX + maxX) / 2, (minY + maxY) / 2),
             max: new Vector(maxX, maxY),
@@ -69,9 +78,9 @@ class StreetObject extends MapObject {
     }
 
     inCursor(cursor) {
-        var points = this.street.Points;
+        var points = this.points;
 
-        var cursorVec = this.parent.getCoordFromPos(cursor);
+        var cursorVec = this.parentStreet.parent.getCoordFromPos(cursor);
 
         for (let i = 1; i < points.length; i++) {
             var lastPoint = coordAsVec(points[i - 1]);
@@ -94,12 +103,100 @@ class StreetObject extends MapObject {
                 lineDir.mult(projectLength)
             );
 
-            if (closestPoint.distance(cursorVec) < 8) {
-                return true;
+            var dist = closestPoint.distance(cursorVec);
+
+            if (dist < 6) {
+                return dist;
             }
         }
 
-        return false;
+        return null;
+    }
+
+    draw(ctx) {
+        ctx.beginPath();
+
+        var posStart = this.parentStreet.parent.getPosFromCoord(
+            coordAsVec(this.points[0])
+        );
+
+        ctx.moveTo(posStart.x, posStart.y);
+
+        for (let index = 1; index < this.points.length; index++) {
+            const pointA = this.points[index];
+
+            var pos = this.parentStreet.parent.getPosFromCoord(
+                coordAsVec(pointA)
+            );
+
+            ctx.lineTo(pos.x, pos.y);
+        }
+        ctx.stroke();
+    }
+}
+
+class StreetObject extends MapObject {
+    constructor(parent, street) {
+        super(parent);
+
+        this.street = street;
+
+        this.segments = [];
+
+        // support legacy points only streets
+        if ("Points" in this.street)
+            this.segments.push(new StreetSegment(this, this.street["Points"]));
+        else {
+            for (const segment of this.street["Segments"]) {
+                this.segments.push(new StreetSegment(this, segment));
+            }
+        }
+
+        this.selectable = true;
+
+        this.color = "dimgrey";
+
+        this.textFade = 0;
+        this.textFadeTarget = 1;
+
+        this.calculateBounds();
+    }
+
+    calculateBounds() {
+        var minX = 9999;
+        var maxX = -9999;
+        var minY = 9999;
+        var maxY = -9999;
+
+        for (const segment of this.segments) {
+            var segmentBounds = segment.getBounds();
+
+            minX = Math.min(minX, segmentBounds.min.x);
+            maxX = Math.max(maxX, segmentBounds.max.x);
+            minY = Math.min(minY, segmentBounds.min.y);
+            maxY = Math.max(maxY, segmentBounds.max.y);
+        }
+
+        this.bounds = {
+            min: new Vector(minX, minY),
+            center: new Vector((minX + maxX) / 2, (minY + maxY) / 2),
+            max: new Vector(maxX, maxY),
+            area: (maxX - minX) * (maxY - minY),
+        };
+    }
+
+    inCursor(cursor) {
+        var closestDist = null;
+        for (const segment of this.segments) {
+            var dist = segment.inCursor(cursor);
+
+            if (dist == null) continue;
+
+            if (closestDist == null) closestDist = dist;
+            else closestDist = Math.min(closestDist, dist);
+        }
+
+        return closestDist;
     }
 
     draw(ctx, offset, zoom) {
@@ -109,34 +206,13 @@ class StreetObject extends MapObject {
         ctx.strokeStyle = this.color;
         ctx.lineWidth = 2 * zoom;
 
-        ctx.beginPath();
-
-        var posStart = this.parent.getPosFromCoord(
-            coordAsVec(this.street.Points[0])
-        );
-
-        ctx.moveTo(posStart.x, posStart.y);
-
-        for (let index = 1; index < this.street.Points.length; index++) {
-            const pointA = this.street.Points[index];
-
-            var pos = this.parent.getPosFromCoord(coordAsVec(pointA));
-
-            ctx.lineTo(pos.x, pos.y);
+        for (const segment of this.segments) {
+            segment.draw(ctx);
         }
-        ctx.stroke();
 
-        // todo: this coord selection is naive since it assume each line is the same length. Maybe better in future to replace with a correct interpolation of the line
-        var textCoord = coordAsVec(
-            this.street.Points[Math.round(this.street.Points.length / 2) - 1]
-        );
-
-        var textPos = this.parent.getPosFromCoord(textCoord);
+        var textPos = this.parent.getPosFromCoord(this.bounds.center);
 
         if (
-            (offset.distance(textCoord) < 60 &&
-                zoom >= 2 &&
-                this.parent.hoveredObject == null) ||
             (this.hovered && this.parent.hoveredObject == this) ||
             this.selected
         ) {
@@ -156,13 +232,7 @@ class StreetObject extends MapObject {
         ctx.lineWidth = 3;
         ctx.globalAlpha = this.textFade;
 
-        var textNextPos = this.parent.getPosFromCoord(
-            coordAsVec(
-                this.street.Points[Math.round(this.street.Points.length / 2)]
-            )
-        );
-        var centerPos = Vector.add(textPos, textNextPos).mult(0.5);
-        ctx.translate(centerPos.x, centerPos.y);
+        ctx.translate(textPos.x, textPos.y);
 
         ctx.strokeText(this.street.Name, 0, 0);
 
@@ -180,9 +250,9 @@ class LocationObject extends MapObject {
         this.selectable = true;
 
         this.bounds = {
-            min: coordAsVec(this.location.Coords),
+            min: coordAsVec(this.location.Coords).sub(new Vector(1, 1)),
             center: coordAsVec(this.location.Coords),
-            max: coordAsVec(this.location.Coords),
+            max: coordAsVec(this.location.Coords).add(new Vector(1, 1)),
             area: 1,
         };
     }
@@ -190,9 +260,10 @@ class LocationObject extends MapObject {
     inCursor(cursor) {
         var cursorVec = this.parent.getCoordFromPos(cursor);
 
-        if (this.bounds.center.distance(cursorVec) < 5) return true;
+        var dist = this.bounds.center.distance(cursorVec);
+        if (dist < 5) return dist;
 
-        return false;
+        return null;
     }
 
     draw(ctx, offset, zoom) {
@@ -216,10 +287,6 @@ class LocationObject extends MapObject {
             );
         }
 
-        //
-        var center = this.parent.getPosFromCoord(this.bounds.center);
-
-        //
         if (
             (offset.distance(this.bounds.center) < 60 && zoom >= 2) ||
             this.selected
@@ -275,7 +342,7 @@ class AreaObject extends MapObject {
     }
 
     inCursor(cursor) {
-        return false;
+        return null;
     }
 
     draw(ctx, offset, zoom) {
@@ -326,10 +393,17 @@ class AreaObject extends MapObject {
 }
 
 class MapProvider {
+    mapImage = null;
+    loadingMapImage = false;
+
     constructor(canvasParent) {
         this.canvasParent = canvasParent;
 
         this.canvas = canvasParent.querySelector("canvas");
+
+        this.canvas.addEventListener("contextmenu", (event) =>
+            event.preventDefault()
+        );
 
         // load map iamge
         this.mapImage = new Image();
@@ -369,20 +443,7 @@ class MapProvider {
         this.selectedObject = null;
         this.hoveredObject = null;
 
-        for (const [key, area] of Object.entries(MAP.Areas)) {
-            this.mapObjects[key] = new AreaObject(this, area);
-        }
-
-        for (const [key, street] of Object.entries(MAP.Streets)) {
-            this.mapObjects[key] = new StreetObject(this, street);
-        }
-
-        for (const [key, location] of Object.entries(MAP.Locations)) {
-            if (location.Coords != null) {
-                location["Name"] = key;
-                this.mapObjects[key] = new LocationObject(this, location);
-            }
-        }
+        this.onSelect = function (mapObject) {};
 
         var context = this;
 
@@ -410,19 +471,25 @@ class MapProvider {
 
                 context.dragStart.x = pos.x;
                 context.dragStart.y = pos.y;
+
+                context.animating = false;
             }
         });
 
         window.addEventListener("mouseup", function (e) {
             context.isHolding = false;
+        });
 
-            if (!context.isMoving) {
+        this.canvas.onmouseup = function (e) {
+            if (!context.isMoving && e.button == 0) {
                 context.testForSelect(context.getXY(e));
             }
-        });
+        };
 
         this.canvas.addEventListener("wheel", function (e) {
             var centerDelta = context.getXY(e);
+
+            context.animating = false;
 
             if (e.deltaY > 0) {
                 context.zoom /= 1.25;
@@ -450,10 +517,22 @@ class MapProvider {
         }).observe(this.canvasParent);
     }
 
+    addMapObject(key, mapObject) {
+        this.mapObjects[key] = mapObject;
+    }
+
+    clearMapObjects() {
+        this.deselectObject();
+        this.hoveredObject = null;
+        this.selectedObject = null;
+        this.mapObjects = {};
+    }
+
     draw() {
         var ctx = this.canvas.getContext("2d");
 
         ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        ctx.globalAlpha = 1.0;
 
         ctx.drawImage(
             this.mapImage,
@@ -476,45 +555,62 @@ class MapProvider {
     }
 
     testForHover(pos) {
-        var isHoveringObject = false;
+        var closestObject = null;
+        var closestDist = Infinity;
         for (const [key, mapObject] of Object.entries(this.mapObjects)) {
-            if (mapObject.inCursor(pos)) {
-                isHoveringObject = true;
-                if (this.hoveredObject == null) {
-                    mapObject.onHoverStart();
+            // perform simple bounds check first
+            if (!mapObject.inBounds(this.getCoordFromPos(pos))) continue;
 
-                    this.hoveredObject = mapObject;
-                    break;
-                } else if (this.hoveredObject != mapObject) {
-                    this.hoveredObject.onHoverEnd();
+            // in cursor returns distance to cursor if within range otherwise null
+            var dist = mapObject.inCursor(pos);
+            if (dist == null) continue;
 
-                    this.hoveredObject = null;
-                    break;
-                }
+            if (dist < closestDist) {
+                closestObject = mapObject;
+                closestDist = dist;
             }
         }
 
-        if (!isHoveringObject && this.hoveredObject != null) {
-            this.hoveredObject.onHoverEnd();
-            this.hoveredObject = null;
+        if (closestObject != null) {
+            if (closestObject != this.hoveredObject) {
+                if (this.hoveredObject != null) this.hoveredObject.onHoverEnd();
+
+                closestObject.onHoverStart();
+
+                this.hoveredObject = closestObject;
+            }
+        } else {
+            if (this.hoveredObject != null) {
+                this.hoveredObject.onHoverEnd();
+                this.hoveredObject = null;
+            }
         }
     }
 
     testForSelect(pos) {
-        var somethingInCursor = false;
+        var closestObject = null;
+        var closestDist = Infinity;
         for (const [key, mapObject] of Object.entries(this.mapObjects)) {
             if (!mapObject.selectable) continue;
 
-            if (mapObject.inCursor(pos)) {
-                somethingInCursor = true;
+            // perform simple bounds check first
+            if (!mapObject.inBounds(this.getCoordFromPos(pos))) continue;
 
-                this.selectObject(mapObject);
-                this.focus(mapObject);
+            // in cursor returns distance to cursor if within range otherwise null
+            var dist = mapObject.inCursor(pos);
+            if (dist == null) continue;
+
+            if (dist < closestDist) {
+                closestObject = mapObject;
+                closestDist = dist;
             }
         }
 
-        if (!somethingInCursor && this.selectedObject != null) {
-            this.deselectObject();
+        if (closestObject != null) {
+            this.focus(closestObject);
+            this.selectObject(closestObject);
+        } else {
+            if (this.selectedObject != null) this.deselectObject();
         }
     }
 
@@ -563,6 +659,8 @@ class MapProvider {
 
         this.selectedObject = object;
         object.onSelect();
+
+        this.onSelect(this.selectedObject);
     }
 
     deselectObject() {
@@ -575,11 +673,13 @@ class MapProvider {
         var bounds = object.bounds;
 
         this.targetOffset = bounds.center;
-        this.targetZoom =
-            (Math.min(this.canvas.width, this.canvas.height) -
-                bounds.min.distance(bounds.max)) **
-                2 /
-            (140 * Math.min(this.canvas.width, this.canvas.height));
+
+        this.targetZoom = Math.min(
+            Math.min(this.canvas.width, this.canvas.height) /
+                1.2 /
+                bounds.min.distance(bounds.max),
+            10
+        );
 
         this.animating = true;
     }

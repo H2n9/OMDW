@@ -121,7 +121,7 @@
 }
 
 .rankings-index-container .entry {
-    height: 2.75vmin;
+    min-height: 2.75vmin;
     margin-left: 2.5vmin;
     margin-right: 2.5vmin;
     margin-bottom: 0.5vmin;
@@ -132,7 +132,7 @@
     background-color: var(--foreground-4);
 
     font-size: 1.5vmin;
-    line-height: 1vmin;
+    line-height: 1.25vmin;
 
     text-align: left;
 

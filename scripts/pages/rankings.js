@@ -45,7 +45,7 @@ class RankingsPage extends Page {
                 headerLeft: "State ID",
                 headerCenter: "Name",
                 headerRight: "Amount",
-                info: "Calculated from priors with known fines. Assumes charge is primary or accessory. HUT charges or charges with values decided through court are not counted.",
+                info: "Calculated from priors with known fines. Assumes charge is primary or accomplice. HUT charges or charges with values decided through court are not counted.",
             },
             "Total Time Spent in Jail": {
                 func: function (parent) {
@@ -54,7 +54,7 @@ class RankingsPage extends Page {
                 headerLeft: "State ID",
                 headerCenter: "Name",
                 headerRight: "Months",
-                info: "Calculated from priors with known times. Assumes charge is primary or accessory. HUT charges or charges with values decided through court are not counted.",
+                info: "Calculated from priors with known times. Assumes charge is primary or accomplice. HUT charges or charges with values decided through court are not counted.",
             },
             Vehicles: {
                 header: true,
@@ -90,6 +90,61 @@ class RankingsPage extends Page {
                 headerCenter: "",
                 headerRight: "Count",
                 info: "For businesses with more than 3 employees. Only considers individuals whose priors are known.",
+            },
+            Incidents: {
+                header: true,
+            },
+            "Officers who Write the Most Incidents": {
+                func: function (parent) {
+                    this.officerWritesMostIncidentsFunction(parent);
+                },
+                headerLeft: "Name",
+                headerCenter: "",
+                headerRight: "Count",
+            },
+            "Officers Involved in the Most Incidents": {
+                func: function (parent) {
+                    this.officerWithMostIncidentsFunction(parent);
+                },
+                headerLeft: "Name",
+                headerCenter: "",
+                headerRight: "Count",
+            },
+            "Officer's Contributions to State Funds Through Fines": {
+                func: function (parent) {
+                    this.officerWithHighestIncomeFunction(parent);
+                },
+                headerLeft: "Name",
+                headerCenter: "",
+                headerRight: "Amount",
+                info: "Contribution is divided evenly between all officers involved in an incident. Calculated from charges with known fines. HUT charges or charges with values decided through court are not counted.",
+            },
+            "Officer Most Associated With Each Charge": {
+                func: function (parent) {
+                    this.mostCommonOfficerPerCharge(parent);
+                },
+                headerLeft: "Charge",
+                headerCenter: "",
+                headerRight: "Officer",
+                info: "Considers all officers involved in an incident. Charges are only considered once per incident. Where charges occured 3 or more times.",
+            },
+            "Most Common Arrestee by Officer": {
+                func: function (parent) {
+                    this.mostCommonArresteeByOfficer(parent);
+                },
+                headerLeft: "Name",
+                headerCenter: "",
+                headerRight: "Arrestee",
+                info: "Considers all officers involved in an incident. Where arrests occured 3 or more times.",
+            },
+            "Most Common Victim in Incidents": {
+                func: function (parent) {
+                    this.mostCommonVictim(parent);
+                },
+                headerLeft: "Victim",
+                headerCenter: "",
+                headerRight: "Count",
+                info: "When occuring 3 or more times.",
             },
         };
 
@@ -128,7 +183,7 @@ class RankingsPage extends Page {
 
             var sectionParent = document.createElement("div");
             sectionParent.className = "section";
-            sectionParent.style.width = "50vmin";
+            sectionParent.style.minWidth = "50vmin";
             sectionParent.style.marginRight = "8vmin";
             sectionParent.style.background = "none";
             this.sectionParents[key] = sectionParent;
@@ -346,6 +401,105 @@ class RankingsPage extends Page {
                     showPage("Profiles");
                     PAGES["Profiles"].showProfile(entry.stateId);
                 },
+            });
+        });
+    }
+
+    officerWritesMostIncidentsFunction(parent) {
+        RANKINGS.totalIncidentsByOfficer.forEach((entry) => {
+            this.addRankingEntry(parent, {
+                left: `${entry.officer}`,
+                middle: ``,
+                right: `${entry.count.toLocaleString()}`,
+                onclick: function () {
+                    showPage("Incidents");
+                    PAGES["Incidents"].search.update(
+                        `officer="${entry.officer}"`
+                    );
+                },
+            });
+        });
+    }
+
+    officerWithMostIncidentsFunction(parent) {
+        RANKINGS.totalInvolvmentByOfficer.forEach((entry) => {
+            this.addRankingEntry(parent, {
+                left: `${entry.officer}`,
+                middle: ``,
+                right: `${entry.count.toLocaleString()}`,
+                onclick: function () {
+                    showPage("Incidents");
+                    PAGES["Incidents"].search.update(
+                        `officer="${entry.officer}"`
+                    );
+                },
+            });
+        });
+    }
+
+    officerWithHighestIncomeFunction(parent) {
+        RANKINGS.totalIncomeByOfficer.forEach((entry) => {
+            this.addRankingEntry(parent, {
+                left: `${entry.officer}`,
+                middle: ``,
+                right: `$${entry.income.toLocaleString()}`,
+                onclick: function () {
+                    showPage("Incidents");
+                    PAGES["Incidents"].search.update(
+                        `officer="${entry.officer}"`
+                    );
+                },
+            });
+        });
+    }
+
+    mostCommonArresteeByOfficer(parent) {
+        RANKINGS.mostCommonArresteeByOfficer.forEach((entry) => {
+            var profile = PROFILES[entry.stateId];
+            this.addRankingEntry(parent, {
+                left: `${entry.officer}`,
+                middle: ``,
+                right: `${
+                    profile != null ? profile["Name"] : `[${entry.stateId}]`
+                }`,
+                onclick: function () {
+                    showPage("Incidents");
+                    PAGES["Incidents"].search.update(
+                        `officer="${entry.officer}" suspect="${entry.stateId}"`
+                    );
+                },
+            });
+        });
+    }
+
+    mostCommonOfficerPerCharge(parent) {
+        RANKINGS.mostCommonOfficerByCharge.forEach((entry) => {
+            var chargeString =
+                entry.charge.length > 50
+                    ? entry.charge.substring(0, 47).trim() + "..."
+                    : entry.charge;
+
+            this.addRankingEntry(parent, {
+                left: `${chargeString}`,
+                middle: ``,
+                right: `${entry.officer}`,
+                onclick: function () {
+                    showPage("Incidents");
+                    PAGES["Incidents"].search.update(
+                        `officer="${entry.officer}" charge="${entry.charge}"`
+                    );
+                },
+            });
+        });
+    }
+
+    mostCommonVictim(parent) {
+        RANKINGS.mostCommonVictim.forEach((entry) => {
+            this.addRankingEntry(parent, {
+                left: `${entry.victim}`,
+                middle: ``,
+                right: `${entry.count.toLocaleString()}`,
+                onclick: function () {},
             });
         });
     }

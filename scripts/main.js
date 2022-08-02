@@ -29,23 +29,25 @@ function addPage(key, pageObject) {
 
     var sidebar = document.getElementById("sidebar");
 
-    var pageButton = document.createElement("button");
-    pageButton.innerHTML = pageObject.getDisplayName();
-    pageButton.id = key + "PageButton";
-    if (!pageObject.canOpen()) {
-        pageButton.innerHTML = "";
-        pageButton.className = "coming-soon";
+    if (!pageObject.hideFromPageList()) {
+        var pageButton = document.createElement("button");
+        pageButton.innerHTML = pageObject.getDisplayName();
+        pageButton.id = key + "PageButton";
+        if (!pageObject.canOpen()) {
+            pageButton.innerHTML = "";
+            pageButton.className = "coming-soon";
 
-        var comingSoonText = document.createElement("span");
-        comingSoonText.innerHTML = pageObject.getDisplayName();
-        pageButton.appendChild(comingSoonText);
+            var comingSoonText = document.createElement("span");
+            comingSoonText.innerHTML = pageObject.getDisplayName();
+            pageButton.appendChild(comingSoonText);
+        }
+
+        pageButton.addEventListener("click", function () {
+            showPage(key);
+        });
+
+        sidebar.appendChild(pageButton);
     }
-
-    pageButton.addEventListener("click", function () {
-        showPage(key);
-    });
-
-    sidebar.appendChild(pageButton);
 
     pageObject.setup();
 }
@@ -76,25 +78,26 @@ function setupPages() {
         new IncidentsPage(document.getElementById("IncidentsPage"))
     );
     addPage("Charges", new ChargesPage(document.getElementById("ChargesPage")));
+    addPage("Games", new GamesPage(document.getElementById("GamesPage")));
+    addPage(
+        "StreetGuesserGame",
+        new StreetGuesserPage(document.getElementById("StreetGuesserPage"))
+    );
 }
 
 function showPage(targetKey) {
     if (!PAGES[targetKey].canOpen()) return;
 
     for (const [key, value] of Object.entries(PAGES)) {
-        var pageContent = document.getElementById(key + "Page");
+        var pageContent = value.pageElement;
+
+        pageContent.className =
+            key == targetKey ? "page-content" : "page-content hidden";
+
+        if (value.hideFromPageList()) continue;
         var pageButton = document.getElementById(key + "PageButton");
 
-        if (key == targetKey) {
-            value.onShow();
-            pageContent.className = "page-content";
-
-            pageButton.className = "selected";
-        } else {
-            pageContent.className = "page-content hidden";
-
-            pageButton.className = "";
-        }
+        pageButton.className = key == targetKey ? "selected" : "";
     }
 
     setURLParam("p", targetKey);
@@ -118,6 +121,15 @@ function showPage(targetKey) {
                 : setURLParam("id", PAGES["Employment"].currentEmployer.Name);
             break;
 
+        case "Incidents":
+            PAGES["Incidents"].currentIncident == null
+                ? deleteURLParam("id")
+                : setURLParam(
+                      "id",
+                      PAGES["Incidents"].currentIncident.IncidentID
+                  );
+            break;
+
         default:
             deleteURLParam("id");
             break;
@@ -129,7 +141,7 @@ function processURLQuery() {
 
     var params = new URL(url).searchParams;
 
-    var pageKey = params.get("p");
+    var pageKey = decodeURIComponent(params.get("p"));
 
     if (pageKey == null) {
         showPage("Dashboard");
@@ -159,20 +171,15 @@ function processURLQuery() {
             if (targetID != null) PAGES["Employment"].showEmployment(targetID);
             break;
 
-        case "Rankings":
-            showPage("Rankings");
-            break;
-
         case "Incidents":
             showPage("Incidents");
-            break;
 
-        case "Charges":
-            showPage("Charges");
+            if (targetID != null) PAGES["Incidents"].showIncident(targetID);
             break;
 
         default:
-            showPage("Dashboard");
+            if (pageKey in PAGES) showPage(pageKey);
+            else showPage("Dashboard");
             break;
     }
 }

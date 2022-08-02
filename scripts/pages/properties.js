@@ -10,8 +10,8 @@ class PropertiesPage extends Page {
 
     setupSearch() {
         this.search = new SearchProvider(
-            pageElement.querySelector(".searchbar"),
-            pageElement.querySelector(".search-content")
+            this.pageElement.querySelector(".searchbar"),
+            this.pageElement.querySelector(".search-content")
         );
 
         this.search.searchFunction = (term, filters) => {
@@ -138,8 +138,26 @@ class PropertiesPage extends Page {
 
     setupMap() {
         this.map = new MapProvider(
-            pageElement.querySelector(".properties-map")
+            this.pageElement.querySelector(".properties-map")
         );
+
+        for (const [key, area] of Object.entries(MAP.Areas)) {
+            this.map.addMapObject(key, new AreaObject(this.map, area));
+        }
+
+        for (const [key, street] of Object.entries(MAP.Streets)) {
+            this.map.addMapObject(key, new StreetObject(this.map, street));
+        }
+
+        for (const [key, location] of Object.entries(MAP.Locations)) {
+            if (location.Coords != null) {
+                location["Name"] = key;
+                this.map.addMapObject(
+                    key,
+                    new LocationObject(this.map, location)
+                );
+            }
+        }
     }
 
     showProperty(propertyName) {

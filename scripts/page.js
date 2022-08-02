@@ -1,6 +1,6 @@
 class Page {
     constructor(pageElement) {
-        self.pageElement = pageElement;
+        this.pageElement = pageElement;
     }
 
     getDisplayName() {
@@ -9,6 +9,10 @@ class Page {
 
     canOpen() {
         return true;
+    }
+
+    hideFromPageList() {
+        return false;
     }
 
     setup() {}

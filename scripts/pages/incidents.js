@@ -1,20 +1,16 @@
 class IncidentsPage extends Page {
     getDisplayName() {
-        return "Incidents";
+        return "Incidents (WIP)";
     }
 
     setup() {
         this.setupSearch();
     }
 
-    canOpen() {
-        return false;
-    }
-
     setupSearch() {
         this.search = new SearchProvider(
-            pageElement.querySelector(".searchbar"),
-            pageElement.querySelector(".search-content")
+            this.pageElement.querySelector(".searchbar"),
+            this.pageElement.querySelector(".search-content")
         );
 
         this.search.searchFunction = (term, filters) => {
@@ -43,6 +39,14 @@ class IncidentsPage extends Page {
             };
         };
 
+        this.search.setSearchFilters([
+            "description",
+            "involves",
+            "officer",
+            "suspect",
+            "charge",
+        ]);
+
         this.search.update("");
     }
 
@@ -65,20 +69,85 @@ class IncidentsPage extends Page {
         var value = filter["value"];
 
         switch (key) {
-            case "complex":
-                if (incident["IsComplex"] == true && value == "true")
-                    return true;
-
-            case "involves":
-            case "involved":
+            case "desc":
+            case "description":
                 if (
-                    incident.Criminals == null ||
-                    incident.Criminals.length == 0
+                    incident.Description == null ||
+                    incident.Description.length == 0
                 )
                     return false;
 
-                if (value in incident.Criminals) return true;
+                if (incident.Description.toLowerCase().includes(value))
+                    return true;
 
+                break;
+
+            case "involves":
+            case "involved":
+                if (incident.Criminals != null) {
+                    if (value in incident.Criminals) return true;
+                    for (const [id, crim] of Object.entries(
+                        incident.Criminals
+                    )) {
+                        if (!(id in PROFILES)) continue;
+
+                        var profile = PROFILES[id];
+
+                        if (profile["Name"].toLowerCase().includes(value))
+                            return true;
+                    }
+                }
+
+                if (incident.Officers != null && incident.Officers.length > 0)
+                    for (const officer of incident.Officers) {
+                        if (officer.toLowerCase().includes(value)) return true;
+                    }
+
+                break;
+
+            case "officer":
+            case "officers":
+                if (incident.Officers == null || incident.Officers.length == 0)
+                    return false;
+
+                for (const officer of incident.Officers) {
+                    if (officer.toLowerCase().includes(value)) return true;
+                }
+                break;
+
+            case "suspect":
+            case "suspects":
+            case "criminal":
+            case "criminals":
+                if (incident.Criminals != null) {
+                    if (value in incident.Criminals) return true;
+                    for (const [id, crim] of Object.entries(
+                        incident.Criminals
+                    )) {
+                        if (!(id in PROFILES)) continue;
+
+                        var profile = PROFILES[id];
+
+                        if (profile["Name"].toLowerCase().includes(value))
+                            return true;
+                    }
+                }
+                break;
+
+            case "charge":
+            case "charges":
+            case "prior":
+            case "priors":
+                if (incident.Criminals != null) {
+                    for (const [id, crim] of Object.entries(
+                        incident.Criminals
+                    )) {
+                        for (const charge of crim.Charges) {
+                            if (charge["Name"].toLowerCase().includes(value))
+                                return true;
+                        }
+                    }
+                }
                 break;
         }
 
@@ -86,7 +155,7 @@ class IncidentsPage extends Page {
     }
 
     validIncidentFilters(incident, filters) {
-        if (filters.length == 0 && incident.IsComplex != true) return false;
+        if (incident.IsComplex != true) return false;
 
         for (let i = 0; i < filters.length; i++) {
             const filter = filters[i];
@@ -97,13 +166,16 @@ class IncidentsPage extends Page {
         return true;
     }
 
-    createCheckbox(text, ticked = false, style = "") {
+    createCheckbox(text, ticked, style = "") {
         var checkbox = document.createElement("div");
-        checkbox.className = ticked ? "checkbox ticked" : "checkbox";
+        if (ticked != null)
+            checkbox.className = ticked ? "checkbox ticked" : "checkbox";
+        else checkbox.className = "checkbox unknown";
         checkbox.style = style;
 
         var box = document.createElement("span");
-        box.innerHTML = ticked ? "✔" : "";
+        if (ticked != null) box.innerHTML = ticked ? "✔" : "";
+        else box.innerHTML = "?";
 
         checkbox.appendChild(box);
 
@@ -129,13 +201,34 @@ class IncidentsPage extends Page {
             var entryParent = document.createElement("div");
             entryParent.className = "incident-criminal-entry";
 
+            if (criminal["IsPartial"]) {
+                entryParent.style.backgroundColor = "#3b344d";
+
+                var warning = document.createElement("div");
+                warning.className = "warning";
+                warning.innerHTML = "!";
+
+                var tooltip = document.createElement("div");
+                tooltip.className = "tooltip";
+                tooltip.innerHTML =
+                    "<b>This entry is marked as partially complete and therefore may contain inaccurate information.</b>";
+
+                entryParent.appendChild(warning);
+                warning.appendChild(tooltip);
+            }
+
             var entryHeader = document.createElement("div");
             entryHeader.className = "header";
-            if (criminal.StateID in PROFILES)
+            if (criminal.StateID in PROFILES) {
                 entryHeader.innerHTML = `(${criminal.StateID}) ${
                     PROFILES[criminal.StateID].Name
                 }`;
-            else
+
+                entryHeader.addEventListener("click", function () {
+                    showPage("Profiles");
+                    PAGES["Profiles"].showProfile(criminal.StateID);
+                });
+            } else
                 entryHeader.innerHTML = `(${criminal.StateID}) [Unknown Profile]`;
 
             entryParent.appendChild(entryHeader);
@@ -149,7 +242,24 @@ class IncidentsPage extends Page {
             criminal.Charges.forEach((charge) => {
                 var chargeTag = document.createElement("div");
                 chargeTag.className = "tag";
-                chargeTag.innerHTML = charge.Name;
+
+                var chargeText = "";
+                if (charge.Count > 1)
+                    chargeText += charge.Count.toLocaleString() + "x ";
+                if (charge.Type != "Default")
+                    chargeText += `(${
+                        { Accomplice: "Ap", Accessory: "As" }[charge.Type]
+                    }) `;
+
+                chargeText += charge.Name;
+
+                chargeTag.innerHTML = chargeText;
+
+                chargeTag.addEventListener("click", function () {
+                    PAGES["Incidents"].search.update(
+                        `charge="${charge.Name}" suspect="${criminal.StateID}"`
+                    );
+                });
 
                 entryChargesParent.appendChild(chargeTag);
             });
@@ -191,12 +301,39 @@ class IncidentsPage extends Page {
                 finalText.innerHTML = "Final";
                 firstSectionContent.appendChild(finalText);
 
+                // parole violation
+                if (criminal.IsParoleViolation === true) {
+                    var paroleText = document.createElement("div");
+                    paroleText.style =
+                        "color: var(--font-color-1); font-size: 1.75vmin;";
+                    paroleText.innerHTML = "Parole Violated";
+                    firstSectionContent.appendChild(paroleText);
+                }
+
                 var amountText = document.createElement("div");
                 amountText.style =
                     "color: var(--font-color-1); font-size: 1.75vmin;";
-                amountText.innerHTML = `${criminal.Time} months (+${
-                    criminal.Parole
-                } months parole) / $${criminal.Fine.toLocaleString()} fine`;
+                amountText.innerHTML = `${
+                    criminal.Time != null
+                        ? criminal.Time.toLocaleString()
+                        : "[Unknown]"
+                } months (+${
+                    criminal.Parole != null
+                        ? criminal.Parole.toLocaleString()
+                        : "[Unknown]"
+                } months parole) / $${
+                    criminal.Fine != null
+                        ? criminal.Fine.toLocaleString()
+                        : "[Unknown]"
+                } fine`;
+
+                if (criminal.Points != null && criminal.Points > 0)
+                    amountText.innerHTML += ` / ${
+                        criminal.Points != null
+                            ? criminal.Points.toLocaleString()
+                            : "[Unknown]"
+                    } point(s)`;
+
                 firstSectionContent.appendChild(amountText);
 
                 // second section containing processed and guilty plea
@@ -213,11 +350,45 @@ class IncidentsPage extends Page {
                     )
                 );
                 secondSectionContent.appendChild(
-                    this.createCheckbox("Processed", criminal.PleadedGuilty)
+                    this.createCheckbox("Processed", criminal.Processed)
                 );
             }
 
             crimParent.appendChild(entryParent);
+        }
+    }
+
+    updateDetails() {
+        var detailsParent = document.getElementById("incidentDetailsParent");
+
+        detailsParent.replaceChildren();
+
+        // officer involved
+
+        var involvedParent = document.createElement("div");
+        involvedParent.className = "incident-details";
+        detailsParent.appendChild(involvedParent);
+
+        var title = document.createElement("div");
+        title.className = "title";
+        title.innerHTML = "Officers Involved";
+        involvedParent.appendChild(title);
+
+        var tagContent = document.createElement("div");
+        tagContent.className = "content";
+        involvedParent.appendChild(tagContent);
+
+        if (!("Officers" in this.currentIncident)) return;
+
+        for (const officer of this.currentIncident.Officers) {
+            var tag = document.createElement("div");
+            tag.className = "tag";
+            tag.innerHTML = officer;
+            tag.addEventListener("click", function () {
+                PAGES["Incidents"].search.update(`officer="${officer}"`);
+            });
+
+            tagContent.appendChild(tag);
         }
     }
 
@@ -242,6 +413,9 @@ class IncidentsPage extends Page {
                 ? ""
                 : this.currentIncident.Description;
 
+        this.updateDetails();
         this.updateCriminals();
+
+        setURLParam("id", incidentID);
     }
 }

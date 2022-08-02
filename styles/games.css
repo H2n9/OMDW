@@ -1,0 +1,79 @@
+.games-button {
+    color: white;
+    font-size: 3vmin;
+    font-weight: bold;
+
+    margin: 2vmin;
+    margin-left: 3vmin;
+    margin-bottom: 0;
+
+    transition: 0.2s;
+}
+
+.games-button:hover {
+    color: lightgray;
+}
+
+.games-description {
+    color: white;
+    font-size: 1.5vmin;
+
+    margin: 2vmin;
+    margin-left: 5vmin;
+    margin-top: 0;
+}
+
+.sg-header-button {
+    color: white;
+    font-size: 1.5vmin;
+    text-align: center;
+}
+
+.sg-header-button:hover {
+    color: lightgrey;
+}
+
+.sg-progress-text {
+    color: white;
+    font-size: 4.25vmin;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sg-overlay {
+    display: none;
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.sg-overlay-fadein {
+    animation: fadein 0.5s;
+    opacity: 1;
+}
+
+@keyframes fadein
+{
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+
+.sg-overlay-box {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 20vmin;
+    bottom: 0;
+    margin: auto;
+
+    width: 40vmin;
+    height: 50vmin;
+    
+    background-color: var(--foreground-3);
+
+    border-radius: 2vmin;
+}

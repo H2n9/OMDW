@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="styles/rankings.css"></link>
         <link rel="stylesheet" href="styles/incidents.css"></link>
         <link rel="stylesheet" href="styles/charges.css"></link>
+        <link rel="stylesheet" href="styles/games.css"></link>
 
         <script type="text/javascript" src="database.js"></script>
 
@@ -33,6 +34,9 @@
         <script type="text/javascript" src="scripts/pages/rankings.js"></script>
         <script type="text/javascript" src="scripts/pages/incidents.js"></script>
         <script type="text/javascript" src="scripts/pages/charges.js"></script>
+
+        <script type="text/javascript" src="scripts/pages/games.js"></script>
+        <script type="text/javascript" src="scripts/pages/games/streetguesser.js"></script>
     </head>
 
     <body>
@@ -200,7 +204,7 @@
                             <div class="help">
                                 ?
                                 <span class="tooltip">
-                                    <b>Map locations are currently still being collected, therefore many locations may be missing or inaccurate.<br></b>
+                                    <b>Map locations are currently still being collected, many locations may be missing or inaccurate.<br></b>
                                 </span>
                             </div>
                         </div>
@@ -286,7 +290,7 @@
 
                 <div id="IncidentsPage" class="page-content hidden">
 
-                    <div class="section" style="width: 100%;">
+                    <div class="section" style="width: 30%;">
                         <div class="header">
                             <div class="title">Incidents</div>
                             <div class="searchbar">
@@ -296,9 +300,9 @@
                                 ?
                                 <span class="tooltip" style="width: 32vmin;">
                                     <b>You can also search using filters:<br></b>
-                                    for example: ' involved="1002" '<br>
+                                    for example: ' involves="1002" '<br>
                                     <b>All Filters:<br></b>
-                                    involves
+                                    involves, officer, suspect, charge, description
                                 </span>
                             </div>
                         </div>
@@ -311,19 +315,30 @@
                         </div>
                     </div>
 
-                    <div class="section" style="width: 100%;">
+                    <div class="section" style="width: 30%;">
                         <div class="header">
                             <div id="incidentSelectedHeader" class="title">Select Incident</div>
+                            <div class="help">
+                                ?
+                                <span class="tooltip" style="width: 32vmin;">
+                                    <b>Incidents are still a WIP, information is likely to be inaccurate. No manual corrections are applied to incidents.</b>
+                                </span>
+                            </div>
                         </div>
 
+                    
                         <div id="incidentTitle" class="incident-title"></div>
 
                         <div id="incidentDescription" class="incident-description">
 
                         </div>
+
+                        <div id="incidentDetailsParent">
+                            
+                        </div>
                     </div>
 
-                    <div id="incidentCriminalsParent" class="section" style="width: 100%; background-color: transparent;">
+                    <div id="incidentCriminalsParent" class="section" style="width: 35%; background-color: transparent;">
         
                     </div>
                 
@@ -331,6 +346,64 @@
 
                 <div id="ChargesPage" class="page-content hidden">
                     <div id="chargesSectionParent" class="charges-groups">
+                    </div>
+                </div>
+
+                <div id="GamesPage" class="page-content hidden">
+                    <div class="section" style="width: 100%;">
+                        <div class="header">
+                            <div class="title">Games (WIP)</div>
+                        </div>
+
+                        <div onclick="showPage('StreetGuesserGame')" class="games-button">Street Guesser</div>
+                        <div class="games-description">Can you name all the GTA5 streets?</div>
+                    </div>
+                </div>
+
+                <div id="StreetGuesserPage" class="page-content hidden">
+                    <div class="section" style="width: 100%;">
+                        <div class="header">
+                            <div class="title">Street Guesser</div>
+                        </div>
+
+                        <div id="sgScore" class="sg-progress-text" style="margin-top: -5.5vmin;">0/0</div>
+                        <div id="sgRetry" onclick="PAGES['StreetGuesserGame'].endGame()" class="sg-header-button" style="display:none; margin-bottom: 0.75vmin; margin-top: -0.6vmin;">Give up</div>
+
+                        <div style="display: flex; flex-direction:row; justify-content:space-evenly; align-items: center;">
+                            <div id="sgCorrect" class="sg-progress-text" style="font-size: 1.75vmin; color:lightgreen;"></div>
+                            <div id="sgTimer" class="sg-progress-text" style="font-size: 2.25vmin;">0:00</div>
+                            <div id="sgIncorrect" class="sg-progress-text" style="font-size: 1.75vmin; color:red;"></div>
+                        </div>
+
+                        <div class="properties-map">
+                            <canvas style="width:100%; height:100%; background-color: #11AAD6;">
+                            </canvas>
+                        </div>
+
+                        <div style="display: flex; flex-direction:row; justify-content:space-evenly; align-items: center; margin-bottom: 1vmin;">
+                            <div onclick="PAGES['StreetGuesserGame'].shiftSelectedStreet(-1)" class="sg-header-button">Previous</div>
+                            <div onclick="PAGES['StreetGuesserGame'].startGame()" id="sgCurrentStreet" class="sg-header-button" style="min-width: 40vmin; font-size: 2.5vmin; font-weight: bold;">Click Here to Begin!</div>
+                            <div onclick="PAGES['StreetGuesserGame'].shiftSelectedStreet(1)" class="sg-header-button">Next</div>
+                        </div>
+                    </div>
+
+                    <div id="sgOverlay" class="sg-overlay">
+
+                        <div class="sg-overlay-box">
+                            <div class="sg-progress-text" style="margin-top: 4vmin; font-size: 2.25vmin;">Street Guesser</div>
+
+                            <div class="sg-progress-text" style="margin-top: 4vmin; font-size: 1.5vmin;">Score</div>
+                            <div id="sgEndPercent" class="sg-progress-text" style="font-size: 6vmin;"></div>
+                            <div id="sgEndScore" class="sg-progress-text" style="font-size: 2.25vmin;"></div>
+                            
+                            <div class="sg-progress-text" style="margin-top: 4vmin; font-size: 1.5vmin;">Finished in</div>
+                            <div id="sgEndTime" class="sg-progress-text" style="font-size: 4vmin;"></div>
+
+                            <div onclick="PAGES['StreetGuesserGame'].retry()" class="sg-header-button" style="font-size: 2vmin; margin-bottom: 2vmin; position: absolute; bottom: 0; left: 0%; right: 0;">Retry</div>
+                        
+                            <div class="sg-progress-text" style="position:absolute; top: 0; opacity: 15%; font-size: 3vmin; margin: 0.5vmin;">OMDW</div>
+                        </div>
+
                     </div>
                 </div>
 

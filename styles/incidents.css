@@ -23,6 +23,24 @@
     font-size: 1.25vmin;
 
     padding: 1vmin;
+
+    white-space:pre-wrap;
+
+    overflow: auto;
+}
+
+.incident-description::-webkit-scrollbar {
+    background: var(--foreground-4);
+}
+
+.incident-description::-webkit-scrollbar-track {
+    background: var(--foreground-3);
+    border-left: 4px var(--foreground-3) solid;
+}
+
+.incident-description::-webkit-scrollbar-thumb {
+    background: var(--foreground-4);
+    border-left: 4px var(--foreground-3) solid;
 }
 
 .incident-criminal-entry {
@@ -38,6 +56,12 @@
 
     font-weight: bold;
     font-size: 2vmin;
+
+    transition: 0.2s;
+}
+
+.incident-criminal-entry .header:hover {
+    color: lightgrey;
 }
 
 .incident-criminal-entry .charges {
@@ -91,6 +115,55 @@
     height: auto;
 }
 
+.incident-details {
+    background-color: var(--foreground-3);
+
+    margin: 2vmin;
+    margin-bottom: 1.5vmin;
+}
+
+.incident-details .title {
+    color: white;
+
+    font-weight: bold;
+    font-size: 2vmin;
+}
+
+.incident-details .content {
+    margin: 1vmin;
+
+    flex: auto;
+    flex-flow: wrap;
+
+    height: auto;
+}
+
+.incident-details .content .tag {
+    display: inline-block;
+
+    margin-right: 0.5vmin;
+    margin-bottom: 0.5vmin;
+
+    padding: 0.5vmin;
+    padding-right: 1.25vmin;
+    padding-left: 1.25vmin;
+
+    border-radius: 2vmin;
+
+    color: var(--font-color-2);
+    background-color: var(--font-color-1);
+
+    text-align: center;
+
+    font-size: 1.5vmin;
+
+    transition: 0.2s;
+}
+
+.incident-details .content .tag:hover {
+    background-color: lightgray;
+}
+
 .checkbox {
     display: flex;
     flex-direction: row;
@@ -114,6 +187,22 @@
 
     font-size: 1.75vmin;
     color: var(--foreground-3);
+
+    text-align: center;
+    line-height: 1.75vmin;
+
+    margin-right: 1vmin;
+}
+
+.checkbox.unknown span:nth-child(1) {
+    height: 2vmin;
+    width: 2vmin;
+
+    background-color: transparent;
+    border: 0.2vmin solid white;
+
+    font-size: 1.75vmin;
+    color: var(--font-color-1);
 
     text-align: center;
     line-height: 1.75vmin;

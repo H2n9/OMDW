@@ -11,8 +11,8 @@ class ProfilesPage extends Page {
 
     setupSearch() {
         this.search = new SearchProvider(
-            pageElement.querySelector(".searchbar"),
-            pageElement.querySelector(".search-content")
+            this.pageElement.querySelector(".searchbar"),
+            this.pageElement.querySelector(".search-content")
         );
 
         this.search.searchFunction = (term, filters) => {
@@ -269,13 +269,15 @@ class ProfilesPage extends Page {
                 var tooltip = document.createElement("div");
                 tooltip.className = "tooltip";
                 tooltip.innerHTML =
-                    "This section hasn't been collected yet and may be missing data.";
+                    "<b>This section hasn't been collected yet and may be missing data.</b>";
 
                 header.appendChild(warning);
                 warning.appendChild(tooltip);
 
                 return;
             }
+
+            var containsPredictedPriors = false;
 
             entries.forEach((entry) => {
                 var tag = document.createElement("div");
@@ -335,6 +337,12 @@ class ProfilesPage extends Page {
                     case "Priors":
                         tagText = `(${entry.Count}) ${entry.Name}`;
 
+                        if (entry.IsPredicted) {
+                            tag.style.backgroundColor = "#ffccdc";
+
+                            containsPredictedPriors = true;
+                        }
+
                         tag.addEventListener("click", function () {
                             context.search.update(`priors="${entry.Name}"`);
                         });
@@ -344,11 +352,24 @@ class ProfilesPage extends Page {
                         tagText = entry;
                         break;
                 }
-
                 tag.innerHTML = tagText;
 
                 content.appendChild(tag);
             });
+
+            if (containsPredictedPriors) {
+                var warning = document.createElement("div");
+                warning.className = "warning";
+                warning.innerHTML = "!";
+
+                var tooltip = document.createElement("div");
+                tooltip.className = "tooltip";
+                tooltip.innerHTML =
+                    "<b>The highlighted priors have been predicted from incidents associated with this person and therefore may be inaccurate.</b>";
+
+                header.appendChild(warning);
+                warning.appendChild(tooltip);
+            }
         });
     }
 

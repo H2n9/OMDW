@@ -9,8 +9,8 @@ class EmploymentPage extends Page {
 
     setupSearch() {
         this.search = new SearchProvider(
-            pageElement.querySelector(".searchbar"),
-            pageElement.querySelector(".search-content")
+            this.pageElement.querySelector(".searchbar"),
+            this.pageElement.querySelector(".search-content")
         );
 
         this.search.searchFunction = (term, filters) => {
