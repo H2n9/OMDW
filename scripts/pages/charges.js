@@ -78,6 +78,29 @@ class ChargesPage extends Page {
             );
         }
 
+        var tooltip = document.createElement("div");
+        tooltip.className = "tooltip";
+        tooltip.innerHTML =
+            charge.Description != null
+                ? "<b>" + charge.Description + "</b>"
+                : "<b>[Unknown Description]</b>";
+        chargeEntry.appendChild(tooltip);
+
+        if (
+            "Description" in charge &&
+            ("Accessory" in charge || "Accomplice" in charge)
+        ) {
+            var seperator = document.createElement("div");
+            seperator.className = "charge-seperator";
+            seperator.style.outlineColor = "white";
+            tooltip.appendChild(seperator);
+
+            var extraInfo = document.createElement("div");
+            extraInfo.innerHTML =
+                "<b>An accomplice differs from an accessory in that an accomplice is present at the actual crime, and could be prosecuted even if the main criminal (the principal) is not charged or convicted. An accessory is generally not present at the actual crime, and may be subject to lesser penalties than an accomplice or principal.</b>";
+            tooltip.appendChild(extraInfo);
+        }
+
         return chargeEntry;
     }
 

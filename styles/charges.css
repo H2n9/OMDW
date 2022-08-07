@@ -52,6 +52,27 @@
     padding: 1vmin;
 
     outline: 0.25vmin black solid;
+
+    position: relative;
+    display: inline-block;
+}
+
+.charge .tooltip {
+    background-color: var(--foreground-4);
+
+    font-size: 1.125vmin;
+    top: 4vmin;
+    right: 0;
+    width: fit-content;
+    min-width: 100%;
+    padding: 1vmin;
+    text-align: center;
+    margin: -1vmin;
+}
+
+.charge:hover .tooltip {
+    visibility: visible;
+    opacity: 100%;
 }
 
 .charge-header {
