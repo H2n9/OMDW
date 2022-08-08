@@ -200,6 +200,8 @@ class StreetObject extends MapObject {
     }
 
     draw(ctx, offset, zoom) {
+        if (!this.hovered && !this.selected) return;
+
         this.color = this.hovered || this.selected ? "red" : "grey";
 
         ctx.globalAlpha = this.hovered ? 0.5 : 0.1 + this.textFade * 0.25;
@@ -529,6 +531,18 @@ class MapProvider {
     }
 
     draw() {
+        var context = this;
+
+        // test canvas visibility -> if not visible wait before checking again
+        if (this.canvas.offsetWidth == 0 && this.canvas.offsetHeight == 0) {
+            setTimeout(function () {
+                context.draw();
+            }, 500);
+            return;
+        }
+
+        console.log("drawing");
+
         var ctx = this.canvas.getContext("2d");
 
         ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
@@ -548,7 +562,6 @@ class MapProvider {
 
         this.animateMotion(1000 / 60);
 
-        var context = this;
         setTimeout(function () {
             context.draw();
         }, 1000 / 60);

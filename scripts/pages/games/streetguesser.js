@@ -10,6 +10,8 @@ class StreetGuesserStreetObject extends StreetObject {
     }
 
     draw(ctx, offset, zoom) {
+        if (!this.hovered && this.selectable) return;
+
         if (this.selectable) {
             this.color = this.hovered || this.selected ? "orange" : "grey";
             ctx.globalAlpha = this.hovered ? 0.75 : 0.2;
