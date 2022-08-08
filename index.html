@@ -344,7 +344,14 @@
                 
                 </div>
 
-                <div id="ChargesPage" class="page-content hidden">
+                <div id="ChargesPage" class="page-content hidden" style="flex-direction: column;">
+                    <div style="margin-bottom: 1vmin; padding: 1.5vmin; background-color: var(--foreground-3); display: flex; flex-direction: row; justify-content: space-between;">
+                        <div style="color: var(--font-color-1); font-size:2.5vmin; font-weight: bold;">Charges</div>
+                        <div class="searchbar" style="max-width: 60vmin;">
+                            <input id="chargesSearch" type="search" placeholder="...">
+                        </div>
+                    </div>
+
                     <div id="chargesSectionParent" class="charges-groups">
                     </div>
                 </div>

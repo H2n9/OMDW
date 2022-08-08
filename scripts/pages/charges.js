@@ -4,7 +4,89 @@ class ChargesPage extends Page {
     }
 
     setup() {
-        this.setupCharges();
+        this.searchObject = document.getElementById("chargesSearch");
+
+        this.setupSearch();
+    }
+
+    setupSearch() {
+        // custom search implementation due to requiring different behaviour
+
+        var context = this;
+        this.searchObject.addEventListener("input", function (evt) {
+            context.update(this.value);
+        });
+
+        this.update("");
+    }
+
+    update(query) {
+        this.searchObject.value = query;
+
+        this.clearEntries();
+
+        var validCharges = [];
+        if (query.length > 0) {
+            for (const [key, charge] of Object.entries(CHARGES)) {
+                if (key.toLowerCase().includes(query.toLowerCase()))
+                    validCharges.push(key);
+            }
+        } else {
+            validCharges = Object.keys(CHARGES);
+        }
+
+        this.buildEntries(validCharges);
+    }
+
+    clearEntries() {
+        document.getElementById("chargesSectionParent").replaceChildren();
+    }
+
+    buildEntries(keys) {
+        const groupHeaders = [
+            "Offenses Against Persons",
+            "Offenses Involving Theft",
+            "Offenses Invovling Fraud",
+            "Offenses Involving Damage to Property",
+            "Offenses Against Public Administration",
+            "Offenses Against Public Order",
+            "Offenses Against Public Health and Morals",
+            "Offenses Against Public Safety",
+            "Offenses Involving Operation of a Vehicle/General Citations",
+            "Offenses Involving Natural Resources",
+        ];
+
+        var parent = document.getElementById("chargesSectionParent");
+
+        var lastGroup = -1;
+        var currentGroupContainer = null;
+
+        for (const key of keys) {
+            const charge = CHARGES[key];
+
+            if (charge.Group != lastGroup) {
+                lastGroup = charge.Group;
+
+                var groupParent = document.createElement("div");
+                groupParent.className = "charges-group-parent";
+                parent.appendChild(groupParent);
+
+                var groupHeader = document.createElement("div");
+                groupHeader.className = "charges-group-header";
+                groupHeader.innerHTML =
+                    charge.Group != null
+                        ? groupHeaders[charge.Group]
+                        : "[Unknown]";
+                groupParent.appendChild(groupHeader);
+
+                currentGroupContainer = document.createElement("div");
+                currentGroupContainer.className = "charges-container";
+                groupParent.appendChild(currentGroupContainer);
+            }
+
+            var chargeEntry = this.buildChargeEntry(charge);
+            currentGroupContainer.appendChild(chargeEntry);
+        }
     }
 
     buildChargeValues(values) {
@@ -102,50 +184,5 @@ class ChargesPage extends Page {
         }
 
         return chargeEntry;
-    }
-
-    setupCharges() {
-        const groupHeaders = [
-            "Offenses Against Persons",
-            "Offenses Involving Theft",
-            "Offenses Invovling Fraud",
-            "Offenses Involving Damage to Property",
-            "Offenses Against Public Administration",
-            "Offenses Against Public Order",
-            "Offenses Against Public Health and Morals",
-            "Offenses Against Public Safety",
-            "Offenses Involving Operation of a Vehicle/General Citations",
-            "Offenses Involving Natural Resources",
-        ];
-
-        var parent = document.getElementById("chargesSectionParent");
-
-        var lastGroup = -1;
-        var currentGroupContainer = null;
-
-        for (const [key, charge] of Object.entries(CHARGES)) {
-            if (charge.Group != lastGroup) {
-                lastGroup = charge.Group;
-
-                var groupParent = document.createElement("div");
-                groupParent.className = "charges-group-parent";
-                parent.appendChild(groupParent);
-
-                var groupHeader = document.createElement("div");
-                groupHeader.className = "charges-group-header";
-                groupHeader.innerHTML =
-                    charge.Group != null
-                        ? groupHeaders[charge.Group]
-                        : "[Unknown]";
-                groupParent.appendChild(groupHeader);
-
-                currentGroupContainer = document.createElement("div");
-                currentGroupContainer.className = "charges-container";
-                groupParent.appendChild(currentGroupContainer);
-            }
-
-            var chargeEntry = this.buildChargeEntry(charge);
-            currentGroupContainer.appendChild(chargeEntry);
-        }
     }
 }

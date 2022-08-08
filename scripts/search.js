@@ -39,7 +39,6 @@ class SearchProvider {
     }
 
     update(query) {
-        // add regex search tag detection
         this.searchElement.querySelector("input").value = query;
 
         this.clearEntries();
