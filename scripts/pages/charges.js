@@ -30,6 +30,10 @@ class ChargesPage extends Page {
             for (const [key, charge] of Object.entries(CHARGES)) {
                 if (key.toLowerCase().includes(query.toLowerCase()))
                     validCharges.push(key);
+				
+				if(charge.Description != null)
+					if (charge.Description.toLowerCase().includes(query.toLowerCase()))
+						validCharges.push(key);
             }
         } else {
             validCharges = Object.keys(CHARGES);
