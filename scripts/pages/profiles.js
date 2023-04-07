@@ -344,7 +344,10 @@ class ProfilesPage extends Page {
                         }
 
                         tag.addEventListener("click", function () {
-                            context.search.update(`priors="${entry.Name}"`);
+							showPage("Incidents");
+                            PAGES["Incidents"].search.update(
+                                `suspect="${context.currentProfile.StateID}" charge="${entry.Name}"`
+                            );
                         });
                         break;
 
